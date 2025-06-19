@@ -818,7 +818,7 @@ echo '
 <style>
     /* 3-Dot Button */
     .three-dot-menu {
-        background: white !important;
+        background: transparent !important;
         border: none;
         font-size: 20px;
         cursor: pointer;
