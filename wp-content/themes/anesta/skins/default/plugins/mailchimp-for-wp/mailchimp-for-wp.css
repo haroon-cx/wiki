@@ -1,0 +1,159 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+.mc4wp-form-fields {
+  position: relative;
+}
+.mc4wp-form-fields:after {
+  content: '\E9C6';
+  font-family: "fontello";
+  font-size: 22px;
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 4px;
+  right: 4px;
+  width: 43px;
+  height: 43px;
+  line-height: 43px;
+  text-align: center;
+  -webkit-border-radius: var(--theme-var-rad);
+  -ms-border-radius: var(--theme-var-rad);
+  border-radius: var(--theme-var-rad);
+  pointer-events: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: var(--theme-color-text_dark);
+  color: var(--theme-color-content_bg);
+}
+.mc4wp-form-fields:hover:after {
+  background-color: var(--theme-color-accent_link);
+  color: var(--theme-color-accent_text);
+}
+.mc4wp-form-fields input[type="email"] {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 11px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 5.45em;
+  -webkit-border-radius: var(--theme-var-rad);
+  -ms-border-radius: var(--theme-var-rad);
+  border-radius: var(--theme-var-rad);
+  box-shadow: 0 3px 16px #0000000d;
+}
+.mc4wp-form-fields input[type="email"]::placeholder {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.mc4wp-form-fields input[type="submit"] {
+  display: block;
+  text-indent: -1000px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 4em;
+  height: 100%;
+  padding: 0;
+  border: none !important;
+  background: none !important;
+  cursor: pointer;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+/* Messages */
+.mc4wp-form-fields ~ .mc4wp-response:not(:empty) {
+  margin-top: 20px;
+}
+
+.mc4wp-response > div {
+  font-size: 13px;
+  line-height: 23px;
+  padding: var(--theme-var-msg_padding) !important;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  color: var(--theme-color-text) !important;
+  background-color: var(--theme-color-content_bg) !important;
+  border: 1px solid var(--theme-color-bd_color) !important;
+  box-shadow: none !important;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  margin: 0 !important;
+}
+.mc4wp-response > div:empty {
+  display: none;
+}
+.mc4wp-response > div:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--theme-color-menu_bg);
+  display: block !important;
+  transform: translateZ(-1px);
+}
+.mc4wp-response > div:after {
+  display: none;
+}
+.mc4wp-response > div * {
+  background-color: transparent !important;
+  color: inherit !important;
+  border: none !important;
+  padding: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-weight: inherit !important;
+}
+.mc4wp-response > div *:before {
+  display: none !important;
+}
+.mc4wp-response > div img {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: none;
+  margin-right: 7px;
+}
+.mc4wp-response > div.mc4wp-error {
+  border-color: var(--theme-color-accent_link2_05) !important;
+}
+.mc4wp-response > div.mc4wp-error:before {
+  background-color: var(--theme-color-accent_link2_005);
+}
+.mc4wp-response > div.mc4wp-updated {
+  border-color: var(--theme-color-accent_link5_05) !important;
+}
+.mc4wp-response > div.mc4wp-updated:before {
+  background-color: var(--theme-color-accent_link5_005);
+}
+.mc4wp-response > div.mc4wp-info {
+  border-color: var(--theme-color-accent_link_05) !important;
+}
+.mc4wp-response > div.mc4wp-info:before {
+  background-color: var(--theme-color-accent_link_005);
+}
+.mc4wp-response > div.mc4wp-warning {
+  border-color: var(--theme-color-accent_link3_05) !important;
+}
+.mc4wp-response > div.mc4wp-warning:before {
+  background-color: var(--theme-color-accent_link3_005);
+}
+.mc4wp-response > div p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=mailchimp-for-wp.css.map */

@@ -1,0 +1,19 @@
+@import "../../../../../css/_mixins.scss";
+@import "../../../../../css/_theme-vars.scss";
+@import "../../../css/_skin-vars.scss";
+
+/* Googlemap */
+.sc_googlemap_content,
+[class*="scheme_"].sc_googlemap_content {
+	color: var(--theme-color-text);
+	background-color: var(--theme-color-bg_color);
+}
+.sc_googlemap_content b,
+.sc_googlemap_content strong,
+[class*="scheme_"].sc_googlemap_content b,
+[class*="scheme_"].sc_googlemap_content strong {
+	color: var(--theme-color-text_dark);
+}
+.sc_googlemap_content_detailed:before {
+	color: var(--theme-color-accent_link);
+}

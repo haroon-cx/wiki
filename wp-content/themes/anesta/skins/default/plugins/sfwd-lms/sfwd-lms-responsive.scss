@@ -1,0 +1,389 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+//@mixin theme--xxl() { max-width: 1679px
+@media #{$media_xxl} {
+	/* LearnDash LMS */
+
+	/* Single course */
+	.learndash_post_sfwd-courses .learndash-wrapper,
+	div#buddypress .learndash-wrapper {
+		.ld-header.has_thumbnail.with_info {
+			padding-right: calc(225px + 2 * var(--theme-var-grid_gap));
+		}
+		.ld-info {
+			width: 225px;
+		}
+		.ld-info + .ld-content {
+			width: calc( 100% - 225px - var(--theme-var-grid_gap));
+		}
+		.ld-course-status .ld-progress .ld-progress-heading {
+			max-width: 50%;
+		}
+	}
+
+	/* Single lesson, topic and quiz sidebar */
+	.single-sfwd-lessons .ld-course-context, 
+	.single-sfwd-topic .ld-course-context, 
+	.single-sfwd-quiz .ld-course-context {
+	  min-width: 330px;
+	  width: 330px;
+	}
+}
+
+
+//@mixin theme--lg() { max-width: 1279px
+@media #{$media_lg} {
+	/* LearnDash LMS */
+
+	/* Courses list */
+	body.menu_side_present,
+	body.menu_side_hide.page_content_blocks {
+		@for $i from 3 through 12 {
+			.ld-course-list-items .col-md-#{$i} {
+			  flex: 0 0 50%;
+			  max-width: 50%;
+			}
+		}
+	}
+
+	/* Single lesson, topic and quiz sidebar */
+	.single-sfwd-lessons .content_wrap > .content, 
+	.single-sfwd-topic .content_wrap > .content, 
+	.single-sfwd-quiz .content_wrap > .content {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.single-sfwd-lessons .post_item_single, 
+	.single-sfwd-topic .post_item_single, 
+	.single-sfwd-quiz .post_item_single {
+		margin-left: 0;
+	}
+	.single-sfwd-lessons .ld-course-context, 
+	.single-sfwd-topic .ld-course-context, 
+	.single-sfwd-quiz .ld-course-context {
+		min-width: unset;
+		width: 100%;
+		margin: 30px 0 0;
+		border: none;
+		@include border-radius(var(--theme-var-content_rad));
+
+		.ld-course-link:before {
+		  vertical-align: text-top;
+		  margin-top: 3px;
+		}
+	}
+
+	.page_content_blocks.single-sfwd-lessons .ld-course-context, 
+	.page_content_blocks.single-sfwd-topic .ld-course-context, 
+	.page_content_blocks.single-sfwd-quiz .ld-course-context {
+	    margin: var(--theme-var-grid_gap) 0 0;
+	}
+	.page_content_blocks.single-sfwd-lessons .post_item_single, 
+	.page_content_blocks.single-sfwd-topic .post_item_single, 
+	.page_content_blocks.single-sfwd-quiz .post_item_single {
+	    margin-left: 0;
+	}
+}
+
+
+//@mixin theme--md() { max-width: 1023px
+@media #{$media_md} {
+	/* LearnDash LMS */
+
+	/* Courses list */ 
+	body.menu_side_hide {
+		@for $i from 3 through 12 {
+			.ld-course-list-items .col-md-#{$i} {
+			  flex: 0 0 50%;
+			  max-width: 50%;
+			}
+		}
+	}
+
+	/* Single course */
+	.learndash_post_sfwd-courses .learndash-wrapper,
+	div#buddypress .learndash-wrapper {
+		.ld-header.has_thumbnail.with_info {
+			padding-right: var(--theme-var-grid_gap);
+		}
+		.ld-info {
+			width: 225px;
+			margin-left: var(--theme-var-grid_gap);
+			margin-bottom: var(--theme-var-grid_gap);
+		}
+		.has_thumbnail + .ld-info {
+			margin-top: var(--theme-var-grid_gap);
+		}
+		.has_thumbnail + .ld-info .ld-info-video {
+			position: relative;
+		}
+		.ld-info + .ld-content {
+			width:  100%;
+		}
+		.ld-course-status {
+			flex-direction: column;
+			align-items: baseline;
+
+			.ld-progress {
+				width: 100%;
+				padding-right: 0;
+				flex-direction: column;
+				align-items: unset;
+
+				.ld-progress-heading {
+					max-width: 100%;
+				}
+				.ld-progress-bar {
+					margin: 12px 0 15px;
+				}
+			}
+			.ld-status {
+				margin: 0;
+			}
+		}
+	}
+
+	/* Single lesson, topic and quiz sidebar */
+	.learndash_post_sfwd-lessons .learndash-wrapper .ld-content-actions, 
+	.learndash_post_sfwd-topic .learndash-wrapper .ld-content-actions {
+		.ld-content-action {
+			margin: 0;
+			align-items: flex-start;
+
+			.sfwd-mark-complete + a {
+				margin: auto;
+				margin-top: 15px;
+			}
+		}
+		.ld-content-action:nth-child(2) {
+			align-items: center;
+		}
+		.ld-empty + .ld-content-action:nth-child(2) {
+			align-items: flex-start;
+
+			a:only-child { 
+				margin: 0; 
+			}
+			.sfwd-mark-complete + a {
+				margin: 0;
+				margin-top: 15px;
+			}
+		}
+		.ld-content-action:nth-child(3) {
+			align-items: flex-end;
+		}
+	}
+}
+
+//@mixin theme--not_mobile() and theme--md() { min-width: 768px and max-width: 1023px
+@media #{$media_not_mobile} and #{$media_md} {
+	/* LearnDash LMS */	
+
+	.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single .learndash-wrapper .ld-info {
+		margin: calc( 2 * var(--theme-var-grid_gap)) var(--theme-var-grid_gap) var(--theme-var-grid_gap);
+		@include border-radius(6px);
+		box-shadow: none;
+
+		.ld-info-content {
+			border: 1px solid var(--theme-color-bd_color);
+			border-width: 0 1px 1px;
+			@include border-radius(0 0 6px 6px);
+		}
+	}
+}
+
+
+//@mixin theme--sm() { max-width:  767px
+@media #{$media_sm} {
+	/* LearnDash LMS */
+
+	/* Single course */
+	.learndash_post_sfwd-courses .learndash-wrapper,
+	div#buddypress .learndash-wrapper {
+		.ld-info {
+			width: 100%;
+			margin-left: 0;
+			float: none;
+		}
+		.ld-course-status {
+			.ld-status {
+			  margin: 0;
+			}
+			.ld-progress-heading {
+				text-align: inherit !important;
+			}
+		}
+	}
+
+	/* Single lesson and topic post */
+	.learndash_post_sfwd-lessons .learndash-wrapper,
+	.learndash_post_sfwd-topic .learndash-wrapper {
+		.ld-lesson-status .ld-breadcrumbs, 
+		.ld-topic-status .ld-breadcrumbs {
+			flex-direction: column;
+			align-items: flex-start;
+
+			.ld-breadcrumbs-segments {
+				padding-right: 0;
+			}
+			.ld-status {
+				margin-top: 10px;
+				display: inline-block;
+				width: auto;
+			}
+		}
+		.ld-lesson-topic-list .ld-table-list {
+			.ld-table-list-header {
+				flex-direction: unset;
+				align-items: unset;
+			}
+			.ld-table-list-lesson-details {
+				margin: 0;
+			}
+		}
+		.ld-content-actions {
+			margin-bottom: -15px;
+
+			.ld-content-action {
+				align-items: baseline;
+				margin-bottom: 15px;
+
+				a {
+					margin: 0;
+				}
+			}
+			.ld-content-action + a {
+				align-self: inherit;
+				margin-bottom: 15px;
+			}
+			.ld-content-action:nth-child(2),
+			.ld-content-action:nth-child(3) {
+				align-items: flex-start;
+
+				.sfwd-mark-complete + a {
+					margin: 0;
+					margin-top: 15px;
+				}
+			}
+		}
+	}	
+}
+
+
+//@mixin theme--sm_wp() { max-width:  600px
+@media #{$media_sm_wp} {
+	/* LearnDash LMS */
+
+	/* Courses list */ 
+	body.menu_side_hide,
+	body.menu_side_hide.page_content_blocks,
+	body.menu_side_present {
+		@for $i from 2 through 12 { 
+			.ld-course-list-items .col-md-#{$i} {
+			  flex: 0 0 100%;
+			  max-width: 100%;
+			}
+		}
+	}
+	#ld_categorydropdown.inside_title,
+	#ld_course_categorydropdown.inside_title {		
+		position: relative;
+		top: auto
+	}
+
+	/* Single course */
+	.learndash_post_sfwd-courses .learndash-wrapper, 
+	div#buddypress .learndash-wrapper {
+		.ld-item-list .ld-item-list-items .ld-item-list-item .ld-item-list-item-preview .ld-item-name .ld-item-title {
+			font-size: 13px;
+			line-height: 1.6em;
+			flex-direction: column;
+			align-items: flex-start;
+
+			.ld-item-components {
+				margin-left: 0;
+			}
+		}
+	}
+
+	/* Single lesson, topic and quiz sidebar */
+	.single-sfwd-lessons .ld-course-context, 
+	.single-sfwd-topic .ld-course-context, 
+	.single-sfwd-quiz .ld-course-context {
+		.ld-item-list .ld-item-list-items .ld-item-list-item .ld-item-list-item-preview  .ld-item-name .ld-item-title {
+			font-size: 13px;
+			line-height: 1.6em;
+			flex-direction: column;
+			align-items: flex-start;	
+
+			.ld-item-components {
+				margin-left: 0;
+			}		
+		}
+	}
+}
+
+
+//@mixin theme--xs() { max-width:  479px
+@media #{$media_xs} {
+	/* LearnDash LMS */	
+
+	/* BuddyPress */ 
+	.bbp-user-page.courses #subnav + h3 {
+	  	flex-direction: column-reverse;
+
+	   .expand_collapse {
+	   		margin-top: 15px;
+	   }
+	}
+
+	/* Single course */
+	.learndash_post_sfwd-courses .learndash-wrapper,
+	div#buddypress .learndash-wrapper {
+		.ld-header .ld-meta .date {
+			display: none;
+		}
+		.ld-item-list .ld-item-list-items .ld-item-list-item {
+			.ld-item-list-item-preview .ld-item-name .ld-item-title {
+				align-items: flex-start;
+				flex-direction: column;
+			}
+			.ld-item-list-item-expanded .ld-table-list-header {
+				flex-direction: column;
+				padding-left: 0;
+
+				.ld-table-list-lesson-details {
+					line-height: inherit;
+				}
+			}
+			.ld-item-list-item-expanded .ld-table-list-items {			
+				padding-left: 0;
+
+				.ld-table-list-item {
+					margin-left: 0;
+
+					.ld-table-list-item-preview .ld-topic-title {
+						margin-right: 10px; 
+					}
+				}
+			}
+		}
+	}
+
+	/* Single lesson, topic and quiz sidebar */
+	.page_content_classic.single-sfwd-lessons .ld-course-context, 
+	.page_content_classic.single-sfwd-topic .ld-course-context, 
+	.page_content_classic.single-sfwd-quiz .ld-course-context {
+		padding: 0;
+		background-color: transparent;
+	}
+
+	/* Single lesson and topic post */
+	.learndash_post_sfwd-lessons .learndash-wrapper .ld-lesson-topic-list .ld-table-list .ld-table-list-header, 
+	.learndash_post_sfwd-topic .learndash-wrapper .ld-lesson-topic-list .ld-table-list .ld-table-list-header {
+		flex-direction: column;
+	}
+}

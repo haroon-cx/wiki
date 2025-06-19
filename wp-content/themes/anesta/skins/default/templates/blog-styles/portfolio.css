@@ -1,0 +1,19 @@
+/* Blog layout: Portfolio
+------------------------- */
+.post_layout_portfolio_4 .post_title {
+  font-size: 1.25em;
+}
+
+.post_layout_portfolio .post_featured {
+  margin-bottom: 0;
+}
+
+.post_layout_portfolio .post_featured[class*="hover_"] {
+  display: block;
+}
+
+.post_layout_portfolio .post_featured img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

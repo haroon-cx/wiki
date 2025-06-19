@@ -1,0 +1,84 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+.mc4wp-form-fields {
+	position: relative;
+
+	&:after {
+		content: '\E9C6';
+		font-family: $theme_icons;
+		font-size: 22px;
+		display:block;
+		@include abs-rt(4px, 4px, 0);
+		@include square(43px);
+		@include border-radius(var(--theme-var-rad));
+		pointer-events: none;
+		cursor:pointer;
+		@include transition-all;
+		background-color: var(--theme-color-text_dark);
+		color: var(--theme-color-content_bg);
+	}
+	&:hover:after {
+		background-color: var(--theme-color-accent_link);
+		color: var(--theme-color-accent_text);
+	}
+
+	input[type="email"] {
+		width:100%;
+		@include border-box;
+		font-size: 11px;	
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	    padding-right: 5.45em;
+	    @include border-radius(var(--theme-var-rad));
+	    box-shadow: 0 3px 16px #0000000d;
+
+	    &::placeholder {
+	    	text-transform: uppercase;    
+	    	letter-spacing: 0.1em;
+		}
+	}
+
+	input[type="submit"] {
+		display:block;
+		text-indent:-1000px;
+		@include abs-rt;
+		@include box(4em, 100%);
+		padding:0;
+		border: none !important;
+		background:none !important;
+		cursor:pointer;
+		box-shadow: none !important;
+		overflow: hidden;
+	}
+}
+
+/* Messages */
+.mc4wp-form-fields ~ .mc4wp-response:not(:empty) {
+	margin-top: 20px;
+}
+.mc4wp-response > div {
+	@include theme_messages;
+
+	&.mc4wp-error {
+		@include theme_messages_error;
+	}
+	&.mc4wp-updated {
+		@include theme_messages_success;
+	}
+	&.mc4wp-info {
+		@include theme_messages_info;
+	}
+	&.mc4wp-warning {
+		@include theme_messages_notice;
+	}
+
+	p {
+		margin: 0;
+	}
+}

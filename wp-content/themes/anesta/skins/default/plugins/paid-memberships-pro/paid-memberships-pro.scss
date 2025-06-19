@@ -1,0 +1,316 @@
+/* Paid Memberships Pro styles
+----------------------------------------------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+/* Buttons 
+--------------------------------------------- */
+.pmpro_btn, 
+.pmpro_btn:link, 
+.pmpro_content_message a, 
+.pmpro_content_message a:link,
+.pmpro_btn.pmpro_btn-cancel, 
+.pmpro_btn.pmpro_btn-cancel:link, 
+.pmpro_btn.pmpro_btn-cancel:hover, 
+.entry-content a.pmpro_btn.pmpro_btn-cancel:hover {
+	@include theme_button_filled;
+	text-decoration: none;
+	border: none;
+}
+.pmpro_btn:hover, 
+.pmpro_content_message a:hover,
+.pmpro_btn.pmpro_btn-cancel:hover, 
+.entry-content a.pmpro_btn.pmpro_btn-cancel:hover {
+	@include theme_button_colors_hover;
+}
+.pmpro_btn + .pmpro_btn {
+	margin-left: 10px;
+}
+.pmpro_btn:focus, .pmpro_content_message a:focus {
+	outline-offset: 0;
+}
+
+
+/* Navigation 
+--------------------------------------------- */
+.pmpro_actionlinks a,
+.pmpro_actions_nav a {
+	@include font(13px, 21px, 600);
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--theme-color-text_dark);
+
+	&:hover {
+		color: var(--theme-color-accent_link);
+	}
+	&:not(:last-child) {
+		margin-right: 11px;
+	}
+}
+.pmpro_table_wrap + .pmpro_actions_nav,
+.pmpro_table_wrap + .pmpro_actionlinks,
+ul + .pmpro_actions_nav,
+#pmpro_account #pmpro_account-profile ul + .pmpro_actionlinks {
+	margin-top: 1.6em;
+    margin-bottom: 0;
+    text-align: left;
+}
+.pmpro_actions_nav {
+    text-align: left;
+    margin-bottom: 0;
+    display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+.pmpro_actions_nav-right {
+    width: auto;
+    float: none;
+    text-align: left;
+}
+
+/* Small links */
+.pmpro_billing_wrap small,
+.pmpro_checkout h3 span.pmpro_checkout-h3-msg a {
+    font-size: 15px;
+    font-style: normal;
+    text-transform: capitalize;
+	color: var(--theme-color-accent_link);
+
+	&:hover {
+		color: var(--theme-color-text_dark);
+	}
+}
+
+
+/* Table 
+--------------------------------------------- */
+.pmpro_table {    
+	width: 100%;
+	table-layout: fixed;
+
+	a:not(.pmpro_btn) {
+		color: var(--theme-color-text_dark);
+	}
+	a:not(.pmpro_btn):hover {
+		color: var(--theme-color-accent_link);
+	}
+	td {
+		text-align: center;
+	}
+    .pmpro_btn {
+	    display: inline-block !important;
+	}
+	.pmpro_actionlinks {
+	    display: block;
+		margin: 10px 0 0;
+	}
+}
+
+
+/* Account 
+--------------------------------------------- */
+#pmpro_account .pmpro_box {
+	border-top: 0;
+	margin: 0 0 var(--theme-var-grid_gap);
+	padding: 0;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+	h3 {
+	    margin-bottom: 0.739em;
+	}
+	p {
+	    margin: 0;
+	}
+}
+
+
+/* Billing 
+--------------------------------------------- */
+.pmpro_billing_wrap {
+	margin-bottom: 0;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+/* Profile & Change Password 
+--------------------------------------------- */
+.pmpro_member_profile_edit_wrap,
+.pmpro_change_password_wrap {
+	margin-bottom: 0;
+}
+form.pmpro_form label {
+	font-weight: 500;
+	color: var(--theme-color-text_dark);
+	margin-bottom: 13px;
+}
+form.pmpro_form .pmpro_member_profile_edit-fields {
+	margin: 0 calc( -1 * var(--theme-var-grid_gap) ) calc( -1 * ( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ) ) 0; // replace 0 -30px -24px 0
+
+	div {
+	    width: calc(50% - 3px);
+		display: inline-block;
+		vertical-align: top;
+	    margin: 0;
+	    padding: 0 var(--theme-var-grid_gap) calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ) 0; // replace 0 30px 24px 0
+	    box-sizing: border-box;
+
+	    input {
+	    	width: 100%;
+	    	max-width: 100%;
+	    }
+	    .lite {
+	    	margin-top: 1.6em;
+			margin-bottom: 0;
+	    }
+	}
+}
+form.pmpro_form .pmpro_change_password-fields div {
+	margin-bottom: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) );	 // replace 24px
+}
+form.pmpro_form .pmpro_submit,
+form.pmpro_form .pmpro_checkout {
+    margin-top: var(--theme-var-grid_gap);
+
+    hr {
+	    display: none;
+	}
+}
+form.pmpro_form #pmpro_processing_message {
+	display: none;
+}
+
+
+/* Log In 
+--------------------------------------------- */
+.pmpro_login_wrap {
+	margin-bottom: 0;
+
+	h2 {
+		margin-top: 0;
+	}
+	hr {
+	    display: none;
+	}
+	#loginform label {
+		font-weight: 500;
+		color: var(--theme-color-text_dark);
+		margin-bottom: 13px;
+	}
+	#loginform p {
+		margin-bottom: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ); // replace 24px
+	}
+}
+.pmpro_logged_in_welcome_wrap {
+	h3 {
+		margin-top: 0;
+
+		a {
+			display: inline;
+		}
+	}
+}
+.pmpro_lost_password_wrap {
+	margin-bottom: 0;
+
+	h2 {
+		margin-top: 0;
+	}
+	hr {
+	    display: none;
+	}
+	.pmpro_actions_nav {
+		margin-top: 1.6em;
+	}
+}
+.pmpro_invoice_wrap {
+	hr {
+	    display: none;
+	}
+	.pmpro_actions_nav {
+		margin-top: 1.6em;
+	}
+}
+
+
+/* Messages 
+--------------------------------------------- */
+.pmpro_content_message {
+	text-align: center;
+	padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 45px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) )  calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 30px ) ); // replace 75px 45px 60px
+	@include border-radius(var(--theme-var-content_rad));
+	background-color: var(--theme-color-bg_color);
+
+	.pmpro_btn,
+	a {
+	    font-size: 13px !important;
+	    padding: 16px 3.85em !important;
+	    margin: 18px 5.5px 0 !important;
+		@include theme_button_colors_style_link2(!important);
+
+		&:hover {
+			@include theme_button_colors_hover_style_link2(!important);
+		}
+	}
+}
+.pmpro_message {
+	@include theme_messages;
+}
+.pmpro_message:last-child {
+	margin-top: var(--theme-var-grid_gap);
+	margin-bottom: 0;
+}
+.pmpro_message:first-child {
+	margin-top: 0;
+	margin-bottom: var(--theme-var-grid_gap);
+}
+
+
+/* Invoice 
+--------------------------------------------- */
+.pmpro_invoice_wrap {
+	h3 {
+		margin-top: 0;
+	}
+	hr {
+	    margin: 20px 0 !important;
+	}
+	.pmpro_invoice-total p:last-child {
+		margin-bottom: 0;
+	}
+	.pmpro_actions_nav-left {
+	    float: none;
+	    width: auto;
+	}
+	.pmpro_actions_nav-left + .pmpro_actions_nav-right {
+	    float: right;
+	}
+}
+
+
+/* Cancel 
+--------------------------------------------- */
+.pmpro_cancel_wrap {
+	h2 {
+		margin-top: 0;
+	}
+}
+
+
+/* Cancel 
+--------------------------------------------- */
+.pmpro_checkout_gateway-none {
+	#pmpro_form .pmpro_checkout {
+		margin-top: 0;
+	}
+	#pmpro_form .pmpro_checkout h3 {
+		margin-top: 0;
+	}
+}

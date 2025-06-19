@@ -1,0 +1,15 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+//@mixin theme--lg() {
+@media #{$media_lg} {
+	/* Democracy Poll */
+	div.dem-poll-shortcode .dem-screen .dem-answers li .dem-graph .dem-votes-txt, 
+	div.dem-poll-shortcode .dem-screen .dem-vote li .dem-graph .dem-votes-txt, 
+	div.democracy .dem-screen .dem-answers li .dem-graph .dem-votes-txt,
+	div.democracy .dem-screen .dem-vote li .dem-graph .dem-votes-txt {
+		font-size: 12px;
+	}
+}

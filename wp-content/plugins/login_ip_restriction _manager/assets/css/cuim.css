@@ -1,0 +1,669 @@
+
+.cuim-form select {
+  background-color: #fff !important;
+  color: #252031 !important;
+  box-shadow: 0 0 0 1000px #fff inset !important;
+}
+
+:root {
+    --cuim-primiry-color: #C770FE;
+    --cuim-text-color: #fff;
+    --cuim-border-color: #747474;
+    --cuim-color-dark: #252031;
+    --cuim-color-accent: #7644CE;
+    --cuim-bg-gradient: linear-gradient(to bottom, var(--cuim-color-dark), var(--cuim-color-accent));
+}
+
+.cuim-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #252031c7 !important;
+    padding: 18px;
+}
+
+.cuim-table thead th {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.cuim-table tbody tr td button.button.sc_button_hover_slide_left {
+    background: transparent !important;
+}
+
+.cuim-table tbody tr td button.button.sc_button_hover_slide_left i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.cuim-table th {
+    padding: 18px;
+    text-align: left;
+    border: none !important;
+    color: var(--cuim-text-color);
+}
+
+.cuim-table td {
+    text-align: left;
+    border: none !important;
+    color: var(--cuim-text-color);
+
+}
+
+.cuim-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cuim-modal-content {
+    margin: 10% auto;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid #586380;
+    padding: 20px;
+    z-index: 1000;
+    max-width: 543px;
+    width: 572px;
+    border-radius: 8px;
+}
+
+.cuim-modal-content h3 {
+    margin-top: 0;
+    color: #8526c1;
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.select_container:hover {
+    background: transparent !important;
+}
+
+.cuim-close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--cuim-primiry-color);
+}
+
+.cuim-form input[type="text"],
+.cuim-form input[type="email"],
+.cuim-form input[type="password"] {
+    margin: 5px 0 10px;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 47px;
+    
+    color: var(--cuim-text-color) !important;
+   
+}
+
+.cuim-form .select_container select#cuim-user-select, .cuim-form .select_container select#cuim_role {
+    margin: 5px 0 10px;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 47px;
+   
+    color: #a9a6a6;
+   
+}
+
+.cuim-form .button {
+    margin-top: 10px;
+}
+
+.cuim-role {
+    text-transform: capitalize;
+}
+
+.cuim-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #d00;
+}
+
+.button-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: var(--cuim-text-color);
+}
+
+.button-danger:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+/* Profile Box (Top-right Avatar + Dropdown) */
+.cuim-profile-box {
+    position: absolute;
+    top: 26px;
+    right: 115px;
+    border-radius: 8px;
+    z-index: 99999;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.cuim-profile-dropdown {
+    display: none;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background: #fff;
+    padding: 28px;
+    border-radius: 10px;
+}
+
+.cuim-profile-dropdown .cuim-user-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--cuim-color-accent);
+    text-transform: capitalize;
+ 
+  
+}
+
+.cuim-profile-button-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cuim-profile-button-box a {
+    padding: 11px 30px;
+    font-weight: 400;
+    font-size: 14.93px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 8px;
+    color: var(--cuim-text-color);
+
+}
+
+.cuim-profile-button-box a:hover{
+    color: var(--cuim-text-color);
+}
+.cuim-profile-box:hover .cuim-profile-dropdown {
+    display: block;
+}
+
+.cuim-profile-box img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    border: 1px solid var(--cuim-color-accent);
+}
+
+.cuim-profile-name {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.cuim-logout-button, .cuim-edit-profile-button {
+    display: block;
+    margin-top: 10px;
+    background: #0073aa;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cuim-edit-profile-button:hover {
+    background: #005177;
+}
+
+.cuim-logout-button {
+    background: #dc3545;
+}
+
+.cuim-logout-button:hover {
+    background: #c82333;
+}
+
+/* Profile Cover Section */
+.cuim-cover {
+    background: url('https://source.unsplash.com/1600x400/?workspace') center/cover no-repeat;
+    height: 200px;
+    position: relative;
+}
+
+.cuim-avatar-block {
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cuim-avatar-block img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid var(--cuim-text-color);
+}
+
+.cuim-name-block {
+    margin-left: 20px;
+}
+
+
+/* Profile Form Section */
+.cuim-profile-form-wrapper {
+    padding: 20px 33px;
+    max-width: 600px;
+    margin: 8% auto;
+    background: #252031;
+    border-radius: 8px;
+    border: 1px solid var(--cuim-border-color);
+
+}
+.cuim-profile-form-wrapper div img{
+    width: 186px;
+    border-radius: 50%;
+    border: 8px solid var(--cuim-text-color);
+}
+.cuim-profile-form-wrapper .cuim-name-block h2 {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.cuim-profile-form-wrapper input {
+    background: transparent !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--cuim-border-color);
+    color: var(--cuim-border-color);
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.cuim-profile-form-wrapper input[type="file"] {
+    border: none;
+}
+
+#cuim-profile-update-message p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+label.viewer-toggle-wrapper.checkbox_label {
+    position: absolute;
+    z-index: 9999;
+    right: 954px;
+    width: 157px;
+    height: 40px;
+    top: 33px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    background: #7f42f1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+/* Default Styles – For Large Screens (Desktops 1600px and up) */
+label.viewer-toggle-wrapper.checkbox_label {
+    position: absolute; /* Assuming it's positioned relative to a parent */
+    right: 1000px;
+    top: 30px;
+    width: 150px;
+    font-size: 16px;
+}
+
+/* For medium-large screens (up to 1600px) - Laptops, smaller desktops */
+@media (max-width: 1600px) {
+    label.viewer-toggle-wrapper.checkbox_label {
+        right: 820px;
+    }
+}
+
+/* For tablets and smaller laptops (up to 1024px) */
+@media (max-width: 1024px) {
+    label.viewer-toggle-wrapper.checkbox_label {
+        right: 300px;
+        font-size: 15px;
+    }
+}
+
+/* For tablets and large phones (up to 768px) */
+@media (max-width: 768px) {
+    label.viewer-toggle-wrapper.checkbox_label {
+        right: 20px;
+        top: 20px;
+        width: 120px;
+        font-size: 14px;
+    }
+}
+
+/* For small phones (up to 480px) */
+@media (max-width: 480px) {
+    label.viewer-toggle-wrapper.checkbox_label {
+        width: 100px;
+        font-size: 13px;
+        right: 10px;
+        top: 15px;
+    }
+}
+
+label.viewer-toggle-wrapper.checkbox_label span{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif !important; 
+}
+.viewer-toggle-wrapper input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.viewer-toggle-wrapper .slider {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #2d233d;
+    border-radius: 34px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.viewer-toggle-wrapper .slider::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    top: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.viewer-toggle-wrapper input:checked + .slider::before {
+    transform: translateX(20px);
+    background-color: #C770FE;
+}
+
+label.radio_label:before, label.dem__radio_label:before, label.checkbox_label:before {
+    display: none !important;
+}
+
+div#cuim-edit-fields input {
+    display: block;
+    width: 100%;
+}
+div#cuim-edit-fields button {
+    background: var(--cuim-color-accent) !important;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 18px;
+    align-self: flex-start;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*theme css*/
+.page_content_wrap {
+    padding-top: 31px !important;
+}
+
+.page_content_blocks .sc_layouts_title_caption {
+    color: var(--cuim-primiry-color);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.button-primary.sc_button_hover_slide_left,
+#cuim-confirm-delete {
+    background: var(--cuim-color-accent) !important;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 18px;
+    align-self: flex-start;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  	text-transform: none !important;
+}
+
+
+.post_content_title:after {
+    margin-top: 0 !important;
+    background-color: var(--cuim-border-color) !important;
+}
+
+.sidebar > .sidebar_inner > .widget {
+    background: url('/wp-content/plugins/login_ip_restriction%20_manager/assets/image/mario.png') no-repeat,
+    url('/wp-content/plugins/login_ip_restriction%20_manager/assets/image/sonic.png') no-repeat,
+    var(--cuim-bg-gradient) !important;
+    background-position-x: right, left !important;
+    background-position-y: center, bottom !important;
+    background-size: 160px auto, 260px auto, cover !important;
+    height: 80vh;
+    padding: 53px 24px !important;
+}
+
+.sidebar > .sidebar_inner > .widget ul#menu-main-menu {
+    padding-left: 0;
+}
+
+.sidebar > .sidebar_inner > .widget ul#menu-main-menu li:before {
+    display: none;
+}
+
+.sidebar > .sidebar_inner > .widget ul#menu-main-menu li {
+    padding: 12px 37px;
+    margin-bottom: 42px;
+}
+
+.sidebar > .sidebar_inner > .widget ul#menu-main-menu li a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.sidebar > .sidebar_inner > .widget ul#menu-main-menu li.current_page_item {
+    background: var(--cuim-color-accent);
+    border-radius: 8px;
+}
+
+.sidebar > .sidebar_inner > .widget ul#menu-main-menu li.current_page_item a {
+    color: var(--cuim-text-color);
+    font-weight: 800;
+}
+
+.sc_layouts_item a.sc_layouts_logo img {
+    width: 339px;
+    max-height: 12em;
+}
+
+
+.menu_side_hide .sc_layouts_row_type_narrow {
+    background: #252031 !important;
+    padding: 23px 0;
+}
+
+@media only screen and (max-width: 1440px) {
+    div#agqa-search-box input {
+        width: 440px;
+    }
+    div#agqa-search-results {
+        width: 440px;
+    }
+    label.viewer-toggle-wrapper.checkbox_label {
+
+        right: 740px;
+    }
+
+    .sidebar > .sidebar_inner > .widget ul#menu-main-menu li a {
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .sidebar > .sidebar_inner > .widget ul#menu-main-menu li {
+        padding: 12px 15px;
+    }
+
+    .sidebar > .sidebar_inner > .widget {
+        background-size: 97px auto, 161px auto, cover !important;
+    }
+    div#agqa-post-list .agqa-post-box h4 {
+        font-size: 20px;
+
+    }
+    .agqa-post-title p {
+        line-height: 15px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .fixed_blocks_sticky .sidebar.widget_area.left.sidebar_below.sidebar_default {
+        position: absolute !important;
+        top: 0 !important;
+    }
+
+    .agqa-question-detail, .agqa-post-detail, div#agqa-interface {
+        max-width: 99.5rem;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .cuim-profile-box {
+        right: 15px;
+    }
+
+    div#agqa-search-box {
+        right: 103px;
+        top: 22px;
+    }
+
+    .sc_layouts_item a.sc_layouts_logo img {
+        width: 227px;
+    }
+
+    .cuim-profile-box {
+        top: 14px;
+    }
+
+    label.viewer-toggle-wrapper.checkbox_label {
+        right: 552px;
+        top: 22px;
+    }
+
+}
+
+/* Override dark theme inputs */
+.cuim-form input[type="text"],
+.cuim-form input[type="email"],
+.cuim-form input[type="password"],
+.cuim-form select {
+    background-color: #fff !important;  /* Change to any color you like */
+    color: #252031 !important;
+    border: 1px solid var(--cuim-border-color); /* Optional border */
+    box-shadow: none;
+  	font-family: 'Roboto Slab', serif !important;
+	font-weight: 400 !important;
+  font-size: 14px;
+}
+
+
+/* Main select box */
+.cuim-form select,
+.cuim-form .select_container select {
+    background-color: #fff !important;   /* or your preferred light color */
+    color: #252031 !important;
+    border: 1px solid var(--cuim-border-color);
+}
+
+/* Dropdown options */
+.cuim-form select option {
+    background-color: #fff !important;
+    color: #252031 !important;
+}
+/* 🔲 Make the Submit Button Full Width */
+.cuim-form button[type="submit"],
+.cuim-form .button.button-primary {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 14px;
+  text-align: center;
+  background: var(--cuim-color-accent, #7644CE);
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+font-family: 'Roboto Slab', serif !important;
+}
+
+.cuim-form button[type="submit"]:hover {
+  background: #5a30ab;
+}
+
+/* ✳️ Purple Border on Focus or Typing */
+.cuim-form input:focus,
+.cuim-form input:not(:placeholder-shown),
+.cuim-form select:focus,
+.cuim-form select:valid {
+  border: 2px solid #7644CE !important;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(199, 112, 254, 0.2);
+}
+
+/* ✳️ Initial Field Styles */
+.cuim-form input,
+.cuim-form select {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #252031;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* select focus */
+.cuim-form select:focus {
+  background-color: #fff !important; /* ✅ Force white background */
+  color: #252031 !important;         /* Ensure readable text */
+  border: 2px solid var(--cuim-primiry-color, #C770FE);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(199, 112, 254, 0.2);
+}

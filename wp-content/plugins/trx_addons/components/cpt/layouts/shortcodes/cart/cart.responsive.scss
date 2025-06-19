@@ -1,0 +1,67 @@
+@import "../../../../../css/_mixins.scss";
+@import "../../../../../css/_trx_addons.vars.scss";
+
+//@mixin layouts_cart--md() {
+@media #{$media_md} {
+    /* Layouts: Cart */
+	.sc_layouts_cart_button_wrap {
+		bottom: 1em;
+		right: 1em;
+	}
+}
+
+//@mixin layouts_cart--sm() {
+@media #{$media_sm} {
+    /* Layouts: Cart */
+	.sc_layouts_cart_widget {
+		@include fixed-pos(46px, 0, 0, 0, '');
+		@include box(auto, auto);
+
+		.trx_addons_customizable.sc_layouts_cart_preview_init > &,
+		.trx_addons_customizable.sc_layouts_cart_opened > & {
+			@include flex_important;
+			@include flex-direction(column);
+			@include flex-justify-content(center);
+			@include flex-align-items(flex-start);
+		}
+	}
+	.sc_layouts_cart_widget:after {
+		display: none;
+	}
+	.sc_layouts_cart_widget .sc_layouts_cart_widget_close {
+		font-size: 1.5em;
+		padding: 1em;
+		top: 32px;
+	}
+	.sc_layouts_cart_widget .widget_shopping_cart {
+		:where(:not(.trx_addons_customizable)) > & {
+			@include abs-cc(2);
+			font-size: 14px;
+			padding: 1em;
+			width: 90%;
+			max-height:80%;
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+		.trx_addons_customizable > & {
+			width: 100%;
+		}
+	}
+	.sc_layouts_cart_widget .cart_list {
+		:where(:not(.trx_addons_customizable)) > & {
+			max-height: none !important;
+			overflow: visible;
+		}
+		.trx_addons_customizable > & {
+			max-height: 80vh !important;
+		}
+	}
+}
+
+//@mixin layouts_cart--sm_wp() {
+@media #{$media_sm_wp} {
+    /* Layouts: Cart */
+	.sc_layouts_cart_widget {
+		top: 0;
+	}
+}

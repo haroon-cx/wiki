@@ -1,0 +1,78 @@
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Knowledge Base */
+  .sidebar_show .eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+    /* Content */
+  }
+  .sidebar_show .eckb-kb-template #epkb-main-page-container.epkb-tabs-template #epkb-content-container .epkb-panel-container .epkb-tab-panel {
+    padding: 0;
+  }
+  .sidebar_show .eckb-kb-template #epkb-main-page-container.epkb-tabs-template #epkb-content-container .epkb-panel-container .epkb-tab-panel .epkb-top-category-box {
+    width: 50%;
+  }
+}
+@media (max-width: 1023px) {
+  /* Knowledge Base */
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+    /* Search & Filter */
+    /* Content */
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container .epkb-search .epkb-search-box .epkb-search-box_button-wrap {
+    width: auto;
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container .epkb-search .epkb-search-box .epkb-search-box_button-wrap button {
+    width: auto;
+    margin-top: 0;
+    padding-left: var(--theme-var-btn_padding2) !important;
+    padding-right: var(--theme-var-btn_padding2) !important;
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-nav-tabs li {
+    width: auto !important;
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container #epkb_search_results {
+    width: 100% !important;
+    margin: 0;
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template #epkb-content-container .epkb-panel-container .epkb-tab-panel {
+    padding: 0;
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template #epkb-content-container .epkb-panel-container .epkb-tab-panel .epkb-top-category-box {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  /* Knowledge Base */
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template #epkb-content-container .epkb-main-nav ul {
+    margin: -15px 0 0;
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template #epkb-content-container .epkb-main-nav ul li div {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 600px) {
+  /* Knowledge Base */
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template #epkb-content-container .epkb-panel-container .epkb_top_panel .epkb-top-category-box {
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  /* Knowledge Base */
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+    /* Search & Filter */
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container .epkb-search .epkb-search-box {
+    flex-direction: column;
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container .epkb-search .epkb-search-box:before {
+    top: var(--theme-var-input_padding);
+    transform: translateY(3px);
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container .epkb-search .epkb-search-box input[type="text"] {
+    width: 100% !important;
+  }
+  .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container .epkb-search .epkb-search-box .epkb-search-box_button-wrap {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=echo-knowledge-base-responsive.css.map */

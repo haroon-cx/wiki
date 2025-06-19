@@ -1,0 +1,24 @@
+@media (max-width: 1439px) {
+  /* Blog layout: Classic */
+  .post_layout_classic {
+    /* Audio */
+  }
+  .post_layout_classic .mejs-controls {
+    padding: 0 12px;
+  }
+  .post_layout_classic .mejs-controls .mejs-horizontal-volume-slider,
+  .post_layout_classic .mejs-controls .mejs-horizontal-volume-total,
+  .post_layout_classic .mejs-controls .mejs-time {
+    display: none !important;
+  }
+  .post_layout_classic .mejs-controls .mejs-volume-button {
+    margin-left: 15px;
+    margin-right: 0;
+    width: 20px;
+  }
+  .post_layout_classic .mejs-controls .mejs-volume-button button {
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=classic-responsive.css.map */

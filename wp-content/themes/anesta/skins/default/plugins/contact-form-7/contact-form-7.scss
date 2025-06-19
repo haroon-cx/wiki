@@ -1,0 +1,81 @@
+/* Contact form 7 styles
+----------------------------------------------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+form.wpcf7-form {
+	@include theme_form_fields;
+
+	/* Form box */
+	.wpcf7-form-box > p {  
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+		align-items: center;
+
+		.wpcf7-list-item {
+			margin-left: 0; 
+		}
+		label.radio_label, 
+		label.checkbox_label {
+			display: block;
+			margin: 0;
+		}
+	}
+
+	/* Checkbox & Radio label */
+	input[type="radio"],
+	input[type="checkbox"] {	
+		& + .wpcf7-list-item-label {
+			font-weight: 400;
+		    color: var(--theme-color-text);
+    		margin-bottom: var(--theme-var-grid_gap);
+		}
+		&:checked + .wpcf7-list-item-label {
+		    color: var(--theme-color-text_dark);
+		}
+	}
+	.wpcf7-form-control-wrap[class*="checkbox"] .wpcf7-form-control {
+		box-shadow: none !important;
+
+		.wpcf7-list-item {
+	   		margin: 0;
+	   		display: block;
+
+			input[type="checkbox"] {	
+				& + .wpcf7-list-item-label {
+		    		margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	/* Submit */
+	input[type="submit"].wpcf7-submit {
+	    font-size: 13px;
+	    padding: 16px 3.85em;
+	    margin-right: 20px;
+	}
+
+	/* Spinner */
+	.wpcf7-spinner {
+		display: none;
+	}
+
+	/* Validation */
+	.wpcf7-not-valid {
+		border-color: var(--theme-color-accent_link2_05) !important;
+		box-shadow: none;
+	}
+	.wpcf7-not-valid-tip {
+		@include font(12px, 1.4em);
+		color: var(--theme-color-accent_link2);
+		margin-top: 4px;
+	}
+	input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not(.taggle_input) + .wpcf7-not-valid-tip {
+    	margin-top: calc( -1 * var(--theme-var-grid_gap) + 4px );
+    	margin-bottom: 15px; 
+	}
+}

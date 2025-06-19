@@ -1,0 +1,341 @@
+.page_content_classic {
+  --theme-var-content_rad: 8px;
+  /* Theme styles
+  ----------------------------------------------------------------- */
+  /* Single Post
+  ----------------------------------------------------------------- */
+  /* Show sidemenu */
+  /* Show sidemenu and Show sidebar */
+  /* Show sidemenu and Hide sidebar */
+  /* Hide sidemenu */
+  /* Hide sidebar */
+  /* Blog - Classic
+  ----------------------------------------------------------------- */
+  /* The Events Calendar
+  ----------------------------------------------------------------- */
+  /* BBPress and BuddyPress 
+  ----------------------------------------------------------------- */
+  /* Better Messages
+  ----------------------------------------------------------------- */
+  /* BuddyPress Docs
+  ----------------------------------------------------------------- */
+  /* Knowledge Base
+  ----------------------------------------------------------------- */
+  /* WP Job Manager and Resumes Manager
+  ----------------------------------------------------------------- */
+  /* Single post */
+  /* LearnDash LMS
+  ----------------------------------------------------------------- */
+  /* WooCommerce
+  ----------------------------------------------------------------- */
+}
+.page_content_classic.custom-background.page .content_wrap > .content {
+  background-color: var(--theme-color-content_bg);
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+}
+.page_content_classic .sc_layouts_title_caption {
+  margin-top: -0.3em;
+}
+.page_content_classic.menu_side_present.sidebar_show .content_wrap > .content, .page_content_classic.menu_side_present.sidebar_hide .page_content_wrap > .content_wrap:first-child {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic.menu_side_hide .content_wrap > .sidebar > .sidebar_inner > .widget {
+  box-shadow: none;
+}
+.page_content_classic.single.menu_side_present .post_item_single {
+  /* With featured on background */
+}
+.page_content_classic.single.menu_side_present .post_item_single .post_header_wrap .post_featured.post_featured_bg {
+  margin-top: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) );
+}
+.page_content_classic.single.menu_side_present.sidebar_show .post_item_single {
+  /* With featured on background */
+}
+.page_content_classic.single.menu_side_present.sidebar_show .post_item_single .post_header_wrap .post_featured.post_featured_bg {
+  margin-left: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) );
+  margin-right: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) );
+}
+.page_content_classic.single.menu_side_present.sidebar_show .post_item_single .post_header_wrap .post_featured.post_featured_bg + .post_header {
+  left: 0;
+  right: 0;
+}
+.page_content_classic.single.menu_side_present.sidebar_hide .post_item_single {
+  /* With featured not on background */
+  /* With featured on background */
+}
+.page_content_classic.single.menu_side_present.sidebar_hide .post_item_single .post_header_wrap .post_featured:not(.post_featured_bg):not(.post_attachment) {
+  margin-top: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) );
+}
+.page_content_classic.single.menu_side_present.sidebar_hide .post_item_single .post_header_wrap .post_featured.post_featured_bg + .post_header {
+  padding-bottom: 6px;
+}
+.page_content_classic.single.menu_side_hide .post_item_single .post_header_wrap .post_featured {
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+.page_content_classic.single.menu_side_hide .post_item_single .author_info,
+.page_content_classic.single.menu_side_hide .post_item_single .post_tags_single a:not(:hover),
+.page_content_classic.single.menu_side_hide .post_item_single .comments_list_wrap .bypostauthor .comment_bypostauthor {
+  border: none;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic.single.sidebar_hide .post_item_single .post_header_wrap .post_featured.post_featured_bg + .post_header {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic.menu_side_hide .post_layout_classic:not(.sticky) {
+  border: none;
+}
+.page_content_classic.single-tribe_events .type-tribe_events {
+  padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 20px ) );
+  margin-top: var(--theme-var-grid_gap);
+  border-top: 1px solid var(--theme-color-bd_color);
+}
+.page_content_classic.single-tribe_events .comments_wrap {
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 20px ) );
+  padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  border-top: 1px solid var(--theme-color-bd_color);
+}
+.page_content_classic.post-type-archive-tribe_events .tribe-events-calendar-day, .page_content_classic.post-type-archive-tribe_events .tribe-events-calendar-list {
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 7px ) );
+}
+.page_content_classic.post-type-archive-tribe_events .tribe-events-calendar-day .tribe-events-calendar-day__event .tribe-events-calendar-day__event-featured-image-wrapper,
+.page_content_classic.post-type-archive-tribe_events .tribe-events-calendar-day .tribe-events-calendar-list__event-row .tribe-events-calendar-list__event-featured-image-wrapper, .page_content_classic.post-type-archive-tribe_events .tribe-events-calendar-list .tribe-events-calendar-day__event .tribe-events-calendar-day__event-featured-image-wrapper,
+.page_content_classic.post-type-archive-tribe_events .tribe-events-calendar-list .tribe-events-calendar-list__event-row .tribe-events-calendar-list__event-featured-image-wrapper {
+  margin-top: 4px;
+}
+.page_content_classic.post-type-archive-tribe_events .tribe-events-calendar-month {
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px ) );
+}
+.page_content_classic.menu_side_hide .tribe-common .tribe-common-l-container .tribe-events-calendar-month .tribe-events-calendar-month__day, .page_content_classic.menu_side_hide .tribe-common--breakpoint-medium.tribe-events .tribe-events-header--has-event-search .tribe-events-header__events-bar, .page_content_classic.menu_side_hide .tribe-common .tribe-common-l-container .tribe-events-header__top-bar .tribe-events-c-top-bar__today-button {
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic div#buddypress {
+  /* Tables */
+  /* Profile header */
+  /* Profile navigation */
+  /* New post form */
+  /* Filters */
+  /* Activity */
+  /* Groups & Members filters */
+}
+.page_content_classic div#buddypress table.notifications {
+  box-shadow: none;
+}
+.page_content_classic div#buddypress #header-cover-image {
+  overflow: hidden;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_classic div#buddypress > .activity-type-tabs {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_classic div#buddypress #item-nav {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_classic div#buddypress #item-nav ul li {
+  margin-right: 15px;
+}
+.page_content_classic div#buddypress #item-body #whats-new-form + #subnav {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.page_content_classic div#buddypress #item-body #subnav, .page_content_classic div#buddypress > #subnav {
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) !important;
+}
+.page_content_classic div#buddypress .activity-item {
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: visible;
+}
+.page_content_classic div#buddypress .activity-item + .activity-item,
+.page_content_classic div#buddypress li.load-more + .activity-item,
+.page_content_classic div#buddypress li.load-newest + .activity-item {
+  margin-top: var(--theme-var-grid_gap);
+  padding-top: var(--theme-var-grid_gap);
+  border-top: 1px solid var(--theme-color-bd_color);
+}
+.page_content_classic div#buddypress div.activity #activity-stream .activity-item.has-comments {
+  padding-bottom: 0;
+}
+.page_content_classic div#buddypress div.activity #activity-stream .activity-item.has-comments .activity-comments,
+.page_content_classic div#buddypress div.activity #activity-stream .activity-item:not(.has-comments) .activity-comments > form {
+  border-top: none;
+  padding: var(--theme-var-grid_gap);
+  margin: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) ) 0 0 0;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_classic div#buddypress #groups-directory-form .item-list-tabs:not(#subnav),
+.page_content_classic div#buddypress #members-directory-form .item-list-tabs:not(#subnav) {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  background-color: var(--theme-color-navigate_bg);
+  margin-bottom: var(--theme-var-grid_gap);
+}
+.page_content_classic.menu_side_hide div#buddypress {
+  /* Profile header */
+  /* Groups list */
+  /* Members list */
+}
+.page_content_classic.menu_side_hide div#buddypress #item-header {
+  background-color: transparent;
+}
+.page_content_classic.menu_side_hide div#buddypress #groups-list > li,
+.page_content_classic.menu_side_hide div#buddypress #group-list > li {
+  border: none;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic.menu_side_hide div#buddypress #members-group-list #member-list > li,
+.page_content_classic.menu_side_hide div#buddypress #members-dir-list #members-list > li {
+  border: none;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic div#bbpress-forums {
+  /* Forums & Topics */
+}
+.page_content_classic div#bbpress-forums .bbp-forums,
+.page_content_classic div#bbpress-forums .bbp-topics {
+  border: 1px solid var(--theme-color-bd_color);
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.04);
+}
+.page_content_classic.bp-messages .bp-messages-wrap {
+  background-color: var(--theme-color-navigate_bg);
+}
+.page_content_classic.bp-messages .bp-messages-wrap div.bulk-message form .box {
+  background: var(--theme-color-content_bg);
+}
+.page_content_classic.bp-docs {
+  /* Pagination */
+  /* Create new doc */
+  /* Single doc */
+}
+.page_content_classic.bp-docs .currently-viewing {
+  padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) );
+}
+.page_content_classic.bp-docs .doc-content {
+  padding: 0;
+}
+.page_content_classic.bp-docs #bp-docs-single-doc-header {
+  padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) );
+}
+.page_content_classic.bp-docs .doc-meta {
+  padding-top: 0;
+}
+.page_content_classic.menu_side_hide div#buddypress {
+  /* Filter sections */
+}
+.page_content_classic.menu_side_hide div#buddypress .bp-docs .docs-info-header #docs-filter-sections .docs-filter-section {
+  border: none;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic.menu_side_present .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-top-category-box:before {
+  border: 1px solid var(--theme-color-bd_color);
+}
+.page_content_classic.menu_side_hide .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container .epkb-search {
+  border: none;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic.single-job_listing .post_content_title, .page_content_classic.single-resume .post_content_title {
+  margin-bottom: 17px;
+}
+.page_content_classic.single-job_listing .post_content_title:after, .page_content_classic.single-resume .post_content_title:after {
+  display: none;
+}
+.page_content_classic.menu_side_hide .single_job_listing .company, .page_content_classic.menu_side_hide .single_job_listing .job_application .application_details {
+  background-color: var(--theme-color-content_bg);
+  border: none !important;
+}
+.page_content_classic.menu_side_hide .single-resume-content .resume-card, .page_content_classic.menu_side_hide .single-resume-content .resume_contact .resume_contact_details, .page_content_classic.menu_side_hide .single-resume-content .resume-manager-skills li {
+  background-color: var(--theme-color-content_bg);
+  border: none !important;
+}
+.page_content_classic .learndash_post_sfwd-courses .learndash-wrapper .ld-course-status,
+.page_content_classic div#buddypress .learndash-wrapper .ld-course-status {
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_classic.menu_side_hide .ld-course-list-content .ld-course-list-items .ld_course_grid .course .caption .learndash-wrapper .ld-progress .ld-progress-bar {
+  background-color: var(--theme-color-bd_color);
+}
+.page_content_classic.menu_side_hide.woocommerce div.product .woocommerce-tabs ul.tabs li a, .page_content_classic.menu_side_hide.single-product .related ul.products li.product .post_data, .page_content_classic.menu_side_hide.single-product .upsells ul.products li.product .post_data {
+  border: none !important;
+}
+
+/* Widgets
+----------------------------------------------------------------- */
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content {
+  /* TRX Addons styles
+  ----------------------------------------------------------------- */
+  /* Blogger */
+  /* Event */
+  /* WP Job Manager
+  ----------------------------------------------------------------- */
+  /* BBPress and BuddyPress
+  ----------------------------------------------------------------- */
+  /* Paid Memberships Pro
+  ----------------------------------------------------------------- */
+  /* Elementor
+  ----------------------------------------------------------------- */
+}
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .sc_blogger_item_default_modern .sc_blogger_item_body,
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .sc_price_item {
+  border: none;
+}
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .sc_events_default .sc_events_item .sc_events_item_thumb .sc_events_item_date .sc_events_item_date_day {
+  background-color: var(--theme-color-content_bg);
+}
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content div.job_listings .job_filters .search_jobs,
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .wp-widget-widget_recent_jobs .job_filters .search_jobs,
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content div.resumes .resume_filters .search_resumes {
+  border: none;
+  background-color: var(--theme-color-content_bg);
+}
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .widget.widget_bp_core_members_widget div.item-options a:not(.selected):not(:hover),
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .wp-widget-bp_core_members_widget div.item-options a:not(.selected):not(:hover),
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .widget.widget_bp_groups_widget div.item-options a:not(.selected):not(:hover),
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .wp-widget-bp_groups_widget div.item-options a:not(.selected):not(:hover) {
+  border: none;
+  background-color: var(--theme-color-content_bg);
+}
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .pmpro_content_message {
+  background-color: var(--theme-color-content_bg);
+}
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title:not(.elementor-active):not(:hover),
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .elementor-toggle .elementor-tab-title {
+  border: none;
+  background-color: var(--theme-color-content_bg);
+}
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content .elementor-alert[class*="elementor-alert-"] {
+  border: none;
+}
+
+/*# sourceMappingURL=classic.css.map */

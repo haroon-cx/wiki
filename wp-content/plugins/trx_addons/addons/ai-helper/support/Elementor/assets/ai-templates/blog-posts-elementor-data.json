@@ -1,0 +1,551 @@
+[
+	{
+	  "id": "3a6d9e5",
+	  "elType": "container",
+	  "settings": {
+		"flex_direction": "column",
+		"parallax_blocks": [],
+		"flex_gap": {
+		  "column": "",
+		  "row": "",
+		  "isLinked": true,
+		  "unit": "px",
+		  "size": null
+		},
+		"margin": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "40",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_tablet": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "35",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_mobile": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "25",
+		  "left": "0",
+		  "isLinked": false
+		}
+	  },
+	  "elements": [
+		{
+		  "id": "68aa5557",
+		  "elType": "widget",
+		  "settings": {
+			"content_width": "full",
+			"editor": "<p>Quspendisse non sapien in sem vehicula bibendum. Curabitur egestas erat sed vulputate mattis. Proin tempor velit ac arcu venenatis condimentum. Ut id velit nunc. Etiam ullamcorper sapien non diam tincidunt fringilla. Vestibulum ac auctor odio, vitae dignissim justo. Aenean quis risus faucibus, imperdiet odio non, congue enim. Pellentesque habitant morbi tristique.</p><p>Suspendisse non sapien in sem vehicula bibendum. Curabitur egestas erat sed vulputate mattis. Proin tempor velit ac arcu venenatis condimentum. Ut id velit nunc. Etiam ullamcorper sapien non diam tincidunt fringilla. Vestibulum ac auctor odio, vitae dignissim justo. Aenean quis risus faucibus.</p>",
+			"drop_cap": "yes",
+			"drop_cap_primary_color": "#1f242e",
+			"drop_cap_space": {
+			  "unit": "px",
+			  "size": 16,
+			  "sizes": []
+			},
+			"drop_cap_typography_typography": "custom",
+			"drop_cap_typography_font_size": {
+			  "unit": "rem",
+			  "size": 3.5625,
+			  "sizes": []
+			},
+			"drop_cap_typography_font_size_tablet": {
+			  "unit": "rem",
+			  "size": "",
+			  "sizes": []
+			},
+			"drop_cap_typography_font_size_mobile": {
+			  "unit": "rem",
+			  "size": "",
+			  "sizes": []
+			},
+			"drop_cap_typography_font_weight": "500",
+			"__globals__": {
+			  "text_color": "",
+			  "drop_cap_primary_color": "globals/colors?id=theme_color_title"
+			}
+		  },
+		  "elements": [],
+		  "widgetType": "text-editor"
+		}
+	  ],
+	  "isInner": false
+	},
+	{
+	  "id": "62132c98",
+	  "elType": "container",
+	  "settings": {
+		"flex_direction": "column",
+		"flex_gap": {
+		  "column": "0",
+		  "row": "0",
+		  "isLinked": true,
+		  "unit": "px",
+		  "size": 0
+		},
+		"parallax_blocks": [],
+		"margin": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "40",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_tablet": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "35",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_mobile": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "25",
+		  "left": "0",
+		  "isLinked": false
+		}
+	  },
+	  "elements": [
+		{
+		  "id": "c5feb01",
+		  "elType": "widget",
+		  "settings": {
+			"content_width": "full",
+			"title": "At vero eos et accusam",
+			"header_size": "h5",
+			"_margin": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "20",
+			  "left": "0",
+			  "isLinked": false
+			},
+			"_margin_tablet": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "15",
+			  "left": "0",
+			  "isLinked": false
+			},
+			"_margin_mobile": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "10",
+			  "left": "0",
+			  "isLinked": false
+			}
+		  },
+		  "elements": [],
+		  "widgetType": "heading"
+		},
+		{
+		  "id": "1ad02fb9",
+		  "elType": "widget",
+		  "settings": {
+			"content_width": "full",
+			"editor": "<p>Nullam venenatis augue ut lacinia convallis. Morbi pellentesque diam vitae velit sodales placerat. Cras id sodales dolor. Duis mattis cursus dui, vitae vestibulum nisl rutrum id. Integer massa est, semper vitae est et, vehicula ultrices ante. Sed ac hendrerit orci. Aliquam efficitur luctus elementum.</p>"
+		  },
+		  "elements": [],
+		  "widgetType": "text-editor"
+		}
+	  ],
+	  "isInner": false
+	},
+	{
+	  "id": "18e4801b",
+	  "elType": "container",
+	  "settings": {
+		"flex_direction": "column",
+		"flex_gap": {
+		  "column": "0",
+		  "row": "0",
+		  "isLinked": true,
+		  "unit": "px",
+		  "size": 0
+		},
+		"background_background": "classic",
+		"parallax_blocks": [],
+		"margin": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "40",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_tablet": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "35",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_mobile": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "25",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"padding": {
+		  "unit": "px",
+		  "top": "50",
+		  "right": "40",
+		  "bottom": "50",
+		  "left": "40",
+		  "isLinked": false
+		},
+		"padding_tablet": {
+		  "unit": "px",
+		  "top": "40",
+		  "right": "35",
+		  "bottom": "40",
+		  "left": "35",
+		  "isLinked": false
+		},
+		"padding_mobile": {
+		  "unit": "px",
+		  "top": "30",
+		  "right": "25",
+		  "bottom": "30",
+		  "left": "25",
+		  "isLinked": false
+		},
+		"__globals__": {
+		  "background_color": "globals/colors?id=theme_color_bg_color_2"
+		}
+	  },
+	  "elements": [
+		{
+		  "id": "37319631",
+		  "elType": "widget",
+		  "settings": {
+			"content_width": "full",
+			"editor": "<p>Integer consequat, dui sit amet porttitor malesuada, arcu ante hendrerit est, nec pulvinar lorem leo ac sapien. Nam ultrices urna nunc, at volutpat odio consectetur sed.</p>",
+			"_margin": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "23",
+			  "left": "0",
+			  "isLinked": false
+			},
+			"_margin_tablet": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "15",
+			  "left": "0",
+			  "isLinked": false
+			},
+			"_margin_mobile": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "12",
+			  "left": "0",
+			  "isLinked": false
+			},
+			"__globals__": {
+			  "text_color": "globals/colors?id=theme_color_title"
+			},
+			"typography_line_height_tablet": {
+			  "unit": "px",
+			  "size": "",
+			  "sizes": []
+			},
+			"typography_line_height_mobile": {
+			  "unit": "px",
+			  "size": "",
+			  "sizes": []
+			},
+			"typography_word_spacing_tablet": {
+			  "unit": "px",
+			  "size": "",
+			  "sizes": []
+			},
+			"typography_word_spacing_mobile": {
+			  "unit": "px",
+			  "size": "",
+			  "sizes": []
+			}
+		  },
+		  "elements": [],
+		  "widgetType": "text-editor"
+		},
+		{
+		  "id": "5e59269d",
+		  "elType": "container",
+		  "settings": {
+			"content_width": "full",
+			"flex_direction": "row",
+			"flex_align_items": "center",
+			"flex_gap": {
+			  "column": "0",
+			  "row": "0",
+			  "isLinked": true,
+			  "unit": "px",
+			  "size": 0
+			},
+			"parallax_blocks": []
+		  },
+		  "elements": [
+			{
+			  "id": "4c585d29",
+			  "elType": "widget",
+			  "settings": {
+				"content_width": "full",
+				"width": {
+				  "unit": "px",
+				  "size": 38,
+				  "sizes": []
+				},
+				"width_tablet": {
+				  "unit": "px",
+				  "size": "",
+				  "sizes": []
+				},
+				"width_mobile": {
+				  "unit": "px",
+				  "size": "",
+				  "sizes": []
+				},
+				"text": "Divider",
+				"weight": {
+				  "unit": "px",
+				  "size": 2,
+				  "sizes": []
+				},
+				"gap": {
+				  "unit": "px",
+				  "size": 0,
+				  "sizes": []
+				},
+				"_margin": {
+				  "unit": "px",
+				  "top": "1",
+				  "right": "0",
+				  "bottom": "0",
+				  "left": "0",
+				  "isLinked": false
+				},
+				"_element_width": "auto",
+				"_flex_size": "none",
+				"__globals__": {
+				  "color": "globals/colors?id=theme_color_link"
+				}
+			  },
+			  "elements": [],
+			  "widgetType": "divider"
+			},
+			{
+			  "id": "342bdb79",
+			  "elType": "widget",
+			  "settings": {
+				"content_width": "full",
+				"title": "Peter Smith",
+				"header_size": "h6",
+				"_margin": {
+				  "unit": "px",
+				  "top": "0",
+				  "right": "0",
+				  "bottom": "0",
+				  "left": "13",
+				  "isLinked": false
+				},
+				"_margin_tablet": {
+				  "unit": "px",
+				  "top": "0",
+				  "right": "0",
+				  "bottom": "0",
+				  "left": "10",
+				  "isLinked": false
+				}
+			  },
+			  "elements": [],
+			  "widgetType": "heading"
+			}
+		  ],
+		  "isInner": true
+		}
+	  ],
+	  "isInner": false
+	},
+	{
+	  "id": "46622701",
+	  "elType": "container",
+	  "settings": {
+		"flex_direction": "column",
+		"parallax_blocks": [],
+		"margin": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "40",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_tablet": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "35",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_mobile": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "25",
+		  "left": "0",
+		  "isLinked": false
+		}
+	  },
+	  "elements": [
+		{
+		  "id": "424218e6",
+		  "elType": "widget",
+		  "settings": {
+			"content_width": "full",
+			"editor": "<p>Mauris sed cursus nisi, sed luctus felis. Suspendisse lacinia lacus tincidunt sodales finibus. Praesent convallis porta ipsum, non sollicitudin ex sagittis ut. Aliquam egestas lobortis fermentum. Praesent ornare bibendum dui id commodo. Nulla ut velit ac dolor iaculis aliquet.</p>"
+		  },
+		  "elements": [],
+		  "widgetType": "text-editor"
+		}
+	  ],
+	  "isInner": false
+	},
+	{
+	  "id": "18847997",
+	  "elType": "container",
+	  "settings": {
+		"flex_direction": "column",
+		"parallax_blocks": [],
+		"margin": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "40",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_tablet": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "35",
+		  "left": "0",
+		  "isLinked": false
+		},
+		"margin_mobile": {
+		  "unit": "px",
+		  "top": "0",
+		  "right": "0",
+		  "bottom": "25",
+		  "left": "0",
+		  "isLinked": false
+		}
+	  },
+	  "elements": [
+		{
+		  "id": "666e5ef0",
+		  "elType": "widget",
+		  "settings": {
+			"content_width": "full",
+			"image": {
+			  "id": 61,
+			  "url": "https://elementra.leo.themerex.net/wp-content/uploads/2024/09/image-09-copyright.jpg",
+			  "alt": "",
+			  "source": "library",
+			  "size": ""
+			},
+			"image_size": "full"
+		  },
+		  "elements": [],
+		  "widgetType": "image"
+		}
+	  ],
+	  "isInner": false
+	},
+	{
+	  "id": "3772e40c",
+	  "elType": "container",
+	  "settings": {
+		"flex_direction": "column",
+		"flex_gap": {
+		  "column": "0",
+		  "row": "0",
+		  "isLinked": true,
+		  "unit": "px",
+		  "size": 0
+		},
+		"parallax_blocks": []
+	  },
+	  "elements": [
+		{
+		  "id": "39fd87e3",
+		  "elType": "widget",
+		  "settings": {
+			"content_width": "full",
+			"title": "Curabitur lobortis at ante vitae ultricies",
+			"header_size": "h5",
+			"_margin": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "20",
+			  "left": "0",
+			  "isLinked": false
+			},
+			"_margin_tablet": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "15",
+			  "left": "0",
+			  "isLinked": false
+			},
+			"_margin_mobile": {
+			  "unit": "px",
+			  "top": "0",
+			  "right": "0",
+			  "bottom": "10",
+			  "left": "0",
+			  "isLinked": false
+			}
+		  },
+		  "elements": [],
+		  "widgetType": "heading"
+		},
+		{
+		  "id": "6ce8f25e",
+		  "elType": "widget",
+		  "settings": {
+			"content_width": "full",
+			"editor": "<p>Integer pretium eros eget eros faucibus iaculis. Aliquam nibh nisi, tincidunt sed dolor sed, feugiat vulputate massa. Integer accumsan et eros eu faucibus. In at posuere turpis. Nulla nec egestas tellus. Nam convallis diam ac urna posuere, et mattis libero lobortis. Integer auctor urna sed velit mattis.</p>"
+		  },
+		  "elements": [],
+		  "widgetType": "text-editor"
+		}
+	  ],
+	  "isInner": false
+	}
+  ]

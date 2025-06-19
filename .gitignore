@@ -1,0 +1,20 @@
+# WordPress core files
+wp-admin/
+wp-includes/
+
+# wp-config.php - Sensitive information
+wp-config.php
+
+# WordPress content
+wp-content/cache/
+wp-content/uploads/
+wp-content/plugins/
+wp-content/themes/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you're using Node)
+node_modules/
+

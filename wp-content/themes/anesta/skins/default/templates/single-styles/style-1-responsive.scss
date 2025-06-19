@@ -1,0 +1,27 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+//@mixin theme--xxl() { max-width: 1679px
+@media #{$media_xxl} {
+	.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg {
+		height: 300px;
+	}
+}
+
+
+//@mixin theme--xl() { max-width: 1439px
+@media #{$media_xl} {
+	.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg {
+		height: 250px;
+	}
+}
+
+
+//@mixin theme--lg() { max-width: 1279px
+@media #{$media_lg} {
+	.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg {
+		height: 200px;
+	}
+}

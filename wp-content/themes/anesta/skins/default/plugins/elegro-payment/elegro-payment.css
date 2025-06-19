@@ -1,0 +1,51 @@
+/* Elegro Crypto payment styles
+----------------------------------------------------------------- */
+#modal {
+  position: static !important;
+  background: none !important;
+  overflow: visible;
+  padding: 0 !important;
+}
+#modal #elegro-reset-wrapper {
+  margin: 2em 0 3em;
+}
+#modal #elegro-reset-wrapper .elegro-widget {
+  margin: 0 !important;
+}
+
+#btn-buy {
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: var(--theme-var-rad);
+  -ms-border-radius: var(--theme-var-rad);
+  border-radius: var(--theme-var-rad);
+  white-space: nowrap;
+  height: auto;
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: var(--theme-color-accent_text);
+  border-color: var(--theme-color-accent_link);
+  background-color: var(--theme-color-accent_link);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_link_02);
+}
+
+#btn-buy:hover {
+  color: var(--theme-color-accent_text);
+  border-color: var(--theme-color-accent_hover);
+  background-color: var(--theme-color-accent_hover);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_hover_02);
+}
+
+#modal:not(:empty) + #btn-buy,
+#modal:not(:empty) ~ #btn-buy {
+  display: none;
+}
+
+/*# sourceMappingURL=elegro-payment.css.map */

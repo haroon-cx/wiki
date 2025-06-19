@@ -1,0 +1,1804 @@
+.page_content_blocks {
+  --theme-var-content_rad: 15px;
+  /* Single post 
+  ----------------------------------------------------------------- */
+  /* Hide sidebar */
+  /* Blog
+  ----------------------------------------------------------------- */
+  /* Blog - Excerpt
+  ----------------------------------------------------------------- */
+  /* Blog - Band
+  ----------------------------------------------------------------- */
+  /* Blog - Classic
+  ----------------------------------------------------------------- */
+  /* The Events Calendar
+  ----------------------------------------------------------------- */
+  /* WooCommerce
+  ----------------------------------------------------------------- */
+  /* BBPress and BuddyPress
+  ----------------------------------------------------------------- */
+  /* Profile navigation */
+  /* Better Messages
+  ----------------------------------------------------------------- */
+  /* BuddyPress Docs
+  ----------------------------------------------------------------- */
+  /* Knowledge Base
+  ----------------------------------------------------------------- */
+  /* Main Page */
+  /* Single post */
+  /* WP Job Manager
+  ----------------------------------------------------------------- */
+  /* Job preview */
+  /* WP Job Manager - Resume Manages
+  ----------------------------------------------------------------- */
+  /* Resume preview */
+  /* LearnDash LMS
+  ----------------------------------------------------------------- */
+  /* LearnPress
+  ----------------------------------------------------------------- */
+  /* LearnPress Profile */
+  /* Login / Register */
+  /* LearnPress Checkout */
+  /* Become Teacher */
+}
+.page_content_blocks .sc_layouts_title_caption {
+  margin-top: 0;
+}
+.page_content_blocks.single .post_item_single {
+  /* Without featured */
+  /* With featured */
+  /* With featured not on background */
+ /*
+& ~ .comments_wrap {
+	--theme-var-content_rad: 8px;
+}*/
+}
+.page_content_blocks.single .post_item_single .post_header_wrap:not(.with_featured_image) {
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.single .post_item_single:not(.post_type_attachment) .post_header_wrap .post_featured {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.single .post_item_single:not(.post_type_attachment) .post_header_wrap .post_featured:not(.post_featured_bg) + .post_header {
+  margin-top: var(--theme-var-grid_gap);
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.single .post_item_single .post_content_single,
+.page_content_blocks.single .post_item_single .post_footer_single, .page_content_blocks.single .post_item_single ~ .comments_wrap, .page_content_blocks.single .post_item_single ~ .related_wrap {
+  margin-top: var(--theme-var-grid_gap);
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.single .post_item_single .post_content_single {
+  --theme-var-content_rad: 8px;
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+.page_content_blocks.single.sidebar_hide .post_item_single .post_header_wrap .post_featured.post_featured_bg + .post_header {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.sidebar_hide .wp-block-columns.alignfull .wp-block-column,
+.page_content_blocks.sidebar_hide .wp-block-columns.alignwide .wp-block-column {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  padding: var(--theme-var-grid_gap);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.sidebar_hide .wp-block-columns.alignfull .wp-block-column:not(.has-background),
+.page_content_blocks.sidebar_hide .wp-block-columns.alignwide .wp-block-column:not(.has-background) {
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.blog .posts_header, .page_content_blocks.archive .posts_header, .page_content_blocks.search .posts_header {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 6px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.blog .posts_header + .posts_container, .page_content_blocks.archive .posts_header + .posts_container, .page_content_blocks.search .posts_header + .posts_container {
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) );
+}
+.page_content_blocks.blog .post_layout_excerpt + .post_layout_excerpt, .page_content_blocks.archive .post_layout_excerpt + .post_layout_excerpt, .page_content_blocks.search .post_layout_excerpt + .post_layout_excerpt {
+  border-top: none;
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_blocks.blog .post_layout_excerpt, .page_content_blocks.archive .post_layout_excerpt, .page_content_blocks.search .post_layout_excerpt {
+  overflow: hidden;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 9px ) );
+  background-color: var(--theme-color-content_bg);
+  /* Quote */
+}
+.page_content_blocks.blog .post_layout_excerpt.format-video, .page_content_blocks.blog .post_layout_excerpt.format-audio, .page_content_blocks.archive .post_layout_excerpt.format-video, .page_content_blocks.archive .post_layout_excerpt.format-audio, .page_content_blocks.search .post_layout_excerpt.format-video, .page_content_blocks.search .post_layout_excerpt.format-audio {
+  padding: 0;
+}
+.page_content_blocks.blog .post_layout_excerpt.format-quote blockquote, .page_content_blocks.archive .post_layout_excerpt.format-quote blockquote, .page_content_blocks.search .post_layout_excerpt.format-quote blockquote {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.page_content_blocks.blog .post_layout_band + .post_layout_band, .page_content_blocks.archive .post_layout_band + .post_layout_band, .page_content_blocks.search .post_layout_band + .post_layout_band {
+  border-top: none;
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_blocks.blog .post_layout_band, .page_content_blocks.archive .post_layout_band, .page_content_blocks.search .post_layout_band {
+  overflow: hidden;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.blog .post_layout_band .post_featured, .page_content_blocks.blog .post_layout_band.format-quote blockquote, .page_content_blocks.archive .post_layout_band .post_featured, .page_content_blocks.archive .post_layout_band.format-quote blockquote, .page_content_blocks.search .post_layout_band .post_featured, .page_content_blocks.search .post_layout_band.format-quote blockquote {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.page_content_blocks.blog .post_layout_classic, .page_content_blocks.archive .post_layout_classic, .page_content_blocks.search .post_layout_classic {
+  border: none;
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.single-tribe_events .type-tribe_events,
+.page_content_blocks.single-tribe_events .comments_wrap {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.single-tribe_events .type-tribe_events,
+.page_content_blocks.single-tribe_events .comments_wrap,
+.page_content_blocks.single-tribe_events #tribe-events-footer {
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-header,
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-calendar-day .tribe-events-calendar-day__event,
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-calendar-list .tribe-events-calendar-list__event-row,
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-calendar-month {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-calendar-day .tribe-events-calendar-day__event,
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-calendar-list .tribe-events-calendar-list__event-row,
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-calendar-month {
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-calendar-day .tribe-events-calendar-day__time-separator,
+.page_content_blocks.post-type-archive-tribe_events .tribe-events-calendar-list .tribe-events-calendar-list__month-separator {
+  margin-top: var(--theme-var-grid_gap);
+  margin-bottom: var(--theme-var-grid_gap);
+}
+.page_content_blocks.woocommerce-page {
+  /* Shop Mode - Thumbs */
+  /* Shop Mode - List */
+  /* Single Product page */
+  /* Checkout & Customer Details */
+  /* Account */
+}
+.page_content_blocks.woocommerce-page .list_products_top {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.woocommerce-page .list_products_top + .products {
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) );
+}
+.page_content_blocks.woocommerce-page .shop_mode_thumbs li.product .post_item {
+  overflow: hidden;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  transform: translate3d(0, 0, 0);
+}
+.page_content_blocks.woocommerce-page .shop_mode_thumbs li.product .post_data {
+  padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) ) calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.woocommerce-page .shop_mode_list li.product .post_item {
+  overflow: hidden;
+  border-top: none !important;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: var(--theme-var-grid_gap);
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.woocommerce-page div.product div.images {
+  margin-bottom: var(--theme-var-grid_gap);
+}
+.page_content_blocks.woocommerce-page div.product div.summary {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  margin-bottom: var(--theme-var-grid_gap);
+}
+.page_content_blocks.woocommerce-page.sidebar_hide div.product div.summary {
+  margin-left: var(--theme-var-grid_gap);
+  width: calc( 100% - var(--theme-var-single-product-gallery-width) - var(--theme-var-grid_gap));
+}
+.page_content_blocks.woocommerce-page div.product .related,
+.page_content_blocks.woocommerce-page div.product .woocommerce-tabs {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  margin-top: var(--theme-var-grid_gap);
+  border-top: none;
+}
+.page_content_blocks.woocommerce-page .woocommerce-billing-fields__field-wrapper,
+.page_content_blocks.woocommerce-page .woocommerce-additional-fields__field-wrapper,
+.page_content_blocks.woocommerce-page .woocommerce-shipping-fields .shipping_address,
+.page_content_blocks.woocommerce-page .woocommerce-customer-details {
+  border: none;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.woocommerce-page .woocommerce form.checkout_coupon {
+  border: none;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.woocommerce-page .woocommerce-customer-details {
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_blocks.woocommerce-page .woocommerce-customer-details .woocommerce-column__title {
+  margin-top: 0;
+}
+.page_content_blocks.woocommerce-page .woocommerce-shipping-fields .shipping_address {
+  margin-bottom: var(--theme-var-grid_gap);
+}
+.page_content_blocks.woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation, .page_content_blocks.woocommerce-page.woocommerce-account .woocommerce-MyAccount-content form {
+  border: none;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.woocommerce-page.woocommerce-account .woocommerce form.login {
+  border: none;
+}
+.page_content_blocks div#buddypress {
+  /* Profile header */
+  /* Profile navigation */
+  /* New post form */
+  /* Filters */
+  /* Activity */
+  /* Edit profile */
+  /* Friends */
+  /* Groups & Members search */
+  /* Groups & Members navigation */
+  /* Groups & Members filters */
+  /* Groups list */
+  /* Groups create */
+  /* Groups course */
+  /* Members list */
+  /* Send invites */
+  /* Group manage */
+  /* User settings */
+  /* Register & Login */
+}
+.page_content_blocks div#buddypress #item-header {
+  overflow: hidden;
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks div#buddypress #item-nav, .page_content_blocks div#buddypress > .activity-type-tabs {
+  border-top: 1px solid var(--theme-color-bd_color);
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 12px 12px #1d26260d;
+}
+.page_content_blocks div#buddypress #item-body #whats-new-form, .page_content_blocks div#buddypress > form#whats-new-form {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress > form#whats-new-form {
+  padding-bottom: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+}
+.page_content_blocks div#buddypress #item-body #subnav, .page_content_blocks div#buddypress > #subnav {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #activity-stream .activity-item {
+  border: none;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: var(--theme-var-grid_gap) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress .activity-item:not([style*="none;"]) + .activity-item,
+.page_content_blocks div#buddypress li.load-more + .activity-item,
+.page_content_blocks div#buddypress li.load-newest + .activity-item {
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_blocks div#buddypress .activity-item:not([style*="none;"]) + .activity-item[style*="none;"] {
+  margin-top: var(--theme-var-grid_gap);
+  display: block !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+.page_content_blocks div#buddypress .activity-item:not([style*="none;"]) + .activity-item[style*="none;"] > * {
+  display: none;
+}
+.page_content_blocks div#buddypress #item-body .profile:not(.activity-item) {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #item-body #friend-list,
+.page_content_blocks div#buddypress #item-body #members-list {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #groups-dir-search,
+.page_content_blocks div#buddypress #members-dir-search {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #groups-directory-form .item-list-tabs:not(#subnav),
+.page_content_blocks div#buddypress #members-directory-form .item-list-tabs:not(#subnav) {
+  border-bottom: 1px solid var(--theme-color-bd_color);
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) );
+  background-color: var(--theme-color-navigate_bg);
+}
+.page_content_blocks div#buddypress #groups-directory-form #subnav,
+.page_content_blocks div#buddypress #members-directory-form #subnav {
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 12px 12px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #groups-list > li,
+.page_content_blocks div#buddypress #group-list > li {
+  border: none;
+  box-shadow: 0 3px 20px #1d26260d;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #create-group-form {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress .learndash-wrapper {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress .learndash-wrapper .learndash-wrapper {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  background-color: transparent;
+}
+.page_content_blocks div#buddypress #members-group-list #member-list > li,
+.page_content_blocks div#buddypress #members-dir-list #members-list > li {
+  border: none;
+  box-shadow: 0 3px 20px #1d26260d;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #send-invite-form {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #group-settings-form {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #item-body #settings-form {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress #signup_form {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.logged-in) div#buddypress > .activity-type-tabs {
+  border-top: none;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_blocks div#bbpress-forums {
+  /* Forums & Topics */
+  /* Replies & Search */
+  /* Reply & Topic form */
+  /* Merge topics */
+  /* Topic tag form */
+}
+.page_content_blocks div#bbpress-forums .bbp-forums,
+.page_content_blocks div#bbpress-forums .bbp-topics {
+  border: none;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks div#bbpress-forums .bbp-replies .bbp-reply-content,
+.page_content_blocks div#bbpress-forums .bbp-replies .bbp-search-content,
+.page_content_blocks div#bbpress-forums .bbp-search-results .bbp-reply-content,
+.page_content_blocks div#bbpress-forums .bbp-search-results .bbp-search-content {
+  margin-left: 9.75em;
+}
+.page_content_blocks div#bbpress-forums .bbp-replies .bbp-header,
+.page_content_blocks div#bbpress-forums .bbp-replies .bbp-footer,
+.page_content_blocks div#bbpress-forums .bbp-search-results .bbp-header,
+.page_content_blocks div#bbpress-forums .bbp-search-results .bbp-footer {
+  border: none;
+  padding-left: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 21px ) );
+}
+.page_content_blocks div#bbpress-forums .bbp-replies .bbp-header,
+.page_content_blocks div#bbpress-forums .bbp-search-results .bbp-header {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+}
+.page_content_blocks div#bbpress-forums .bbp-replies .bbp-footer,
+.page_content_blocks div#bbpress-forums .bbp-search-results .bbp-footer {
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+}
+.page_content_blocks div#bbpress-forums .bbp-replies .bbp-body,
+.page_content_blocks div#bbpress-forums .bbp-search-results .bbp-body {
+  margin: 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#bbpress-forums .bbp-reply-form,
+.page_content_blocks div#bbpress-forums .bbp-topic-form,
+.page_content_blocks div#bbpress-forums #move_reply,
+.page_content_blocks div#bbpress-forums #split_topic {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#bbpress-forums .bbp-topic-merge {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#bbpress-forums .bbp-topic-tag-form {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress {
+  /* All */
+  /* Single media */
+}
+.page_content_blocks div#buddypress #item-body > .rtmedia-container {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks div#buddypress .rtmedia-single-container {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-messages .bp-messages-wrap {
+  box-shadow: 0 3px 20px #1d26260d;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs {
+  /* Page title */
+  /* Filters */
+  /* Pagination */
+  /* Docs filters */
+  /* Actions */
+  /* Table of documents */
+  /* Started by Me */
+  /* Create new doc */
+  /* Single doc */
+  /* Create new folder */
+  /* Manage folder */
+}
+.page_content_blocks.bp-docs .post_content_title {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) 0;
+  background-color: var(--theme-color-content_bg);
+  margin-bottom: 0;
+}
+.page_content_blocks.bp-docs .post_content_title:after {
+  display: none;
+}
+.page_content_blocks.bp-docs .post_content_title .sc_layouts_title_caption {
+  margin-bottom: 0;
+}
+.page_content_blocks.bp-docs #subnav {
+  box-shadow: 0  12px 12px #1d26260d;
+  padding: 17px calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) 0;
+  background-color: var(--theme-color-content_bg) !important;
+  overflow: hidden !important;
+}
+.page_content_blocks.bp-docs.hide_page_title #subnav {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+}
+.page_content_blocks.bp-docs .currently-viewing {
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 12px 12px #1d26260d;
+  padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 6px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .docs-filters {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) 0;
+  background-color: var(--theme-color-content_bg);
+  margin-bottom: 0;
+}
+.page_content_blocks.bp-docs .folder-action-links {
+  padding-left: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  padding-right: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .doctable_wrap {
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 12px 12px #1d26260d;
+  padding: 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .directory-title {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: var(--theme-var-grid_gap) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) 0;
+  background-color: var(--theme-color-content_bg);
+  margin-bottom: 0;
+}
+.page_content_blocks.bp-docs.bp-docs-create #subnav {
+  padding-bottom: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 12px ) );
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+}
+.page_content_blocks.bp-docs.bp-docs-create.hide_page_title #subnav {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_blocks.bp-docs.bp-docs-create #subnav + h2 {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) 0;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .doc-content {
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 12px 12px #1d26260d;
+  padding: 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .doc-content .doc-content {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  background-color: transparent;
+}
+.page_content_blocks.bp-docs #bp-docs-single-doc-header {
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 12px 12px #1d26260d;
+  padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px )) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px )) calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ));
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs #bp-docs-single-doc-header .doc-permissions:last-child {
+  margin-bottom: calc( var(--theme-var-grid_gap_koef) * 19px) !important;
+}
+.page_content_blocks.bp-docs .doc-tabs {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) 0;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .doc-meta,
+.page_content_blocks.bp-docs .doc-attachments {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .comments-area {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .create-new-folder {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.bp-docs .docs-folder-manage {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) !important;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks .eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+  /* Search */
+  /* Filters */
+  /* Panels */
+}
+.page_content_blocks .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) 0;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-doc-search-container .epkb-doc-search-container__title {
+  margin-top: -0.3em;
+}
+.page_content_blocks .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-main-nav {
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 12px 12px #1d26260d;
+  padding-left: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  padding-right: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  padding-bottom: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 20px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks .eckb-kb-template #epkb-main-page-container.epkb-tabs-template .epkb-top-category-box:before {
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks .eckb-kb-template > #eckb-article-page-container-v2 #eckb-article-body #eckb-article-content {
+  /* Header */
+  /* Body */
+}
+.page_content_blocks .eckb-kb-template > #eckb-article-page-container-v2 #eckb-article-body #eckb-article-content #eckb-article-content-header-v2 {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks .eckb-kb-template > #eckb-article-page-container-v2 #eckb-article-body #eckb-article-content #eckb-article-content-body {
+  border: none;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks .eckb-kb-template > #eckb-article-page-container-v2 #eckb-article-body #eckb-article-content #eckb-article-content-body > *:first-child {
+  margin-top: 0;
+}
+.page_content_blocks #job_preview {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks #resume_preview {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single {
+  padding: 0;
+  background-color: unset;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single .learndash-wrapper .ld-header.has_thumbnail {
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  margin: 0;
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single .learndash-wrapper .ld-header.has_thumbnail.with_info {
+  padding-right: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ));
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single .learndash-wrapper .ld-info {
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px #1d26260d;
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ));
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single .learndash-wrapper .ld-info .ld-info-video {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  position: relative;
+  bottom: unset;
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single .learndash-wrapper .ld-info .ld-info-content {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  border: none;
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single .learndash-wrapper .ld-content {
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single .learndash-wrapper .ld-content .ld-course-status {
+  margin-top: 0;
+}
+.page_content_blocks.single .post_item_single.sfwd-courses .post_content_single, .page_content_blocks.single .post_item_single.sfwd-lessons .post_content_single, .page_content_blocks.single .post_item_single.sfwd-topic .post_content_single, .page_content_blocks.single .post_item_single.sfwd-quiz .post_content_single {
+  margin-top: 0;
+}
+.page_content_blocks.single-sfwd-lessons .ld-course-context, .page_content_blocks.single-sfwd-topic .ld-course-context, .page_content_blocks.single-sfwd-quiz .ld-course-context {
+  margin: 0;
+  border: none;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.single-sfwd-lessons .post_item_single, .page_content_blocks.single-sfwd-topic .post_item_single, .page_content_blocks.single-sfwd-quiz .post_item_single {
+  margin-left: var(--theme-var-grid_gap);
+}
+.page_content_blocks #learndash_profile {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.single #learn-press-course-tabs.course-tabs {
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  box-shadow: 0 3px 20px #1d26260d;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_blocks.single .lp-archive-courses .course-summary .course-summary-content .lp-entry-content.lp-content-area .comments_wrap {
+  margin-top: var(--theme-var-grid_gap);
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.single .lp-archive-courses .course-summary .course-summary-content .course-extra-box {
+  background-color: var(--theme-color-content_bg);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks.single #learn-press-course .course-summary-sidebar .course-summary-sidebar__inner .course-sidebar-top {
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  box-shadow: 0 3px 20px #1d26260d;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_blocks.single #learn-press-course .course-summary-sidebar .course-sidebar-preview {
+  background: var(--theme-color-content_bg);
+}
+.page_content_blocks.single #learn-press-course .course-summary-sidebar .course-sidebar-preview .media-preview {
+  -webkit-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  -ms-border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  margin: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) ) calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 6px ) );
+}
+.page_content_blocks.single #learn-press-course .course-summary-sidebar .course-summary-sidebar__inner .course-sidebar-secondary .widget.learnpress {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks.single #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-time .course-time-row {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.page_content_blocks.single #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-time .course-time-row time, .page_content_blocks.single #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-time .course-time-row strong {
+  width: 100%;
+}
+.page_content_blocks.single .post_item_single.post_type_lp_lesson .post_content_single {
+  margin-top: 0;
+}
+.page_content_blocks #learn-press-profile.lp-user-profile .wrapper-profile-header {
+  margin-bottom: var(--theme-var-grid_gap);
+}
+.page_content_blocks #learn-press-profile.lp-user-profile #profile-sidebar {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) / 2 ) var(--theme-var-grid_gap);
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li:first-child {
+  border-top: none;
+}
+.page_content_blocks #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li:last-child {
+  border-bottom: none;
+}
+.page_content_blocks #learn-press-profile.lp-user-profile #profile-content {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks #learn-press-profile.lp-user-profile .lp-archive-courses .learn-press-courses[data-layout="grid"] .course-thumbnail img {
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_blocks #learn-press-profile.lp-user-profile .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-wrap-thumbnail + .course-content {
+  margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px ) );
+}
+.page_content_blocks #learn-press-profile.lp-user-profile .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content {
+  margin-top: 0;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: none;
+  padding: 0;
+  background-color: transparent;
+}
+.page_content_blocks #learn-press-profile.lp-user-profile .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content .course-title {
+  font-size: var(--theme-font-h4_font-size);
+  line-height: 1.3em;
+}
+.page_content_blocks .learnpress .learn-press-form-login,
+.page_content_blocks .learnpress .learn-press-form-register {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks .lp-checkout-form .lp-checkout-form__before,
+.page_content_blocks .lp-checkout-form .lp-checkout-form__after {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks .become-teacher-form {
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+
+/* Widgets
+----------------------------------------------------------------- */
+.page_content_blocks:not(.single-post):not(.single-job_listing) {
+  /* Elementor
+  ----------------------------------------------------------------- */
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) {
+  /* Theme styles
+  ----------------------------------------------------------------- */
+  /* Widgets */
+  /* TRX Addons styles
+  ----------------------------------------------------------------- */
+  /* Video */
+  /* Testimonials */
+  /* Blogger - Modern */
+  /* Blog - Excerpt */
+  /* Blog - Band */
+  /* Blog - Classic */
+  /* Icons */
+  /* Price */
+  /* Skills */
+  /* Calendar */
+  /* The Events Calendar
+  ----------------------------------------------------------------- */
+  /* WooCommerce
+  ----------------------------------------------------------------- */
+  /* BBPress and BuddyPress
+  ----------------------------------------------------------------- */
+  /* Recent Topics */
+  /* WP Job Manager
+  ----------------------------------------------------------------- */
+  /* All jobs */
+  /* Job summary */
+  /* WP Job Manager - Resumes Manager
+  --------------------------------------------- */
+  /* All resumes */
+  /* LearnDash LMS
+  ----------------------------------------------------------------- */
+  /* Courses list */
+  /* LearnPress
+  ----------------------------------------------------------------- */
+  /* Widgets */
+  /* Pagination */
+  /* Courses grid */
+  /* Courses list */
+  /* CF7
+  ----------------------------------------------------------------- */
+  /* Elementor
+  ----------------------------------------------------------------- */
+  /* Accordion */
+  /* Tabs */
+  /* Google Maps */
+  /* Icons box */
+  /* Image box */
+  /* Image */
+  /* Aller box */
+  /* Paid Memberships Pro
+  ----------------------------------------------------------------- */
+  /* M Chart
+  ----------------------------------------------------------------- */
+  /* Democracy Polls
+  ----------------------------------------------------------------- */
+  /* MailChimp
+  ----------------------------------------------------------------- */
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content table:not(.wp-calendar-table):not(.reports-list):not(.pmpro_table):not(.profile-fields):not(.shop_attributes):not(.variations):not(.doctable):not(.notification-settings):not(.toggle-table):not(.profile-settings):not(.post-revisions):not(.form-table):not(.lp-list-table), .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) table:not(.wp-calendar-table):not(.reports-list):not(.pmpro_table):not(.profile-fields):not(.shop_attributes):not(.variations):not(.doctable):not(.notification-settings):not(.toggle-table):not(.profile-settings):not(.post-revisions):not(.form-table):not(.lp-list-table) {
+  -webkit-border-radius: var(--theme-var-content_rad) !important;
+  -ms-border-radius: var(--theme-var-content_rad) !important;
+  border-radius: var(--theme-var-content_rad) !important;
+  border: none !important;
+  overflow: hidden;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content td > table:not(.wp-calendar-table):not(.reports-list):not(.pmpro_table):not(.profile-fields):not(.shop_attributes):not(.variations):not(.doctable):not(.notification-settings):not(.toggle-table):not(.profile-settings):not(.post-revisions):not(.form-table):not(.lp-list-table), .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) td > table:not(.wp-calendar-table):not(.reports-list):not(.pmpro_table):not(.profile-fields):not(.shop_attributes):not(.variations):not(.doctable):not(.notification-settings):not(.toggle-table):not(.profile-settings):not(.post-revisions):not(.form-table):not(.lp-list-table) {
+  -webkit-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  border-radius: 0px !important;
+  box-shadow: none;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-pages,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-archives,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-meta,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-search,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-categories,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-latest-posts,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-recent-posts,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-recent-comments,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-tag_cloud,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-nav_menu,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-calendar,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-latest-comments,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-page-list,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-tag-cloud,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-pages,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-archives,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-meta,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-search,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-categories,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-latest-posts,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-recent-posts,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-recent-comments,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-tag_cloud,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-nav_menu,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-calendar,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-latest-comments,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-page-list,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-tag-cloud, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-pages,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-archives,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-meta,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-search,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-categories,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-latest-posts,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-recent-posts,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-recent-comments,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-tag_cloud,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-nav_menu,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-calendar,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-latest-comments,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-page-list,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-tag-cloud,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-pages,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-archives,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-meta,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-search,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-categories,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-latest-posts,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-recent-posts,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-recent-comments,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-tag_cloud,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-nav_menu,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-calendar,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-latest-comments,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-page-list,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-tag-cloud {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-pages > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-archives > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-meta > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-categories > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-recent-posts > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-recent-comments:not(.has-avatars) > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-nav_menu > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-calendar > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-latest-comments:not(.has-avatars) > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-page-list > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-pages > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-archives > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-meta > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-categories > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-recent-posts > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-recent-comments:not(.has-avatars) > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-nav_menu > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-calendar > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-latest-comments:not(.has-avatars) > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-page-list > li, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-pages > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-archives > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-meta > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-categories > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-recent-posts > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-recent-comments:not(.has-avatars) > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-nav_menu > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-calendar > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-latest-comments:not(.has-avatars) > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-page-list > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-pages > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-archives > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-meta > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-categories > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-recent-posts > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-recent-comments:not(.has-avatars) > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-nav_menu > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-calendar > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-latest-comments:not(.has-avatars) > li,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-page-list > li {
+  margin-left: 17px;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_widget_calendar .wp-calendar-image, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_widget_calendar .wp-calendar-image {
+  margin-left: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) );
+  margin-right: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) );
+  margin-top: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) );
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-block-calendar .wp-calendar-nav,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_widget_calendar .wp-calendar-nav, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-block-calendar .wp-calendar-nav,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_widget_calendar .wp-calendar-nav {
+  margin-left: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) );
+  margin-right: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) );
+  margin-bottom: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) );
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_video.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_slider.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_audio.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_widget_calendar,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials:not(.is_block) .sc_testimonials_item,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger.is_block:not(.sc_blogger_default_over),
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_blogger_item,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_events.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_events:not(.is_block) .sc_events_item, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_video.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_slider.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_audio.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_widget_calendar,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials:not(.is_block) .sc_testimonials_item,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger.is_block:not(.sc_blogger_default_over),
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_blogger_item,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_events.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_events:not(.is_block) .sc_events_item {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_video.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_slider.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_audio.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_widget_calendar .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials:not(.is_block) .sc_testimonials_item .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger.is_block:not(.sc_blogger_default_over) .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_blogger_item .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_events.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_events:not(.is_block) .sc_events_item .sc_item_title:first-child, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_video.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_slider.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_audio.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_widget_calendar .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials:not(.is_block) .sc_testimonials_item .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger.is_block:not(.sc_blogger_default_over) .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_blogger_item .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_events.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_events:not(.is_block) .sc_events_item .sc_item_title:first-child {
+  margin-top: -0.2em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_video.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_video.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_slider.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_slider.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_audio.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .widget_audio.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_widget_calendar h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_widget_calendar h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials:not(.is_block) .sc_testimonials_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials:not(.is_block) .sc_testimonials_item h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger.is_block:not(.sc_blogger_default_over) h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger.is_block:not(.sc_blogger_default_over) h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_blogger_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_blogger_item h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_events.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_events.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_events:not(.is_block) .sc_events_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_events:not(.is_block) .sc_events_item h1.sc_item_title:first-child, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_video.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_video.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_slider.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_slider.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_audio.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .widget_audio.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_widget_calendar h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_widget_calendar h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials:not(.is_block) .sc_testimonials_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials:not(.is_block) .sc_testimonials_item h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger.is_block:not(.sc_blogger_default_over) h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger.is_block:not(.sc_blogger_default_over) h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_blogger_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_blogger_item h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_events.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_events.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_events:not(.is_block) .sc_events_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_events:not(.is_block) .sc_events_item h1.sc_item_title:first-child {
+  margin-top: -0.3em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_testimonials:not(.is_block) .sc_item_content > .sc_testimonials_item,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_item_content > .sc_item_container,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons:not(.is_block) .sc_item_content > .sc_icons_item, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_testimonials:not(.is_block) .sc_item_content > .sc_testimonials_item,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block):not(.sc_blogger_default_over):not(.sc_blogger_default_modern) .sc_item_content > .sc_item_container,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons:not(.is_block) .sc_item_content > .sc_icons_item {
+  margin-bottom: var(--theme-var-grid_gap);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .sc_blogger_item_default_modern .sc_blogger_item_body, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .sc_blogger_item_default_modern .sc_blogger_item_body {
+  border: none;
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_excerpt + .post_layout_excerpt, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_excerpt + .post_layout_excerpt {
+  border-top: none;
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_excerpt, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_excerpt {
+  overflow: hidden;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 9px ) );
+  background-color: var(--theme-color-content_bg);
+  /* Quote */
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_excerpt.format-video, .page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_excerpt.format-audio, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_excerpt.format-video, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_excerpt.format-audio {
+  padding: 0;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_excerpt.format-quote blockquote, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_excerpt.format-quote blockquote {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_band + .post_layout_band, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_band + .post_layout_band {
+  border-top: none;
+  margin-top: var(--theme-var-grid_gap);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_band, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_band {
+  overflow: hidden;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  /* Quote */
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_band.format-quote blockquote, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_band.format-quote blockquote {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_blogger:not(.is_block) .post_layout_classic, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_blogger:not(.is_block) .post_layout_classic {
+  border: none;
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_default.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_modern.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_classic.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_default:not(.is_block) .sc_icons_item,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_classic:not(.is_block) .sc_icons_item, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_default.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_modern.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_classic.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_default:not(.is_block) .sc_icons_item,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_classic:not(.is_block) .sc_icons_item {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 6px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_default.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_modern.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_classic.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_default:not(.is_block) .sc_icons_item .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_classic:not(.is_block) .sc_icons_item .sc_item_title:first-child, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_default.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_modern.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_classic.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_default:not(.is_block) .sc_icons_item .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_classic:not(.is_block) .sc_icons_item .sc_item_title:first-child {
+  margin-top: -0.2em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_default.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_default.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_modern.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_modern.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_classic.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_classic.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_default:not(.is_block) .sc_icons_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_default:not(.is_block) .sc_icons_item h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_classic:not(.is_block) .sc_icons_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_classic:not(.is_block) .sc_icons_item h1.sc_item_title:first-child, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_default.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_default.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_modern.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_modern.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_classic.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_classic.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_default:not(.is_block) .sc_icons_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_default:not(.is_block) .sc_icons_item h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_classic:not(.is_block) .sc_icons_item h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_classic:not(.is_block) .sc_icons_item h1.sc_item_title:first-child {
+  margin-top: -0.3em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_icons_modern:not(.is_block) .sc_icons_item, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_icons_modern:not(.is_block) .sc_icons_item {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ) calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 7px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_price.is_block, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_price.is_block {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_price.is_block .sc_item_title:first-child, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_price.is_block .sc_item_title:first-child {
+  margin-top: -0.2em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_price.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_price.is_block h1.sc_item_title:first-child, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_price.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_price.is_block h1.sc_item_title:first-child {
+  margin-top: -0.3em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_price:not(.is_block) .sc_price_item, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_price:not(.is_block) .sc_price_item {
+  border: none;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills:not(.is_block) .sc_skills_item_wrap, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills:not(.is_block) .sc_skills_item_wrap {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills:not(.is_block) .sc_skills_item_wrap .sc_item_title:first-child, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills.is_block .sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills:not(.is_block) .sc_skills_item_wrap .sc_item_title:first-child {
+  margin-top: -0.2em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills:not(.is_block) .sc_skills_item_wrap h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills:not(.is_block) .sc_skills_item_wrap h1.sc_item_title:first-child, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills.is_block h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills.is_block h1.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills:not(.is_block) .sc_skills_item_wrap h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills:not(.is_block) .sc_skills_item_wrap h1.sc_item_title:first-child {
+  margin-top: -0.3em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills:not(.is_block)[data-col="2"] .sc_skills_item_wrap, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills:not(.is_block)[data-col="2"] .sc_skills_item_wrap {
+  padding: 20px calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 7px ) );
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .sc_skills:not(.is_block):not([data-col="1"]):not([data-col="2"]) .sc_skills_item_wrap, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .sc_skills:not(.is_block):not([data-col="1"]):not([data-col="2"]) .sc_skills_item_wrap {
+  padding: 17px;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .tribe-events-widget, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .tribe-events-widget {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-woocommerce_top_rated_products,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-woocommerce_products,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-woocommerce_product_tag_cloud,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-woocommerce_product_categories,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-woocommerce_product_search,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-woocommerce_widget_cart,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-woocommerce_recent_reviews, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-woocommerce_top_rated_products,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-woocommerce_products,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-woocommerce_product_tag_cloud,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-woocommerce_product_categories,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-woocommerce_product_search,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-woocommerce_widget_cart,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-woocommerce_recent_reviews {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bbp_topics_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bp_core_recently_active_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bp_core_whos_online_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bp_core_members_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bp_groups_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-widget_recent_bp_docs,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bbp_login_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bbp_search_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bbp_forums_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bbp_replies_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-bbp_views_widget, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bbp_topics_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bp_core_recently_active_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bp_core_whos_online_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bp_core_members_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bp_groups_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-widget_recent_bp_docs,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bbp_login_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bbp_search_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bbp_forums_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bbp_replies_widget,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-bbp_views_widget {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content div.job_listings,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .job_shortcode,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-widget_recent_jobs,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content #submit-job-form, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) div.job_listings,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .job_shortcode,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-widget_recent_jobs,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) #submit-job-form {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .job_summary_shortcode, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .job_summary_shortcode {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  border: none;
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content div.resumes,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content #submit-resume-form,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-widget_recent_resumes, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) div.resumes,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) #submit-resume-form,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-widget_recent_resumes {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .ld-course-list-content .ld-course-list-items .ld_course_grid .course img,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .ld-course-list-content .ld-course-list-items .ld_course_grid .course .ld_course_grid_video_embed, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .ld-course-list-content .ld-course-list-items .ld_course_grid .course img,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .ld-course-list-content .ld-course-list-items .ld_course_grid .course .ld_course_grid_video_embed {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .ld-course-list-content .ld-course-list-items .ld_course_grid .course .caption, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .ld-course-list-content .ld-course-list-items .ld_course_grid .course .caption {
+  margin-top: 0;
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 7px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 11px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .ld-course-list-content .ld-course-list-items .ld_course_grid .course .caption h3, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .ld-course-list-content .ld-course-list-items .ld_course_grid .course .caption h3 {
+  font-size: var(--theme-font-h3_font-size);
+  line-height: 1.217em;
+  margin-top: -2px !important;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .learnpress.widget, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .learnpress.widget {
+  margin-bottom: var(--theme-var-grid_gap);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-learnpress_widget_course_featured,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-learnpress_widget_course_popular,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-learnpress_widget_course_recent,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-learnpress_widget_course_progress,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-learnpress_widget_course_info,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-learnpress_widget_course_extra, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-learnpress_widget_course_featured,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-learnpress_widget_course_popular,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-learnpress_widget_course_recent,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-learnpress_widget_course_progress,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-learnpress_widget_course_info,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-learnpress_widget_course_extra {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-lduserstatus, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-lduserstatus {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .learn-press-pagination, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .learn-press-pagination {
+  margin-top: var(--theme-var-grid_gap);
+  padding-top: 0;
+  border: none;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="grid"] .course-thumbnail img, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .lp-archive-courses .learn-press-courses[data-layout="grid"] .course-thumbnail img {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content {
+  margin-top: 0;
+  -webkit-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  -ms-border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 7px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 11px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="list"] .course-thumbnail img, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .lp-archive-courses .learn-press-courses[data-layout="list"] .course-thumbnail img {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="list"] .course + .course, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .lp-archive-courses .learn-press-courses[data-layout="list"] .course + .course {
+  margin-top: var(--theme-var-grid_gap);
+  padding-top: 0;
+  border: none;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  background-color: var(--theme-color-content_bg);
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content {
+  -webkit-border-radius: 0 var(--theme-var-content_rad) var(--theme-var-content_rad) 0;
+  -ms-border-radius: 0 var(--theme-var-content_rad) var(--theme-var-content_rad) 0;
+  border-radius: 0 var(--theme-var-content_rad) var(--theme-var-content_rad) 0;
+  padding: calc(var(--theme-var-grid_gap) / 2) var(--theme-var-grid_gap);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wpcf7, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wpcf7 {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-accordion,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-toggle,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-testimonial-wrapper, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-accordion,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-toggle,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-testimonial-wrapper {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-tabs, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-tabs {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 8px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-widget-google_maps iframe, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-widget-google_maps iframe {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-icon-box-wrapper, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-icon-box-wrapper {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ) 20px calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 8px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-icon-box-wrapper:hover, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-icon-box-wrapper:hover {
+  background-color: var(--theme-color-accent_link);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-icon-box-wrapper:hover .elementor-icon, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-icon-box-wrapper:hover .elementor-icon {
+  fill: var(--theme-color-accent_text);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-icon-box-wrapper:hover .elementor-icon-box-title, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-icon-box-wrapper:hover .elementor-icon-box-title {
+  color: var(--theme-color-accent_text);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-image-box-wrapper, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-image-box-wrapper {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ) 10px calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-widget-image img, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-widget-image img {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-alert, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-alert {
+  box-shadow: 0 3px 20px #1d26260d;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .elementor-alert[class*="elementor-alert-"], .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .elementor-alert[class*="elementor-alert-"] {
+  border: none;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content #pmpro_account .pmpro_box,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_member_profile_edit_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_change_password_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_login_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_lost_password_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_invoice_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_billing_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_cancel_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_checkout_gateway-none,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_confirmation_wrap, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) #pmpro_account .pmpro_box,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_member_profile_edit_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_change_password_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_login_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_lost_password_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_invoice_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_billing_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_cancel_wrap,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_checkout_gateway-none,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_confirmation_wrap {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .pmpro_content_message, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .pmpro_content_message {
+  box-shadow: 0 3px 20px #1d26260d;
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .m-chart-container, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .m-chart-container {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-democracy.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-democracy:not(.is_block) .democracy, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-democracy.is_block,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-democracy:not(.is_block) .democracy {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .wp-widget-mc4wp_form_widget, .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .wp-widget-mc4wp_form_widget {
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-inner-section {
+  --theme-var-content_rad: 8px;
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px #1d26260d;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  background-color: var(--theme-color-content_bg);
+  overflow: hidden;
+  /* TRX Addons styles
+  ----------------------------------------------------------------- */
+  /* Title */
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-inner-section .elementor-widget-trx_sc_title:first-child .sc_item_title:first-child {
+  margin-top: -0.2em;
+}
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-inner-section .elementor-widget-trx_sc_title:first-child h2.sc_item_title:first-child,
+.page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-inner-section .elementor-widget-trx_sc_title:first-child h1.sc_item_title:first-child {
+  margin-top: -0.3em;
+}
+
+/*# sourceMappingURL=blocks.css.map */

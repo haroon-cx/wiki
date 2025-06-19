@@ -1,0 +1,1 @@
+To avoid warnings from the W3C validator, all calls createElement("div") are replaced with createElement("span") in the script odometer.min.js

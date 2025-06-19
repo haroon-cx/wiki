@@ -1,0 +1,42 @@
+@import "../../../css/_mixins.scss";
+@import "../../../css/_theme-vars.scss";
+@import "_skin-vars.scss";
+
+
+.anesta_scheme_editor_header_cell:first-child, 
+.anesta_scheme_editor_row_cell:first-child {
+  min-width: 145px;
+}
+#customize-theme-controls #accordion-section-login_privacy .accordion-section-title:before {
+    content: '\e82b';
+}
+#customize-theme-controls #accordion-section-buddypress .accordion-section-title:before {
+    content: '\f501';
+}
+#customize-theme-controls #accordion-section-buddypress_docs .accordion-section-title:before {
+    content: '\f0c5';
+}
+#customize-theme-controls #accordion-section-echo_knowledge_base .accordion-section-title:before {
+    content: '\e81b';
+}
+#customize-theme-controls #accordion-section-sfwd-lms .accordion-section-title:before {
+    content: '\e9e5';
+}
+#customize-theme-controls #accordion-section-wp-job-manager .accordion-section-title:before {
+    content: '\e9ae';
+}
+#customize-theme-controls #accordion-section-wp-job-manager-resumes .accordion-section-title:before {
+    content: '\e9ae';
+}
+
+.customize-control-header > div > .customize-control-title {
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #fcfcfc;
+	color: #626467;
+	border-top: 1px solid #ddd !important;
+	border-bottom: 1px solid #ddd !important;
+	border-left: 4px solid #1e8cbe;
+	margin: 1em -12px;
+	padding: 0.8em 12px;
+}

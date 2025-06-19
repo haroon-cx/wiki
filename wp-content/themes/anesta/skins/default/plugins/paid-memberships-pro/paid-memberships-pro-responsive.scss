@@ -1,0 +1,75 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+//@mixin theme--md() { max-width: 1023px
+@media #{$media_md} {
+	/* Paid Memberships Pro */ 
+
+	form.pmpro_form .pmpro_btn, 
+	.pmpro_login_wrap #loginform input[type="submit"] {
+		display: inline-block;
+		width: auto;
+	}
+}
+
+
+//@mixin theme--sm() { max-width:  767px
+@media #{$media_sm} {
+	/* Paid Memberships Pro */ 
+
+	.pmpro_table,
+	.pmpro_table th {
+		font-size: 14px;
+		line-height: 1.6em;
+	}
+}
+
+
+//@mixin theme--sm_wp() { max-width:  600px
+@media #{$media_sm_wp} {
+	/* Paid Memberships Pro */ 
+
+	.pmpro_table .pmpro_actionlinks a { 
+		display: block;  
+		margin-right: 0;
+	}
+	form.pmpro_form .pmpro_member_profile_edit-fields div {
+		width: 100%;
+
+		input[type="text"], 
+		input[type="password"] {
+			width: 100%;
+		}
+	}
+	.pmpro_invoice_wrap .pmpro_actions_nav {
+		flex-direction: column-reverse;
+	}
+}
+
+
+//@mixin theme--xs() { max-width:  479px
+@media #{$media_xs} {
+	/* Paid Memberships Pro */ 
+	
+	.pmpro_table_wrap {
+		overflow-x: auto;
+		padding-bottom: 15px; 
+
+		.pmpro_table {    
+			min-width: 360px;
+		}
+	}
+
+	form.pmpro_form .pmpro_btn, 
+	.pmpro_login_wrap #loginform input[type="submit"] {
+		display: block;
+		margin: 0;
+
+		& + .pmpro_btn,
+		& + input[type="submit"] {
+			margin-top: 15px;
+		}
+	}
+}

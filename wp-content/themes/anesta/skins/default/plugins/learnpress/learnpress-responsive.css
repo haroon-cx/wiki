@@ -1,0 +1,1037 @@
+@media (max-width: 1679px) {
+  html:not(.edit-post-visual-editor).overflow-y-hidden #page_content_switcher,
+  html:not(.edit-post-visual-editor).overflow-y-hidden #color_scheme_switcher {
+    right: 0.5em;
+  }
+  html:not(.edit-post-visual-editor).overflow-y-hidden .trx_addons_scroll_to_top {
+    right: 0.5em !important;
+  }
+
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-permalink .course-title,
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content .course-permalink .course-title {
+    font-size: 20px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content .course-wrap-meta {
+    padding-top: 13px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail {
+    width: 36%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content {
+    width: 64%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-wrap-meta {
+    padding-top: 8px;
+    padding-bottom: 20px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-footer {
+    padding-top: 15px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout] .course .course-item .course-content .course-wrap-meta .meta-item {
+    margin-right: 18px;
+  }
+  .lp-archive-courses .learn-press-courses .course-content .course-info .course-price .price,
+  .lp-archive-courses .learn-press-courses .course-content .course-info .course-price .free {
+    font-size: 19px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-title {
+    font-size: 24px;
+    margin: 40px 0 20px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item {
+    margin-right: 18px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .lp-entry-content.lp-content-area .entry-content-left form.comment-form .comments_i_agree_privacy_policy {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price {
+    margin-bottom: 22px;
+  }
+  #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price .free,
+  #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price .price {
+    font-size: 26px;
+  }
+
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .item-icon,
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .item-name {
+    font-size: 14px;
+    padding: 10px 7px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link:before {
+    padding: 10px 0;
+  }
+
+  #learn-press-profile.lp-user-profile #profile-content #profile-content-settings .learn-press-tabs label {
+    padding: 15px 30px;
+  }
+}
+@media (max-width: 1439px) {
+  .learnpress .learn-press-form-login button[type="submit"],
+  .learnpress .learn-press-form-register button[type="submit"],
+  .learnpress #learn-press-profile-basic-information button[type="submit"],
+  .learnpress-page .lp-button, .learnpress-page #lp-button,
+  .lp-user-profile .lp-profile-content .lp-button,
+  #popup-course #popup-header .lp-button,
+  #popup-course #popup-content .lp-button,
+  #popup-course #popup-content .lp-button.completed,
+  .learnpress.widget_course_featured .lp-widget-featured-courses__footer__link,
+  .elementor-widget-wp-widget-learnpress_widget_course_featured .lp-widget-featured-courses__footer__link,
+  .learnpress.widget_course_recent .lp-widget-recent-courses__footer__link,
+  .elementor-widget-wp-widget-learnpress_widget_course_recent .lp-widget-recent-courses__footer__link,
+  .learnpress.widget_course_popular .lp-widget-popular-courses__footer__link,
+  .elementor-widget-wp-widget-learnpress_widget_course_popular .lp-widget-popular-courses__footer__link,
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-readmore a {
+    font-size: 11px;
+  }
+
+  .lp-archive-courses .learn-press-courses-header h1 {
+    font-size: 26px;
+  }
+  .lp-archive-courses .lp-badge.featured-course {
+    padding: 7px 14px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-permalink .course-title,
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content .course-permalink .course-title {
+    font-size: 18px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail {
+    width: 42%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content {
+    width: 58%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-wrap-meta {
+    padding-top: 6px;
+    padding-bottom: 16px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-footer {
+    padding-top: 12px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content .course-footer {
+    padding-top: 18px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content .course-wrap-meta {
+    padding-top: 12px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content .course-permalink {
+    margin-bottom: 12px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-wrap-thumbnail + .course-content {
+    margin-top: 15px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout] .course .course-item .course-content .course-wrap-meta .meta-item {
+    font-size: 13px;
+    margin-right: 11px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout] .course .course-item .course-content .course-wrap-meta .meta-item:before {
+    margin-right: 4px;
+  }
+  .lp-archive-courses .lp-entry-content .entry-content-left {
+    width: calc(100% - 260px);
+  }
+  .lp-archive-courses .course-summary-sidebar {
+    width: 260px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-title {
+    font-size: 22px;
+    padding-bottom: 15px;
+    margin: 30px 0 15px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item .meta-item__value > div a {
+    font-size: 14px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .course-meta__pull-left .meta-item {
+    margin-right: 20px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .meta-item.meta-item-instructor .meta-item__image {
+    margin-right: 12px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .meta-item.meta-item-categories:before {
+    margin-right: 12px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-extra-box .course-extra-box__title {
+    font-size: 14px;
+    height: 46px;
+    line-height: 46px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-extra-box .course-extra-box__title:after {
+    top: 16px;
+  }
+  .lp-archive-courses .learn-press-courses .course-content .course-info .course-price .price,
+  .lp-archive-courses .learn-press-courses .course-content .course-info .course-price .free {
+    font-size: 18px;
+  }
+  .lp-archive-courses .learn-press-courses .course .course-item .course-content .course-info .course-excerpt {
+    font-size: 14px;
+  }
+
+  .lp-content-wrap > h2 {
+    font-size: 26px;
+  }
+
+  #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price {
+    margin-bottom: 20px;
+  }
+  #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price .free,
+  #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price .price {
+    font-size: 24px;
+  }
+  #learn-press-course .course-summary-sidebar .course-featured-review .featured-review__content:after {
+    font-size: 160px;
+  }
+
+  #learn-press-course-tabs.course-tabs ul.learn-press-nav-tabs .course-nav label {
+    padding: 15px 8px 14px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-header .section-title {
+    font-size: 17px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-header .section-meta {
+    padding-top: 13px;
+    padding-bottom: 11px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item {
+    padding: 0 12px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .item-icon,
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .item-name {
+    padding: 8px 5px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .course-item-meta {
+    padding: 8px 0;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .course-item-meta .item-meta {
+    margin-left: 5px;
+    padding: 0 12px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .course-item-meta .item-meta.course-item-preview {
+    margin-left: 1px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .course-item-meta .item-meta.course-item-preview:before {
+    padding: 0 12px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link:before {
+    padding: 8px 0;
+    width: 15px;
+    font-size: 15px;
+  }
+  #learn-press-course-tabs.course-tabs .course-tab-panel-instructor .course-author .author-title a {
+    font-size: 17px;
+  }
+  #learn-press-course-tabs.course-tabs .course-tab-panel-faqs .course-faqs-box .course-faqs-box__title {
+    font-size: 16px;
+  }
+
+  #popup-course #sidebar-toggle {
+    left: 370px;
+  }
+  #popup-course #popup-header,
+  #popup-course #popup-footer {
+    left: 370px;
+  }
+  #popup-course #popup-header .popup-header__inner .course-title a {
+    font-size: 24px;
+  }
+  #popup-course #popup-sidebar {
+    flex-basis: 370px;
+  }
+  #popup-course #popup-sidebar .course-curriculum {
+    width: 370px;
+  }
+  #popup-course #popup-sidebar #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-header {
+    height: 80px;
+    padding: 30px 20px 20px 20px;
+  }
+  #popup-course #popup-sidebar #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-header .section-left .section-title {
+    font-size: 16px;
+  }
+  #popup-course #popup-sidebar #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item {
+    min-height: 40px;
+    padding: 10px 12px;
+  }
+  #popup-course #popup-sidebar #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .item-name {
+    padding: 0 7px;
+  }
+  #popup-course #popup-sidebar #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .course-item-meta .item-meta {
+    margin-left: 8px;
+  }
+  #popup-course #popup-content #learn-press-content-item .content-item-wrap .content-item-summary .course-item-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .quiz-buttons > * {
+    margin-top: 25px;
+  }
+  #popup-course .quiz-results,
+  #popup-course .quiz-content,
+  #popup-course .quiz-questions,
+  #popup-course .quiz-buttons,
+  #popup-course .quiz-attempts {
+    margin-bottom: 15px;
+  }
+
+  #learn-press-profile.lp-user-profile tbody tr td,
+  #learn-press-profile.lp-user-profile tbody tr th,
+  #learn-press-profile.lp-user-profile tfoot tr td,
+  #learn-press-profile.lp-user-profile tfoot tr th {
+    padding: 10px 12px;
+  }
+  #learn-press-profile.lp-user-profile #profile-content #profile-content-settings .learn-press-tabs label {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  #learn-press-checkout #checkout-order .order-total .col-number {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1279px) {
+  .lp-archive-courses .learn-press-courses-header h1 {
+    font-size: 24px;
+  }
+  .lp-archive-courses .lp-archive-courses .lp-courses-bar .search-courses {
+    margin-right: 20px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail {
+    width: 35%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content {
+    padding: 0 25px;
+    width: 65%;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-title {
+    font-size: 21px;
+  }
+
+  .lp-content-wrap > h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  #popup-course #popup-footer .course-item-nav .prev a,
+  #popup-course #popup-footer .course-item-nav .next a {
+    font-size: 12px;
+  }
+  #popup-course #popup-header .lp-button {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  #popup-course #popup-header .popup-header__inner {
+    width: 100%;
+  }
+  #popup-course #popup-header .popup-header__inner .course-title a {
+    font-size: 22px;
+  }
+  #popup-course #popup-content #learn-press-content-item .content-item-wrap {
+    margin: 40px auto 0;
+  }
+  #popup-course #popup-content #learn-press-content-item .content-item-wrap .content-item-summary .course-item-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  #popup-course #popup-content #content-item-quiz .quiz-intro-item {
+    margin: 0 20px 0 0;
+  }
+
+  #learn-press-profile.lp-user-profile #dashboard-general-statistic .dashboard-general-statistic__row .statistic-box {
+    padding: 10px 13px;
+  }
+
+  #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price .free,
+  #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price .price {
+    font-size: 22px;
+  }
+
+  #learn-press-course-tabs.course-tabs {
+    margin-top: 20px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-header .section-title {
+    font-size: 16px;
+  }
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .item-icon,
+  #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .item-name {
+    font-size: 13px;
+  }
+
+  #learn-press-checkout #checkout-order .order-total .col-number {
+    font-size: 18px;
+  }
+
+  .learnpress.widget .widgettitle {
+    font-size: 19px;
+  }
+
+  .learnpress-widget-wrapper .lp-widget-featured-courses .lp-widget-course .lp-widget-course__content .lp-widget-course__meta .lp-widget-course__price,
+  .learnpress-widget-wrapper .lp-widget-popular-courses .lp-widget-course .lp-widget-course__content .lp-widget-course__meta .lp-widget-course__price,
+  .learnpress-widget-wrapper .lp-widget-recent-courses .lp-widget-course .lp-widget-course__content .lp-widget-course__meta .lp-widget-course__price {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1023px) {
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course {
+    width: 50%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail {
+    width: 42%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content {
+    width: 58%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-wrap-meta {
+    grid-gap: unset;
+    padding-top: 4px;
+    padding-bottom: 12px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-footer {
+    padding-top: 10px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-title {
+    font-size: 20px;
+  }
+  .lp-archive-courses .lp-entry-content {
+    flex-direction: row;
+  }
+  .lp-archive-courses .lp-entry-content .entry-content-left {
+    width: calc(100% - 240px);
+    margin-bottom: 0;
+  }
+  .lp-archive-courses .course-summary-sidebar {
+    width: 240px;
+  }
+
+  #popup-course #sidebar-toggle {
+    left: 310px;
+  }
+  #popup-course #popup-header,
+  #popup-course #popup-footer {
+    left: 310px;
+  }
+  #popup-course #popup-header .popup-header__inner .course-title a {
+    font-size: 20px;
+  }
+  #popup-course #popup-sidebar {
+    flex-basis: 310px;
+  }
+  #popup-course #popup-sidebar .course-curriculum {
+    width: 310px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .quiz-status .questions-index {
+    margin-bottom: 10px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .quiz-status > div {
+    height: auto;
+    max-width: none;
+    padding: 15px 20px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .question-title {
+    font-size: 16px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .answer-option .option-title {
+    font-size: 14px;
+    padding: 13px 15px 13px 49px;
+  }
+
+  #learn-press-profile.lp-user-profile .wrapper-profile-header .lp-profile-right {
+    width: 100%;
+    float: none;
+  }
+  #learn-press-profile.lp-user-profile .wrapper-profile-header .lp-profile-content-area .lp-profile-username {
+    font-size: 17px;
+  }
+  #learn-press-profile.lp-user-profile .learn-press-profile-course__tab__inner a {
+    padding: 10px 20px;
+  }
+  #learn-press-profile.lp-user-profile #profile-content #profile-content-settings .learn-press-tabs {
+    margin-bottom: 20px;
+  }
+  #learn-press-profile.lp-user-profile #profile-content #profile-content-settings .learn-press-tabs label {
+    padding: 10px 15px;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar {
+    width: 100%;
+    float: none;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li {
+    float: left;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li,
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li:first-child {
+    border: none;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li > a {
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li > a > i {
+    line-height: 20px;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li:last-child > a {
+    margin-right: 0;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li > a,
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li.active a {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li.has-child > a:after {
+    display: none;
+  }
+
+  #learn-press-course-tabs.course-tabs .course-tab-panel-faqs .course-faqs-box .course-faqs-box__title {
+    font-size: 15px;
+  }
+
+  #learn-press-checkout .lp-checkout-form__before,
+  #learn-press-checkout .lp-checkout-form__after {
+    width: 100%;
+    float: none;
+  }
+  #learn-press-checkout .lp-checkout-form__before + .lp-checkout-form__after {
+    margin-bottom: var(--theme-var-grid_gap);
+  }
+
+  /* Specfic */
+  .page_content_blocks #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav {
+    border-top: none;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .page_content_blocks #learn-press-profile.lp-user-profile #profile-sidebar + #profile-content {
+    margin-top: var(--theme-var-grid_gap);
+  }
+}
+@media (max-width: 767px) {
+  .lp-courses-bar {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .lp-courses-bar .search-courses {
+    margin-right: 15px;
+  }
+
+  .learn-press-pagination {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .learn-press-pagination .page-numbers > li {
+    padding: 0 10px;
+  }
+  .learn-press-pagination .page-numbers > li .page-numbers {
+    font-size: 14px;
+  }
+
+  .lp-archive-courses .learn-press-courses-header h1 {
+    font-size: 22px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content .course-permalink .course-title,
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course .course-item .course-content .course-permalink .course-title {
+    font-size: 17px;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="grid"] .course {
+    width: 100%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content {
+    width: 100%;
+    padding: 0;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail {
+    width: 100%;
+  }
+  .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail + .course-content {
+    margin-top: 17px;
+  }
+  .lp-archive-courses .learn-press-courses .course-content .course-info .course-price .price,
+  .lp-archive-courses .learn-press-courses .course-content .course-info .course-price .free {
+    font-size: 17px;
+  }
+  .lp-archive-courses .learn-press-courses .course-content .course-info .course-price .origin-price {
+    font-size: 15px;
+  }
+  .lp-archive-courses .lp-entry-content {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .lp-archive-courses .lp-entry-content .entry-content-left {
+    width: 100%;
+  }
+  .lp-archive-courses .course-summary-sidebar {
+    width: 100%;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info {
+    padding: 20px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-title {
+    font-size: 19px;
+    margin: 20px 0 10px;
+    padding-bottom: 10px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    grid-gap: unset;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item .meta-item__value label {
+    font-size: 13px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item .meta-item__value label + div {
+    margin-top: 5px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item .meta-item__value > div a {
+    font-size: 13px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary {
+    margin-bottom: 20px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .meta-item.meta-item-categories:before {
+    top: 3px;
+    font-size: 30px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .meta-item.meta-item-instructor .meta-item__image {
+    flex: 0 0 40px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .meta-item.meta-item-instructor .meta-item__image img {
+    width: 40px;
+    height: 40px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .lp-entry-content.lp-content-area .entry-content-left {
+    padding-right: 0;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs + .course-extra-box {
+    margin-top: 20px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-tab-panels .course-tab-panel {
+    padding-top: 20px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-tab-panel-faqs {
+    padding-top: 15px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-tab-panel-faqs .course-faqs-box .course-faqs-box__title {
+    padding: 12px 30px 12px 0;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-tab-panel-faqs .course-faqs-box .course-faqs-box__title:after {
+    top: 14px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-tab-panel-instructor .course-author .lp-course-author .course-author__pull-left {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs ul.learn-press-nav-tabs {
+    display: inline-block;
+    border-bottom: none;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs ul.learn-press-nav-tabs .course-nav {
+    margin-right: 20px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs ul.learn-press-nav-tabs .course-nav:last-child {
+    margin-right: 0;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs ul.learn-press-nav-tabs .course-nav.active:before {
+    bottom: 0;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs ul.learn-press-nav-tabs .course-nav label {
+    font-size: 13px;
+    padding: 7px 0;
+    display: inline-block;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections > li + li {
+    margin-top: 20px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-header .section-title {
+    font-size: 15px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-header .section-meta {
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item {
+    padding: 12px 15px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .course-item-meta {
+    margin-top: 7px;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .course-item-meta .item-meta:first-child {
+    margin-left: 0;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .item-name {
+    display: inline-block;
+    width: calc(100% - 20px);
+    font-size: 14px;
+    padding: 0;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link:before {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0;
+  }
+
+  .lp-content-wrap > h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  #popup-course #sidebar-toggle {
+    z-index: 9999;
+    left: calc(100% - 20px);
+    top: 110px;
+    width: 20px;
+    height: 50px;
+  }
+  #popup-course #popup-header,
+  #popup-course #popup-footer {
+    left: 100%;
+  }
+  #popup-course #popup-header .popup-header__inner {
+    padding: 15px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  #popup-course #popup-header .popup-header__inner .course-title {
+    flex: 0;
+    padding-right: 0;
+  }
+  #popup-course #popup-header .popup-header__inner .course-title a {
+    font-size: 18px;
+  }
+  #popup-course #popup-header .popup-header__inner .items-progress {
+    margin-top: 8px;
+    flex: 0;
+    padding-bottom: 0;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  #popup-course #popup-header .lp-button {
+    margin: 8px 0 0 0;
+    padding: 5px 20px;
+  }
+  #popup-course #popup-sidebar {
+    flex-basis: 100%;
+  }
+  #popup-course #popup-sidebar .course-curriculum {
+    width: calc(100% - 20px);
+  }
+  #popup-course #popup-sidebar #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-header {
+    height: 70px;
+    padding: 20px 15px 15px 15px;
+  }
+  #popup-course #popup-sidebar #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-header .section-left .section-title {
+    font-size: 15px;
+  }
+  #popup-course #popup-content #learn-press-content-item .content-item-wrap .content-item-summary .course-item-title {
+    text-align: left;
+    font-size: 18px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .quiz-result {
+    margin: 20px auto 20px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .quiz-buttons > * {
+    margin-top: 20px;
+  }
+
+  #learn-press-course .course-summary-sidebar .course-summary-sidebar__inner .course-sidebar-top {
+    margin-top: 40px;
+  }
+
+  #learn-press-profile.lp-user-profile .learn-press-filters > li {
+    margin-right: 0;
+  }
+  #learn-press-profile.lp-user-profile .learn-press-filters > li:after {
+    margin: 0 10px 0 5px;
+  }
+  #learn-press-profile.lp-user-profile thead tr th {
+    font-size: 13px;
+    padding: 10px;
+  }
+  #learn-press-profile.lp-user-profile tbody tr td, #learn-press-profile.lp-user-profile tbody tr th,
+  #learn-press-profile.lp-user-profile tfoot tr td,
+  #learn-press-profile.lp-user-profile tfoot tr th {
+    font-size: 13px;
+    padding: 5px;
+  }
+  #learn-press-profile.lp-user-profile .learn-press-course-tab-enrolled .learn-press-profile-course__progress .lp_profile_course_progress__item {
+    display: block;
+  }
+  #learn-press-profile.lp-user-profile .learn-press-course-tab-enrolled .learn-press-profile-course__progress .lp_profile_course_progress__item.lp_profile_course_progress__header {
+    font-size: 13px;
+    column-gap: 10px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  #learn-press-profile.lp-user-profile .learn-press-course-tab-enrolled .learn-press-profile-course__progress .lp_profile_course_progress__item.lp_profile_course_progress__header div:empty {
+    display: none;
+  }
+  #learn-press-profile.lp-user-profile .learn-press-course-tab-enrolled .learn-press-profile-course__progress .lp_profile_course_progress__item div img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  #learn-press-profile.lp-user-profile .wrapper-profile-header {
+    margin-bottom: 30px;
+  }
+  #learn-press-profile.lp-user-profile .wrapper-profile-header .lp-profile-content-area .lp-user-profile-socials {
+    margin: 15px 0 0 0;
+  }
+  #learn-press-profile.lp-user-profile .wrapper-profile-header .lp-profile-content-area .lp-profile-left {
+    margin: 0 auto;
+    width: 120px;
+    flex: 0;
+  }
+  #learn-press-profile.lp-user-profile .wrapper-profile-header .lp-profile-content-area .lp-profile-right {
+    margin-top: 20px;
+    padding: 0;
+  }
+  #learn-press-profile.lp-user-profile .wrapper-profile-header .lp-profile-content-area .lp-profile-username:before, #learn-press-profile.lp-user-profile .wrapper-profile-header .lp-profile-content-area .lp-profile-username:after {
+    display: none;
+  }
+  #learn-press-profile.lp-user-profile #profile-content .lp_profile_course_progress__nav .lp-button {
+    margin: 25px 0 15px 0;
+  }
+  #learn-press-profile.lp-user-profile #profile-content #profile-content-courses ul.learn-press-courses .course {
+    width: 100%;
+  }
+  #learn-press-profile.lp-user-profile #profile-content #profile-content-orders div.order-recover input[type="text"] {
+    height: 43px;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav {
+    overflow: unset;
+    border-top: 1px solid var(--theme-color-bd_color);
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs {
+    width: auto;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li {
+    max-width: none;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li > a {
+    font-size: 14px;
+    margin-right: 17px;
+  }
+  #learn-press-profile.lp-user-profile #profile-sidebar #profile-nav .lp-profile-nav-tabs > li > a:after {
+    margin-left: 7px;
+  }
+
+  #learn-press-checkout tr td {
+    padding: 5px 10px;
+  }
+  #learn-press-checkout .lp-checkout-order__inner .course-thumbnail img {
+    min-width: 45px;
+  }
+  #learn-press-checkout #checkout-order .course-thumbnail {
+    width: 60px;
+  }
+  #learn-press-checkout #checkout-order .col-number {
+    min-width: 30px;
+  }
+  #learn-press-checkout #checkout-order .course-name {
+    padding: 5px;
+    font-size: 15px;
+  }
+  #learn-press-checkout #checkout-order .order-total > th {
+    padding: 14px 10px 14px 0;
+  }
+  #learn-press-checkout #checkout-order tfoot .cart-subtotal > th {
+    padding: 10px 10px 7px 0;
+  }
+  #learn-press-checkout .order_details thead th,
+  #learn-press-checkout .order_details tr th {
+    padding: 5px 15px;
+  }
+  #learn-press-checkout .order_details tr th, #learn-press-checkout .order_details tr td {
+    font-size: 14px;
+    line-height: 1.2em !important;
+  }
+
+  /* Specific */
+  .page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail + .course-content,
+  .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail + .course-content {
+    margin-top: 0;
+  }
+  .page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail .course-thumbnail img,
+  .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .learn-press-courses[data-layout="list"] .course .course-item .course-wrap-thumbnail .course-thumbnail img {
+    border-radius: var(--theme-var-content_rad) var(--theme-var-content_rad) 0 0;
+  }
+  .page_content_blocks:not(.single-post):not(.single-job_listing):not(.elementor-page) .content .lp-archive-courses .learn-press-courses[data-layout="list"] .course .course-item .course-content,
+  .page_content_blocks:not(.single-post):not(.single-job_listing).elementor-page .content .elementor-widget:not(.elementor-inner) .learn-press-courses[data-layout="list"] .course .course-item .course-content {
+    border-radius: 0 0 var(--theme-var-content_rad) var(--theme-var-content_rad);
+    box-shadow: 0 3px 20px #1d26260d;
+    padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 7px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 11px ) );
+  }
+}
+@media (max-width: 479px) {
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-title {
+    font-size: 17px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .course-meta__pull-left .meta-item {
+    margin-right: 12px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .course-meta__pull-left .meta-item .meta-item__value label {
+    font-size: 12px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .course-meta__pull-left .meta-item .meta-item__value > div a {
+    font-size: 12px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .meta-item.meta-item-instructor .meta-item__image {
+    flex: 0 0 28px;
+    margin-right: 7px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .meta-item.meta-item-instructor .meta-item__image img {
+    width: 28px;
+    height: 28px;
+  }
+  .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary .meta-item.meta-item-categories:before {
+    margin-right: 7px;
+    top: 5px;
+    font-size: 25px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-header .section-title {
+    font-size: 14px;
+  }
+  .lp-archive-courses #learn-press-course-tabs.course-tabs .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link .course-item-meta .item-meta.count-questions {
+    display: none;
+  }
+
+  #learn-press-course-tabs.course-tabs .course-tab-panel-instructor .course-author .author-title a {
+    font-size: 16px;
+  }
+
+  #learn-press-checkout #checkout-order .course-name {
+    font-size: 14px;
+  }
+  #learn-press-checkout #checkout-order .course-thumbnail {
+    padding: 5px 5px 5px 0;
+  }
+  #learn-press-checkout #checkout-order .order-total .col-number {
+    font-size: 17px;
+  }
+  #learn-press-checkout .order_details thead th,
+  #learn-press-checkout .order_details tr th {
+    padding: 5px;
+  }
+  #learn-press-checkout .order_details tr th, #learn-press-checkout .order_details tr td {
+    font-size: 13px;
+  }
+
+  #popup-course #popup-footer {
+    height: 34px;
+  }
+  #popup-course #popup-footer .course-item-nav .prev,
+  #popup-course #popup-footer .course-item-nav .next {
+    line-height: 34px;
+  }
+  #popup-course #popup-content {
+    margin: 70px 0 34px 0;
+  }
+  #popup-course #popup-content #learn-press-content-item .content-item-wrap .content-item-summary .course-item-title {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  #popup-course #popup-content .form-button-finish-course {
+    float: none;
+  }
+  #popup-course #popup-content .lp-button.completed {
+    float: none;
+    margin: 15px 0 0 0;
+  }
+  #popup-course #popup-content .lp-btn-finish-course {
+    margin-top: 10px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .quiz-status .countdown {
+    margin: 5px 0 15px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .quiz-status > div {
+    padding: 20px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .quiz-status > div > div {
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .btn-show-hint {
+    margin: 0 0 0 5px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .question-title .edit-link {
+    float: none;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .question-response {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .question-response .label {
+    margin-right: 0;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .lp-fib-input > input {
+    max-width: 120px;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .lp-fib-note {
+    margin-left: 0;
+  }
+  #popup-course #popup-content #content-item-quiz #learn-press-quiz-app .question .lp-fib-note > span {
+    margin: 0 3px 0 0;
+    width: 15px;
+    height: 15px;
+  }
+
+  .lp-modal-dialog .lp-modal-content {
+    max-width: 290px;
+  }
+}
+
+/*# sourceMappingURL=learnpress-responsive.css.map */

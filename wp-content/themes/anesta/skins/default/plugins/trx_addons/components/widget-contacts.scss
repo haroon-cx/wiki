@@ -1,0 +1,60 @@
+@import "../../../../../css/_mixins.scss";
+@import "../../../../../css/_theme-vars.scss";
+@import "../../../css/_skin-vars.scss";
+
+/* Contacts */
+.footer_wrap .widget_contacts .contacts_description,
+.footer_wrap .widget_contacts .contacts_content {
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer_wrap .columns_wrap .widget_contacts .contacts_description,
+.footer_wrap .columns_wrap .widget_contacts .contacts_content {
+	max-width:none;
+}
+.widget_contacts .contacts_info {
+	color: var(--theme-color-text);
+}
+.widget_contacts .contacts_info span:before,
+.widget_contacts .contacts_info > div > a:before,
+.widget_contacts .contacts_info > a:before {
+	color: var(--theme-color-accent_link);
+}
+.widget_contacts .contacts_info span a,
+.widget_contacts .contacts_info > div > a,
+.widget_contacts .contacts_info > a {
+	color: var(--theme-color-text_dark);
+}
+.widget_contacts .contacts_info span a:hover,
+.widget_contacts .contacts_info > div > a:hover,
+.widget_contacts .contacts_info > a:hover {
+	color: var(--theme-color-accent_link);
+}
+[class*="scheme_"].sidebar .widget_contacts .contacts_info,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info {
+	color: var(--theme-color-alter_text);
+}
+[class*="scheme_"].sidebar .widget_contacts .contacts_info span:before,
+[class*="scheme_"].sidebar .widget_contacts .contacts_info > div > a:before,
+[class*="scheme_"].sidebar .widget_contacts .contacts_info > a:before,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info span:before,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info > div > a:before,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info > a:before {
+	color: var(--theme-color-alter_link);
+}
+[class*="scheme_"].sidebar .widget_contacts .contacts_info span a,
+[class*="scheme_"].sidebar .widget_contacts .contacts_info > div > a,
+[class*="scheme_"].sidebar .widget_contacts .contacts_info > a,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info span a,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info > div > a,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info > a {
+	color: var(--theme-color-alter_dark);
+}
+[class*="scheme_"].sidebar .widget_contacts .contacts_info span a:hover,
+[class*="scheme_"].sidebar .widget_contacts .contacts_info > div > a:hover,
+[class*="scheme_"].sidebar .widget_contacts .contacts_info > a:hover,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info span a:hover,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info > div > a:hover,
+[class*="scheme_"].footer_wrap .widget_contacts .contacts_info > a:hover {
+	color: var(--theme-color-alter_link);
+}

@@ -1,0 +1,35 @@
+/* Twitter */
+.widget_twitter .widget_content .sc_twitter_item,
+.widget_twitter .widget_content li {
+  color: var(--theme-color-text);
+}
+
+.widget_twitter .widget_content .sc_twitter_item .sc_twitter_item_icon {
+  color: var(--theme-color-accent_link) !important;
+}
+
+.widget_twitter .swiper-pagination-bullet {
+  background-color: var(--theme-color-text_light);
+}
+
+.widget_twitter .swiper-pagination-bullet-active {
+  background-color: var(--theme-color-accent_link);
+}
+
+.widget_twitter .widget_content .sc_twitter_list li {
+  color: var(--theme-color-text);
+}
+
+.widget_twitter .widget_content .sc_twitter_list li:before {
+  color: var(--theme-color-accent_link) !important;
+}
+
+[class*="scheme_"].sidebar .widget_twitter .widget_content .sc_twitter_list li {
+  color: var(--theme-color-alter_text);
+}
+
+[class*="scheme_"].sidebar .widget_twitter .widget_content .sc_twitter_list li:before {
+  color: var(--theme-color-alter_link) !important;
+}
+
+/*# sourceMappingURL=widget-twitter.css.map */

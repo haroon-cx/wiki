@@ -1,0 +1,12 @@
+.ai_helper_blog_generator_form_field:not(:last-child) {
+  margin-bottom: 1em;
+}
+.ai_helper_blog_generator_form_field > label:first-child {
+  display: inline-block;
+  width: 150px;
+}
+.ai_helper_blog_generator_form_field input[type="number"] {
+  width: 60px;
+}
+
+/*# sourceMappingURL=blog-generator.css.map */

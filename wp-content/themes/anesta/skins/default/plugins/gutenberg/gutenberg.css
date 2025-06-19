@@ -1,0 +1,16 @@
+/* Gutenberg: skin-specific */
+.block-editor-block-list__block {
+  /* Audio */
+  /* Categories */
+}
+.block-editor-block-list__block .trx_addons_audio_wrap .trx_addons_audio_player:not(:first-child) {
+  display: none;
+}
+.block-editor-block-list__block .trx_addons_audio_wrap .trx_addons_audio_navigation {
+  display: none;
+}
+.block-editor-block-list__block .wp-block-categories__dropdown {
+  visibility: visible !important;
+}
+
+/*# sourceMappingURL=gutenberg.css.map */

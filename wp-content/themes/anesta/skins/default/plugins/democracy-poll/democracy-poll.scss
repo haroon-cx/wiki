@@ -1,0 +1,145 @@
+/* Democracy Poll styles
+----------------------------------------------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+/* Buttons 
+--------------------------------------------- */
+div.dem-poll-shortcode,
+div.democracy {
+	input[type="submit"].dem-button, 
+	a.dem-button, 
+	.dem-button {
+		@include theme_button_filled;
+		padding: 10px var(--theme-var-btn_padding3) !important;
+		left: unset !important;
+
+		&:hover,
+		&:focus {
+			@include theme_button_colors_hover;
+		}
+	}
+}
+
+
+/* Shortcode  
+--------------------------------------------- */
+.widget_title + div.dem-poll-shortcode,
+.widget_title + div.democracy {
+	margin-top: -11px;
+}
+div.dem-poll-shortcode,
+div.democracy {
+	margin: 0;
+
+	/*  Description */
+	.dem-poll-title {
+		@include font(14px, inherit, inherit);
+		margin: 0;
+	}
+
+	/* Graphs */
+	.dem-screen {
+		margin-top: 18px;
+		line-height: inherit;
+
+		.dem-answers,
+		.dem-vote {
+			padding: 0;
+			margin: 0;
+
+			li + li {
+				margin-top: 15px;
+			}
+			li {
+				padding: 0;
+				font-weight: inherit;
+
+				&:before {
+					display: none
+				}
+				.dem-label {
+					@include font(14px, inherit, 500);
+					color: var(--theme-color-text_dark);
+					margin-bottom: 7px;
+				}
+				.dem-graph {
+					@include border-radius(6px);
+
+					.dem-fill {
+						@include border-radius(6px);
+						box-shadow: 0 3px 10px var(--theme-color-accent_link_02);
+					}
+					.dem-votes-txt {
+						@include abs-rb(0, 100%);
+						@include font(14px, inherit, inherit);
+						color: var(--theme-color-text);
+						padding: 0;
+						margin-bottom: 15px;
+
+						&:before {
+							content: '(';
+							margin-right: -4px;
+						}
+						&:after {
+							content: ')';
+							margin-left: -4px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* Edit link */
+	.dem-edit-link {
+		display: none;
+	}
+
+	/* Results */
+	.dem-bottom {
+		padding: 0;
+		margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ); // replace 24px
+
+		.dem-poll-info {
+			color: var(--theme-color-text_dark);
+			padding-bottom: 0;
+
+			.dem-total-votes {
+				@include font(14px, inherit, inherit);
+			}
+		}
+		.dem-revote-button-wrap {
+		    margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px ) ); // replace 22px
+		    display: block;
+		}
+	}
+
+	/* Checkboxes */
+	.dem-vote {
+		.dem__radio_label:not(.checked) input[type="radio"]:checked + .dem__spot {
+			@include box(16px, 16px);
+			@include abs-lt(2px, 0);
+			@include border-box;
+			@include border-radius(4px);
+			@include border-round;	
+	    	background: radial-gradient(circle, var(--theme-color-accent_link) 55%, var(--theme-color-content_bg) 62%);
+	    	box-shadow: inset 0 0 0px 3px var(--theme-color-content_bg);	
+		}
+		li:nth-child(2n) .dem__radio_label:not(.checked) input[type="radio"]:checked + .dem__spot {
+			top: -1px;
+		}
+	}
+}
+
+div.dem-poll-shortcode {
+	margin: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px )) 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 6px )); // replace 33px 0 36px
+
+	/* Results */
+	.dem-bottom,
+	.dem-poll-info .dem-total-votes {
+		text-align: left;
+	}
+}

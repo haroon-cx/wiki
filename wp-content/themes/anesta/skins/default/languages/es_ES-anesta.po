@@ -1,0 +1,6087 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Anesta\n"
+"POT-Creation-Date: 2023-04-04 13:24+0300\n"
+"PO-Revision-Date: 2023-04-04 13:24+0300\n"
+"Last-Translator: \n"
+"Language-Team: AncoraThemes\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-KeywordsList: translate_nooped_plural;gettext_noop;gettext;"
+"esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;_n_noop;_nx;_n;_x;_e;"
+"__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: plugins/bbpress/bbpress-skin.php:63 plugins/bbpress/bbpress-skin.php:69
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: plugins/bbpress/bbpress-skin.php:64
+#, fuzzy
+#| msgid "Select parameters to display the courses pages"
+msgid "Select parameters to display the BuddyPress pages"
+msgstr "Selecciona parámetros para visualizar las páginas de cursos"
+
+#: plugins/bbpress/bbpress-skin.php:80 plugins/bbpress/bbpress-skin.php:97
+#, fuzzy
+#| msgid "BBPress"
+msgid "bbPress"
+msgstr "BBPress"
+
+#: plugins/bbpress/bbpress-skin.php:81
+#, fuzzy
+#| msgid "Select parameters to display the courses pages"
+msgid "Select parameters to display the BBPress pages"
+msgstr "Selecciona parámetros para visualizar las páginas de cursos"
+
+#: plugins/bbpress/bbpress-skin.php:86
+msgid "Forum style"
+msgstr "Estilo del foro"
+
+#: plugins/bbpress/bbpress-skin.php:87
+msgid "Select style to display forums list on the community pages"
+msgstr ""
+"Selecciona el estilo para mostrar la lista de foros en las páginas "
+"comunitarias"
+
+#: plugins/bbpress/bbpress-skin.php:90 skin-setup.php:339 skin-setup.php:657
+#: skin-setup.php:1035 skin.php:589
+msgid "Default"
+msgstr "Defecto"
+
+#: plugins/bbpress/bbpress-skin.php:91
+#: plugins/woocommerce/woocommerce-skin.php:85 skin.php:595
+msgid "Light"
+msgstr "Ligero"
+
+#: plugins/bbpress/bbpress-skin.php:92
+msgid "Callouts"
+msgstr "Llamadas"
+
+#: plugins/bbpress/bbpress-skin.php:216 plugins/bbpress/bbpress-skin.php:231
+#: plugins/buddypress-docs/buddypress-docs.php:275 skin.php:576
+#, fuzzy
+#| msgid "Views"
+msgid "View All"
+msgstr "Vistas"
+
+#: plugins/bbpress/bbpress-skin.php:367
+msgid "Cancel Request"
+msgstr ""
+
+#: plugins/bbpress/bbpress-skin.php:408
+#, fuzzy
+#| msgid "BBPress and BuddyPress"
+msgid "Clear BBPress and BuddyPress tables"
+msgstr "BBPress y BuddyPress"
+
+#: plugins/bbpress/bbpress-skin.php:442 plugins/bbpress/bbpress-skin.php:540
+msgid "rtMedia for BuddyPress and bbPress"
+msgstr ""
+
+#: plugins/bbpress/bbpress-skin.php:482
+msgid "Import rtMedia for BuddyPress and bbPress"
+msgstr ""
+
+#: plugins/bbpress/bbpress-skin.php:496 plugins/bbpress/bbpress-skin.php:510
+msgid "rtMedia for BuddyPress and bbPress meta"
+msgstr ""
+
+#: plugins/buddypress-docs/buddypress-docs.php:24
+#: plugins/buddypress-docs/buddypress-docs.php:30 skin-plugins.php:44
+#, fuzzy
+#| msgid "BuddyPress"
+msgid "BuddyPress Docs"
+msgstr "BuddyPress"
+
+#: plugins/buddypress-docs/buddypress-docs.php:25
+#, fuzzy
+#| msgid "Select parameters to display the courses pages"
+msgid "Select parameters to display the BuddyPress Docs pages"
+msgstr "Selecciona parámetros para visualizar las páginas de cursos"
+
+#: plugins/democracy-poll/democracy-poll.php:232
+#: plugins/democracy-poll/democracy-poll.php:329 skin-plugins.php:65
+msgid "Democracy Poll"
+msgstr ""
+
+#: plugins/democracy-poll/democracy-poll.php:272
+msgid "Import Democracy Poll"
+msgstr ""
+
+#: plugins/democracy-poll/democracy-poll.php:286
+#: plugins/democracy-poll/democracy-poll.php:300
+msgid "Democracy Poll meta"
+msgstr ""
+
+#: plugins/echo-knowledge-base/echo-knowledge-base.php:24
+#: plugins/echo-knowledge-base/echo-knowledge-base.php:30
+msgid "Knowledge Base"
+msgstr ""
+
+#: plugins/echo-knowledge-base/echo-knowledge-base.php:25
+#, fuzzy
+#| msgid "Select parameters to display the downloads pages"
+msgid "Select parameters to display the Knowledge Base pages"
+msgstr "Selecciona parámetros para visualizar las páginas de descargas"
+
+#: plugins/elementor/elementor-skin.php:29
+msgid "Ginormous"
+msgstr ""
+
+#: plugins/elementor/elementor-style.php:45
+#, fuzzy
+#| msgid "Theme-specific options"
+msgid "Theme Specific"
+msgstr "Opciones de los temas específicos"
+
+#: plugins/elementor/elementor-style.php:46
+msgid "Fade In Up (Short)"
+msgstr ""
+
+#: plugins/elementor/elementor-style.php:47
+msgid "Fade In Right (Short)"
+msgstr ""
+
+#: plugins/elementor/elementor-style.php:48
+msgid "Fade In Left (Short)"
+msgstr ""
+
+#: plugins/elementor/elementor-style.php:49
+msgid "Fade In Down (Short)"
+msgstr ""
+
+#: plugins/elementor/elementor-style.php:50
+msgid "Fade In (Short)"
+msgstr ""
+
+#: plugins/elementor/elementor-style.php:51
+#, fuzzy
+#| msgid "Older posts"
+msgid "Under strips"
+msgstr "Publicaciones antiguas"
+
+#: plugins/learnpress/learnpress.php:32 plugins/learnpress/learnpress.php:291
+#: skin-plugins.php:107
+#, fuzzy
+#| msgid "Learn more"
+msgid "LearnPress"
+msgstr "Más información"
+
+#: plugins/learnpress/learnpress.php:33
+#, fuzzy
+#| msgid "Select parameters to display the cars pages."
+msgid "Select parameters to display the LearnPress pages"
+msgstr "Selecciona parámetros para visualizar las páginas de coches."
+
+#: plugins/learnpress/learnpress.php:303 plugins/sfwd-lms/sfwd-lms.php:32
+#: plugins/sfwd-lms/sfwd-lms.php:33 plugins/sfwd-lms/sfwd-lms.php:528
+msgid "Courses"
+msgstr "Cursos"
+
+#: plugins/learnpress/learnpress.php:316
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: plugins/learnpress/learnpress.php:317
+#, fuzzy, php-format
+#| msgid "Tours"
+msgid "%s hours"
+msgstr "Tours"
+
+#: plugins/learnpress/learnpress.php:318
+#, php-format
+msgid "%s min"
+msgstr ""
+
+#: plugins/learnpress/learnpress.php:319
+#, php-format
+msgid "%s sec"
+msgstr ""
+
+#: plugins/learnpress/learnpress.php:386
+#, fuzzy
+#| msgid "Header Widgets"
+msgid "LearnPress Widgets"
+msgstr "Widgets de Encabezado"
+
+#: plugins/learnpress/learnpress.php:387
+#, fuzzy
+#| msgid "Widgets to be shown on the BBPress and BuddyPress pages"
+msgid "Widgets to be shown on the LearnPress pages"
+msgstr "Widgets para mostrar en las páginas de BBPress y BuddyPress"
+
+#: plugins/paid-memberships-pro/paid-memberships-pro.php:230
+#: plugins/paid-memberships-pro/paid-memberships-pro.php:329
+#: skin-plugins.php:137
+msgid "Paid Memberships Pro"
+msgstr ""
+
+#: plugins/paid-memberships-pro/paid-memberships-pro.php:270
+msgid "Import Paid Memberships Pro"
+msgstr ""
+
+#: plugins/paid-memberships-pro/paid-memberships-pro.php:284
+#: plugins/paid-memberships-pro/paid-memberships-pro.php:298
+msgid "Paid Memberships Pro meta"
+msgstr ""
+
+#: plugins/sfwd-lms/sfwd-lms.php:24 plugins/sfwd-lms/sfwd-lms.php:30
+#: plugins/sfwd-lms/sfwd-lms.php:31 plugins/sfwd-lms/sfwd-lms.php:694
+#: plugins/sfwd-lms/sfwd-lms.php:797 skin-plugins.php:93
+#, fuzzy
+#| msgid "Learn More"
+msgid "LearnDash LMS"
+msgstr "Más información"
+
+#: plugins/sfwd-lms/sfwd-lms.php:25
+#, fuzzy
+#| msgid "Select parameters to display the cars pages."
+msgid "Select parameters to display the LearnDash LMS pages"
+msgstr "Selecciona parámetros para visualizar las páginas de coches."
+
+#: plugins/sfwd-lms/sfwd-lms.php:36
+msgid "LearnDash LMS posts"
+msgstr ""
+
+#: plugins/sfwd-lms/sfwd-lms.php:41
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:38
+#: plugins/wp-job-manager/wp-job-manager.php:38 skin-options.php:1888
+msgid "Show author info"
+msgstr "Mostrar información del autor"
+
+#: plugins/sfwd-lms/sfwd-lms.php:42
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:39
+#: plugins/wp-job-manager/wp-job-manager.php:39 skin-options.php:1889
+msgid "Display block with information about post's author"
+msgstr "Visualizar el bloque de información sobre el autor de publicaciones"
+
+#: plugins/sfwd-lms/sfwd-lms.php:47
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:44
+#: plugins/wp-job-manager/wp-job-manager.php:44 skin-options.php:1924
+msgid "Show related posts"
+msgstr "Mostrar publicaciones relacionadas"
+
+#: plugins/sfwd-lms/sfwd-lms.php:48
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:45
+#: plugins/wp-job-manager/wp-job-manager.php:45 skin-options.php:1925
+#, fuzzy
+#| msgid "Show section 'Related posts' on the single post's pages"
+msgid "Show 'Related posts' section on single post pages"
+msgstr ""
+"Mostrar la sección 'Publicaciones relacionadas' en las páginas de "
+"publicaciones individuales"
+
+#: plugins/sfwd-lms/sfwd-lms.php:53
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:50
+#: plugins/wp-job-manager/wp-job-manager.php:50 skin-options.php:2100
+#, fuzzy
+#| msgid "Show post meta"
+msgid "Show post navigation"
+msgstr "Mostrar post meta"
+
+#: plugins/sfwd-lms/sfwd-lms.php:54
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:51
+#: plugins/wp-job-manager/wp-job-manager.php:51 skin-options.php:2101
+msgid ""
+"Display post navigation on single post pages or load the next post "
+"automatically after the content of the current article."
+msgstr ""
+
+#: plugins/sfwd-lms/sfwd-lms.php:57
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:54
+#: plugins/wp-job-manager/wp-job-manager.php:54 skin-options.php:2049
+#: skin-options.php:2070 skin-options.php:2104 skin-options.php:2555
+#: skin-options.php:2564 skin.php:618
+msgid "None"
+msgstr "Ninguna"
+
+#: plugins/sfwd-lms/sfwd-lms.php:58
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:55
+#: plugins/wp-job-manager/wp-job-manager.php:55 skin-options.php:2105
+#, fuzzy
+#| msgid "Share links"
+msgid "Prev/Next links"
+msgstr "Compartir enlaces"
+
+#: plugins/sfwd-lms/sfwd-lms.php:432
+msgid "About Instructor"
+msgstr ""
+
+#: plugins/sfwd-lms/sfwd-lms.php:452
+#, fuzzy
+#| msgid "Related courses"
+msgid "Back to course"
+msgstr "Cursos relacionados"
+
+#: plugins/sfwd-lms/sfwd-lms.php:479
+msgid "Quizzes"
+msgstr ""
+
+#: plugins/sfwd-lms/sfwd-lms.php:560
+#, fuzzy
+#| msgid "Hide Details"
+msgid "Course Details"
+msgstr "Ocultar Detalles"
+
+#: plugins/sfwd-lms/sfwd-lms.php:612
+#, fuzzy
+#| msgid "Courses"
+msgid "Open Course"
+msgstr "Cursos"
+
+#: plugins/sfwd-lms/sfwd-lms.php:615
+#, fuzzy
+#| msgid "Courses"
+msgid "Free Course"
+msgstr "Cursos"
+
+#: plugins/sfwd-lms/sfwd-lms.php:618
+#, fuzzy
+#| msgid "Courses"
+msgid "Paid Course"
+msgstr "Cursos"
+
+#: plugins/sfwd-lms/sfwd-lms.php:621
+#, fuzzy
+#| msgid "Single course"
+msgid "Recurring Course"
+msgstr "Curso individual"
+
+#: plugins/sfwd-lms/sfwd-lms.php:624
+#, fuzzy
+#| msgid "Related courses"
+msgid "Closed Course"
+msgstr "Cursos relacionados"
+
+#: plugins/sfwd-lms/sfwd-lms.php:631
+msgid "Course Include"
+msgstr ""
+
+#: plugins/sfwd-lms/sfwd-lms.php:654
+msgid "Participants"
+msgstr ""
+
+#: plugins/sfwd-lms/sfwd-lms.php:736
+msgid "Import LearnDash LMS"
+msgstr ""
+
+#: plugins/sfwd-lms/sfwd-lms.php:750 plugins/sfwd-lms/sfwd-lms.php:764
+msgid "LearnDash LMS meta"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons-setup.php:43
+#, fuzzy
+#| msgid "BuddyPress"
+msgid "BuddyPress widgets"
+msgstr "BuddyPress"
+
+#: plugins/trx_addons/trx_addons-setup.php:125
+msgid "Modern Grid"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons-setup.php:134
+msgid "Info over image"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons-setup.php:162
+#: plugins/woocommerce/woocommerce-skin.php:24 skin-options.php:239
+#: skin-options.php:1945 skin-options.php:2948 skin-options.php:3438
+msgid "Classic"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons-setup.php:436 skin-setup.php:715 skin.php:594
+msgid "Dark"
+msgstr "Oscuro"
+
+#: plugins/trx_addons/trx_addons-setup.php:464
+msgid "List styles"
+msgstr "Estilos de listas"
+
+#: plugins/trx_addons/trx_addons-setup.php:466
+msgid "Arrow"
+msgstr "Flecha"
+
+#: plugins/trx_addons/trx_addons-setup.php:504
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+#: plugins/trx_addons/trx_addons-setup.php:505
+msgid "Team member's email"
+msgstr "Correo electrónico del miembro del equipo"
+
+#: plugins/trx_addons/trx_addons-setup.php:767
+msgid "3:2"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons-setup.php:768
+msgid "10:7"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons-setup.php:868
+#: plugins/trx_addons/trx_addons.gutenberg-editor.js:38
+msgid "Image source URL:"
+msgstr ""
+
+#: plugins/trx_addons/trx_addons-setup.php:899
+#, fuzzy
+#| msgid "Add Images"
+msgid "Image"
+msgstr "Añadir Imágenes"
+
+#: plugins/trx_addons/trx_addons-setup.php:916
+#: plugins/trx_addons/trx_addons-setup.php:1041
+msgid "Background"
+msgstr "Fondo"
+
+#: plugins/woocommerce/woocommerce-skin.php:19 skin-options.php:230
+#: skin-options.php:2943
+#, fuzzy
+#| msgid "Posts content"
+msgid "Page content"
+msgstr "Contenido de publicaciones"
+
+#: plugins/woocommerce/woocommerce-skin.php:20 skin-options.php:231
+#: skin-options.php:2944
+msgid ""
+"Choose between the style of your page content. The classic view provides you "
+"with the primary content block and a sidebar, while the masonry view "
+"positions each block on a separate background."
+msgstr ""
+
+#: plugins/woocommerce/woocommerce-skin.php:28 skin-options.php:243
+#: skin-options.php:2952
+msgid "Blocks"
+msgstr ""
+
+#: plugins/woocommerce/woocommerce-skin.php:178
+msgid "Search for products &hellip;"
+msgstr "Buscar productos &hellip;"
+
+#: plugins/woocommerce/woocommerce-skin.php:178
+#, fuzzy
+#| msgid "Products"
+msgid "Product search"
+msgstr "Productos"
+
+#: plugins/woocommerce/woocommerce-skin.php:178 skin-options.php:2355
+#: skin.php:422 templates/search-form.php:19
+#: trx_addons/templates/tpl.search-form.php:15
+msgid "Search"
+msgstr "Buscar"
+
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:24
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:30
+msgid "WP Resume Manager"
+msgstr ""
+
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:25
+#, fuzzy
+#| msgid "Select parameters to display the Tour Master pages"
+msgid "Select parameters to display the WP Resume Manager pages"
+msgstr "Selecciona parámetros para visualizar las páginas de Tour Master"
+
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:33
+msgid "WP Resume Manager posts"
+msgstr ""
+
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:305
+#, fuzzy, php-format
+#| msgid "Update %2$s"
+msgid "Updated %s ago"
+msgstr "Actualizar %2$s"
+
+#: plugins/wp-job-manager-resumes/wp-job-manager-resumes.php:314
+#, fuzzy
+#| msgid "Portfolio"
+msgid "Profile & Portfolio"
+msgstr "Cartera"
+
+#: plugins/wp-job-manager/templates/content-single-job_listing-company.php:35
+msgid "Contact Us"
+msgstr "Contáctanos"
+
+#: plugins/wp-job-manager/wp-job-manager.php:24
+#: plugins/wp-job-manager/wp-job-manager.php:30 skin-plugins.php:179
+msgid "WP Job Manager"
+msgstr ""
+
+#: plugins/wp-job-manager/wp-job-manager.php:25
+#, fuzzy
+#| msgid "Select parameters to display the Tour Master pages"
+msgid "Select parameters to display the WP Job Manager pages"
+msgstr "Selecciona parámetros para visualizar las páginas de Tour Master"
+
+#: plugins/wp-job-manager/wp-job-manager.php:33
+msgid "WP Job Manager posts"
+msgstr ""
+
+#: skin-demo-importer.php:32
+msgid "Anesta Demo"
+msgstr "Demo de Anesta"
+
+#: skin-demo-importer.php:51
+#, fuzzy
+#| msgid "Anesta Demo"
+msgid "Anesta OCDI Demo"
+msgstr "Demo de Anesta"
+
+#: skin-options.php:27
+msgid ""
+"Attention! Some of these options can be overridden in the following sections "
+"(Blog, Plugins settings, etc.) or in the settings of individual pages. If "
+"you changed such parameter and nothing happened on the page, this option may "
+"be overridden in the corresponding section or in the Page Options of this "
+"page. These options are marked with an asterisk (*) in the title."
+msgstr ""
+
+#: skin-options.php:39
+msgid "Login privacy"
+msgstr ""
+
+#: skin-options.php:46
+msgid "Enable login privacy"
+msgstr ""
+
+#: skin-options.php:47
+msgid ""
+"Allows the Administrator to restrict a web site to viewing only by "
+"registered users who are logged on. Any attempt, by anyone not logged, to "
+"view any Page, Post or other part of the site will display a WordPress login "
+"screen."
+msgstr ""
+
+#: skin-options.php:53
+msgid "Enable custom login page styles"
+msgstr ""
+
+#: skin-options.php:62
+#, fuzzy
+#| msgid "Background image"
+msgid "Background Image"
+msgstr "Imagen de fondo"
+
+#: skin-options.php:71
+#, fuzzy
+#| msgid "Custom"
+msgid "Custom Logo"
+msgstr "Cliente"
+
+#: skin-options.php:80
+#, fuzzy
+#| msgid "Custom"
+msgid "Custom Message"
+msgstr "Cliente"
+
+#: skin-options.php:91
+msgid "Logo & Site Identity"
+msgstr "El Logo y la Identidad del Sitio"
+
+#: skin-options.php:98
+#, fuzzy
+#| msgid "%s settings"
+msgid "Logo Settings"
+msgstr "Configuración de %s"
+
+#: skin-options.php:101 skin-options.php:109 skin-options.php:200
+#: skin-options.php:211 skin-options.php:225 skin-options.php:311
+#: skin-options.php:462 skin-options.php:477 skin-options.php:524
+#: skin-options.php:1200 skin-options.php:1216 skin-options.php:1328
+#: skin-options.php:1493 skin-options.php:1503 skin-options.php:1538
+#: skin-options.php:1814 skin-options.php:2623 skin.php:769 skin.php:777
+#: skin.php:785 skin.php:793 skin.php:801 skin.php:809
+msgid "General"
+msgstr "General"
+
+#: skin-options.php:105
+msgid "Use Site Name as Logo"
+msgstr "Utilizar el Nombre del Sitio como Logo"
+
+#: skin-options.php:106
+msgid "Use the site title and tagline as a text logo if no image is selected"
+msgstr ""
+"Utilizar el título y el eslogan del sitio como un logo de texto si no se "
+"selecciona ninguna imagen"
+
+#: skin-options.php:114
+msgid "Logo zoom"
+msgstr "Zoom de logo"
+
+#: skin-options.php:115
+msgid ""
+"Zoom the logo (set 1 to leave original size). For this parameter to affect "
+"images, their max-height should be specified in \"em\" instead of \"px\" "
+"during header creation. In this case, maximum logo size depends on the "
+"actual size of the picture."
+msgstr ""
+
+#: skin-options.php:126
+msgid "Allow retina display logo"
+msgstr "Permitir logo de la pantalla Retina"
+
+#: skin-options.php:127
+msgid "Show fields to select logo images for Retina display"
+msgstr ""
+"Mostrar campos para seleccionar imágenes de logo para la pantalla Retina"
+
+#: skin-options.php:136
+msgid "Logo for Retina"
+msgstr "Logo para Retina"
+
+#: skin-options.php:137 skin-options.php:154 skin-options.php:170
+msgid ""
+"Select or upload site logo used on Retina displays (if empty - use default "
+"logo from the field above)"
+msgstr ""
+"Selecciona o carga el logo del sitio utilizado en las pantallas Retina (si "
+"está vacío, utiliza el logo predeterminado en el campo de arriba)"
+
+#: skin-options.php:147
+msgid "Logo for the mobile header"
+msgstr "Logo para el encabezado móvil"
+
+#: skin-options.php:148
+msgid ""
+"Select or upload site logo to display it in the mobile header (if enabled in "
+"the section \"Header - Header mobile\""
+msgstr ""
+"Selecciona o carga el logo del sitio para visualizarlo en el encabezado del "
+"dispositivo móvil (si está activado en la sección \"Encabezado - Encabezado "
+"móvil\")"
+
+#: skin-options.php:153
+#, fuzzy
+#| msgid "Logo for the mobile header for Retina"
+msgid "Logo for the mobile header on Retina"
+msgstr "Logo para el encabezado móvil para Retina"
+
+#: skin-options.php:163
+#, fuzzy
+#| msgid "Logo for the mobile header"
+msgid "Logo for the mobile menu"
+msgstr "Logo para el encabezado móvil"
+
+#: skin-options.php:164
+msgid "Select or upload site logo to display it in the mobile menu"
+msgstr ""
+"Selecciona o carga el logo del sitio para visualizarlo en el menú móvil"
+
+#: skin-options.php:169
+#, fuzzy
+#| msgid "Logo mobile for Retina"
+msgid "Logo mobile on Retina"
+msgstr "Logo móvil para Retina"
+
+#: skin-options.php:179
+#, fuzzy
+#| msgid "Logo for the mobile header"
+msgid "Logo for the side menu"
+msgstr "Logo para el encabezado móvil"
+
+#: skin-options.php:180
+msgid ""
+"Select or upload site logo (with vertical orientation) to display it in the "
+"side menu"
+msgstr ""
+"Selecciona o carga el logo del sitio (con la orientación vertical) para "
+"visualizarlo en el menú lateral"
+
+#: skin-options.php:185
+#, fuzzy
+#| msgid "Logo for the mobile header for Retina"
+msgid "Logo for the side menu on Retina"
+msgstr "Logo para el encabezado móvil para Retina"
+
+#: skin-options.php:186
+msgid ""
+"Select or upload site logo (with vertical orientation) to display it in the "
+"side menu on Retina displays (if empty - use default logo from the field "
+"above)"
+msgstr ""
+"Selecciona o carga el logo del sitio (con la orientación vertical) para "
+"visualizarlo en el menú lateral en las pantallas Retina (si está vacío, "
+"utiliza el logo predeterminado en el campo de arriba)"
+
+#: skin-options.php:209
+msgid "Layout"
+msgstr "Diseño"
+
+#: skin-options.php:216 skin-options.php:2936
+msgid "Body style"
+msgstr "Estilo de cuerpo"
+
+#: skin-options.php:217 skin-options.php:2937
+msgid "Select width of the body content"
+msgstr "Seleccionar el ancho del contenido del corpo"
+
+#: skin-options.php:220 skin-options.php:234 skin-options.php:254
+#: skin-options.php:265 skin-options.php:308 skin-options.php:319
+#: skin-options.php:330 skin-options.php:351 skin-options.php:372
+#: skin-options.php:386 skin-options.php:400 skin-options.php:436
+#: skin-options.php:458 skin-options.php:471 skin-options.php:486
+#: skin-options.php:501 skin-options.php:516 skin-options.php:569
+#: skin-options.php:1208 skin-options.php:1225 skin-options.php:1251
+#: skin-options.php:1272 skin-options.php:1291 skin-options.php:1309
+#: skin-options.php:1325 skin-options.php:1342 skin-options.php:1366
+#: skin-options.php:1384 skin-options.php:1398 skin-options.php:1408
+#: skin-options.php:1422 skin-options.php:1619 skin-options.php:1723
+#: skin-options.php:1733 skin-options.php:1747 skin-options.php:1762
+#: skin-options.php:1777 skin-options.php:1792 skin-options.php:1811
+#: skin-options.php:1823 skin-options.php:1839 skin-options.php:1898
+#: skin-options.php:1908 skin-options.php:1928 skin-options.php:1938
+#: skin-options.php:1955 skin-options.php:1976 skin-options.php:1992
+#: skin-options.php:2009 skin-options.php:2027 skin-options.php:2041
+#: skin-options.php:2062 skin-options.php:2081 skin-plugins.php:18
+#: theme-specific/theme-hovers/theme-hovers.php:37
+msgid "Content"
+msgstr "Contenido"
+
+#: skin-options.php:250
+msgid "Page content switcher"
+msgstr ""
+
+#: skin-options.php:251 skin-options.php:2307
+#, fuzzy
+#| msgid "Widgets at the bottom of the page"
+msgid "Add button at the bottom of the page"
+msgstr "Widgets en la parte inferior de la página"
+
+#: skin-options.php:261
+msgid "Page width"
+msgstr "Ancho de página"
+
+#: skin-options.php:262
+msgid ""
+"Total width of the site content and sidebar (in pixels). If empty - use "
+"default width"
+msgstr ""
+"Ancho total del contenido del sitio y de la barra lateral (en píxeles). Si "
+"está vacío, utiliza el ancho predeterminado"
+
+#: skin-options.php:283
+msgid "Boxed page extra spaces"
+msgstr ""
+
+#: skin-options.php:284
+msgid "Width of the extra side space on boxed pages"
+msgstr ""
+
+#: skin-options.php:301 skin-options.php:2959
+msgid "Boxed bg image"
+msgstr "Imagen de fondo encajada"
+
+#: skin-options.php:302
+#, fuzzy
+#| msgid "Select or upload image, used as background in the boxed body"
+msgid "Select or upload image for the background of the boxed content."
+msgstr ""
+"Selecciona o carga la imagen utilizada como el fondo en el cuerpo encajado"
+
+#: skin-options.php:315
+#, fuzzy
+#| msgid "Big title"
+msgid "Page title"
+msgstr "Gran título"
+
+#: skin-options.php:316
+#, fuzzy
+#| msgid "Widgets above the content"
+msgid "Show page title over the page content"
+msgstr "Widgets por encima del contenido"
+
+#: skin-options.php:326
+#, fuzzy
+#| msgid "Page numbers"
+msgid "Page subtitle"
+msgstr "Números de páginas"
+
+#: skin-options.php:327
+msgid "Show page subtitle over the page content"
+msgstr ""
+
+#: skin-options.php:341
+msgid "Navigation"
+msgstr ""
+
+#: skin-options.php:347
+#, fuzzy
+#| msgid "Menu position"
+msgid "Sidemenu position"
+msgstr "Posición del menú"
+
+#: skin-options.php:348
+#, fuzzy
+#| msgid "Select position of the main menu"
+msgid "Select position of the side menu - panel"
+msgstr "Selecciona una posición del menú principal"
+
+#: skin-options.php:356
+#, fuzzy
+#| msgid "Main menu"
+msgid "No menu"
+msgstr "Menú principal"
+
+#: skin-options.php:360
+#, fuzzy
+#| msgid "Left"
+msgid "Left menu"
+msgstr "Izquierdo"
+
+#: skin-options.php:368
+#, fuzzy
+#| msgid "Iconed sidemenu"
+msgid "Open sidemenu"
+msgstr "Menú lateral con iconos"
+
+#: skin-options.php:369
+msgid ""
+"By default sidemenu will be open on desktop after page load. Page content "
+"will be shift to the right"
+msgstr ""
+
+#: skin-options.php:382
+msgid "Iconed sidemenu"
+msgstr "Menú lateral con iconos"
+
+#: skin-options.php:383
+#, fuzzy
+#| msgid ""
+#| "Get icons from anchors and display it in the sidemenu or mark sidemenu "
+#| "items with simple dots"
+msgid ""
+"Get icons from anchors and display them in the sidemenu, or mark sidemenu "
+"items with simple dots"
+msgstr ""
+"Obtén iconos de los anclajes y visualizarlos en el menú lateral o marca "
+"elementos del menú lateral con puntos simples"
+
+#: skin-options.php:396
+msgid "Stretch sidemenu"
+msgstr "Extender menú lateral"
+
+#: skin-options.php:397
+msgid "Stretch sidemenu to window height (if menu items number >= 5)"
+msgstr ""
+"Extiende el menú lateral a la altura de la ventana (si el número de "
+"elementos del menú es >= 5)"
+
+#: skin-options.php:411
+msgid "Mobile menu fullscreen"
+msgstr "Menú móvil de pantalla completa"
+
+#: skin-options.php:412
+msgid ""
+"Display mobile and side menus on full screen (if checked) or slide narrow "
+"menu from the left or from the right side (if not checked)"
+msgstr ""
+"Visualiza los menús móviles y laterales en pantalla completa (si está "
+"activado) o desliza el menú estrecho desde la izquierda o desde la derecha "
+"(si no está activado)"
+
+#: skin-options.php:418
+msgid "Search field in the Mobile menu"
+msgstr ""
+
+#: skin-options.php:419
+#, fuzzy
+#| msgid "Additional info to show at the top of the mobile header"
+msgid "Add a search field at the bottom of the Mobile menu"
+msgstr ""
+"Información adicional para mostrar en la parte superior del encabezado móvil"
+
+#: skin-options.php:425
+msgid "Social icons in the Mobile menu"
+msgstr ""
+
+#: skin-options.php:426
+#, fuzzy
+#| msgid "Additional info to show at the top of the mobile header"
+msgid "Add social icons at the bottom of the Mobile menu"
+msgstr ""
+"Información adicional para mostrar en la parte superior del encabezado móvil"
+
+#: skin-options.php:432
+#, fuzzy
+#| msgid "Remove margins"
+msgid "Page margins"
+msgstr "Eliminar los márgenes"
+
+#: skin-options.php:433
+#, fuzzy
+#| msgid "Remove margins above and below the content area"
+msgid "Add margins above and below the content area"
+msgstr "Eliminar los márgenes por encima y por debajo del área de contenido"
+
+#: skin-options.php:448 skin-options.php:1484 skin-options.php:1713
+#: skin-options.php:2779
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: skin-options.php:454 skin-options.php:1489 skin-options.php:1718
+#: skin-options.php:2784 skin-options.php:3059
+msgid "Sidebar position"
+msgstr "Posición de barra lateral"
+
+#: skin-options.php:455 skin-options.php:1490 skin-options.php:2785
+msgid "Select position to show sidebar"
+msgstr "Selecciona posición para mostrar la barra lateral"
+
+#: skin-options.php:467 skin-options.php:1497 skin-options.php:1729
+#: skin-options.php:3066
+#, fuzzy
+#| msgid "Select position of the main menu"
+msgid "Sidebar position on the small screen"
+msgstr "Selecciona una posición del menú principal"
+
+#: skin-options.php:468
+msgid ""
+"Select position to move sidebar (if it's not hidden) on the small screen - "
+"above or below the content"
+msgstr ""
+
+#: skin-options.php:482 skin-options.php:1086 skin-options.php:1508
+#: skin-options.php:1743 skin-options.php:2791 skin-options.php:3076
+#, fuzzy
+#| msgid "Header style"
+msgid "Sidebar style"
+msgstr "Estilo de encabezado"
+
+#: skin-options.php:483 skin-options.php:1087 skin-options.php:1509
+#: skin-options.php:1744 skin-options.php:2792 skin-options.php:3077
+#, fuzzy
+#| msgid ""
+#| "Choose whether to use the default header or header Layouts (available "
+#| "only if the ThemeREX Addons is activated)"
+msgid ""
+"Choose whether to use the default sidebar or sidebar Layouts (available only "
+"if the ThemeREX Addons is activated)"
+msgstr ""
+"Elige si desea utilizar el encabezado predeterminado o los diseños de "
+"encabezado (disponible sólo si ThemeREX Addons está activado)"
+
+#: skin-options.php:497 skin-options.php:701 skin-options.php:921
+#: skin-options.php:1055 skin-options.php:1097 skin-options.php:1145
+#: skin-options.php:1446 skin-options.php:1519 skin-options.php:1675
+#: skin-options.php:1758 skin-options.php:2741 skin-options.php:2802
+#: skin-options.php:2998 skin-options.php:3087 skin-options.php:3185
+msgid "Select custom layout"
+msgstr "Selecciona un diseño personalizado"
+
+#: skin-options.php:498 skin-options.php:1098 skin-options.php:1520
+#: skin-options.php:1759 skin-options.php:2803 skin-options.php:3088
+#, fuzzy
+#| msgid "Select custom header from Layouts Builder"
+msgid "Select custom sidebar from Layouts Builder"
+msgstr "Selecciona un encabezado personalizado desde Layouts Builder"
+
+#: skin-options.php:512 skin-options.php:1108 skin-options.php:1530
+#: skin-options.php:1773 skin-options.php:2813 skin-options.php:3098
+msgid "Sidebar widgets"
+msgstr "Widgets de barra lateral"
+
+#: skin-options.php:513 skin-options.php:1531 skin-options.php:2814
+msgid "Select default widgets to show in the sidebar"
+msgstr "Selecciona widgets predeterminados para mostrar en la barra lateral"
+
+#: skin-options.php:528 skin-options.php:3111
+msgid "Sidebar width"
+msgstr "Ancho de barra lateral"
+
+#: skin-options.php:529 skin-options.php:3112
+#, fuzzy
+#| msgid "Width of the sidebar (in percents). If empty - use default width"
+msgid "Width of the sidebar (in pixels). If empty - use default width"
+msgstr ""
+"Ancho de la barra lateral (en porcentajes). Si está vacío, utiliza el ancho "
+"predeterminado"
+
+#: skin-options.php:546 skin-options.php:3127
+msgid "Sidebar gap"
+msgstr "Brecha de barra lateral"
+
+#: skin-options.php:547 skin-options.php:3128
+#, fuzzy
+#| msgid ""
+#| "Gap between content and sidebar (in pepcents). If empty - use default gap"
+msgid "Gap between content and sidebar (in pixels). If empty - use default gap"
+msgstr ""
+"Brecha entre el contenido y la barra lateral (en porcentajes). Si está "
+"vacío, utiliza la brecha predeterminada"
+
+#: skin-options.php:564 skin-options.php:1119 skin-options.php:1542
+#: skin-options.php:1788 skin-options.php:2824 skin-options.php:3145
+#, fuzzy
+#| msgid "Content"
+msgid "Content width"
+msgstr "Contenido"
+
+#: skin-options.php:565 skin-options.php:1543 skin-options.php:2825
+#: skin-options.php:3146
+#, fuzzy
+#| msgid "Expand the content width if the sidebar is hidden"
+msgid "Content width if the sidebar is hidden"
+msgstr "Ampliar el ancho del contenido si la barra lateral está oculta"
+
+#: skin-options.php:577 skin-options.php:1552 skin-options.php:2834
+msgid "Additional widgets"
+msgstr "Widgets adicionales"
+
+#: skin-options.php:583 skin-options.php:1558 skin-options.php:2840
+#: skin-options.php:3249
+msgid "Widgets at the top of the page"
+msgstr "Widgets en la parte superior de la página"
+
+#: skin-options.php:584 skin-options.php:1559 skin-options.php:2841
+#: skin-options.php:3250
+msgid ""
+"Select widgets to show at the top of the page (above content and sidebar)"
+msgstr ""
+"Selecciona widgets para mostrar en la parte superior de la página (arriba "
+"del contenido y de la barra lateral)"
+
+#: skin-options.php:587 skin-options.php:599 skin-options.php:611
+#: skin-options.php:623
+msgid "Widgets"
+msgstr "Widgets"
+
+#: skin-options.php:595 skin-options.php:1566 skin-options.php:2848
+#: skin-options.php:3257
+msgid "Widgets above the content"
+msgstr "Widgets por encima del contenido"
+
+#: skin-options.php:596 skin-options.php:1567 skin-options.php:2849
+#: skin-options.php:3258
+msgid "Select widgets to show at the beginning of the content area"
+msgstr "Selecciona widgets para mostrar al inicio del área de contenido"
+
+#: skin-options.php:607 skin-options.php:1574 skin-options.php:2856
+#: skin-options.php:3265
+msgid "Widgets below the content"
+msgstr "Widgets debajo del contenido"
+
+#: skin-options.php:608 skin-options.php:1575 skin-options.php:2857
+#: skin-options.php:3266
+msgid "Select widgets to show at the ending of the content area"
+msgstr "Selecciona widgets para mostrar al final del área de contenido"
+
+#: skin-options.php:619 skin-options.php:1582 skin-options.php:2864
+#: skin-options.php:3273
+msgid "Widgets at the bottom of the page"
+msgstr "Widgets en la parte inferior de la página"
+
+#: skin-options.php:620 skin-options.php:1583 skin-options.php:2865
+#: skin-options.php:3274
+msgid ""
+"Select widgets to show at the bottom of the page (below content and sidebar)"
+msgstr ""
+"Selecciona widgets para mostrar en la parte inferior de la página (debajo "
+"del contenido y de la barra lateral)"
+
+#: skin-options.php:632
+msgid "Design & Effects"
+msgstr "El Diseño y los Efectos"
+
+#: skin-options.php:637
+msgid "Border radius"
+msgstr "Radio de borde"
+
+#: skin-options.php:638
+msgid "Specify the border radius of the form fields and buttons in pixels"
+msgstr ""
+"Especifica el radio de borde de los campos de formulario y de los botones en "
+"píxeles"
+
+#: skin-options.php:652
+msgid "Miscellaneous"
+msgstr "Observaciones"
+
+#: skin-options.php:658
+msgid "SEO snippets"
+msgstr "Fragmentos de SEO"
+
+#: skin-options.php:659
+msgid "Add structured data markup to the single posts and pages"
+msgstr ""
+"Añadir el marcado de los datos estructurados a las publicaciones y páginas "
+"individuales"
+
+#: skin-options.php:665
+msgid "Text with Privacy Policy link"
+msgstr ""
+
+#: skin-options.php:666
+msgid "Specify text with Privacy Policy link for the checkbox 'I agree ...'"
+msgstr ""
+
+#: skin-options.php:667
+msgid "I agree that my submitted data is being collected and stored."
+msgstr ""
+
+#: skin-options.php:676 skin-options.php:693 skin-options.php:705
+#: skin-options.php:720 skin-options.php:732 skin-options.php:743
+#: skin-options.php:772 skin-options.php:784 skin-options.php:805
+#: skin-options.php:1433 skin-options.php:1662 skin-options.php:2605
+#: skin-options.php:2728
+msgid "Header"
+msgstr "Encabezado"
+
+#: skin-options.php:684 skin-options.php:689 skin-options.php:1047
+#: skin-options.php:1438 skin-options.php:1667 skin-options.php:2733
+#: skin-options.php:2990
+msgid "Header style"
+msgstr "Estilo de encabezado"
+
+#: skin-options.php:690 skin-options.php:1439 skin-options.php:1668
+#: skin-options.php:2734 skin-options.php:2991
+msgid ""
+"Choose whether to use the default header or header Layouts (available only "
+"if the ThemeREX Addons is activated)"
+msgstr ""
+"Elige si desea utilizar el encabezado predeterminado o los diseños de "
+"encabezado (disponible sólo si ThemeREX Addons está activado)"
+
+#: skin-options.php:702 skin-options.php:1056 skin-options.php:1447
+#: skin-options.php:1676 skin-options.php:2742
+msgid "Select custom header from Layouts Builder"
+msgstr "Selecciona un encabezado personalizado desde Layouts Builder"
+
+#: skin-options.php:716 skin-options.php:1065 skin-options.php:1456
+#: skin-options.php:1685 skin-options.php:2751 skin-options.php:3010
+msgid "Header position"
+msgstr "Posición de encabezado"
+
+#: skin-options.php:717
+#, fuzzy
+#| msgid "Header position"
+msgid "Select site header position"
+msgstr "Posición de encabezado"
+
+#: skin-options.php:728 skin-options.php:1464 skin-options.php:1693
+#: skin-options.php:2759
+msgid "Header fullheight"
+msgstr "Altura total de encabezado"
+
+#: skin-options.php:729 skin-options.php:1465 skin-options.php:1694
+#: skin-options.php:2760
+#, fuzzy
+#| msgid ""
+#| "Enlarge header area to fill whole screen. Used only if header have a "
+#| "background image"
+msgid ""
+"Stretch header area to fill the entire screen. Used only if the header has a "
+"background image"
+msgstr ""
+"Amplia el área de encabezado para llenar toda la pantalla. Se utiliza sólo "
+"si el encabezado tiene una imagen de fondo"
+
+#: skin-options.php:739 skin-options.php:1472 skin-options.php:1701
+#: skin-options.php:2767
+msgid "Header fullwidth"
+msgstr "Ancho total de encabezado"
+
+#: skin-options.php:740 skin-options.php:1473 skin-options.php:1702
+#: skin-options.php:2768
+msgid ""
+"Do you want to stretch the header widgets area to the entire window width?"
+msgstr ""
+"¿Quieres extender el área de widgets de encabezado a todo el ancho de la "
+"ventana?"
+
+#: skin-options.php:750
+#, fuzzy
+#| msgid "Header zoom"
+msgid "Header title zoom"
+msgstr "Zoom de encabezado"
+
+#: skin-options.php:751
+msgid "Zoom the header title. 1 - original size"
+msgstr "Zoom del título del encabezado. 1 - tamaño original"
+
+#: skin-options.php:763 skin-options.php:768 skin-options.php:3028
+msgid "Header widgets"
+msgstr "Widgets de encabezado"
+
+#: skin-options.php:764
+msgid "Here you can place a widget slider, advertising banners, etc."
+msgstr ""
+"Aquí se puede situar un deslizador de widgets, banners publicitarios, etc."
+
+#: skin-options.php:769
+msgid "Select set of widgets to show in the header on each page"
+msgstr ""
+"Selecciona un conjunto de widgets para mostrar en el encabezado de cada "
+"página"
+
+#: skin-options.php:773
+msgid "Select set of widgets to show in the header on this page"
+msgstr ""
+"Selecciona un conjunto de widgets para mostrar en el encabezado de esta "
+"página"
+
+#: skin-options.php:780
+msgid "Header columns"
+msgstr "Columnas de encabezado"
+
+#: skin-options.php:781
+msgid ""
+"Select number columns to show widgets in the Header. If 0 - autodetect by "
+"the widgets count"
+msgstr ""
+"Selecciona el número de columnas para mostrar widgets en el encabezado. Si "
+"0, se detecta automáticamente por el conteo de widgets"
+
+#: skin-options.php:795
+msgid "Header image"
+msgstr "Imagen de encabezado"
+
+#: skin-options.php:801 skin-options.php:3019
+msgid "Header image override"
+msgstr "Anular imagen de encabezado"
+
+#: skin-options.php:802
+#, fuzzy
+#| msgid ""
+#| "Allow override the header image with the page's/post's/product's/etc. "
+#| "featured image"
+msgid ""
+"Allow overriding the header image with a featured image of the page, post, "
+"product, etc."
+msgstr ""
+"Permitir anular la imagen del encabezado con la imagen destacada de una "
+"página/una publicación/un producto/etc."
+
+#: skin-options.php:813
+msgid "Mobile header"
+msgstr "Encabezado móvil"
+
+#: skin-options.php:814
+msgid "Configure the mobile version of the header"
+msgstr "Configura la versión móvil del encabezado"
+
+#: skin-options.php:823
+msgid "Enable the mobile header"
+msgstr "Activa el encabezado móvil"
+
+#: skin-options.php:824
+msgid ""
+"Use the mobile version of the header (if checked) or relayout the current "
+"header on mobile devices"
+msgstr ""
+"Utiliza la versión móvil del encabezado (si está activada) o rediseña el "
+"encabezado actual en dispositivos móviles"
+
+#: skin-options.php:833
+msgid "Additional info"
+msgstr "Información adicional"
+
+#: skin-options.php:834
+msgid "Additional info to show at the top of the mobile header"
+msgstr ""
+"Información adicional para mostrar en la parte superior del encabezado móvil"
+
+#: skin-options.php:847
+msgid "Hide additional info"
+msgstr "Ocultar información adicional"
+
+#: skin-options.php:857
+msgid "Hide logo"
+msgstr "Ocultar logo"
+
+#: skin-options.php:867
+msgid "Hide login/logout"
+msgstr "Ocultar logo/cerrar sesión"
+
+#: skin-options.php:877
+msgid "Hide search"
+msgstr "Ocultar búsqueda"
+
+#: skin-options.php:887
+msgid "Hide cart"
+msgstr "Ocultar carrito"
+
+#: skin-options.php:902 skin-options.php:913 skin-options.php:925
+#: skin-options.php:939 skin-options.php:953 skin-options.php:968
+msgid "Footer"
+msgstr "Pie de página"
+
+#: skin-options.php:909 skin-options.php:1137 skin-options.php:3177
+msgid "Footer style"
+msgstr "Estilo de pie de página"
+
+#: skin-options.php:910 skin-options.php:3178
+msgid ""
+"Choose whether to use the default footer or footer Layouts (available only "
+"if the ThemeREX Addons is activated)"
+msgstr ""
+"Elige si desea utilizar el pie de página predeterminado o los diseños de pie "
+"de página (disponible sólo si ThemeREX Addons está activado)"
+
+#: skin-options.php:922 skin-options.php:1146
+msgid "Select custom footer from Layouts Builder"
+msgstr "Selecciona un pie de página personalizado desde Layouts Builder"
+
+#: skin-options.php:935 skin-options.php:1155 skin-options.php:3196
+msgid "Footer widgets"
+msgstr "Widgets de pie de página"
+
+#: skin-options.php:936 skin-options.php:1156 skin-options.php:3197
+msgid "Select set of widgets to show in the footer"
+msgstr "Selecciona un conjunto de widgets para mostrar en el pie de página"
+
+#: skin-options.php:949 skin-options.php:1165 skin-options.php:3206
+msgid "Footer columns"
+msgstr "Columnas de pie de página"
+
+#: skin-options.php:950 skin-options.php:1166 skin-options.php:3207
+msgid ""
+"Select number columns to show widgets in the footer. If 0 - autodetect by "
+"the widgets count"
+msgstr ""
+"Selecciona el número de columnas para mostrar widgets en el pie de página. "
+"Si 0, se detecta automáticamente por el conteo de widgets"
+
+#: skin-options.php:964 skin-options.php:3217
+msgid "Footer fullwidth"
+msgstr "Ancho total de pie de página"
+
+#: skin-options.php:965 skin-options.php:3218
+msgid "Do you want to stretch the footer to the entire window width?"
+msgstr ""
+"¿Quieres extender el área de widgets de pie de página a todo el ancho de la "
+"ventana?"
+
+#: skin-options.php:977
+msgid "Show logo"
+msgstr "Mostrar logo"
+
+#: skin-options.php:978
+msgid "Show logo in the footer"
+msgstr "Mostrar logo en el pie de página"
+
+#: skin-options.php:987
+msgid "Logo for footer"
+msgstr "Logo para el pie de página"
+
+#: skin-options.php:988
+msgid "Select or upload site logo to display it in the footer"
+msgstr ""
+"Selecciona o carga el logo del sitio para visualizarlo en el pie de página"
+
+#: skin-options.php:997
+msgid "Logo for footer (Retina)"
+msgstr "Logo para el pie de página (Retina)"
+
+#: skin-options.php:998
+msgid ""
+"Select or upload logo for the footer area used on Retina displays (if empty "
+"- use default logo from the field above)"
+msgstr ""
+"Selecciona o carga el logo para el pie de página utilizado en las pantallas "
+"Retina (si está vacío, utiliza el logo predeterminado en el campo de arriba)"
+
+#: skin-options.php:1009
+msgid "Show social icons"
+msgstr "Mostrar iconos sociales"
+
+#: skin-options.php:1010
+msgid "Show social icons in the footer (under logo or footer widgets)"
+msgstr ""
+"Mostrar iconos sociales en el pie de página (debajo de widgets de logo o pie "
+"de página)"
+
+#: skin-options.php:1018
+msgid "Copyright"
+msgstr "Copyright"
+
+#: skin-options.php:1019
+msgid ""
+"Copyright text in the footer. Use {Y} to insert current year and press "
+"\"Enter\" to create a new line"
+msgstr ""
+"Texto de copyright en el pie de página. Usa {Y} para insertar el año actual "
+"y pulsa \"Enter\" para crear una nueva línea"
+
+#: skin-options.php:1021
+#, fuzzy
+#| msgid "Copyright &copy; {Y} by ThemeREX. All rights reserved."
+msgid "Copyright &copy; {Y} by AncoraThemes. All rights reserved."
+msgstr "Copyright &copy; {Y} de ThemeREX. Todos los derechos reservados."
+
+#: skin-options.php:1034
+#, fuzzy
+#| msgid "Mobile Menu"
+msgid "Mobile"
+msgstr "Menú móvil"
+
+#: skin-options.php:1042
+#, fuzzy
+#| msgid "Headers and Footers builder"
+msgid "Header on the mobile device"
+msgstr "Generador de encabezados y pies de pagina"
+
+#: skin-options.php:1048
+#, fuzzy
+#| msgid ""
+#| "Choose whether to use the default header or header Layouts (available "
+#| "only if the ThemeREX Addons is activated)"
+msgid ""
+"Choose the header to be used on mobile devices: the default header or header "
+"Layouts (available only if the ThemeREX Addons is activated)"
+msgstr ""
+"Elige si desea utilizar el encabezado predeterminado o los diseños de "
+"encabezado (disponible sólo si ThemeREX Addons está activado)"
+
+#: skin-options.php:1066 skin-options.php:1457 skin-options.php:1686
+#: skin-options.php:2752
+msgid "Select position to display the site header"
+msgstr "Selecciona una posición para visualizar el encabezado del sitio"
+
+#: skin-options.php:1074
+#, fuzzy
+#| msgid "Hide sidebar on the single page"
+msgid "Sidebar on the mobile device"
+msgstr "Ocultar barra lateral en la publicación individual"
+
+#: skin-options.php:1079
+#, fuzzy
+#| msgid "Sidebar position"
+msgid "Sidebar position on mobile"
+msgstr "Posición de barra lateral"
+
+#: skin-options.php:1080
+#, fuzzy
+#| msgid "Select sidebar to show on the %s pages"
+msgid "Select sidebar position on mobile devices"
+msgstr "Selecciona una barra lateral para mostrar en las %s páginas"
+
+#: skin-options.php:1109
+#, fuzzy
+#| msgid "Select default widgets to show in the sidebar"
+msgid "Select default widgets to show in the sidebar on mobile devices"
+msgstr "Selecciona widgets predeterminados para mostrar en la barra lateral"
+
+#: skin-options.php:1120
+#, fuzzy
+#| msgid "Expand the content width if the sidebar is hidden"
+msgid "Content width if the sidebar is hidden on mobile devices"
+msgstr "Ampliar el ancho del contenido si la barra lateral está oculta"
+
+#: skin-options.php:1132
+#, fuzzy
+#| msgid "Logo for the mobile header"
+msgid "Footer on the mobile device"
+msgstr "Logo para el encabezado móvil"
+
+#: skin-options.php:1138
+#, fuzzy
+#| msgid ""
+#| "Choose whether to use the default footer or footer Layouts (available "
+#| "only if the ThemeREX Addons is activated)"
+msgid ""
+"Choose whether to use on mobile devices: the default footer or footer "
+"Layouts (available only if the ThemeREX Addons is activated)"
+msgstr ""
+"Elige si desea utilizar el pie de página predeterminado o los diseños de pie "
+"de página (disponible sólo si ThemeREX Addons está activado)"
+
+#: skin-options.php:1181
+msgid "Blog"
+msgstr "Blog"
+
+#: skin-options.php:1182
+msgid "Options of the the blog archive"
+msgstr "Opciones del archivo de blog"
+
+#: skin-options.php:1192
+msgid "Posts page"
+msgstr "Página de publicaciones"
+
+#: skin-options.php:1193
+msgid "Style and components of the blog archive"
+msgstr "Estilo y componentes del archivo de blog"
+
+#: skin-options.php:1198
+#, fuzzy
+#| msgid "Posts page"
+msgid "Posts page settings"
+msgstr "Página de publicaciones"
+
+#: skin-options.php:1199
+msgid ""
+"Customize the blog archive: post layout, header and footer style, sidebar "
+"position, etc."
+msgstr ""
+
+#: skin-options.php:1204 skin-options.php:2656
+msgid "Blog style"
+msgstr "Estilo de blog"
+
+#: skin-options.php:1221 skin-options.php:2663
+#, fuzzy
+#| msgid "Latest posts"
+msgid "Large first post"
+msgstr "Últimas publicaciones"
+
+#: skin-options.php:1222 skin-options.php:2664
+msgid "Make your first post stand out by making it bigger"
+msgstr "Haz que tu publicación se destaque haciéndolo más grande"
+
+#: skin-options.php:1237 skin-options.php:2673
+msgid "Posts content"
+msgstr "Contenido de publicaciones"
+
+#: skin-options.php:1238 skin-options.php:2674
+msgid "Display either post excerpts or the full post content"
+msgstr ""
+"Visualiza extractos de publicaciones o el contenido completo de la "
+"publicación"
+
+#: skin-options.php:1247 skin-options.php:2683
+msgid "Excerpt length"
+msgstr "Longitud de extracto"
+
+#: skin-options.php:1248 skin-options.php:2684
+msgid ""
+"Length (in words) to generate excerpt from the post content. Attention! If "
+"the post excerpt is explicitly specified - it appears unchanged"
+msgstr ""
+"Longitud (en palabras) para generar un extracto del contenido de una "
+"publicación. ¡Atención! Si el extracto de la publicación se especifica "
+"explícitamente, aparece sin cambios"
+
+#: skin-options.php:1261
+msgid "Blog columns"
+msgstr "Columnas de blog"
+
+#: skin-options.php:1262
+msgid "How many columns should be used in the blog archive (from 2 to 4)?"
+msgstr "¿Cuántas columnas se deben usar en el archivo de blog (de 2 a 4)?"
+
+#: skin-options.php:1268
+msgid "Post type"
+msgstr "Tipo de publicación"
+
+#: skin-options.php:1269
+msgid "Select post type to show in the blog archive"
+msgstr "Selecciona el tipo de publicación para mostrar en el archivo de blog"
+
+#: skin-options.php:1287
+msgid "Category to show"
+msgstr "Categoría para mostrar"
+
+#: skin-options.php:1288
+msgid "Select category to show in the blog archive"
+msgstr "Selecciona una categoría para mostrar en el archivo de blog"
+
+#: skin-options.php:1305
+msgid "Posts per page"
+msgstr "Publicaciones por página"
+
+#: skin-options.php:1306
+msgid "How many posts will be displayed on this page"
+msgstr "Cuantas publicaciones se mostrarán en esta página"
+
+#: skin-options.php:1321 skin-options.php:2705
+msgid "Pagination style"
+msgstr "Estilo de paginación"
+
+#: skin-options.php:1322 skin-options.php:2706
+msgid "Show Older/Newest posts or Page numbers below the posts list"
+msgstr ""
+"Mostrar publicaciones anteriores/más recientes o números de páginas debajo "
+"de la lista de publicaciones"
+
+#: skin-options.php:1338 skin-options.php:2712
+#, fuzzy
+#| msgid "Post author"
+msgid "Post animation"
+msgstr "Autor de publicación"
+
+#: skin-options.php:1339 skin-options.php:2713
+#, fuzzy
+#| msgid ""
+#| "Select animation to show posts in the blog. Attention! Do not use any "
+#| "animation on pages with the \"wheel to the anchor\" behaviour (like a "
+#| "\"Chess 2 columns\")!"
+msgid ""
+"Select post animation for the archive page. Attention! Do not use any "
+"animation on pages with the 'wheel to the anchor' behaviour!"
+msgstr ""
+"Selecciona una animación para mostrar las publicaciones en el blog. "
+"¡Atención! ¡No utilices animaciones en las páginas con \"la rueda al "
+"anclaje\" (como \"Ajedrez 2 columnas\")!"
+
+#: skin-options.php:1355
+msgid "Disable animation on mobile"
+msgstr ""
+
+#: skin-options.php:1356
+msgid "Disable any posts animation on mobile devices"
+msgstr ""
+
+#: skin-options.php:1362
+msgid "Show filters"
+msgstr "Mostrar filtros"
+
+#: skin-options.php:1363
+msgid "Show categories as tabs to filter posts"
+msgstr "Mostrar categorías como pestañas para filtrar publicaciones"
+
+#: skin-options.php:1379
+#, fuzzy
+#| msgid "Options of the the blog archive"
+msgid "Open video in the popup on a blog archive"
+msgstr "Opciones del archivo de blog"
+
+#: skin-options.php:1380
+msgid ""
+"Open the video from posts in the popup (if plugin \"ThemeREX Addons\" is "
+"installed) or play the video instead the cover image"
+msgstr ""
+
+#: skin-options.php:1394 skin-options.php:2720
+#, fuzzy
+#| msgid "View all posts in %s"
+msgid "Open full post in blog"
+msgstr "Ver todas las publicaciones en %s"
+
+#: skin-options.php:1395
+msgid ""
+"Allow to open the full version of the post directly in the blog feed. "
+"Attention! Applies only to 1 column layouts!"
+msgstr ""
+
+#: skin-options.php:1404 skin-options.php:2154
+#, fuzzy
+#| msgid "Show author info"
+msgid "Hide author bio"
+msgstr "Mostrar información del autor"
+
+#: skin-options.php:1405
+msgid ""
+"Hide author bio after post content when open the full version of the post "
+"directly in the blog feed."
+msgstr ""
+
+#: skin-options.php:1418 skin-options.php:2164
+#, fuzzy
+#| msgid "Show related posts"
+msgid "Hide related posts"
+msgstr "Mostrar publicaciones relacionadas"
+
+#: skin-options.php:1419
+msgid ""
+"Hide related posts after post content when open the full version of the post "
+"directly in the blog feed."
+msgstr ""
+
+#: skin-options.php:1498
+#, fuzzy
+#| msgid "Select position to show sidebar on the %s pages"
+msgid ""
+"Select position to move sidebar on the small screen - above or below the "
+"content"
+msgstr ""
+"Selecciona una posición para mostrar la barra lateral en las %s páginas"
+
+#: skin-options.php:1591
+msgid "Advanced settings"
+msgstr "Configuración avanzada"
+
+#: skin-options.php:1596
+msgid "Image placeholder"
+msgstr "Marcador de posición de imagen"
+
+#: skin-options.php:1597
+msgid ""
+"Select or upload a placeholder image for posts without a featured image. "
+"Placeholder is used exclusively on the blog stream page (and not on single "
+"post pages), and only in those styles, where omitting a featured image would "
+"be inappropriate."
+msgstr ""
+
+#: skin-options.php:1602
+msgid "Sticky posts style"
+msgstr "Estilo de publicaciones adhesivas"
+
+#: skin-options.php:1603
+msgid "Select style of the sticky posts output"
+msgstr "Selecciona el estilo de las publicaciones adhesivas"
+
+#: skin-options.php:1606
+msgid "Decorated posts"
+msgstr "Publicaciones decoradas"
+
+#: skin-options.php:1607
+msgid "Mini-cards"
+msgstr "Mini tarjetas"
+
+#: skin-options.php:1613 skin-options.php:1852 skin-options.php:2693
+#: skin-setup.php:297
+msgid "Post meta"
+msgstr "Post meta"
+
+#: skin-options.php:1614
+msgid ""
+"If your blog page is created using the 'Blog archive' page template, set up "
+"the 'Post Meta' settings in the 'Theme Options' section of that page. Post "
+"counters and Share Links are available only if plugin ThemeREX Addons is "
+"active"
+msgstr ""
+"Si tu página de blog se crea utilizando la plantilla de página 'Archivo de "
+"blog', ajusta las configuraciones de 'Post Meta' en la sección 'Opciones de "
+"tema' de esta página. Contadores de publicaciones y Share Links están "
+"disponibles sólo si el plugin ThemeREX Addons está activado"
+
+#: skin-options.php:1616 skin-options.php:1855 skin-options.php:2696
+msgid "<b>Tip:</b> Drag items to change their order."
+msgstr "<b>Tip:</b> Arrastra los elementos para cambiar su orden."
+
+#: skin-options.php:1634
+#, fuzzy
+#| msgid "Easy Readable Date Format"
+msgid "Easy readable date format"
+msgstr "Formato de Fecha de Fácil Lectura"
+
+#: skin-options.php:1635
+msgid ""
+"For how many days to show the easy-readable date format (e.g. '3 days ago') "
+"instead of the standard publication date"
+msgstr ""
+"Cuántos días mostrar el formato de fecha de fácil lectura (por ejemplo, "
+"'hace 3 días') en lugar de la fecha de publicación estándar"
+
+#: skin-options.php:1640
+msgid "Use \"Blog Archive\" page settings on the post list"
+msgstr ""
+
+#: skin-options.php:1641
+msgid ""
+"Apply options and content of pages created with the template \"Blog "
+"Archive\" for some type of posts and / or taxonomy when viewing feeds of "
+"posts of this type and taxonomy."
+msgstr ""
+
+#: skin-options.php:1650 skin-options.php:1657
+msgid "Single posts"
+msgstr "Publicaciones individuales"
+
+#: skin-options.php:1651
+msgid "Settings of the single post"
+msgstr "Configuración de la publicación individual"
+
+#: skin-options.php:1658
+msgid ""
+"Customize the single post: content  layout, header and footer styles, "
+"sidebar position, meta elements, etc."
+msgstr ""
+
+#: skin-options.php:1719
+#, fuzzy
+#| msgid "Select position to show sidebar on the %s pages"
+msgid "Select position to show sidebar on the single posts"
+msgstr ""
+"Selecciona una posición para mostrar la barra lateral en las %s páginas"
+
+#: skin-options.php:1730
+msgid ""
+"Select position to move sidebar on the single posts on the small screen - "
+"above or below the content"
+msgstr ""
+
+#: skin-options.php:1774
+#, fuzzy
+#| msgid "Select default widgets to show in the sidebar"
+msgid "Select default widgets to show in the sidebar on the single posts"
+msgstr "Selecciona widgets predeterminados para mostrar en la barra lateral"
+
+#: skin-options.php:1789
+msgid ""
+"Content width on the single posts if the sidebar is hidden. Attention! "
+"\"Narrow\" width is only available for posts. For all other post types "
+"(Team, Services, etc.), it is equivalent to \"Normal\""
+msgstr ""
+
+#: skin-options.php:1802
+#, fuzzy
+#| msgid "Hide featured image on the single post"
+msgid "Featured image and title"
+msgstr "Ocultar la imagen destacada en una publicación individual"
+
+#: skin-options.php:1807
+#, fuzzy
+#| msgid "Single posts"
+msgid "Single style"
+msgstr "Publicaciones individuales"
+
+#: skin-options.php:1819
+msgid "Parallax speed"
+msgstr ""
+
+#: skin-options.php:1820
+msgid ""
+"Speed for shifting the image while scrolling the page. If 0, the effect is "
+"not applied."
+msgstr ""
+
+#: skin-options.php:1835
+#, fuzzy
+#| msgid "Post type"
+msgid "Post subtitle"
+msgstr "Tipo de publicación"
+
+#: skin-options.php:1836
+#, fuzzy
+#| msgid "Select or upload site logo to display it in the footer"
+msgid "Specify post subtitle to display it under the post title."
+msgstr ""
+"Selecciona o carga el logo del sitio para visualizarlo en el pie de página"
+
+#: skin-options.php:1846
+msgid "Show post meta"
+msgstr "Mostrar post meta"
+
+#: skin-options.php:1847
+msgid "Display block with post's meta: date, categories, counters, etc."
+msgstr ""
+"Visualizar el bloque con post meta: datos, categorías, contadores, etc."
+
+#: skin-options.php:1853
+msgid ""
+"Meta parts for single posts. Post counters and Share Links are available "
+"only if plugin ThemeREX Addons is active"
+msgstr ""
+"Partes de Meta para publicaciones individuales. Likes y Vistas están "
+"disponibles sólo si el plugin ThemeREX Addons está activado"
+
+#: skin-options.php:1867
+#, fuzzy
+#| msgid "Share links"
+msgid "Share links position"
+msgstr "Compartir enlaces"
+
+#: skin-options.php:1868
+#, fuzzy
+#| msgid ""
+#| "Meta parts for single posts. Post counters and Share Links are available "
+#| "only if plugin ThemeREX Addons is active"
+msgid ""
+"Select one or more positions to show Share links on single posts. Post "
+"counters and Share Links are available only if plugin ThemeREX Addons is "
+"active"
+msgstr ""
+"Partes de Meta para publicaciones individuales. Likes y Vistas están "
+"disponibles sólo si el plugin ThemeREX Addons está activado"
+
+#: skin-options.php:1879
+#, fuzzy
+#| msgid "Share links"
+msgid "Share links fixed"
+msgstr "Compartir enlaces"
+
+#: skin-options.php:1880
+msgid "Fix share links when a document scrolled down"
+msgstr ""
+
+#: skin-options.php:1894
+msgid "Show comments button"
+msgstr ""
+
+#: skin-options.php:1895
+msgid "Display button to show/hide comments block"
+msgstr ""
+
+#: skin-options.php:1904
+#, fuzzy
+#| msgid "Comments"
+msgid "Comments block"
+msgstr "Comentarios"
+
+#: skin-options.php:1905
+#, fuzzy
+#| msgid "Select color style to decorate this block"
+msgid "Select initial state of the comments block"
+msgstr "Selecciona el estilo de color para decorar este bloque"
+
+#: skin-options.php:1919 skin-options.php:1988
+msgid "Related posts"
+msgstr "Publicaciones relacionadas"
+
+#: skin-options.php:1934
+msgid "Related posts style"
+msgstr "Estilo de publicaciones relacionadas"
+
+#: skin-options.php:1935
+#, fuzzy
+#| msgid "Select style of the related posts output"
+msgid "Select the style of the related posts output"
+msgstr "Selecciona el estilo de las publicaciones relacionadas"
+
+#: skin-options.php:1951
+#, fuzzy
+#| msgid "Related posts style"
+msgid "Related posts position"
+msgstr "Estilo de publicaciones relacionadas"
+
+#: skin-options.php:1952
+#, fuzzy
+#| msgid "Select position to display the site header"
+msgid "Select position to display the related posts"
+msgstr "Selecciona una posición para visualizar el encabezado del sitio"
+
+#: skin-options.php:1962
+msgid "Inside the content (fullwidth)"
+msgstr ""
+
+#: skin-options.php:1963
+#, fuzzy
+#| msgid "Select width of the body content"
+msgid "At left side of the content"
+msgstr "Seleccionar el ancho del contenido del corpo"
+
+#: skin-options.php:1964
+#, fuzzy
+#| msgid "Widgets above the content"
+msgid "At right side of the content"
+msgstr "Widgets por encima del contenido"
+
+#: skin-options.php:1965
+#, fuzzy
+#| msgid "Widgets above the content"
+msgid "After the content"
+msgstr "Widgets por encima del contenido"
+
+#: skin-options.php:1966
+msgid "After the content & sidebar"
+msgstr ""
+
+#: skin-options.php:1972
+msgid "Before # paragraph"
+msgstr ""
+
+#: skin-options.php:1973
+msgid "Before what paragraph should related posts appear? If 0 - randomly."
+msgstr ""
+
+#: skin-options.php:1989
+#, fuzzy
+#| msgid ""
+#| "How many related products should be displayed on the single product page?"
+msgid "How many related posts should be displayed in the single post?"
+msgstr ""
+"¿Cuántos productos relacionados se deben mostrar en la página del producto "
+"individual?"
+
+#: skin-options.php:2005
+msgid "Related columns"
+msgstr "Columnas relacionadas"
+
+#: skin-options.php:2006
+#, fuzzy
+#| msgid ""
+#| "How many columns should be used to output related products on the single "
+#| "product page?"
+msgid ""
+"How many columns should be used to output related posts on the single post "
+"page?"
+msgstr ""
+"¿Cuántas columnas se deben usar para mostrar los productos relacionado en la "
+"página del producto individual?"
+
+#: skin-options.php:2023
+msgid "Use slider layout"
+msgstr ""
+
+#: skin-options.php:2024
+msgid ""
+"Use slider layout in case related posts count is more than columns count"
+msgstr ""
+
+#: skin-options.php:2037
+#, fuzzy
+#| msgid "Slider Shortcode"
+msgid "Slider controls"
+msgstr "Código corto del deslizador"
+
+#: skin-options.php:2038
+#, fuzzy
+#| msgid "Show logo in the footer"
+msgid "Show arrows in the slider"
+msgstr "Mostrar logo en el pie de página"
+
+#: skin-options.php:2050
+#, fuzzy
+#| msgid "Sidebar"
+msgid "Side"
+msgstr "Barra lateral"
+
+#: skin-options.php:2051
+msgid "Top"
+msgstr "Inicio"
+
+#: skin-options.php:2052 skin-options.php:2071
+msgid "Bottom"
+msgstr ""
+
+#: skin-options.php:2058
+#, fuzzy
+#| msgid "Sidebar position"
+msgid "Slider pagination"
+msgstr "Posición de barra lateral"
+
+#: skin-options.php:2059
+msgid "Show bullets after the slider"
+msgstr ""
+
+#: skin-options.php:2077
+msgid "Space between slides"
+msgstr ""
+
+#: skin-options.php:2078
+msgid "Space between slides in the related posts slider (in pixels)"
+msgstr ""
+
+#: skin-options.php:2095
+#, fuzzy
+#| msgid "Post author"
+msgid "Post navigation"
+msgstr "Autor de publicación"
+
+#: skin-options.php:2112
+#, fuzzy
+#| msgid "Header position"
+msgid "Fixed post navigation"
+msgstr "Posición de encabezado"
+
+#: skin-options.php:2113
+msgid ""
+"Fix the position of post navigation buttons on desktop. Display them on "
+"either side of post content."
+msgstr ""
+
+#: skin-options.php:2122
+msgid "Next post from same category"
+msgstr ""
+
+#: skin-options.php:2123
+msgid "Load next post from the same category or from any category."
+msgstr ""
+
+#: skin-options.php:2132
+msgid "Which block to load?"
+msgstr ""
+
+#: skin-options.php:2133
+msgid ""
+"Load only the content of the next article or the article and sidebar "
+"together."
+msgstr ""
+
+#: skin-options.php:2135
+msgid ""
+"Attention! If you override sidebar position or content width on single posts "
+"(e.g. the sidebar is displayed on some posts and hidden on others), please "
+"don’t use the 'Full post' option to prevent improper content positioning."
+msgstr ""
+
+#: skin-options.php:2142
+#, fuzzy
+#| msgid "Expand content"
+msgid "Only content"
+msgstr "Ampliar contenido"
+
+#: skin-options.php:2146
+msgid "Full post"
+msgstr "Publicación completa"
+
+#: skin-options.php:2155
+msgid "Hide author bio after post content when infinite scroll is used."
+msgstr ""
+
+#: skin-options.php:2165
+msgid "Hide related posts after post content when infinite scroll is used."
+msgstr ""
+
+#: skin-options.php:2174
+#, fuzzy
+#| msgid "Comments"
+msgid "Hide comments"
+msgstr "Comentarios"
+
+#: skin-options.php:2175
+msgid "Hide comments after post content when infinite scroll is used."
+msgstr ""
+
+#: skin-options.php:2192 skin-options.php:2244 skin-options.php:2257
+#: skin-options.php:2270 skin-options.php:2284 skin-options.php:2297
+#: skin-options.php:2310
+msgid "Colors"
+msgstr "Colores"
+
+#: skin-options.php:2201
+#, fuzzy
+#| msgid "Color style"
+msgid "Color preset"
+msgstr "Estilo de color"
+
+#: skin-options.php:2202
+msgid ""
+"Prepared sets of colors for an instant transformation of your site. After "
+"selecting a preset, you can edit any colors using the color scheme editor "
+"below."
+msgstr ""
+
+#: skin-options.php:2217
+msgid "Color scheme editor"
+msgstr "Editor de esquema de color"
+
+#: skin-options.php:2218
+#, fuzzy
+#| msgid ""
+#| "Select color scheme to modify. Attention! Only those sections in the site "
+#| "will be changed which this scheme was assigned to"
+msgid ""
+"Select a color scheme to modify. Attention! Only sections of the site with "
+"the selected color scheme will be affected by the changes."
+msgstr ""
+"Selecciona el esquema de color para modificar. ¡Atención! Sólo aquellas "
+"secciones en el sitio serán cambiados a las que se asignó este esquema"
+
+#: skin-options.php:2233
+#, fuzzy
+#| msgid "Color schemes"
+msgid "Color scheme assignment"
+msgstr "Esquemas de color"
+
+#: skin-options.php:2234
+#, fuzzy
+#| msgid ""
+#| "Color schemes for various parts of the site. \"Inherit\" means that this "
+#| "block is used the Site color scheme (the first parameter)"
+msgid ""
+"Color schemes for various parts of the site. \"Inherit\" means that this "
+"block uses the main color scheme from the first parameter - Site Color "
+"Scheme."
+msgstr ""
+"Esquemas de color para varias partes del sitio. \"Heredar\" significa que en "
+"este bloque se utiliza el Esquema de color del sitio (el primer parámetro)"
+
+#: skin-options.php:2240
+msgid "Site Color Scheme"
+msgstr "Esquema de Color del Sitio"
+
+#: skin-options.php:2253
+msgid "Header Color Scheme"
+msgstr "Esquema de Color de Encabezado"
+
+#: skin-options.php:2266
+msgid "Sidemenu Color Scheme"
+msgstr "Esquema de Color de Menú Lateral"
+
+#: skin-options.php:2280
+msgid "Sidebar Color Scheme"
+msgstr "Esquema de Color de Barra Lateral"
+
+#: skin-options.php:2293
+msgid "Footer Color Scheme"
+msgstr "Esquema de Color de Pie de Página"
+
+#: skin-options.php:2306
+#, fuzzy
+#| msgid "Color scheme editor"
+msgid "Color scheme switcher"
+msgstr "Editor de esquema de color"
+
+#: skin-options.php:2317
+#, fuzzy
+#| msgid "Hide logo"
+msgid "Invert logo"
+msgstr "Ocultar logo"
+
+#: skin-options.php:2318
+msgid "Inverse logo colors on the dark scheme"
+msgstr ""
+
+#: skin-options.php:2352
+#, fuzzy
+#| msgid "Categories"
+msgid "Category"
+msgstr "Categorías"
+
+#: skin-options.php:2353
+#, fuzzy
+#| msgid "Tags:"
+msgid "Tag"
+msgstr "Etiquetas:"
+
+#: skin-options.php:2354
+#, fuzzy
+#| msgid "Author: "
+msgid "Author"
+msgstr "Autor:"
+
+#: skin-options.php:2365
+msgid "Typography"
+msgstr "Tipografía"
+
+#: skin-options.php:2375 skin-options.php:2381
+#, fuzzy
+#| msgid "Font styles"
+msgid "Font presets"
+msgstr "Estilos de fuente"
+
+#: skin-options.php:2382
+msgid "Select a font preset to setup all typography parameters at once."
+msgstr ""
+
+#: skin-options.php:2387
+#, fuzzy
+#| msgid "Font %s"
+msgid "Font preset"
+msgstr "Fuente %s"
+
+#: skin-options.php:2398 skin-options.php:2404
+msgid "Load fonts"
+msgstr "Cargar fuentes"
+
+#: skin-options.php:2399
+msgid ""
+"Specify fonts to load when theme start. You can use them in the base theme "
+"elements: headers, text, menu, links, input fields, etc."
+msgstr ""
+"Especifica las fuentes para cargar cuando se inicia el tema. Puedes usarlos "
+"en los elementos básicos del tema: encabezados, texto, menú, enlaces, campos "
+"de entrada, etc."
+
+#: skin-options.php:2405
+#, fuzzy
+#| msgid ""
+#| "Attention! Press \"Refresh\" button to reload preview area after the all "
+#| "fonts are changed"
+msgid ""
+"Press \"Reload preview area\" button at the top of this panel after the all "
+"font parameters are changed."
+msgstr ""
+"¡Atención! Haz clic en el botón \"Actualizar\" para recargar el área de "
+"vista previa después de que se cambien todas las fuentes"
+
+#: skin-options.php:2410
+msgid "Google fonts subsets"
+msgstr "Subconjuntos de fuentes de Google"
+
+#: skin-options.php:2411
+#, fuzzy
+#| msgid ""
+#| "Specify comma separated list of the subsets which will be load from "
+#| "Google fonts"
+msgid ""
+"Specify a comma separated list of subsets to be loaded from Google fonts."
+msgstr ""
+"Especifica una lista separada por comas de los subconjuntos que se cargarán "
+"de las fuentes de Google"
+
+#: skin-options.php:2412
+#, fuzzy
+#| msgid ""
+#| "Available subsets are: latin,latin-ext,cyrillic,cyrillic-ext,greek,greek-"
+#| "ext,vietnamese"
+msgid ""
+"Permitted subsets include: latin,latin-ext,cyrillic,cyrillic-ext,greek,greek-"
+"ext,vietnamese"
+msgstr ""
+"Los subconjuntos disponibles son: latin,latin-ext,cyrillic,cyrillic-ext,"
+"greek,greek-ext,vietnamese"
+
+#: skin-options.php:2425
+#, php-format
+msgid "Font %s"
+msgstr "Fuente %s"
+
+#: skin-options.php:2432
+msgid "Font name"
+msgstr "Nombre de fuente"
+
+#: skin-options.php:2441
+msgid "Fallback fonts"
+msgstr ""
+
+#: skin-options.php:2443
+msgid ""
+"A comma-separated list of fallback fonts. Used if the font specified in the "
+"previous field is not available. Last in the list, specify the name of the "
+"font family: serif, sans-serif, monospace, cursive."
+msgstr ""
+
+#: skin-options.php:2445
+msgid "For example: Arial, Helvetica, sans-serif"
+msgstr ""
+
+#: skin-options.php:2454
+#, fuzzy
+#| msgid "Font %s"
+msgid "Font URL"
+msgstr "Fuente %s"
+
+#: skin-options.php:2456
+msgid ""
+"Font URL used only for Adobe fonts. This is URL of the stylesheet for the "
+"project with a fonts collection from the site adobe.com"
+msgstr ""
+
+#: skin-options.php:2465
+msgid "Font styles"
+msgstr "Estilos de fuente"
+
+#: skin-options.php:2467
+#, fuzzy
+#| msgid ""
+#| "Font styles used only for the Google fonts. This is a comma separated "
+#| "list of the font weight and styles. For example: 400,400italic,700"
+msgid ""
+"Font styles used only for Google fonts. This is a list of the font weight "
+"and style options for Google fonts CSS API v2."
+msgstr ""
+"Estilos de fuente utilizados sólo para las fuentes de Google. Esta es una "
+"lista separada por comas de pesos y estilos de las fuentes. Por ejemplo: "
+"400,400italic,700"
+
+#: skin-options.php:2469
+msgid ""
+"For example, to load normal, normal italic, bold and bold italic fonts, "
+"please specify: ital,wght@0:400;0,700;1,400;1,700"
+msgstr ""
+
+#: skin-options.php:2471
+#, fuzzy
+#| msgid ""
+#| "Attention! Each weight and style increase download size! Specify only "
+#| "used weights and styles."
+msgid ""
+"Attention! Each weight and style option increases download size! Specify "
+"only those weight and style options that you plan on using."
+msgstr ""
+"¡Atención! ¡Cada peso y estilo aumentan el tamaño de descarga! Especifica "
+"sólo los pesos y estilos utilizados."
+
+#: skin-options.php:2492 skin-options.php:2506
+#, php-format
+msgid "%s settings"
+msgstr "Configuración de %s"
+
+#: skin-options.php:2533 skin-options.php:2547 skin-options.php:2554
+#: skin-options.php:2563
+msgid "Inherit"
+msgstr "Heredar"
+
+#: skin-options.php:2534
+#, fuzzy
+#| msgid "300 (Thin)"
+msgid "100 (Thin)"
+msgstr "300 (Fino)"
+
+#: skin-options.php:2535
+#, fuzzy
+#| msgid "200 (Light)"
+msgid "200 (Extra-Light)"
+msgstr "200 (Ligero)"
+
+#: skin-options.php:2536
+#, fuzzy
+#| msgid "100 (Light)"
+msgid "300 (Light)"
+msgstr "100 (Ligero)"
+
+#: skin-options.php:2537
+msgid "400 (Regular)"
+msgstr ""
+
+#: skin-options.php:2538
+#, fuzzy
+#| msgid "Medium"
+msgid "500 (Medium)"
+msgstr "Medio"
+
+#: skin-options.php:2539
+#, fuzzy
+#| msgid "600 (Semibold)"
+msgid "600 (Semi-bold)"
+msgstr "600 (En seminegrita)"
+
+#: skin-options.php:2540
+msgid "700 (Bold)"
+msgstr "700 (En negrita)"
+
+#: skin-options.php:2541
+#, fuzzy
+#| msgid "700 (Bold)"
+msgid "800 (Extra-bold)"
+msgstr "700 (En negrita)"
+
+#: skin-options.php:2542
+msgid "900 (Black)"
+msgstr "900 (Negro)"
+
+#: skin-options.php:2548
+msgid "Normal"
+msgstr "Normal"
+
+#: skin-options.php:2549
+msgid "Italic"
+msgstr "En cursiva"
+
+#: skin-options.php:2556
+msgid "Underline"
+msgstr "Subrayado"
+
+#: skin-options.php:2557
+msgid "Overline"
+msgstr "Superlínea"
+
+#: skin-options.php:2558
+msgid "Line-through"
+msgstr "Tachado"
+
+#: skin-options.php:2565
+msgid "Uppercase"
+msgstr "Mayúscula"
+
+#: skin-options.php:2566
+msgid "Lowercase"
+msgstr "Minúscula"
+
+#: skin-options.php:2567
+msgid "Capitalize"
+msgstr "Con mayúscula inicial"
+
+#: skin-options.php:2601
+msgid "Header video"
+msgstr "Video de encabezado"
+
+#: skin-options.php:2602
+msgid "Select video to use it as background for the header"
+msgstr "Selecciona un video para usarlo como el fondo para el encabezado"
+
+#: skin-options.php:2619
+msgid "Logo"
+msgstr "Logo"
+
+#: skin-options.php:2620
+msgid "Select or upload the site logo"
+msgstr "Selecciona o carga el logo del sitio"
+
+#: skin-options.php:2644
+#, fuzzy, php-format
+#| msgid "Style and components of the blog archive"
+msgid "Style and components of the %s posts page"
+msgstr "Estilo y componentes del archivo de blog"
+
+#: skin-options.php:2650
+#, fuzzy, php-format
+#| msgid "Posts page"
+msgid "%s posts page"
+msgstr "Página de publicaciones"
+
+#: skin-options.php:2652
+#, php-format
+msgid ""
+"Customize %s page: post layout, header and footer styles, sidebar position "
+"and widgets, etc."
+msgstr ""
+
+#: skin-options.php:2694
+#, fuzzy
+#| msgid ""
+#| "Meta parts for single posts. Post counters and Share Links are available "
+#| "only if plugin ThemeREX Addons is active"
+msgid ""
+"Set up post meta parts to show in the blog archive. Post counters and Share "
+"Links are available only if plugin ThemeREX Addons is active"
+msgstr ""
+"Partes de Meta para publicaciones individuales. Likes y Vistas están "
+"disponibles sólo si el plugin ThemeREX Addons está activado"
+
+#: skin-options.php:2721
+msgid ""
+"Allow to open the full version of the post directly in the posts feed. "
+"Attention! Applies only to 1 column layouts!"
+msgstr ""
+
+#: skin-options.php:2908
+#, fuzzy, php-format
+#| msgid "Hide sidebar on the single post"
+msgid "the %s list and single posts"
+msgstr "Ocultar barra lateral en la publicación individual"
+
+#: skin-options.php:2911
+#, php-format
+msgid "the %s list"
+msgstr ""
+
+#: skin-options.php:2913
+#, fuzzy, php-format
+#| msgid "Single posts"
+msgid "Single %s posts"
+msgstr "Publicaciones individuales"
+
+#: skin-options.php:2930
+#, fuzzy, php-format
+#| msgid "Body style"
+msgid "Body style on %s"
+msgstr "Estilo de cuerpo"
+
+#: skin-options.php:2932
+#, fuzzy, php-format
+#| msgid "Select parameters to display \"Resume\""
+msgid "Select body style to display %s"
+msgstr "Selecciona parámetros para visualizar \"Resumen\""
+
+#: skin-options.php:2960
+msgid "Select or upload image, used as background in the boxed body"
+msgstr ""
+"Selecciona o carga la imagen utilizada como el fondo en el cuerpo encajado"
+
+#: skin-options.php:2984
+#, fuzzy, php-format
+#| msgid "Header columns"
+msgid "Header on %s"
+msgstr "Columnas de encabezado"
+
+#: skin-options.php:2986
+#, fuzzy, php-format
+#| msgid "Select parameters to display \"Resume\""
+msgid "Set up header parameters to display %s"
+msgstr "Selecciona parámetros para visualizar \"Resumen\""
+
+#: skin-options.php:3000
+#, php-format
+msgid "Select custom layout to display the site header on the %s pages"
+msgstr ""
+"Selecciona un diseño personalizado para visualizar el encabezado del sitio "
+"en las %s páginas"
+
+#: skin-options.php:3012
+#, php-format
+msgid "Select position to display the site header on the %s pages"
+msgstr ""
+"Selecciona una posición para visualizar el encabezado del sitio en las %s "
+"páginas"
+
+#: skin-options.php:3021
+#, fuzzy, php-format
+#| msgid "Allow override the header image with the post's featured image"
+msgid "Allow overriding the header image with a featured image of %s."
+msgstr ""
+"Permitir anular la imagen del encabezado con la imagen destacada de la "
+"publicación"
+
+#: skin-options.php:3030
+#, php-format
+msgid "Select set of widgets to show in the header on the %s pages"
+msgstr ""
+"Selecciona un conjunto de widgets para mostrar en el encabezado en las %s "
+"páginas"
+
+#: skin-options.php:3053
+#, fuzzy, php-format
+#| msgid "Sidebar"
+msgid "Sidebar on %s"
+msgstr "Barra lateral"
+
+#: skin-options.php:3055
+#, fuzzy, php-format
+#| msgid "Select parameters to display \"Resume\""
+msgid "Set up sidebar parameters to display %s"
+msgstr "Selecciona parámetros para visualizar \"Resumen\""
+
+#: skin-options.php:3060
+#, fuzzy
+#| msgid "Sidebar position"
+msgid "Select sidebar position"
+msgstr "Posición de barra lateral"
+
+#: skin-options.php:3067
+msgid ""
+"Select a position for the sidebar on the small screen: above the content, "
+"below or on a sliding side-panel."
+msgstr ""
+
+#: skin-options.php:3099
+#, fuzzy
+#| msgid "Select default widgets to show in the sidebar"
+msgid "Select set of widgets to display in the sidebar"
+msgstr "Selecciona widgets predeterminados para mostrar en la barra lateral"
+
+#: skin-options.php:3171
+#, fuzzy, php-format
+#| msgid "Footer columns"
+msgid "Footer on %s"
+msgstr "Columnas de pie de página"
+
+#: skin-options.php:3173
+#, fuzzy, php-format
+#| msgid "Select parameters to display \"Resume\""
+msgid "Set up footer parameters to display %s"
+msgstr "Selecciona parámetros para visualizar \"Resumen\""
+
+#: skin-options.php:3186
+msgid "Select custom layout to display the site footer"
+msgstr "Selecciona un diseño personalizado para visualizar el pie de página"
+
+#: skin-options.php:3242
+#, fuzzy, php-format
+#| msgid "Additional panels"
+msgid "Additional panels on %s"
+msgstr "Paneles adicionales"
+
+#: skin-options.php:3244
+#, php-format
+msgid "Set up additional panels to display %s"
+msgstr ""
+
+#: skin-options.php:3326
+#, fuzzy
+#| msgid "- Select category -"
+msgid "Select category"
+msgstr "- Seleccionar categoría -"
+
+#: skin-options.php:3357
+msgid "Huge image"
+msgstr "Imagen enorme"
+
+#: skin-options.php:3364 skin-options.php:3371
+msgid "Large image"
+msgstr "Imagen grande"
+
+#: skin-options.php:3379
+msgid "Medium image"
+msgstr "Imagen mediana"
+
+#: skin-options.php:3386
+msgid "Small square avatar"
+msgstr "Avatar pequeño cuadrado"
+
+#: skin-options.php:3394
+msgid "Masonry Large (scaled)"
+msgstr "Mampostería grande (a escala)"
+
+#: skin-options.php:3402
+msgid "Masonry (scaled)"
+msgstr "Mampostería (a escala)"
+
+#: skin-options.php:3421
+msgid "Standard"
+msgstr ""
+
+#: skin-options.php:3431
+msgid "Band"
+msgstr ""
+
+#: skin-options.php:3450
+msgid "Classic Masonry"
+msgstr ""
+
+#: skin-options.php:3460
+msgid "Portfolio"
+msgstr "Cartera"
+
+#: skin-options.php:3469
+#, fuzzy
+#| msgid "Portfolio"
+msgid "Portfolio Masonry"
+msgstr "Cartera"
+
+#: skin-options.php:3493
+#, fuzzy
+#| msgid "Style %d"
+msgid "Style 1"
+msgstr "Estilo %d"
+
+#: skin-options.php:3494
+msgid ""
+"Fullwidth image is above the content area, the title and meta are over the "
+"image"
+msgstr ""
+
+#: skin-options.php:3499
+#, fuzzy
+#| msgid "Style %d"
+msgid "Style 2"
+msgstr "Estilo %d"
+
+#: skin-options.php:3500
+msgid ""
+"Fullwidth image is above the content area, the title and meta are inside the "
+"content area"
+msgstr ""
+
+#: skin-options.php:3505
+#, fuzzy
+#| msgid "Style %d"
+msgid "Style 3"
+msgstr "Estilo %d"
+
+#: skin-options.php:3506
+msgid ""
+"Fullwidth image is above the content area, the title and meta are below the "
+"image"
+msgstr ""
+
+#: skin-options.php:3511
+#, fuzzy
+#| msgid "Style %d"
+msgid "Style 4"
+msgstr "Estilo %d"
+
+#: skin-options.php:3512
+#, fuzzy
+#| msgid "Remove margins above and below the content area on the front page"
+msgid ""
+"Boxed image is above the content area, the title and meta are above the image"
+msgstr ""
+"Eliminar los márgenes por encima y por debajo del área de contenido en la "
+"página de entrada"
+
+#: skin-options.php:3517
+#, fuzzy
+#| msgid "Style %d"
+msgid "Style 5"
+msgstr "Estilo %d"
+
+#: skin-options.php:3518
+msgid ""
+"Boxed image is inside the content area, the title and meta are above the "
+"content area"
+msgstr ""
+
+#: skin-options.php:3523
+#, fuzzy
+#| msgid "Style %d"
+msgid "Style 6"
+msgstr "Estilo %d"
+
+#: skin-options.php:3524
+msgid ""
+"Boxed image, the title and meta are inside the content area, the title and "
+"meta are above the image"
+msgstr ""
+
+#: skin-options.php:3529
+#, fuzzy
+#| msgid "Style %d"
+msgid "Style 7"
+msgstr "Estilo %d"
+
+#: skin-options.php:3530
+msgid ""
+"Boxed image, the title and meta are above the content area like two big "
+"square areas"
+msgstr ""
+
+#: skin-plugins.php:13
+msgid "Core"
+msgstr ""
+
+#: skin-plugins.php:14
+#, fuzzy
+#| msgid "Front Page Builder"
+msgid "Page Builders"
+msgstr "Front Page Builder"
+
+#: skin-plugins.php:15
+#, fuzzy
+#| msgid "ThemeREX Donations"
+msgid "E-Commerce & Donations"
+msgstr "Donaciones de ThemeREX"
+
+#: skin-plugins.php:16
+msgid "Socials and Communities"
+msgstr ""
+
+#: skin-plugins.php:17
+#, fuzzy
+#| msgid "Booked Appointments"
+msgid "Events and Appointments"
+msgstr "Citas Reservadas"
+
+#: skin-plugins.php:19
+msgid "Other"
+msgstr ""
+
+#: skin-plugins.php:23
+#, fuzzy
+#| msgid "BBPress and BuddyPress"
+msgid "bbPress and BuddyPress"
+msgstr "BBPress y BuddyPress"
+
+#: skin-plugins.php:30
+msgid "Better Messages"
+msgstr ""
+
+#: skin-plugins.php:37
+msgid "BuddyPress Activity ShortCode"
+msgstr ""
+
+#: skin-plugins.php:51
+msgid "BuddyPress for LearnDash"
+msgstr ""
+
+#: skin-plugins.php:58
+msgid "Contact Form 7"
+msgstr "Formulario de Contacto 7"
+
+#: skin-plugins.php:59
+msgid "CF7 allows you to create an unlimited number of contact forms"
+msgstr ""
+
+#: skin-plugins.php:72
+msgid "Elegro Crypto Payment"
+msgstr ""
+
+#: skin-plugins.php:73
+msgid "Extends WooCommerce Payment Gateways with an elegro Crypto Payment"
+msgstr ""
+
+#: skin-plugins.php:79
+msgid "Elementor"
+msgstr "Elementor"
+
+#: skin-plugins.php:80
+msgid ""
+"Is a beautiful PageBuilder, even the free version of which allows you to "
+"create great pages using a variety of modules."
+msgstr ""
+
+#: skin-plugins.php:86
+msgid "Knowledge Base for Documents and FAQs"
+msgstr ""
+
+#: skin-plugins.php:100
+msgid "LearnDash LMS - Course Grid"
+msgstr ""
+
+#: skin-plugins.php:114
+msgid "M Chart"
+msgstr ""
+
+#: skin-plugins.php:122
+msgid "M Chart Highcharts Library"
+msgstr ""
+
+#: skin-plugins.php:130
+msgid "MailChimp for WP"
+msgstr "MailChimp para WP"
+
+#: skin-plugins.php:131
+#, fuzzy
+#| msgid "Subscribe to our Newsletter"
+msgid "Allows visitors to subscribe to newsletters"
+msgstr "Subscríbete a nuestro Newsletter"
+
+#: skin-plugins.php:144
+msgid "rtMedia for WordPress, BuddyPress and bbPress"
+msgstr ""
+
+#: skin-plugins.php:151
+msgid "The Events Calendar"
+msgstr "Calendario de eventos"
+
+#: skin-plugins.php:158
+msgid "ThemeREX Addons"
+msgstr "Addons de ThemeREX"
+
+#: skin-plugins.php:159
+msgid ""
+"Will allow you to install recommended plugins, demo content, and improve the "
+"theme's functionality overall with multiple theme options"
+msgstr ""
+
+#: skin-plugins.php:165
+#, fuzzy
+#| msgid "ThemeREX Donations"
+msgid "ThemeREX Updater"
+msgstr "Donaciones de ThemeREX"
+
+#: skin-plugins.php:166
+msgid ""
+"Update theme and theme-specific plugins from developer's upgrade server."
+msgstr ""
+
+#: skin-plugins.php:172
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: skin-plugins.php:173
+msgid "Connect the store to your website and start selling now"
+msgstr ""
+
+#: skin-plugins.php:186
+msgid "WP Job Manager - Resume Manager"
+msgstr ""
+
+#: skin-plugins.php:193
+msgid "Gutenberg"
+msgstr ""
+
+#: skin-plugins.php:194
+msgid ""
+"It's a posts editor coming in place of the classic TinyMCE. Can be installed "
+"and used in parallel with Elementor"
+msgstr ""
+
+#: skin-plugins.php:201
+msgid "WPML - Sitepress Multilingual CMS"
+msgstr "WPML - Sitepress Multilingual CMS"
+
+#: skin-plugins.php:202
+msgid "Allows you to make your website multilingual"
+msgstr ""
+
+#: skin-plugins.php:209
+msgid "WP GDPR Compliance"
+msgstr ""
+
+#: skin-plugins.php:210
+msgid ""
+"Allow visitors to decide for themselves what personal data they want to "
+"store on your site"
+msgstr ""
+
+#: skin-plugins.php:217
+#, fuzzy
+#| msgid "ThemeREX Addons"
+msgid "ThemeREX Popup"
+msgstr "Addons de ThemeREX"
+
+#: skin-plugins.php:218
+msgid "Add popup to your site."
+msgstr ""
+
+#: skin-plugins.php:225
+msgid "Envato Market"
+msgstr ""
+
+#: skin-setup.php:144
+msgid ""
+"Press \"Reload preview area\" button at the top of this panel after the all "
+"font parameters are changed. Please use only the following units: \"rem\" or "
+"\"em\""
+msgstr ""
+
+#: skin-setup.php:149
+msgid "Main text"
+msgstr "Texto principal"
+
+#: skin-setup.php:150
+#, fuzzy
+#| msgid "Main text"
+msgid "main text"
+msgstr "Texto principal"
+
+#: skin-setup.php:163
+#, fuzzy
+#| msgid "Anchor text"
+msgid "Article text"
+msgstr "Texto de anclaje"
+
+#: skin-setup.php:164
+#, fuzzy
+#| msgid "Main text"
+msgid "article text"
+msgstr "Texto principal"
+
+#: skin-setup.php:177
+msgid "Heading 1"
+msgstr "Título 1"
+
+#: skin-setup.php:178
+msgid "tag H1"
+msgstr ""
+
+#: skin-setup.php:191
+msgid "Heading 2"
+msgstr "Título 2"
+
+#: skin-setup.php:192
+msgid "tag H2"
+msgstr ""
+
+#: skin-setup.php:205
+msgid "Heading 3"
+msgstr "Título 3"
+
+#: skin-setup.php:206
+msgid "tag H3"
+msgstr ""
+
+#: skin-setup.php:219
+msgid "Heading 4"
+msgstr "Título 4"
+
+#: skin-setup.php:220
+msgid "tag H4"
+msgstr ""
+
+#: skin-setup.php:233
+msgid "Heading 5"
+msgstr "Título 5"
+
+#: skin-setup.php:234
+msgid "tag H5"
+msgstr ""
+
+#: skin-setup.php:247
+msgid "Heading 6"
+msgstr "Título 6"
+
+#: skin-setup.php:248
+msgid "tag H6"
+msgstr ""
+
+#: skin-setup.php:261
+msgid "Logo text"
+msgstr "Texto de logo"
+
+#: skin-setup.php:262
+msgid "text of the logo"
+msgstr ""
+
+#: skin-setup.php:273
+msgid "Buttons"
+msgstr "Botones"
+
+#: skin-setup.php:274
+#, fuzzy
+#| msgid "Buttons"
+msgid "buttons"
+msgstr "Botones"
+
+#: skin-setup.php:285
+msgid "Input fields"
+msgstr "Campos de entrada"
+
+#: skin-setup.php:286
+#, fuzzy
+#| msgid "Font settings of the input fields, dropdowns and textareas"
+msgid "input fields, dropdowns and textareas"
+msgstr ""
+"Configuración de fuente de los campos de entrada, menús desplegables y áreas "
+"de texto"
+
+#: skin-setup.php:298
+#, fuzzy
+#| msgid "Font settings of the post meta: date, counters, share, etc."
+msgid "post meta (author, categories, publish date, counters, share, etc.)"
+msgstr ""
+"Configuración de fuente de la post meta: fecha, contadores, compartir, etc."
+
+#: skin-setup.php:309 templates/header-navi-side.php:38
+msgid "Main menu"
+msgstr "Menú principal"
+
+#: skin-setup.php:310
+#, fuzzy
+#| msgid "Main menu"
+msgid "main menu items"
+msgstr "Menú principal"
+
+#: skin-setup.php:321
+msgid "Dropdown menu"
+msgstr "Menú desplegable"
+
+#: skin-setup.php:322
+#, fuzzy
+#| msgid "Dropdown menu"
+msgid "dropdown menu items"
+msgstr "Menú desplegable"
+
+#: skin-setup.php:344
+msgid "Karla"
+msgstr ""
+
+#: skin-setup.php:409
+msgid "Roboto"
+msgstr ""
+
+#: skin-setup.php:472
+msgid "Garamond"
+msgstr ""
+
+#: skin-setup.php:552
+msgid "Main"
+msgstr "Principal"
+
+#: skin-setup.php:553
+#, fuzzy
+#| msgid "General"
+msgid "General colors"
+msgstr "General"
+
+#: skin-setup.php:556
+msgid "Extra"
+msgstr "Adicional"
+
+#: skin-setup.php:557
+msgid "Extra block colors (audio, video, image posts, etc.)"
+msgstr ""
+
+#: skin-setup.php:560
+msgid "Input"
+msgstr "Entrada"
+
+#: skin-setup.php:561
+#, fuzzy
+#| msgid "Colors of the form fields (text field, textarea, select, etc.)"
+msgid "Form field colors (text field, textarea, select, etc.)"
+msgstr ""
+"Colores de los campos de formularios (campo de texto, área de texto, "
+"seleccionar, etc.)"
+
+#: skin-setup.php:564 skin-setup.php:610
+msgid "Accent"
+msgstr ""
+
+#: skin-setup.php:565
+msgid "Accent block colors (blockquotes, countdown, alert box, etc.)"
+msgstr ""
+
+#: skin-setup.php:573
+#, fuzzy
+#| msgid "Background"
+msgid "Content background"
+msgstr "Fondo"
+
+#: skin-setup.php:574
+msgid ""
+"Background color of the layout panels for displaying content. Also used as a "
+"background color for posts content, sidebars, headers, etc."
+msgstr ""
+
+#: skin-setup.php:577
+msgid "Navigation background"
+msgstr ""
+
+#: skin-setup.php:578
+msgid ""
+"Background color of navigation elements (e.g. pagination), table headers, "
+"accordion tabs, etc."
+msgstr ""
+
+#: skin-setup.php:581
+#, fuzzy
+#| msgid "Background"
+msgid "Menu background"
+msgstr "Fondo"
+
+#: skin-setup.php:582
+#, fuzzy
+#| msgid "Background color for this section"
+msgid "Background color of the menu panel."
+msgstr "Color de fondo para esta sección"
+
+#: skin-setup.php:585
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: skin-setup.php:586
+#, fuzzy
+#| msgid "Background color for this section"
+msgid "Background color of the pages"
+msgstr "Color de fondo para esta sección"
+
+#: skin-setup.php:589
+msgid "Background hover"
+msgstr "Hover de fondo"
+
+#: skin-setup.php:590
+#, fuzzy
+#| msgid "Background color for this section"
+msgid "Background hover color of the pages"
+msgstr "Color de fondo para esta sección"
+
+#: skin-setup.php:593
+msgid "Border color"
+msgstr "Color de borde"
+
+#: skin-setup.php:594
+#, fuzzy
+#| msgid "Border color of this block in the normal state"
+msgid "The border color of the blocks"
+msgstr "Color del borde de este bloque en el estado normal"
+
+#: skin-setup.php:597
+msgid "Text"
+msgstr "Texto"
+
+#: skin-setup.php:598
+msgid "The color of the text"
+msgstr ""
+
+#: skin-setup.php:601
+msgid "Text dark"
+msgstr "Texto oscuro"
+
+#: skin-setup.php:602
+#, fuzzy
+#| msgid "Color of the dark text (bold, header, etc.) inside this block"
+msgid "The color of dark text (bold, header, menu etc.)"
+msgstr ""
+"Color del texto oscuro (en negrita, cabecera, etc.) dentro de este bloque"
+
+#: skin-setup.php:605
+msgid "Text light"
+msgstr "Texto claro"
+
+#: skin-setup.php:606
+msgid ""
+"The color of light text (post date, counters, categories, tags, submenu etc.)"
+msgstr ""
+
+#: skin-setup.php:611
+msgid "The color of the accented layouts elements"
+msgstr ""
+
+#: skin-setup.php:614
+#, fuzzy
+#| msgid "Link hover"
+msgid "Accent hover"
+msgstr "Hover de enlace"
+
+#: skin-setup.php:615 skin-setup.php:623 skin-setup.php:631 skin-setup.php:639
+#: skin-setup.php:647
+msgid "The hover of the accented layouts elements"
+msgstr ""
+
+#: skin-setup.php:618 skin.php:590
+msgid "Accent 2"
+msgstr ""
+
+#: skin-setup.php:619 skin-setup.php:627 skin-setup.php:635 skin-setup.php:643
+msgid "The color of other accented layouts elements"
+msgstr ""
+
+#: skin-setup.php:622
+#, fuzzy
+#| msgid "Link 2 hover"
+msgid "Accent 2 hover"
+msgstr "Hover del enlace 2"
+
+#: skin-setup.php:626 skin.php:591
+msgid "Accent 3"
+msgstr ""
+
+#: skin-setup.php:630
+#, fuzzy
+#| msgid "Link 3 hover"
+msgid "Accent 3 hover"
+msgstr "Hover del enlace 3"
+
+#: skin-setup.php:634 skin.php:592
+msgid "Accent 4"
+msgstr ""
+
+#: skin-setup.php:638
+#, fuzzy
+#| msgid "Link 2 hover"
+msgid "Accent 4 hover"
+msgstr "Hover del enlace 2"
+
+#: skin-setup.php:642 skin.php:593
+msgid "Accent 5"
+msgstr ""
+
+#: skin-setup.php:646
+#, fuzzy
+#| msgid "Link 2 hover"
+msgid "Accent 5 hover"
+msgstr "Hover del enlace 2"
+
+#: skin-setup.php:1042
+msgid "Autumn"
+msgstr ""
+
+#: skin-setup.php:1055
+msgid "Natural Green"
+msgstr ""
+
+#: skin.php:426
+#, fuzzy
+#| msgid "Descending"
+msgid "Date Ascending"
+msgstr "Descendente"
+
+#: skin.php:427
+#, fuzzy
+#| msgid "Descending"
+msgid "Date Descending"
+msgstr "Descendente"
+
+#: skin.php:428
+#, fuzzy
+#| msgid "Ascending"
+msgid "Title Ascending"
+msgstr "Ascendente"
+
+#: skin.php:429
+#, fuzzy
+#| msgid "Descending"
+msgid "Title Descending"
+msgstr "Descendente"
+
+#: skin.php:498 templates/header-title.php:64
+#, fuzzy
+#| msgid "Select icon"
+msgid "Site icon"
+msgstr "Seleccionar un icono"
+
+#: skin.php:767
+#, fuzzy
+#| msgid "Theme Icons"
+msgid "Theme Colors"
+msgstr "Iconos de temas"
+
+#: skin.php:773
+msgid "Accent color 1"
+msgstr ""
+
+#: skin.php:774
+#, fuzzy
+#| msgid "Color of the links inside this block"
+msgid "Color of the links"
+msgstr "Color del enlace dentro de este bloque"
+
+#: skin.php:781
+msgid "Accent color 2"
+msgstr ""
+
+#: skin.php:782
+#, fuzzy
+#| msgid "Color of the hovered state of links inside this block"
+msgid "Color of the hovered state of the links"
+msgstr "Color del estado hover de los enlaces dentro de este bloque"
+
+#: skin.php:789
+msgid "Accent color 3"
+msgstr ""
+
+#: skin.php:790
+#, fuzzy
+#| msgid "Colors of the main content area"
+msgid "Color of the accented areas"
+msgstr "Colores del área de contenido principal"
+
+#: skin.php:797
+msgid "Accent color 4"
+msgstr ""
+
+#: skin.php:798
+#, fuzzy
+#| msgid ""
+#| "Color of the hovered state of accented texts (areas) inside this block"
+msgid "Color of the hovered state of the accented areas"
+msgstr ""
+"Color del estado hover de los textos (áreas) acentuados dentro de este bloque"
+
+#: skin.php:805
+msgid "Accent color 5"
+msgstr ""
+
+#: skin.php:806
+#, fuzzy
+#| msgid "Colors of the main content area"
+msgid "Color of the another accented areas"
+msgstr "Colores del área de contenido principal"
+
+#: templates/admin-notice.php:18 templates/admin-rate.php:19
+#, fuzzy
+#| msgid "Theme Icons"
+msgid "Theme screenshot"
+msgstr "Iconos de temas"
+
+#: templates/admin-notice.php:29
+#, php-format
+msgid "Welcome to %1$s v.%2$s"
+msgstr "Bienvenido a %1$s v.%2$s"
+
+#: templates/admin-notice.php:30 templates/admin-rate.php:31
+msgid "Free"
+msgstr "Gratis"
+
+#: templates/admin-notice.php:48
+msgid ""
+"Attention! Plugin \"ThemeREX Addons\" is required! Please, install and "
+"activate it!"
+msgstr ""
+"¡Atención! ¡Se requiere el plugin \"ThemeREX Addons\"! ¡Es necesario "
+"instalarlo y activarlo!"
+
+#: templates/admin-notice.php:62
+#, fuzzy
+#| msgid "ThemeREX Addons"
+msgid "Install plugin \"ThemeREX Addons\""
+msgstr "Addons de ThemeREX"
+
+#: templates/admin-rate.php:30
+#, php-format
+msgid "Rate our theme \"%s\", please"
+msgstr "Por favor, califica nuestro tema \"%s\""
+
+#: templates/admin-rate.php:41
+#, fuzzy
+#| msgid ""
+#| "We are glad you chose our WP theme for your website. You’ve done well "
+#| "customizing your website and we hope that you’ve enjoyed working with our "
+#| "theme."
+msgid ""
+"We are glad you chose our WP theme for your website. You've done well "
+"customizing your website and we hope that you've enjoyed working with our "
+"theme."
+msgstr ""
+"Nos complace que he elegido nuestro tema WP para tu sitio web. Has hecho "
+"bien personalizando tu sitio web, y esperamos que hayas disfrutado "
+"trabajando con nuestro tema."
+
+#: templates/admin-rate.php:42
+#, fuzzy
+#| msgid ""
+#| "It would be just awesome if you spend just a minute of your time to rate "
+#| "our theme or the customer service you’ve received from us."
+msgid ""
+"It would be just awesome if you spend just a minute of your time to rate our "
+"theme or the customer service you've received from us."
+msgstr ""
+"Sería fantástico si gastas sólo un minuto de tu tiempo para calificar "
+"nuestro tema o nuestro servicio al cliente que has recibido."
+
+#: templates/admin-rate.php:43
+#, fuzzy
+#| msgid ""
+#| "* We love receiving 5-star ratings, because our CEO Henry Rise gives $5 "
+#| "to homeless dog shelter for every 5-star rating we get! Save the planet "
+#| "with us!"
+msgid ""
+"* We love receiving your reviews! Every time you leave a review, our CEO "
+"Henry Rise gives $5 to homeless dog shelter! Save the planet with us!"
+msgstr ""
+"Nos encanta recibir calificaciones de 5 estrellas, porque nuestro Gerente "
+"General, Henry Rise, otorga 5$ al refugio de perros sin hogar por cada "
+"clasificación de 5 estrellas que obtengamos. ¡Salva el planeta con nosotros!"
+
+#: templates/admin-rate.php:56
+#, php-format
+msgid "Rate theme %s"
+msgstr "Calificar el tema %s"
+
+#: templates/admin-rate.php:64
+msgid "Support"
+msgstr "Apoyo"
+
+#: templates/admin-rate.php:72
+msgid "Documentation"
+msgstr "Documentación"
+
+#: templates/author-bio.php:20
+msgid "Written by"
+msgstr ""
+
+#: templates/author-page.php:36
+#, php-format
+msgid "%s article published"
+msgstr ""
+
+#: templates/author-page.php:42
+msgid "No posts published."
+msgstr ""
+
+#: templates/author-page.php:51
+msgid "Follow:"
+msgstr ""
+
+#: templates/content-404.php:3
+msgid "404"
+msgstr "404"
+
+#: templates/content-404.php:5
+msgid "Page Not Found"
+msgstr ""
+
+#: templates/content-404.php:7
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: templates/content-404.php:9
+msgid "Maybe try a search below?"
+msgstr ""
+
+#: templates/content-404.php:11
+msgid "Homepage"
+msgstr "Página de inicio"
+
+#: templates/content-excerpt.php:238 templates/content-page.php:42
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: templates/content-excerpt.php:242 templates/content-page.php:46
+msgid "Page"
+msgstr "Página"
+
+#: templates/content-none-archive.php:3 templates/content-none-search.php:3
+msgid "No results"
+msgstr "No hay resultados"
+
+#: templates/content-none-archive.php:5
+msgid "We're sorry, but your query did not match"
+msgstr "Lo sentimos, pero tu consulta no se encuentra"
+
+#: templates/content-none-archive.php:9 templates/content-none-search.php:14
+#, php-format
+msgid ""
+"Can't find what you need? Take a moment and do a search below or start from "
+"<a href='%s'>our homepage</a>."
+msgstr ""
+"¿No puedes encontrar lo que necesitas? Tómese un momento y busca a "
+"continuación o comience desde <a href='%s'>nuestra página de inicio</a>."
+
+#: templates/content-none-search.php:8
+#, fuzzy
+#| msgid "Sorry, but nothing matched your search criteria."
+msgid "Sorry, but nothing matched your search terms."
+msgstr "Disculpa, no hay entradas para lo que buscas."
+
+#: templates/footer-logo.php:24
+#, fuzzy
+#| msgid "Hide logo"
+msgid "Site logo"
+msgstr "Ocultar logo"
+
+#: templates/header-navi-side.php:34
+#, fuzzy
+#| msgid "Main menu"
+msgid "Open main menu"
+msgstr "Menú principal"
+
+#: templates/related-posts-classic.php:33 templates/related-posts-list.php:17
+#: templates/related-posts-modern.php:20 templates/related-posts-short.php:17
+#: templates/related-posts-wide.php:23 templates/related-posts.php:23
+#, fuzzy
+#| msgid "Big title"
+msgid "No title"
+msgstr "Gran título"
+
+#: theme-specific/theme-hovers/theme-hovers.php:19
+#, fuzzy
+#| msgid "Button's hover"
+msgid "Button hover"
+msgstr "Hover de botón"
+
+#: theme-specific/theme-hovers/theme-hovers.php:20
+#, fuzzy
+#| msgid "Select hover effect to decorate all theme buttons"
+msgid "Select a hover effect for theme buttons"
+msgstr "Selecciona el efecto hover para decorar todos los botones de tema"
+
+#: theme-specific/theme-hovers/theme-hovers.php:23
+msgid "Fade"
+msgstr "Sin color"
+
+#: theme-specific/theme-hovers/theme-hovers.php:24
+msgid "Slide from Left"
+msgstr "Deslizar desde la izquierda"
+
+#: theme-specific/theme-hovers/theme-hovers.php:25
+msgid "Slide from Right"
+msgstr "Deslizar desde la derecha"
+
+#: theme-specific/theme-hovers/theme-hovers.php:26
+msgid "Slide from Top"
+msgstr "Deslizar desde la parte superior"
+
+#: theme-specific/theme-hovers/theme-hovers.php:27
+msgid "Slide from Bottom"
+msgstr "Deslizar desde la parte inferior"
+
+#: theme-specific/theme-hovers/theme-hovers.php:32
+#, fuzzy
+#| msgid "Image's hover"
+msgid "Image hover"
+msgstr "Hover de imagen"
+
+#: theme-specific/theme-hovers/theme-hovers.php:33
+#, fuzzy
+#| msgid "Select hover effect to decorate all theme images"
+msgid "Select a hover effect for theme images"
+msgstr "Selecciona el efecto hover para decorar todas las imágenes de tema"
+
+#: theme-specific/theme-hovers/theme-hovers.php:217
+#, fuzzy
+#| msgid "Save Options"
+msgid "Options"
+msgstr "Grabar Opciones"
+
+#: theme-specific/theme-hovers/theme-hovers.php:217
+msgid "Buy now"
+msgstr "Compra ahora"
+
+#: theme-specific/theme-hovers/theme-hovers.php:232
+msgid "View products"
+msgstr "Ver productos"
+
+#: theme-specific/theme-hovers/theme-hovers.php:234
+msgid "Details"
+msgstr "Detalles"
+
+#: trx_addons/templates/tpl.login-link.php:70
+#, fuzzy
+#| msgid "Newest posts"
+msgid "New post"
+msgstr "Publicaciones más recientes"
+
+#: trx_addons/templates/tpl.login-link.php:76
+msgid "My profile"
+msgstr ""
+
+#: trx_addons/templates/tpl.login-link.php:81
+#, fuzzy
+#| msgid "Logo"
+msgid "Logout"
+msgstr "Logo"
+
+#: trx_addons/templates/tpl.search-form.php:15
+msgid "Start typing to search..."
+msgstr ""
+
+#: trx_addons/templates/tpl.search-form.php:16
+#, fuzzy
+#| msgid "Search"
+msgid "Start search"
+msgstr "Buscar"
+
+#~ msgid "Trackback:"
+#~ msgstr "Trackback:"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Pingback:"
+#~ msgstr "Pingback:"
+
+#~ msgid "Posted"
+#~ msgstr "Publicado"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Tu comentario está pendiente de moderación."
+
+#~ msgid "Comment"
+#~ msgstr "Comentario"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Los comentarios están cerrados."
+
+#~ msgid "Leave a comment"
+#~ msgstr "Deja un comentario"
+
+#~ msgid "Name"
+#~ msgstr "﻿Nombre"
+
+#~ msgid "Your Name"
+#~ msgstr "Tu nombre"
+
+#~ msgid "Your E-mail"
+#~ msgstr "Tu correo electrónico"
+
+#~ msgid "Your comment"
+#~ msgstr "Tu comentario"
+
+#~ msgid "Oops..."
+#~ msgstr "Oops..."
+
+#~ msgid "We're sorry, but <br>something went wrong."
+#~ msgstr "Lo sentimos, <br> algo salió mal."
+
+#~ msgid "Read more"
+#~ msgstr "Lee mas"
+
+#, php-format
+#~ msgid "We're sorry, but your search \"%s\" did not match"
+#~ msgstr "Lo sentimos, pero tu búsqueda \"%s\" no se encuentra"
+
+#~ msgid ""
+#~ "More fine tuning component display Front Page (view and menu position, "
+#~ "presence and position of the sidebar, header and footer, etc.) you can "
+#~ "produce in the section \"Page Options\" when editing a page, selected as "
+#~ "Front Page"
+#~ msgstr ""
+#~ "La visualización de los componentes más ajustada Front Page (vista y "
+#~ "posición del menú, presence and position presencia y posición de "
+#~ "encabezado/barra lateral/pie de página, etc.) se puede generar en la "
+#~ "sección \"Opciones de página\" cuando edita una página, seleccionada como "
+#~ "la Página de Entrada"
+
+#~ msgid "General settings"
+#~ msgstr "Configuración general"
+
+#~ msgid "Enable Front Page builder"
+#~ msgstr "Habilitar Front Page Builder"
+
+#~ msgid "If Front Page Builder is off - native page content will be shown"
+#~ msgstr ""
+#~ "Si Front Page Builder está desactivado, se mostrará el contenido de la "
+#~ "página original"
+
+#~ msgid "Select width of the body content of the front page"
+#~ msgstr ""
+#~ "Seleccionar el ancho del contenido del corpo de la página de entrada"
+
+#~ msgid "Sections order"
+#~ msgstr "Orden de secciones"
+
+#~ msgid ""
+#~ "Drag and drop sections below to set up their order on the Front Page. You "
+#~ "can also enable / disable any section."
+#~ msgstr ""
+#~ "Arrastra y suelta las secciones siguientes para configurar su orden en la "
+#~ "página de entrada. También puedes activar / desactivar cualquier sección."
+
+#~ msgid "Select or upload background image for whole Front page"
+#~ msgstr ""
+#~ "Selecciona o carga la imagen de fondo para toda la Página de entrada"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Slider"
+#~ msgstr "Deslizador"
+
+#~ msgid ""
+#~ "Paste a shortcode generated by any slider plugin. The slider will be used "
+#~ "instead of the section title, description and buttons."
+#~ msgstr ""
+#~ "Pega un código corto generado por cualquier plugin deslizante. Se usará "
+#~ "el deslizador en lugar del título, la descripción y los botones de la "
+#~ "sección."
+
+#~ msgid "Full height"
+#~ msgstr "Altura completa"
+
+#~ msgid "Stretch this section to the window height"
+#~ msgstr "Extiende esta sección a la altura de la ventana"
+
+#~ msgid "Paddings"
+#~ msgstr "Rellenos"
+
+#~ msgid "Select paddings inside this section"
+#~ msgstr "Seleccionar rellenos dentro de esta sección"
+
+#~ msgid "Section title"
+#~ msgstr "Título de sección"
+
+#~ msgid "Section with Big title"
+#~ msgstr "Sección con gran título"
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Short description after the section's title"
+#~ msgstr "Breve descripción después del título de la sección"
+
+#~ msgid "This text can be changed in the section \"Title\""
+#~ msgstr "Este texto se puede modificar en la sección \"Título\""
+
+#~ msgid "Button1 link"
+#~ msgstr "Enlace de Button1"
+
+#~ msgid "Button1 caption"
+#~ msgstr "Título de Button1"
+
+#~ msgid "Customize Button 1"
+#~ msgstr "Personalizar Button 1"
+
+#~ msgid "Button2 link"
+#~ msgstr "Enlace de Button2"
+
+#~ msgid "Button2 caption"
+#~ msgstr "Título de Button2"
+
+#~ msgid "Customize Button 2"
+#~ msgstr "Personalizar Button2"
+
+#~ msgid "Colors and images"
+#~ msgstr "Colores e imágenes"
+
+#~ msgid "Color scheme"
+#~ msgstr "Esquema de color"
+
+#~ msgid "Color scheme for this section"
+#~ msgstr "Esquema de color para esta sección"
+
+#~ msgid "Select or upload background image for this section"
+#~ msgstr "Selecciona o carga la imagen de fondo para esta sección"
+
+#~ msgid "Background mask"
+#~ msgstr "Máscara de fondo"
+
+#~ msgid ""
+#~ "Use Background color as section mask with specified opacity. If 0 - mask "
+#~ "is not being used"
+#~ msgstr ""
+#~ "Utilizar el Color de fondo como máscara de la sección con la opacidad "
+#~ "especificada. Si 0, la máscara no se está utilizando"
+
+#~ msgid "Anchor"
+#~ msgstr "Anclaje"
+
+#~ msgid ""
+#~ "You can select icon and/or specify a text to create anchor for this "
+#~ "section and show it in the side menu (if selected in the section \"Header "
+#~ "- Menu\")."
+#~ msgstr ""
+#~ "Se puede seleccionar un icono y / o especificar un texto para crear un "
+#~ "anclaje para esta sección y mostrarlo en el menú lateral si está "
+#~ "seleccionado en la sección \"Encabezado - Menú\")."
+
+#~ msgid ""
+#~ "Attention! Anchors available only if plugin \"ThemeREX Addons is "
+#~ "installed and activated!"
+#~ msgstr ""
+#~ "¡Atención! ¡Los anclajes son disponibles sólo si el plugin \"ThemeREX "
+#~ "Addons\" está instalado y activado!"
+
+#~ msgid "Anchor icon"
+#~ msgstr "Ícono de anclaje"
+
+#~ msgid "Features"
+#~ msgstr "Características"
+
+#~ msgid "Why our service is the best"
+#~ msgstr "Por qué nuestro servicio es el mejor"
+
+#~ msgid "This text can be changed in the section \"Features\""
+#~ msgstr "Este texto se puede modificar en la sección \"Características\""
+
+#~ msgid ""
+#~ "You can setup widgets in this section in the menu \"Appearance - "
+#~ "Customize\" or \"Appearance - Widgets\""
+#~ msgstr ""
+#~ "Puedes configurar widgets en esta sección en el menú \"Apariencia - "
+#~ "Personalizar\" o \"Apariencia - Widgets\""
+
+#~ msgid ""
+#~ "Select the widget \"ThemeREX Addons - Services\". You can also select any "
+#~ "other widget, changing thus the purpose of this section"
+#~ msgstr ""
+#~ "Selecciona el widget \"ThemeREX Addons - Services\". También se puede "
+#~ "seleccionar cualquier otro widget, cambiando así el propósito de esta "
+#~ "sección"
+
+#~ msgid "About Us"
+#~ msgstr "Sobre nosotro"
+
+#~ msgid "This text can be changed in the section \"About\""
+#~ msgstr "Este texto se puede modificar en la sección \"Sobre\""
+
+#~ msgid "The arbitrary content of the current section."
+#~ msgstr "El contenido arbitrario de la sección actual."
+
+#, php-format
+#~ msgid ""
+#~ "Attention! You can use %%CONTENT%% to insert instead the content of the "
+#~ "page, selected as the Front Page in the menu \"Settings - Reading\" or in "
+#~ "the \"Customize - Static Front Page\""
+#~ msgstr ""
+#~ "¡Atención! Se puede usar %%CONTENT%% para insertar en su lugar el "
+#~ "contenido de la página, seleccionado como la Página de entrada en el menú "
+#~ "\"Configuración - Lectura\" o en \"Personalizar - Página de inicio "
+#~ "estática\""
+
+#~ msgid "Our Team"
+#~ msgstr "Nuestro equipo"
+
+#~ msgid "Team members"
+#~ msgstr "Miembros del equipo"
+
+#~ msgid "Meet our team"
+#~ msgstr "Conoce nuestro equipo"
+
+#~ msgid "This text can be changed in the section \"Team members\""
+#~ msgstr "Este texto se puede modificar en la sección \"Miembros del equipo\""
+
+#~ msgid ""
+#~ "Select the widget \"ThemeREX Addons - Team\". You can also select any "
+#~ "other widget, changing thus the purpose of this section"
+#~ msgstr ""
+#~ "Selecciona el widget \"ThemeREX Addons - Team\". También se puede "
+#~ "seleccionar cualquier otro widget, cambiando así el propósito de esta "
+#~ "sección"
+
+#~ msgid "Testimonials"
+#~ msgstr "Testimonios"
+
+#~ msgid "What our clients say"
+#~ msgstr "Lo que dicen nuestros clientes"
+
+#~ msgid "This text can be changed in the section \"Testimonials\""
+#~ msgstr "Este texto se puede modificar en la sección \"Testimonios\""
+
+#~ msgid ""
+#~ "Select the widget \"ThemeREX Addons - Testimonials\". You can also select "
+#~ "any other widget, changing thus the purpose of this section"
+#~ msgstr ""
+#~ "Selecciona el widget \"ThemeREX Addons - Testimonials\". También se puede "
+#~ "seleccionar cualquier otro widget, cambiando así el propósito de esta "
+#~ "sección"
+
+#~ msgid "This text can be changed in the section \"Latest posts\""
+#~ msgstr ""
+#~ "Este texto se puede modificar en la sección \"Últimas publicaciones\""
+
+#~ msgid ""
+#~ "Select the widget \"ThemeREX Addons - Blogger\". You can also select any "
+#~ "other widget, changing thus the purpose of this section"
+#~ msgstr ""
+#~ "Selecciona el widget \"ThemeREX Addons - Blogger\". También se puede "
+#~ "seleccionar cualquier otro widget, cambiando así el propósito de esta "
+#~ "sección"
+
+#~ msgid "Subscribe"
+#~ msgstr "Suscribir"
+
+#~ msgid "This text can be changed in the section \"Subscribe\""
+#~ msgstr "Este texto se puede modificar en la sección \"Suscribir\""
+
+#~ msgid "Shortcode"
+#~ msgstr "Código corto"
+
+#~ msgid "Shortcode to insert Subscribe form"
+#~ msgstr "Código corto para insertar el Formulario de suscripción"
+
+#~ msgid ""
+#~ "Paste shortcode, generated with any subscribe plugin (for example, "
+#~ "MailChimp)"
+#~ msgstr ""
+#~ "Pega un código corto generado por cualquier plugin de suscripción (por "
+#~ "ejemplo, MailChimp)"
+
+#~ msgid "Google map"
+#~ msgstr "Mapa de Google"
+
+#~ msgid "Select layout of this section"
+#~ msgstr "Selecciona el diseño de esta sección"
+
+#~ msgid "Fullwidth"
+#~ msgstr "Ancho total"
+
+#~ msgid "Boxed"
+#~ msgstr "Encajado"
+
+#~ msgid "2 columns"
+#~ msgstr "2 columnas"
+
+#~ msgid "This text can be changed in the section \"Google map\""
+#~ msgstr "Este texto se puede modificar en la sección \"Mapa de Google\""
+
+#~ msgid "Any text at the left side of the map"
+#~ msgstr "Cualquier texto en el lado izquierdo del mapa"
+
+#~ msgid ""
+#~ "Select the widget \"ThemeREX Addons - Google map\". You can also select "
+#~ "any other widget, changing thus the purpose of this section"
+#~ msgstr ""
+#~ "Selecciona el widget \"ThemeREX Addons - Google map\". También se puede "
+#~ "seleccionar cualquier otro widget, cambiando así el propósito de esta "
+#~ "sección"
+
+#~ msgid "This text can be changed in the section \"Contact Us\""
+#~ msgstr "Este texto se puede modificar en la sección \"Contáctanos\""
+
+#~ msgid "Any text at the left side of the form"
+#~ msgstr "Cualquier texto en el lado izquierdo del mapa"
+
+#~ msgid ""
+#~ "<h5><span class=\"icon-home-2\"> </span>Find us at the office:</"
+#~ "h5><p>500, Lorem Street,<br />Chicago, IL, 55030<br />Mon - Fri, 09:00 - "
+#~ "18:00</p><h5> <span class=\"icon-mobile-light\"> </span>Give us a call:</"
+#~ "h5><p>Michael Jordan<br />+40 (123) 456-78-90<br />Mon - Fri, 08:00 - "
+#~ "22:00</p>"
+#~ msgstr ""
+#~ "<h5><span class=\"icon-home-2\"> </span>Encuéntranos en la oficina:</"
+#~ "h5><p>500, Lorem Street,<br />Chicago, IL, 55030<br />Lunes-Viernes, "
+#~ "09:00 - 18:00</p><h5> <span class=\"icon-mobile-light\"> </span>Llámanos:"
+#~ "</h5><p>Michael Jordan<br />+40 (123) 456-78-90<br />Lunes-Viernes, 08:00 "
+#~ "- 22:00</p>"
+
+#~ msgid "Shortcode with contact form"
+#~ msgstr "Código corto con el formulario de contacto"
+
+#~ msgid ""
+#~ "Paste shortcode, generated with any form plugin (for example, Contacts "
+#~ "Form 7). You can also paste any other shortcodes, changing thus the "
+#~ "purpose of this section"
+#~ msgstr ""
+#~ "Pega un código corto generado por cualquier plugin de formulario (por "
+#~ "ejemplo, Contacts Form 7). También se puede pegar cualquier otro código "
+#~ "corto, cambiando así el propósito de esta sección"
+
+#~ msgid "Front Page section \"Features\""
+#~ msgstr "Sección \"Características\" de la Página de entrada"
+
+#~ msgid ""
+#~ "Widgets to be shown only in the section \"Features\" on the front page"
+#~ msgstr ""
+#~ "Los widgets se mostrarán sólo en la sección \"Características\" en la "
+#~ "página de entrada"
+
+#~ msgid "Front Page section \"Team members\""
+#~ msgstr "Sección \"Miembros del equipo\" de la Página de entrada"
+
+#~ msgid ""
+#~ "Widgets to be shown only in the section \"Team members\" on the front page"
+#~ msgstr ""
+#~ "Los widgets se mostrarán sólo en la sección \"Miembros del equipo\" en la "
+#~ "página de entrada"
+
+#~ msgid "Front Page section \"Testimonials\""
+#~ msgstr "Sección \"Testimonios\" de la Página de entrada"
+
+#~ msgid ""
+#~ "Widgets to be shown only in the section \"Testimonials\" on the front page"
+#~ msgstr ""
+#~ "Los widgets se mostrarán sólo en la sección \"Testimonios\" en la página "
+#~ "de entrada"
+
+#~ msgid "Front Page section \"Latest Posts\""
+#~ msgstr "Sección \"Últimas publicaciones\" en la Página de entrada"
+
+#~ msgid ""
+#~ "Widgets to be shown only in the section \"Latest Posts\" on the front page"
+#~ msgstr ""
+#~ "Los widgets se mostrarán sólo en la sección \"Últimas publicaciones\" en "
+#~ "la página de entrada"
+
+#~ msgid "Front Page section \"Google map\""
+#~ msgstr "Sección \"Mapa de Google\" de la Página de entrada"
+
+#~ msgid ""
+#~ "Widgets to be shown only in the section \"Google map\" on the front page"
+#~ msgstr ""
+#~ "Los widgets se mostrarán sólo en la sección \"Mapa de Google\" en la "
+#~ "página de entrada"
+
+#~ msgid "Main Menu"
+#~ msgstr "Menú principal"
+
+#~ msgid "Footer Menu"
+#~ msgstr "Menú de pie de página"
+
+#~ msgid "Invalid server answer!"
+#~ msgstr "¡Respuesta inválida del servidor!"
+
+#~ msgid "Sidebar Widgets"
+#~ msgstr "Widgets de Barra Lateral"
+
+#~ msgid "Widgets to be shown on the main sidebar"
+#~ msgstr "Los widgets para ser mostrados en la barra lateral principal"
+
+#~ msgid "Widgets to be shown at the top of the page (in the page header area)"
+#~ msgstr ""
+#~ "Los widgets para ser mostrados en la parte superior de la página (en el "
+#~ "área del encabezado de la página)"
+
+#~ msgid "Top Page Widgets"
+#~ msgstr "Widgets de Inicio de Página"
+
+#~ msgid ""
+#~ "Widgets to be shown below the header, but above the content and sidebar"
+#~ msgstr ""
+#~ "Los widgets para ser mostrados debajo del encabezado, pero por encima del "
+#~ "contenido y la barra lateral"
+
+#~ msgid "Above Content Widgets"
+#~ msgstr "Widgets por Encima de Contenido"
+
+#~ msgid "Widgets to be shown above the content, near the sidebar"
+#~ msgstr ""
+#~ "Los widgets para ser mostrados por encima del contenido, cerca de la "
+#~ "barra lateral"
+
+#~ msgid "Below Content Widgets"
+#~ msgstr "Widgets Debajo de Contenido"
+
+#~ msgid "Widgets to be shown below the content, near the sidebar"
+#~ msgstr ""
+#~ "Los widgets para ser mostrados debajo del contenido, cerca de la barra "
+#~ "lateral"
+
+#~ msgid "Bottom Page Widgets"
+#~ msgstr "Widgets de Última Página"
+
+#~ msgid ""
+#~ "Widgets to be shown below the content and sidebar, but above the footer"
+#~ msgstr ""
+#~ "Los widgets para ser mostrados debajo del contenido y de la barra "
+#~ "lateral, pero por encima del pie de la página"
+
+#~ msgid "Footer Widgets"
+#~ msgstr "Widgets de Pie de Página"
+
+#~ msgid ""
+#~ "Widgets to be shown at the bottom of the page (in the page footer area)"
+#~ msgstr ""
+#~ "Los widgets para ser mostrados al final de la página (en el área del pie "
+#~ "de la página)"
+
+#~ msgid "on"
+#~ msgstr "en"
+
+#~ msgid "@2x"
+#~ msgstr "@2x"
+
+#~ msgid "Published in"
+#~ msgstr "Publicado en"
+
+#~ msgid "Previous post:"
+#~ msgstr "Publicación anterior:"
+
+#~ msgid "Server response error"
+#~ msgstr "Error de respuesta del servidor"
+
+#~ msgid "Select the icon for this menu item"
+#~ msgstr "Selecciona el ícono para este elemento de menú"
+
+#~ msgid "Reset all changes of the current color scheme?"
+#~ msgstr "¿Restablecer todos los cambios del esquema de color actual?"
+
+#~ msgid "Enter the name for a new color scheme"
+#~ msgstr "Introduce el nombre para un nuevo esquema de color"
+
+#~ msgid "Do you really want to delete the current color scheme?"
+#~ msgstr "¿Deseas realmente eliminar el esquema de color actual?"
+
+#~ msgid "You cannot delete the last color scheme!"
+#~ msgstr "¡No puedes eliminar el último esquema de color!"
+
+#~ msgid "You cannot delete the built-in color scheme!"
+#~ msgstr "¡No puedes eliminar el esquema de color incorporado!"
+
+#~ msgid "Yes"
+#~ msgstr "Sí"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "On"
+#~ msgstr "Activar"
+
+#~ msgid "Off"
+#~ msgstr "Desactivar"
+
+#~ msgid "Show"
+#~ msgstr "Mostrar"
+
+#~ msgid "Hide"
+#~ msgstr "Ocultar"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontal"
+
+#~ msgid "Vertical"
+#~ msgstr "Vertical"
+
+#~ msgid "Small"
+#~ msgstr "Pequeño"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgid "- Select widgets -"
+#~ msgstr "- Seleccionar widgets -"
+
+#~ msgid "Right"
+#~ msgstr "Derecho"
+
+#~ msgid "Over"
+#~ msgstr "Encima"
+
+#~ msgid "Under"
+#~ msgstr "Debajo"
+
+#~ msgid "Wide"
+#~ msgstr "Amplio"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Pantalla completa"
+
+#~ msgid "Classic /2 columns/"
+#~ msgstr "Clásico /2 columnas/"
+
+#~ msgid "Classic /3 columns/"
+#~ msgstr "Clásico /3 columnas/"
+
+#~ msgid "Masonry /2 columns/"
+#~ msgstr "Mampostería /2 columnas/"
+
+#~ msgid "Masonry /3 columns/"
+#~ msgstr "Mampostería /3 columnas/"
+
+#~ msgid "Portfolio /2 columns/"
+#~ msgstr "Cartera /2 columnas/"
+
+#~ msgid "Portfolio /3 columns/"
+#~ msgstr "Cartera /3 columnas/"
+
+#~ msgid "Portfolio /4 columns/"
+#~ msgstr "Cartera /4 columnas/"
+
+#~ msgid "Gallery /2 columns/"
+#~ msgstr "Galería /2 columnas/"
+
+#~ msgid "Gallery /3 columns/"
+#~ msgstr "Galería /3 columnas/"
+
+#~ msgid "Gallery /4 columns/"
+#~ msgstr "Galería /4 columnas/"
+
+#~ msgid "Chess /2 column/"
+#~ msgstr "Ajedrez /2 columnas/"
+
+#~ msgid "Chess /4 columns/"
+#~ msgstr "Ajedrez /4 columnas/"
+
+#~ msgid "Chess /6 columns/"
+#~ msgstr "Ajedrez /6 columnas/"
+
+#~ msgid "Post"
+#~ msgstr "Publicación"
+
+#~ msgid "- Not selected -"
+#~ msgstr "- No seleccionado -"
+
+#~ msgid "Link 2"
+#~ msgstr "Enlace 2"
+
+#~ msgid "Link 3"
+#~ msgstr "Enlace 3"
+
+#~ msgid "Installing ..."
+#~ msgstr "Instalando ..."
+
+#, php-format
+#~ msgid "Install %s"
+#~ msgstr "Instalar %s"
+
+#~ msgid "Install"
+#~ msgstr "Instalar"
+
+#~ msgid "Activating ..."
+#~ msgstr "Activando ..."
+
+#, php-format
+#~ msgid "Activate %s"
+#~ msgstr "Activar %s"
+
+#~ msgid "Activate"
+#~ msgstr "Activar"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "Instalar Plugins Requeridos"
+
+#~ msgid "Install Plugins"
+#~ msgstr "Instalar Plugins"
+
+#, php-format
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "Instalación de Plugin: %s"
+
+#, php-format
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "Actualización de Plugin: %s"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Algo salió mal con el plugin API."
+
+#, php-format
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgstr "Este tema requiere el siguiente plugin: %1$s."
+
+#, php-format
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgstr "Este tema recomienda el siguiente plugin: %1$s."
+
+#, php-format
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgstr ""
+#~ "Se debe actualizar el siguiente plugin a su última versión para "
+#~ "garantizar la máxima compatibilidad con este tema: %1$s."
+
+#, php-format
+#~ msgid "There is an update available for: %1$s."
+#~ msgstr "Hay una actualización disponible para: %1$s."
+
+#, php-format
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgstr "El siguiente plugin requerido está actualmente inactivo: %1$s."
+
+#, php-format
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgstr "El siguiente plugin recomendado está actualmente inactivo: %1$s."
+
+#~ msgid "Begin installing plugin"
+#~ msgstr "Iniciar la instalación de plugin"
+
+#~ msgid "Begin updating plugin"
+#~ msgstr "Iniciar la actualización de plugin"
+
+#~ msgid "Begin activating plugin"
+#~ msgstr "Iniciar la activación de plugin"
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "Volver a Instalador de Plugins Requeridos"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "Volver al Tablero"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "Plugin activado correctamente."
+
+#~ msgid "The following plugin was activated successfully:"
+#~ msgstr "El siguiente plugin se activó correctamente:"
+
+#, php-format
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr "Ninguna acción tomada. El plugin %1$s ya estaba activo."
+
+#, php-format
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr ""
+#~ "Plugin no activado. Se necesita una versión superior de %s para este "
+#~ "tema. Por favor actualiza el plugin."
+
+#, php-format
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "Todos los plugins instalados y activados con éxito. %1$s"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "Descartar este aviso"
+
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr ""
+#~ "Hay uno o más plugins requeridos o recomendados para instalar, actualizar "
+#~ "o activar."
+
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr ""
+#~ "Por favor ponte en contacto con el administrador de este sitio para "
+#~ "obtener ayuda."
+
+#~ msgid "This plugin needs to be updated to be compatible with your theme."
+#~ msgstr "Se debe actualizar este plugin para ser compatible con tu tema."
+
+#~ msgid "Update Required"
+#~ msgstr "Se necesita la actualización"
+
+#~ msgid ""
+#~ "The remote plugin package does not contain a folder with the desired slug "
+#~ "and renaming did not work."
+#~ msgstr ""
+#~ "El paquete del plugin remoto no contiene una carpeta con el slug deseado "
+#~ "y el renombramiento no funcionó."
+
+#~ msgid ""
+#~ "Please contact the plugin provider and ask them to package their plugin "
+#~ "according to the WordPress guidelines."
+#~ msgstr ""
+#~ "Por favor ponte en contacto con el proveedor del plugin y pídale de "
+#~ "empaquetar el plugin de acuerdo con las directrices de WordPress."
+
+#~ msgid ""
+#~ "The remote plugin package consists of more than one file, but the files "
+#~ "are not packaged in a folder."
+#~ msgstr ""
+#~ "El paquete del plugin remoto consta de más de un archivo, pero los "
+#~ "archivos no están empaquetados en una carpeta."
+
+#~ msgid "and"
+#~ msgstr "y"
+
+#, php-format
+#~ msgid "TGMPA v%s"
+#~ msgstr "TGMPA v%s"
+
+#~ msgid "Required"
+#~ msgstr "Requerido"
+
+#~ msgid "Recommended"
+#~ msgstr "Recomendado"
+
+#~ msgid "WordPress Repository"
+#~ msgstr "Repositorio de WordPress"
+
+#~ msgid "Choose the archive with the plugin from the theme's package"
+#~ msgstr "Elige el archivo con el plugin del paquete de tema"
+
+#~ msgid "External Source"
+#~ msgstr "Fuente Externa"
+
+#~ msgid "Pre-Packaged"
+#~ msgstr "Pre-Empaquetado"
+
+#~ msgid "Not Installed"
+#~ msgstr "No Instalado"
+
+#~ msgid "Installed But Not Activated"
+#~ msgstr "Instalado pero no Activado"
+
+#~ msgid "Active"
+#~ msgstr "Activo"
+
+#~ msgid "Required Update not Available"
+#~ msgstr "Actualización Requerida no Disponible"
+
+#~ msgid "Requires Update"
+#~ msgstr "Requiere Actualización"
+
+#~ msgid "Update recommended"
+#~ msgstr "Actualizacion recomendada"
+
+#, php-format
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%1$s, %2$s"
+
+#, php-format
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgstr "Todo <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "To Install <span class=\"count\">(%s)</span>"
+#~ msgstr "Para Instalar <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "Update Available <span class=\"count\">(%s)</span>"
+#~ msgstr "Actualización Disponible <span class=\"count\">(%s)</span>"
+
+#, php-format
+#~ msgid "To Activate <span class=\"count\">(%s)</span>"
+#~ msgstr "Para Activar <span class=\"count\">(%s)</span>"
+
+#~ msgid "unknown"
+#~ msgstr "desconocido"
+
+#~ msgid "Installed version:"
+#~ msgstr "Versión instalada:"
+
+#~ msgid "Minimum required version:"
+#~ msgstr "Versión mínima requerida:"
+
+#~ msgid "Available version:"
+#~ msgstr "Versión disponible:"
+
+#~ msgid "No plugins to install, update or activate."
+#~ msgstr "No hay plugins para instalar, actualizar o activar."
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Source"
+#~ msgstr "Fuente"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Version"
+#~ msgstr "Versión"
+
+#~ msgid "Status"
+#~ msgstr "Estado"
+
+#, php-format
+#~ msgid "Install %2$s"
+#~ msgstr "Instalar %2$s"
+
+#, php-format
+#~ msgid "Select source, check this item %2$s and Bulk action \"Install\""
+#~ msgstr ""
+#~ "Selecciona la fuente, verifica este elemento %2$s y la acción masiva "
+#~ "\"Instalar\""
+
+#, php-format
+#~ msgid "Select source, check this item %2$s and Bulk action \"Update\""
+#~ msgstr ""
+#~ "Selecciona la fuente, verifica este elemento %2$s y la acción masiva "
+#~ "\"Actualizar\""
+
+#, php-format
+#~ msgid "Activate %2$s"
+#~ msgstr "Activar %2$s"
+
+#~ msgid "Upgrade message from the plugin author:"
+#~ msgstr "Actualizar mensaje del autor del plugin:"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr ""
+#~ "No se seleccionaron plugins para ser instalados. Ninguna acción tomada."
+
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr ""
+#~ "No se seleccionaron plugins para ser actualizados. Ninguna acción tomada."
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "No hay plugins disponibles para ser instalados en este momento."
+
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr "No hay plugins disponibles para ser actualizados en este momento."
+
+#~ msgid "No plugins are selected to be updated at this time."
+#~ msgstr "No hay plugins seleccionados para ser actualizados en este momento."
+
+#~ msgid "No plugins are selected to be installed at this time."
+#~ msgstr "No hay plugins seleccionados para ser instalados en este momento."
+
+#~ msgid "No plugins were selected to be activated. No action taken."
+#~ msgstr "No se seleccionaron plugins para activarlos. Ninguna acción tomada."
+
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "No hay plugins disponibles para ser activados en este momento."
+
+#~ msgid "Plugin activation failed."
+#~ msgstr "La activación del plugin falló."
+
+#, php-format
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Actualización de Plugin %1$s (%2$d/%3$d)"
+
+#, php-format
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr ""
+#~ "Se produjo un error a la instalación de %1$s: <strong>%2$s</strong>."
+
+#, php-format
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "La instalación de %1$s falló."
+
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr ""
+#~ "El proceso de la instalación y activación está comenzando. Este proceso "
+#~ "puede tomar un tiempo en algunos hosts, por eso ten paciencia."
+
+#, php-format
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "%1$s instalado y activado con éxito."
+
+#~ msgid "Show Details"
+#~ msgstr "Mostrar Detalles"
+
+#~ msgid "All installations and activations have been completed."
+#~ msgstr "Todas las instalaciones y activaciones han sido completadas."
+
+#, php-format
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Instalación y Activación del Plugin %1$s (%2$d/%3$d)"
+
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr ""
+#~ "El proceso de la instalación y activación está comenzando. Este proceso "
+#~ "puede tomar un tiempo en algunos hosts, por eso ten paciencia."
+
+#, php-format
+#~ msgid "%1$s installed successfully."
+#~ msgstr "%1$s instalado con éxito."
+
+#~ msgid "All installations have been completed."
+#~ msgstr "Todas las instalaciones han sido completadas."
+
+#, php-format
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Instalación del Plugin %1$s (%2$d/%3$d)"
+
+#, php-format
+#~ msgid ""
+#~ "WP Filesystem is not initialized! Put contents to the file \"%s\" failed"
+#~ msgstr ""
+#~ "¡El sistema de ficheros WP no está inicializado! Pon contenidos en el "
+#~ "fichero \"% s\" fallido"
+
+#, php-format
+#~ msgid ""
+#~ "WP Filesystem is not initialized! Get contents from the file \"%s\" failed"
+#~ msgstr ""
+#~ "¡El sistema de ficheros WP no está inicializado! Obtén contenidos del "
+#~ "fichero \"% s\" fallido"
+
+#, php-format
+#~ msgid ""
+#~ "WP Filesystem is not initialized! Get rows from the file \"%s\" failed"
+#~ msgstr ""
+#~ "¡El sistema de ficheros WP no está inicializado! Obtén líneas del fichero "
+#~ "\"% s\" fallido"
+
+#~ msgid "ATTENTION! This file was generated automatically! Don't change it!!!"
+#~ msgstr ""
+#~ "¡ATENCIÓN! ¡Este fichero fue generado automáticamente! ¡No lo cambies!"
+
+#, php-format
+#~ msgid "/* SASS Suffix: --%s */"
+#~ msgstr "/* SASS Sufijo: --%s */"
+
+#~ msgid "Home"
+#~ msgstr "Inicio"
+
+#~ msgid "All Posts"
+#~ msgstr "Todas publicaciones"
+
+#, php-format
+#~ msgid "Author page: %s"
+#~ msgstr "Página del autor: %s"
+
+#~ msgid "URL not found"
+#~ msgstr "No se encontró URL"
+
+#, php-format
+#~ msgid "Search: %s"
+#~ msgstr "Búsqueda: %s"
+
+#, php-format
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Archivos Diarios: %s"
+
+#, php-format
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Archivos Mensuales: %s"
+
+#, php-format
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Archivos Anuales: %s"
+
+#, php-format
+#~ msgid "Tag: %s"
+#~ msgstr "Etiqueta: %s"
+
+#, php-format
+#~ msgid "Attachment: %s"
+#~ msgstr "Anexo: %s"
+
+#~ msgid "You are trying to use a menu inserted in himself!"
+#~ msgstr "¡Está tratando de usar un menú insertado en él mismo!"
+
+#, php-format
+#~ msgid "%s ago"
+#~ msgstr "hace %s"
+
+#~ msgid "All"
+#~ msgstr "Todos"
+
+#~ msgid "CPT_Name"
+#~ msgstr "CPT_Name"
+
+#~ msgid "Select parameters to display the CPT_Name pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas de CPT_Name"
+
+#~ msgid "Attention! Option \"Style\" apply only after you save the options!"
+#~ msgstr ""
+#~ "¡Atención! ¡La opción \"Estilo\" se aplica sólo después de guardar las "
+#~ "opciones!"
+
+#~ msgid "Single CPT_Name item"
+#~ msgstr "Elemento de CPT_Name individual"
+
+#~ msgid "Show section 'Related CPT_Name items' on the single CPT_Name page"
+#~ msgstr ""
+#~ "Mostrar la sección 'Elementos relacionados de CPT_Name' en la página de "
+#~ "CPT_Name individual"
+
+#~ msgid "Related CPT_Name items"
+#~ msgstr "Elementos relacionados de CPT_Name"
+
+#~ msgid ""
+#~ "How many related CPT_Name items should be displayed on the single "
+#~ "CPT_Name page?"
+#~ msgstr ""
+#~ "¿Cuántos elementos relacionados de CPT_Name se deben mostrarse en la "
+#~ "página de CPT_Name individual?"
+
+#~ msgid ""
+#~ "How many columns should be used to output related CPT_Name on the single "
+#~ "CPT_Name page?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para mostrar el CPT_Name relacionado en "
+#~ "la página de CPT_Name individual?"
+
+#~ msgid "BB(Buddy) Press"
+#~ msgstr "BB(Buddy) Press"
+
+#~ msgid "Select parameters to display the community pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas comunitarias"
+
+#~ msgid "community"
+#~ msgstr "comunidad"
+
+#~ msgid "BBPress and BuddyPress Widgets"
+#~ msgstr "Widgets de BBPress and BuddyPress"
+
+#~ msgid "Booked Payments with WooCommerce"
+#~ msgstr "Booked Payments con WooCommerce"
+
+#~ msgid "Booked Calendar Feeds"
+#~ msgstr "Booked Calendar Feeds"
+
+#~ msgid "Booked Front-End Agents"
+#~ msgstr "Booked Front-End Agents"
+
+#~ msgid "Contact Form 7 Datepicker"
+#~ msgstr "Formulario de contacto 7 Datepicker"
+
+#~ msgid "Downloads"
+#~ msgstr "Descargas"
+
+#~ msgid "Downloads per page"
+#~ msgstr "Descargas por página"
+
+#~ msgid ""
+#~ "How many products should be displayed on the downloads page. If empty - "
+#~ "use global value from the menu Settings - Reading"
+#~ msgstr ""
+#~ "Cuantos productos se deben mostrar en la página de descargas. Si está en "
+#~ "blanco, utiliza el valor global desde el menú Configuración - Lectura"
+
+#~ msgid "Select posts style for the homepage"
+#~ msgstr "Selecciona el estilo de publicaciones para la página de inicio"
+
+#~ msgid "Author info"
+#~ msgstr "Información de autor"
+
+#~ msgid "Display block with information about download's author"
+#~ msgstr "Visualizar el bloque de información sobre el autor de descargas"
+
+#~ msgid "downloads"
+#~ msgstr "descargas"
+
+#~ msgid "and more"
+#~ msgstr "y más"
+
+#~ msgid "from"
+#~ msgstr "de"
+
+#~ msgid "Easy Digital Downloads Widgets"
+#~ msgstr "Widgets de Easy Digital Downloads"
+
+#~ msgid "Widgets to be shown on the Easy Digital Downloads pages"
+#~ msgstr "Widgets para mostrar en las páginas de Easy Digital Downloads"
+
+#~ msgid "Justify columns"
+#~ msgstr "Justificar columnas"
+
+#~ msgid ""
+#~ "Stretch columns to align the left and right edges to the site content area"
+#~ msgstr ""
+#~ "Estira las columnas para alinear los bordes izquierdos y derechos al área "
+#~ "de contenido del sitio"
+
+#~ msgid "Override"
+#~ msgstr "Anular"
+
+#~ msgid "New value"
+#~ msgstr "Nuevo valor"
+
+#~ msgid "Select color scheme to decorate this block"
+#~ msgstr "Selecciona el esquema de color para decorar este bloque"
+
+#~ msgid "SiteOrigin Panels (free Page Builder)"
+#~ msgstr "Paneles de SiteOrigin (Page Builder gratis)"
+
+#~ msgid "SiteOrigin Panels Widgets bundle"
+#~ msgstr "Paquete de los Widgets de Paneles de SiteOrigin"
+
+#~ msgid "Events"
+#~ msgstr "Eventos"
+
+#~ msgid "Select parameters to display the events pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas de eventos"
+
+#~ msgid "Tribe Events Widgets"
+#~ msgstr "Widgets de Tribe Events"
+
+#~ msgid "Widgets to be shown on the Tribe Events pages"
+#~ msgstr "Widgets para mostrar en las páginas de Tribe Events"
+
+#~ msgid "Tour Master"
+#~ msgstr "Tour Master"
+
+#~ msgid "Page with all tours"
+#~ msgstr "Página con todos los tours"
+
+#~ msgid "Select page with shortcode [tourmaster_tour] to show all tours"
+#~ msgstr ""
+#~ "Selecciona página con el código corto [tourmaster_tour] para mostrar "
+#~ "todos los tours"
+
+#~ msgid "Tour Master Widgets"
+#~ msgstr "Widgets de Tour Master"
+
+#~ msgid "Widgets to be shown on the Tour Master pages"
+#~ msgstr "Widgets para mostrar en las páginas de Tour Master"
+
+#~ msgid ""
+#~ "In order to see changes made by settings of this section, click \"Save\" "
+#~ "and refresh the page"
+#~ msgstr ""
+#~ "Para ver los cambios realizados por la configuración de esta sección, haz "
+#~ "clic en \"Guardar\" y actualiza la página"
+
+#~ msgid "Cars"
+#~ msgstr "Coches"
+
+#~ msgid "Single car"
+#~ msgstr "Coche individual"
+
+#~ msgid "Show section 'Related cars' on the single car page"
+#~ msgstr ""
+#~ "Mostrar la sección 'Coches relacionadas' en la página de la coche "
+#~ "individual"
+
+#~ msgid "Related cars"
+#~ msgstr "Coches relacionadas"
+
+#~ msgid "How many related cars should be displayed on the single car page?"
+#~ msgstr ""
+#~ "¿Cuántas coches relacionadas se deben mostrar en la página de la coche "
+#~ "individual?"
+
+#~ msgid ""
+#~ "How many columns should be used to output related cars on the single car "
+#~ "page?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para mostrar las coches relacionadas en "
+#~ "la página de la coche individual?"
+
+#~ msgid "Certificates"
+#~ msgstr "Certificados"
+
+#~ msgid "Select parameters to display \"Certificates\""
+#~ msgstr "Selecciona parámetros para visualizar \"Certificados\""
+
+#~ msgid "Show section 'Related courses' on the single course page"
+#~ msgstr ""
+#~ "Mostrar la sección 'Cursos relacionados' en la página del curso individual"
+
+#~ msgid ""
+#~ "How many related courses should be displayed on the single course page?"
+#~ msgstr ""
+#~ "¿Cuántos cursos relacionados se deben mostrar en la página del curso "
+#~ "individual?"
+
+#~ msgid ""
+#~ "How many columns should be used to output related courses on the single "
+#~ "course page?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para mostrar los cursos relacionados en "
+#~ "la página del curso individual?"
+
+#~ msgid "Dishes"
+#~ msgstr "Platos"
+
+#~ msgid "Select parameters to display the dishes pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas de platos"
+
+#~ msgid "Single dish"
+#~ msgstr "Plato individual"
+
+#~ msgid "Show section 'Related dishes' on the single dish page"
+#~ msgstr ""
+#~ "Mostrar la sección 'Platos relacionados' en la página del plato individual"
+
+#~ msgid "Related dishes"
+#~ msgstr "Platos relacionados"
+
+#~ msgid "How many related dishes should be displayed on the single dish page?"
+#~ msgstr ""
+#~ "¿Cuántos platos relacionados se deben mostrar en la página del plato "
+#~ "individual?"
+
+#~ msgid ""
+#~ "How many columns should be used to output related dishes on the single "
+#~ "dish page?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para mostrar los platos relacionados en "
+#~ "la página del plato individual?"
+
+#~ msgid "Select parameters to display the portfolio pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas de la cartera"
+
+#~ msgid "Single portfolio item"
+#~ msgstr "Elemento de la cartera individual"
+
+#~ msgid "Show section 'Related portfolio items' on the single portfolio page"
+#~ msgstr ""
+#~ "Mostrar la sección 'Elementos relacionados de la cartera' en la página de "
+#~ "la cartera individual"
+
+#~ msgid "Related portfolio items"
+#~ msgstr "Elementos de la cartera relacionada"
+
+#~ msgid ""
+#~ "How many related portfolio items should be displayed on the single "
+#~ "portfolio page?"
+#~ msgstr ""
+#~ "¿Cuántos elementos relacionados de la cartera se deben mostrarse en la "
+#~ "página de la cartera individual?"
+
+#~ msgid ""
+#~ "How many columns should be used to output related portfolio on the single "
+#~ "portfolio page?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para mostrar la cartera relacionada en la "
+#~ "página de la cartera individual?"
+
+#~ msgid "Properties"
+#~ msgstr "Propiedades"
+
+#~ msgid "Select parameters to display the properties pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas de propiedades"
+
+#~ msgid "Single property"
+#~ msgstr "Propiedad individual"
+
+#~ msgid "Show section 'Related properties' on the single property page"
+#~ msgstr ""
+#~ "Mostrar la sección 'Propiedades relacionadas' en la página de la "
+#~ "propiedad individual"
+
+#~ msgid "Related properties"
+#~ msgstr "Propiedades relacionadas"
+
+#~ msgid ""
+#~ "How many related properties should be displayed on the single property "
+#~ "page?"
+#~ msgstr ""
+#~ "¿Cuántas coches propiedades se deben mostrar en la página de la propiedad "
+#~ "individual?"
+
+#~ msgid ""
+#~ "How many columns should be used to output related properties on the "
+#~ "single property page?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para mostrar las propiedades relacionadas "
+#~ "en la página de la propiedad individual?"
+
+#~ msgid "Resume"
+#~ msgstr "Resumen"
+
+#~ msgid "Services"
+#~ msgstr "Servicios"
+
+#~ msgid "Select parameters to display the services pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas de servicios"
+
+#~ msgid "Single service item"
+#~ msgstr "Elemento de servicio individual"
+
+#~ msgid "Show section 'Related services' on the single service page"
+#~ msgstr ""
+#~ "Mostrar la sección 'Servicios relacionados' en la página del servicio "
+#~ "individual"
+
+#~ msgid "Related services"
+#~ msgstr "Servicios relacionados"
+
+#~ msgid ""
+#~ "How many related services should be displayed on the single service page?"
+#~ msgstr ""
+#~ "¿Cuántos servicios relacionados se deben mostrar en la página del "
+#~ "servicio individual?"
+
+#~ msgid ""
+#~ "How many columns should be used to output related services on the single "
+#~ "service page?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para mostrar los servicios relacionados "
+#~ "en la página del servicio individual?"
+
+#~ msgid "Sport"
+#~ msgstr "Deporte"
+
+#~ msgid "Select parameters to display the sport pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas de deporte"
+
+#~ msgid "Team"
+#~ msgstr "Equipo"
+
+#~ msgid "Select parameters to display the team members pages."
+#~ msgstr ""
+#~ "Selecciona parámetros para visualizar las páginas de los miembros de "
+#~ "equipo."
+
+#~ msgid "Select parameters to display \"Testimonials\""
+#~ msgstr "Selecciona parámetros para visualizar \"Testimonios\""
+
+#~ msgid "Open selected layout in a new tab to edit"
+#~ msgstr "Abra el diseño seleccionado en una nueva pestaña para editarlo"
+
+#~ msgid "Demo"
+#~ msgstr "Demostración"
+
+#~ msgid "Docs"
+#~ msgstr "Documentos"
+
+#~ msgid "Go Pro"
+#~ msgstr "Go Pro"
+
+#, php-format
+#~ msgid "Started on %s"
+#~ msgstr "Comenzó el %s"
+
+#, php-format
+#~ msgid "Starting %s"
+#~ msgstr "Iniciando %s"
+
+#, php-format
+#~ msgid "Birthday: %s"
+#~ msgstr "Cumpleaños: %s"
+
+#~ msgid "Donations"
+#~ msgstr "Donaciones"
+
+#~ msgid "Select parameters to display the donations pages"
+#~ msgstr "Selecciona parámetros para visualizar las páginas de donaciones"
+
+#~ msgid "Group goal:"
+#~ msgstr "Objetivo de grupo:"
+
+#~ msgid "Raised:"
+#~ msgstr "Elevado:"
+
+#~ msgid "Shop"
+#~ msgstr "Tienda"
+
+#~ msgid "Select theme-specific parameters to display the shop pages"
+#~ msgstr ""
+#~ "Selecciona los parámetros específicos de tema para mostrar las páginas de "
+#~ "tienda"
+
+#~ msgid "Products list"
+#~ msgstr "Lista de productos"
+
+#~ msgid "Shop style"
+#~ msgstr "Estilo de tienda"
+
+#~ msgid ""
+#~ "Select style for the products list. Attention! If the visitor has already "
+#~ "selected the list type at the top of the page - his choice is remembered "
+#~ "and has priority over this option"
+#~ msgstr ""
+#~ "Selecciona el estilo para la lista de productos. ¡Atención! Si el "
+#~ "visitante ya ha seleccionado el tipo de lista en la parte superior de la "
+#~ "página, su elección se recuerda y tiene prioridad sobre esta opción"
+
+#~ msgid "Grid"
+#~ msgstr "Cuadrícula"
+
+#~ msgid "List"
+#~ msgstr "Lista"
+
+#~ msgid "Products per page"
+#~ msgstr "Productos por página"
+
+#~ msgid ""
+#~ "How many products should be displayed on the shop page. If empty - use "
+#~ "global value from the menu Settings - Reading"
+#~ msgstr ""
+#~ "Cuantos productos se deben mostrar en la página de tienda. Si está en "
+#~ "blanco, utiliza el valor global desde el menú Configuración - Lectura"
+
+#~ msgid "Grid columns"
+#~ msgstr "Columnas de cuadrícula"
+
+#~ msgid ""
+#~ "How many columns should be used for the shop products in the grid view "
+#~ "(from 2 to 4)?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para los productos de la tienda en la "
+#~ "vista de cuadrícula (de 2 a 4)?"
+
+#~ msgid "Hover style"
+#~ msgstr "Estilo de hover"
+
+#~ msgid "Hover style on the products in the shop archive"
+#~ msgstr "Estilo de hover los productos en el archivo de la tienda"
+
+#~ msgid "Icons"
+#~ msgstr "Iconos"
+
+#~ msgid "Single product"
+#~ msgstr "Producto individual"
+
+#~ msgid "Stretch tabs area"
+#~ msgstr "Área de las pestañas de estiramiento"
+
+#~ msgid ""
+#~ "Stretch area with tabs on the single product to the screen width if the "
+#~ "sidebar is hidden"
+#~ msgstr ""
+#~ "Estira el área con las pestañas en el producto individual al ancho de la "
+#~ "pantalla, si la barra lateral está oculta"
+
+#~ msgid "Show related products"
+#~ msgstr "Mostrar productos relacionados"
+
+#~ msgid "Show section 'Related products' on the single product page"
+#~ msgstr ""
+#~ "Mostrar la sección 'Productos relacionados' en la página del producto "
+#~ "individual"
+
+#~ msgid "Related products"
+#~ msgstr "Productos relacionados"
+
+#~ msgid "This text can be changed in the section \"Products\""
+#~ msgstr "Este texto se puede modificar en la sección \"Productos\""
+
+#~ msgid "Products parameters"
+#~ msgstr "Parámetros de productos"
+
+#~ msgid "Type of the products"
+#~ msgstr "Tipo de productos"
+
+#~ msgid "Recent products"
+#~ msgstr "Productos recientes"
+
+#~ msgid "Featured products"
+#~ msgstr "Productos destacados"
+
+#~ msgid "Top rated products"
+#~ msgstr "Productos mejor calificados"
+
+#~ msgid "Sale products"
+#~ msgstr "Productos de venta"
+
+#~ msgid "Best selling products"
+#~ msgstr "Productos más vendidos"
+
+#~ msgid "Products from categories"
+#~ msgstr "Productos de categorías"
+
+#~ msgid "Products by IDs"
+#~ msgstr "Productos por ID"
+
+#~ msgid ""
+#~ "Comma separated category slugs. Used only with \"Products from "
+#~ "categories\""
+#~ msgstr ""
+#~ "Los slugs de categoría separados por comas. Usado sólo con \"Productos de "
+#~ "categorías\""
+
+#~ msgid "Per page"
+#~ msgstr "Por página"
+
+#~ msgid ""
+#~ "How many products will be displayed on the page. Attention! For "
+#~ "\"Products by IDs\" specify comma separated list of the IDs"
+#~ msgstr ""
+#~ "Cuantos productos se mostrarán en la página. ¡Atención! Para \"Productos "
+#~ "por ID\", especifica una lista separada por comas de los ID."
+
+#~ msgid "Columns"
+#~ msgstr "Columnas"
+
+#~ msgid "How many columns will be used"
+#~ msgstr "Cuantas columnas se usarán"
+
+#~ msgid "Order by"
+#~ msgstr "Orden por"
+
+#~ msgid "Not used with Best selling products"
+#~ msgstr "No se usa con los Productos más vendidos"
+
+#~ msgid "Date"
+#~ msgstr "Fecha"
+
+#~ msgid "Order"
+#~ msgstr "Orden"
+
+#~ msgid ""
+#~ "Use Background color as section mask with specified opacity. If 0 - mask "
+#~ "is not used"
+#~ msgstr ""
+#~ "Usa el color de fondo como una máscara de la sección con la opacidad "
+#~ "especificada. Si 0, la máscara no se utiliza"
+
+#~ msgid ""
+#~ "You can select icon and/or specify a text to create anchor for this "
+#~ "section and show it in the side menu (if selected in the section \"Header "
+#~ "- Menu\"."
+#~ msgstr ""
+#~ "Se puede seleccionar un icono y / o especificar un texto para crear un "
+#~ "anclaje para esta sección y mostrarlo en el menú lateral (si está "
+#~ "seleccionado en la sección \"Encabezado - Menú\")."
+
+#~ msgid "WooCommerce Widgets"
+#~ msgstr "Widgets de WooCommerce"
+
+#~ msgid "Widgets to be shown on the WooCommerce pages"
+#~ msgstr "Widgets para mostrar en las páginas de WooCommerce"
+
+#~ msgid "Show products as thumbs"
+#~ msgstr "Mostrar productos como pulgares"
+
+#~ msgid "Show products as list"
+#~ msgstr "Mostrar productos como lista"
+
+#~ msgid "Out of stock"
+#~ msgstr "Fuera de stock"
+
+#~ msgid "Product ID: "
+#~ msgstr "ID del Producto:"
+
+#~ msgid "Next post:"
+#~ msgstr "Siguiente publicación:"
+
+#, php-format
+#~ msgid "About %s"
+#~ msgstr "Acerca de %s"
+
+#~ msgid "Install plugins"
+#~ msgstr "Instalar plugins"
+
+#~ msgid "One Click Demo Data"
+#~ msgstr "Fecha de One Click Demo"
+
+#~ msgid "Theme Customizer"
+#~ msgstr "Personalizador de Temas"
+
+#~ msgid "or"
+#~ msgstr "o"
+
+#~ msgid "Theme Options"
+#~ msgstr "Opciones de Temas"
+
+#~ msgid "Dismiss"
+#~ msgstr "Descartar"
+
+#, php-format
+#~ msgid "View all posts by %s"
+#~ msgstr "Ver todas las publicaciones en %s"
+
+#~ msgid "Plugins settings"
+#~ msgstr "Configuración de plugins"
+
+#~ msgid ""
+#~ "Use \"((\" and \"))\", \"{{\" and \"}}\" to modify style and color of "
+#~ "parts of the text, \"||\" to break current line"
+#~ msgstr ""
+#~ "Usa \"((\" and \"))\", \"{{\" and \"}}\" para modificar el estilo y el "
+#~ "color de las partes del texto, y \"||\" para romper la línea actual"
+
+#~ msgid "Used only if \"General settings - Body style\" equal to \"boxed\""
+#~ msgstr ""
+#~ "Usado sólo si \"Configuración general - Estilo del cuerpo\" es igual a "
+#~ "\"encajado\""
+
+#, php-format
+#~ msgid ""
+#~ "You have to choose widget \"<b>%s</b>\" in this section. You can also "
+#~ "select any other widget, and change the purpose of this section"
+#~ msgstr ""
+#~ "Tienes que elegir el widget \"<b>%s</b>\" en esta sección. Puedes también "
+#~ "seleccionar cualquier otro widget y cambiar el propósito de esta sección"
+
+#, php-format
+#~ msgid ""
+#~ "You need to install the <b>%s</b> plugin to be able to add Team members, "
+#~ "Testimonials, Services and many other widgets"
+#~ msgstr ""
+#~ "Necesita instalar el plugin <b>%s</b>para poder añadir Miembros de "
+#~ "equipo, Testimonios, Servicios y muchos otros widgets"
+
+#~ msgid ""
+#~ "Also you can insert in this section any other widgets and to modify its "
+#~ "purpose"
+#~ msgstr ""
+#~ "Puedes también insertar otros widgets en esta sección y modificar su "
+#~ "propósito"
+
+#~ msgid "Refresh"
+#~ msgstr "Actualizar"
+
+#~ msgid "Reset"
+#~ msgstr "Restablecer"
+
+#~ msgid "Are you sure you want to reset all Theme Options?"
+#~ msgstr ""
+#~ "¿Estás seguro de que deseas restablecer todas las Opciones de Temas?"
+
+#, php-format
+#~ msgid "Undefined option \"%s\" called from:"
+#~ msgstr "Opción indefinida \"%s\" llamada desde:"
+
+#~ msgid "Bad security code! Options are not saved!"
+#~ msgstr "¡Código de seguridad incorrecto! ¡Las opciones no se graban!"
+
+#~ msgid ""
+#~ "Manage options is denied for the current user! Options are not saved!"
+#~ msgstr ""
+#~ "¡Se ha denegado la administración de las opciones para el usuario actual! "
+#~ "¡Las opciones no se graban!"
+
+#~ msgid "Options are saved"
+#~ msgstr "Las opciones se guardan"
+
+#, php-format
+#~ msgid "Undefined setting \"%s\" called from:"
+#~ msgstr "Configuración indefinida \"%s\" llamada desde:"
+
+#~ msgid "Choose Image"
+#~ msgstr "Elegir Imagen"
+
+#~ msgid "Choose Media"
+#~ msgstr "Eligir Medios"
+
+#~ msgid "Choose Images"
+#~ msgstr "Eligir Imágenes"
+
+#~ msgid "Add to Gallery"
+#~ msgstr "Añadir a la Galería"
+
+#~ msgid "Add Files"
+#~ msgstr "Añadir Ficheros"
+
+#~ msgid "Search icon ..."
+#~ msgstr "Buscar un icono ..."
+
+#~ msgid "Reset scheme"
+#~ msgstr "Restablecer esquema"
+
+#~ msgid "Duplicate scheme"
+#~ msgstr "Duplicar esquema"
+
+#~ msgid "Delete scheme"
+#~ msgstr "Eliminar esquema"
+
+#~ msgid "Editor type"
+#~ msgstr "Tipo de editor"
+
+#~ msgid "Simple"
+#~ msgstr "Sencillo"
+
+#~ msgid "Advanced"
+#~ msgstr "Avanzado"
+
+#, php-format
+#~ msgid "Welcome to %1$s %2$s v.%3$s"
+#~ msgstr "Bienvenido a %1$s %2$s v.%3$s"
+
+#, php-format
+#~ msgid ""
+#~ "Now you are using Free version of <a href=\"%1$s\">%2$s Pro Theme</a>."
+#~ msgstr ""
+#~ "Ahora estás utilizando la versión gratuita de <a href=\"%1$s\">%2$s Pro "
+#~ "Theme</a>."
+
+#, php-format
+#~ msgid ""
+#~ "This version is SEO- and Retina-ready. It also has a built-in support for "
+#~ "parallax and slider with swipe gestures. %1$s Free is compatible with "
+#~ "many popular plugins, such as %2$s"
+#~ msgstr ""
+#~ "Esta versión está lista para SEO y Retina. Tiene también un soporte "
+#~ "integrado para paralaje y deslizador con los gestos de deslizamiento. "
+#~ "%1$s Gratis es compatible con muchos plugins populares, como %2$s"
+
+#, php-format
+#~ msgid ""
+#~ "We hope you have a great acquaintance with our themes. If you are looking "
+#~ "for a fully functional website, you can get the <a href=\"%s\">Pro "
+#~ "Version here</a>"
+#~ msgstr ""
+#~ "Esperamos que ten un gran conocimiento con nuestros temas. Si estás "
+#~ "buscando un sitio web completamente funcional, puedes obtener la <a "
+#~ "href=\"%s\"> Versión Pro aquí </a>"
+
+#, php-format
+#~ msgid ""
+#~ "%s is a Premium WordPress theme. It has a built-in support for parallax, "
+#~ "slider with swipe gestures, and is SEO- and Retina-ready"
+#~ msgstr ""
+#~ "%s es un tema de WordPress Premium. Tiene un soporte incorporado para "
+#~ "paralaje, deslizador con los gestos de deslizamiento, y está listo para "
+#~ "SEO y Retina"
+
+#, php-format
+#~ msgid ""
+#~ "The Premium Theme is compatible with many popular plugins, such as %s"
+#~ msgstr "El Tema Premium es compatible con muchos plugins populares, como %s"
+
+#~ msgid "Getting started"
+#~ msgstr "Primeros pasos"
+
+#~ msgid "Recommended actions"
+#~ msgstr "Acciones recomendadas"
+
+#~ msgid ""
+#~ "It is highly recommended that you install the companion plugin \"ThemeREX "
+#~ "Addons\" to have access to the layouts builder, awesome shortcodes, team "
+#~ "and testimonials, services and slider, and many other features ..."
+#~ msgstr ""
+#~ "Es altamente recomendado instalar el plugin complementario \"ThemeREX "
+#~ "Addons\" para tener acceso al creador de diseños, los increíbles códigos "
+#~ "cortos, equipo y testimonios, servicios y deslizador, y muchas otras "
+#~ "características ..."
+
+#~ msgid "Recommended plugins"
+#~ msgstr "Plugins recomendados"
+
+#, php-format
+#~ msgid ""
+#~ "Theme %s is compatible with a large number of popular plugins. You can "
+#~ "install only those that are going to use in the near future."
+#~ msgstr ""
+#~ "El tema %s s compatible con una gran cantidad de plugins populares. "
+#~ "Puedes instalar sólo aquellos que vayas a utilizar en el futuro cercano."
+
+#~ msgid "Setup Theme options"
+#~ msgstr "Opciones de configuración del tema"
+
+#~ msgid ""
+#~ "Using the WordPress Customizer you can easily customize every aspect of "
+#~ "the theme. If you want to use the standard theme settings page - open "
+#~ "Theme Options and follow the same steps there."
+#~ msgstr ""
+#~ "Con el Personalizador de WordPress puedes personalizar fácilmente todos "
+#~ "los aspectos del tema. Si deseas utilizar la página de configuración del "
+#~ "tema estándar, abre Opciones de Tema y sigue los mismos pasos allí."
+
+#~ msgid "Customizer"
+#~ msgstr "Personalizador"
+
+#~ msgid "Read full documentation"
+#~ msgstr "Leer la documentación completa"
+
+#, php-format
+#~ msgid ""
+#~ "Need more details? Please check our full online documentation for "
+#~ "detailed information on how to use %s."
+#~ msgstr ""
+#~ "¿Quieres más información? Consulta nuestra documentación completa online "
+#~ "para obtener información detallada sobre la utilización de %s."
+
+#~ msgid "Video tutorials"
+#~ msgstr "Videos tutoriales"
+
+#, php-format
+#~ msgid ""
+#~ "No time for reading documentation? Check out our video tutorials and "
+#~ "learn how to customize %s in detail."
+#~ msgstr ""
+#~ "¿No hay tiempo para leer la documentación? Ve nuestros videos tutoriales "
+#~ "y aprende en detalle cómo personalizar %s."
+
+#~ msgid "Watch videos"
+#~ msgstr "Ver videos"
+
+#, php-format
+#~ msgid ""
+#~ "We want to make sure you have the best experience using %s and that is "
+#~ "why we gathered here all the necessary informations for you."
+#~ msgstr ""
+#~ "Queremos asegurarnos de que ten la mejor experiencia utilizando %s, y por "
+#~ "eso hemos recopilado aquí toda la información necesaria para ti."
+
+#~ msgid "On-line demo"
+#~ msgstr "Demo en línea"
+
+#, php-format
+#~ msgid "Visit the Demo Version of %s to check out all the features it has"
+#~ msgstr "Visita la Versión Demo de %s para ver todas las funciones que posee"
+
+#~ msgid "View demo"
+#~ msgstr "Ver Demo"
+
+#~ msgid "Free vs PRO"
+#~ msgstr "Gratis contra PRO"
+
+#, php-format
+#~ msgid "%s Free"
+#~ msgstr "%s Gratis"
+
+#, php-format
+#~ msgid "%s PRO"
+#~ msgstr "%s PRO"
+
+#~ msgid "Mobile friendly"
+#~ msgstr "Adaptado a dispositivos móviles"
+
+#~ msgid "Responsive layout. Looks great on any device."
+#~ msgstr "Diseño responsivo. Luce fantástico en cualquier dispositivo."
+
+#~ msgid "Built-in posts slider"
+#~ msgstr "Deslizador de publicaciones incorporado"
+
+#~ msgid ""
+#~ "Allows you to add beautiful slides using the built-in shortcode/widget "
+#~ "\"Slider\" with swipe gestures support."
+#~ msgstr ""
+#~ "Te permite añadir hermosas diapositivas usando el código corto/widget "
+#~ "\"Slider\" incorporado con soporte para gestos deslizantes."
+
+#~ msgid "Revolution Slider Compatibility"
+#~ msgstr "Compatibilidad con Revolution Slider"
+
+#~ msgid ""
+#~ "Our built-in shortcode/widget \"Slider\" is able to work not only with "
+#~ "posts, but also with slides created  in \"Revolution Slider\"."
+#~ msgstr ""
+#~ "Nuestro código corto/widget \"Slider\" incorporado puede funcionar no "
+#~ "sólo con las publicaciones, sino también con diapositivas creadas en "
+#~ "\"Revolution Slider\"."
+
+#~ msgid "Free PageBuilder"
+#~ msgstr "PageBuilder gratis"
+
+#~ msgid ""
+#~ "Full integration with a nice free page builder \"SiteOrigin Panels\"."
+#~ msgstr ""
+#~ "Integración completa con un generador de páginas gratuito \"SiteOrigin "
+#~ "Panels\"."
+
+#~ msgid "Additional widgets pack"
+#~ msgstr "Paquete de widgets adicionales"
+
+#~ msgid ""
+#~ "A number of useful widgets to create beautiful homepages and other "
+#~ "sections of your website with SiteOrigin Panels."
+#~ msgstr ""
+#~ "Una serie de los widgets útiles para crear hermosas páginas de inicio y "
+#~ "otras secciones de tu sitio web con SiteOrigin Panels."
+
+#~ msgid "WPBakery PageBuilder"
+#~ msgstr "WPBakery PageBuilder"
+
+#~ msgid ""
+#~ "Full integration with a very popular page builder \"WPBakery "
+#~ "PageBuilder\". A number of useful shortcodes and widgets to create "
+#~ "beautiful homepages and other sections of your website."
+#~ msgstr ""
+#~ "Integración completa con un generador de páginas muy popular \"WPBakery "
+#~ "PageBuilder\". Una serie de los códigos cortos y widgets útiles para "
+#~ "crear hermosas páginas de inicio y otras secciones de tu sitio web."
+
+#~ msgid "Additional shortcodes pack"
+#~ msgstr "Paquete de códigos cortos adicional"
+
+#~ msgid ""
+#~ "A number of useful shortcodes to create beautiful homepages and other "
+#~ "sections of your website with WPBakery PageBuilder."
+#~ msgstr ""
+#~ "Una serie de los códigos cortos útiles para crear hermosas páginas de "
+#~ "inicio y otras secciones de tu sitio web con WPBakery PageBuilder."
+
+#~ msgid ""
+#~ "Powerful visual builder of headers and footers! No manual code editing - "
+#~ "use all the advantages of drag-and-drop technology."
+#~ msgstr ""
+#~ "¡Potente generador visual de encabezados y pies de página! Sin edición "
+#~ "manual de códigos: usa todas las ventajas de la tecnología de arrastrar y "
+#~ "soltar."
+
+#~ msgid "WooCommerce Compatibility"
+#~ msgstr "Compatibilidad con WooCommerce"
+
+#~ msgid "Ready for e-commerce. You can build an online store with this theme."
+#~ msgstr ""
+#~ "Listo para el comercio electrónico. Puedes crear una tienda online con "
+#~ "este tema."
+
+#~ msgid "Easy Digital Downloads Compatibility"
+#~ msgstr "Compatibilidad con Easy Digital Downloads"
+
+#~ msgid ""
+#~ "Ready for digital e-commerce. You can build an online digital store with "
+#~ "this theme."
+#~ msgstr ""
+#~ "Listo para el comercio electrónico. Puedes crear una tienda digital "
+#~ "online con este tema."
+
+#~ msgid "Many other popular plugins compatibility"
+#~ msgstr "Compatibilidad con muchos otros plugins populares"
+
+#~ msgid ""
+#~ "PRO version is compatible (was tested and has built-in support) with many "
+#~ "popular plugins."
+#~ msgstr ""
+#~ "La versión PRO es compatible (fue probado y tiene soporte incorporado) "
+#~ "con muchos plugins populares."
+
+#~ msgid ""
+#~ "Our premium support is going to take care of any problems, in case there "
+#~ "will be any of course."
+#~ msgstr ""
+#~ "Nuestro soporte premium se encargará de cualquier problema, claro, si "
+#~ "alguno."
+
+#~ msgid "Get PRO version"
+#~ msgstr "Obtén la Versión Pro"
+
+#~ msgid "Close"
+#~ msgstr "Cerrar"
+
+#, php-format
+#~ msgid "Upgrade %1$s Free v.%2$s to PRO"
+#~ msgstr "Actualizar %1$s Gratis v.%2$s a PRO"
+
+#~ msgid "Step 1"
+#~ msgstr "Paso 1"
+
+#~ msgid "Get PRO License Key"
+#~ msgstr "Obtén la Clave de Licencia PRO"
+
+#~ msgid "Step 2"
+#~ msgstr "Paso 2"
+
+#~ msgid "Paste License Key here:"
+#~ msgstr "Pega la Clave de Licencia aquí:"
+
+#~ msgid "License Key"
+#~ msgstr "Clave de Licencia"
+
+#~ msgid "Upgrade to PRO Version"
+#~ msgstr "Actualizar a la Versión PRO"
+
+#~ msgid "Error getting data from the update server!"
+#~ msgstr "¡Error al obtener datos del servidor de actualización!"
+
+#~ msgid "Upgrade details:"
+#~ msgstr "Actualizar detalles:"
+
+#~ msgid "Theme upgraded successfully! Now you have the PRO version!"
+#~ msgstr "¡El tema actualizado con éxito! ¡Ahora tienes la versión PRO!"
+
+#~ msgid "Get PRO Version"
+#~ msgstr "Obtén la Versión Pro"
+
+#~ msgid "Upgrade to the PRO Version"
+#~ msgstr "Actualizar a la Versión PRO"
+
+#~ msgid ""
+#~ "Get the PRO License Key and paste it to the field below to upgrade "
+#~ "current theme to the PRO Version"
+#~ msgstr ""
+#~ "Obtén la Clave de Licencia PRO y pegala en el campo debajo para "
+#~ "actualizar el tema actual a la Versión PRO"
+
+#~ msgid "Unrecognized server answer!"
+#~ msgstr "¡Respuesta no reconocida del servidor!"
+
+#~ msgid "Problem with save upgrade file to the folder with uploads"
+#~ msgstr ""
+#~ "Problema con guardar el archivo de actualización en la carpeta con cargas"
+
+#~ msgid "Uploaded file with upgrade package not available"
+#~ msgstr "El archivo subido con el paquete de actualización no disponible"
+
+#~ msgid "Package with upgrade is corrupt"
+#~ msgstr "Paquete de actualización está corrupto"
+
+#~ msgid "Incorrect server answer"
+#~ msgstr "Respuesta incorrecta del servidor"
+
+#~ msgid "Unrecognized server answer format:"
+#~ msgstr "Formato de respuesta del servidor no reconocido:"
+
+#~ msgid "Entered key is not valid!"
+#~ msgstr "¡La clave introducida no es válida!"
+
+#~ msgid ""
+#~ "Error with plugin activation. Try to manually activate in the Plugins menu"
+#~ msgstr ""
+#~ "Error con la activación del plugin. Intenta activarlo manualmente en el "
+#~ "Menú de plugins"
+
+#~ msgid "Dots"
+#~ msgstr "Puntos"
+
+#~ msgid "Icon"
+#~ msgstr "Ícono"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Slide"
+#~ msgstr "Deslizar"
+
+#~ msgid "Pull"
+#~ msgstr "Tirar"
+
+#~ msgid "Border"
+#~ msgstr "Borde"
+
+#~ msgid "Select options"
+#~ msgstr "Seleccionar opciones"
+
+#~ msgid "Instagram Feed"
+#~ msgstr "Feed de Instagram"
+
+#~ msgid "SiteOrigin Panels"
+#~ msgstr "Paneles de SiteOrigin"
+
+#~ msgid "Calculated Fields Form"
+#~ msgstr "Formulario de Campos Calculados"
+
+#~ msgid "Content Timeline"
+#~ msgstr "Línea de Tiempo de Contenido"
+
+#~ msgid "Easy Digital Downloads"
+#~ msgstr "Easy Digital Downloads"
+
+#~ msgid "Envato WordPress Toolkit"
+#~ msgstr "Envato WordPress Toolkit"
+
+#~ msgid "Essential Grid"
+#~ msgstr "Cuadrícula esencial"
+
+#~ msgid "MP Time Table"
+#~ msgstr "Tabla de tiempos de MP"
+
+#~ msgid "Revolution Slider"
+#~ msgstr "Revolution Slider"
+
+#~ msgid "UberMenu"
+#~ msgstr "UberMenu"
+
+#~ msgid "WPBakery PageBuilder extensions bundle"
+#~ msgstr "Paquete de ampliación de WPBakery PageBuilder"
+
+#~ msgid ""
+#~ "Font settings of the main text of the site. Attention! For correct "
+#~ "display of the site on mobile devices, use only units \"rem\", \"em\" or "
+#~ "\"ex\""
+#~ msgstr ""
+#~ "Configuración de fuente del texto principal del sitio. ¡Atención! Para "
+#~ "una visualización correcta del sitio en dispositivos móviles, usa sólo "
+#~ "unidades \"rem\", \"em\" o \"ex\""
+
+#~ msgid "Font settings of the text case of the logo"
+#~ msgstr "Configuración de fuente del texto de logo"
+
+#~ msgid "Font settings of the main menu items"
+#~ msgstr "Configuración de fuente de los elementos del menú principal"
+
+#~ msgid "Font settings of the dropdown menu items"
+#~ msgstr "Configuración de fuente de los elementos del menú desplegable"
+
+#~ msgid "Alter"
+#~ msgstr "Alternativo"
+
+#~ msgid "Colors of the alternative blocks (sidebars, etc.)"
+#~ msgstr "Colores de los bloques alternativos (barras laterales, etc.)"
+
+#~ msgid ""
+#~ "Colors of the extra blocks (dropdowns, price blocks, table headers, etc.)"
+#~ msgstr ""
+#~ "Colores de los bloques adicionales (menús desplegables, bloques de "
+#~ "precios, encabezados de tablas, etc.)"
+
+#~ msgid "Inverse"
+#~ msgstr "Inverso"
+
+#~ msgid ""
+#~ "Colors of the inverse blocks - when link color used as background of the "
+#~ "block (dropdowns, blockquotes, etc.)"
+#~ msgstr ""
+#~ "Colores de los bloques inversos: cuando se usa el color del enlace como "
+#~ "el fondo del bloque (menús desplegables, blockquotes etc.)"
+
+#~ msgid "Background color of this block in the normal state"
+#~ msgstr "Color del fondo de este bloque en el estado normal"
+
+#~ msgid "Background color of this block in the hovered state"
+#~ msgstr "Color del fondo de este bloque en el estado hover"
+
+#~ msgid "Border hover"
+#~ msgstr "Hover de borde"
+
+#~ msgid "Border color of this block in the hovered state"
+#~ msgstr "Color del borde de este bloque en el estado hover"
+
+#~ msgid "Color of the plain text inside this block"
+#~ msgstr "Color del texto plano dentro de este bloque"
+
+#~ msgid "Color of the light text (post meta, etc.) inside this block"
+#~ msgstr "Color del texto claro (post meta, etc.) dentro de este bloque"
+
+#~ msgid "Link"
+#~ msgstr "Enlace"
+
+#~ msgid "Color of the accented texts (areas) inside this block"
+#~ msgstr "Color de los textos (áreas) acentuados dentro de este bloque"
+
+#~ msgid "Color of the other accented texts (buttons) inside this block"
+#~ msgstr ""
+#~ "Color de los otros textos (botones) acentuados dentro de este bloque"
+
+#~ msgid ""
+#~ "Color of the hovered state of other accented texts (buttons) inside this "
+#~ "block"
+#~ msgstr ""
+#~ "Color del estado hover de los textos (botones) acentuados dentro de este "
+#~ "bloque"
+
+#~ msgid ""
+#~ "Create your front page right in the WordPress Customizer. There's no need "
+#~ "any page builder. Simply enable/disable sections, fill them out with "
+#~ "content, and customize to your liking."
+#~ msgstr ""
+#~ "Crea tu página de entrada directamente en el Personalizador de WordPress. "
+#~ "No hay necesidad en ningún creador de páginas. Simplemente activa/"
+#~ "desactiva las secciones, complételas con el contenido y personalícelas a "
+#~ "tu gusto."
+
+#~ msgid "Watch Video Introduction"
+#~ msgstr "Ver Vídeo de Introducción"
+
+#~ msgid "Layouts Builder"
+#~ msgstr "Layouts Builder"
+
+#~ msgid ""
+#~ "Use Layouts Bulder to create and customize header and footer styles for "
+#~ "your website. With a flexible page builder interface and custom "
+#~ "shortcodes, you can create as many header and footer layouts as you want "
+#~ "with ease."
+#~ msgstr ""
+#~ "Usa Layouts Bilder para crear y personalizar estilos de encabezado y pie "
+#~ "de página para tu sitio web. Con una interfaz flexible del creador de "
+#~ "páginas y los códigos cortos personalizados, puedes crear tantos diseños "
+#~ "de encabezado y pie de página como deseas con toda facilidad."
+
+#~ msgid ""
+#~ "Need more details? Please check our full online documentation for "
+#~ "detailed information on how to use Anesta"
+#~ msgstr ""
+#~ "¿Quieres más información? Consulta nuestra documentación completa online "
+#~ "para obtener información detallada sobre la utilización de Anesta"
+
+#~ msgid "Online documentation"
+#~ msgstr "Documentación online"
+
+#~ msgid ""
+#~ "No time for reading documentation? Check out our video tutorials and "
+#~ "learn how to customize Anesta in detail."
+#~ msgstr ""
+#~ "¿No hay tiempo para leer la documentación? Ve nuestros videos tutoriales "
+#~ "y aprende en detalle cómo personalizar Anesta."
+
+#~ msgid "Mockingbird Website Customization Studio"
+#~ msgstr "Mockingbird Website Customization Studio"
+
+#~ msgid ""
+#~ "Need a website fast? Order our custom service, and we'll build a website "
+#~ "based on this theme for a very fair price. We can also implement "
+#~ "additional functionality such as website translation, setting up WPML, "
+#~ "and many more."
+#~ msgstr ""
+#~ "¿Necesita un sitio web rápido? Pida nuestro servicio personalizado, y "
+#~ "crearemos un sitio web basado en este tema por un precio muy justo. "
+#~ "También podemos implementar una funcionalidad adicional, como la "
+#~ "traducción de sitios web, la instalación de WPML y muchos más."
+
+#~ msgid ""
+#~ "Attention! Some of these options can be overridden in the following "
+#~ "sections (Blog, Plugins settings, etc.) or in the settings of individual "
+#~ "pages"
+#~ msgstr ""
+#~ "¡Atención! Algunas de estas opciones se pueden anular en las siguientes "
+#~ "secciones (Blog, Configuración de plugins, etc.) o en la configuración de "
+#~ "páginas individuales"
+
+#~ msgid "Logo in the header"
+#~ msgstr "Logo en el encabezado"
+
+#~ msgid ""
+#~ "Zoom the logo. 1 - original size. Maximum size of logo depends on the "
+#~ "actual size of the picture"
+#~ msgstr ""
+#~ "Zoom de logo. 1 - tamaño original. El tamaño máximo del logo depende del "
+#~ "tamaño real de la imagen"
+
+#~ msgid "Logo mobile"
+#~ msgstr "Logo móvil"
+
+#~ msgid "Logo side"
+#~ msgstr "Logo lateral"
+
+#~ msgid "Logo side for Retina"
+#~ msgstr "Logo lateral para Retina"
+
+#~ msgid "General Settings"
+#~ msgstr "Configuración General"
+
+#~ msgid "Select main menu style, position and other parameters"
+#~ msgstr ""
+#~ "Selecciona el estilo del menú principal, la posición y otros parámetros"
+
+#~ msgid "First post large"
+#~ msgstr "Primera publicación grande"
+
+#~ msgid "Excerpt"
+#~ msgstr "Extracto"
+
+#~ msgid "Older/Newest"
+#~ msgstr "Anteriores/Más recientes"
+
+#~ msgid "Load more"
+#~ msgstr "Carga más"
+
+#~ msgid "Infinite scroll"
+#~ msgstr "Scroll infinito"
+
+#~ msgid ""
+#~ "Select or upload an image used as placeholder for posts without a "
+#~ "featured image"
+#~ msgstr ""
+#~ "Selecciona o cargua una imagen utilizada como el marcador de posición "
+#~ "para publicaciones sin una imagen destacada"
+
+#~ msgid "Animation for the posts"
+#~ msgstr "Animación para las publicaciones"
+
+#~ msgid "Post date"
+#~ msgstr "Fecha de publicación"
+
+#~ msgid "Post counters"
+#~ msgstr "Contadores de publicaciones"
+
+#~ msgid "Edit link"
+#~ msgstr "Editar enlace"
+
+#~ msgid ""
+#~ "Show only selected counters. Attention! Likes and Views are available "
+#~ "only if ThemeREX Addons is active"
+#~ msgstr ""
+#~ "Mostrar sólo contadores seleccionados. ¡Atención! Likes y Vistas están "
+#~ "disponibles sólo si el plugin ThemeREX Addons está activado"
+
+#~ msgid "Likes"
+#~ msgstr "Likes"
+
+#~ msgid "Hide featured image on the single post's pages"
+#~ msgstr ""
+#~ "Ocultar la imagen destacada en las páginas de publicaciones individuales"
+
+#~ msgid "Hide sidebar on the single post's pages"
+#~ msgstr "Ocultar barra lateral en las páginas de publicaciones individuales"
+
+#~ msgid ""
+#~ "Show only selected counters. Attention! Likes and Views are available "
+#~ "only if plugin ThemeREX Addons is active"
+#~ msgstr ""
+#~ "Mostrar sólo contadores seleccionados. ¡Atención! Likes y Vistas están "
+#~ "disponibles sólo si el plugin ThemeREX Addons está activado"
+
+#~ msgid "Show share links"
+#~ msgstr "Mostrar share links"
+
+#~ msgid "Display share links on the single post"
+#~ msgstr "Mostrar share links en la publicación individual"
+
+#~ msgid ""
+#~ "How many related posts should be displayed in the single post? If 0 - no "
+#~ "related posts are shown."
+#~ msgstr ""
+#~ "¿Cuántas publicaciones relacionadas se deben visualizar en la publicación "
+#~ "individual? Si 0, no se muestran publicaciones relacionadas."
+
+#~ msgid ""
+#~ "How many columns should be used to output related posts in the single "
+#~ "page (from 2 to 4)?"
+#~ msgstr ""
+#~ "¿Cuántas columnas se deben usar para mostrar las publicaciones "
+#~ "relacionadas en la página individual (de 2 a 4)?"
+
+#~ msgid "Media title"
+#~ msgstr "Título de medio"
+
+#~ msgid "Used as title for the audio and video item in this post"
+#~ msgstr ""
+#~ "Se utiliza como el título para el elemento de audio y video en esta "
+#~ "publicación"
+
+#~ msgid "Media author"
+#~ msgstr "Autor de medio"
+
+#~ msgid "Used as author name for the audio and video item in this post"
+#~ msgstr ""
+#~ "Se utiliza como el nombre de autor para el elemento de audio y video en "
+#~ "esta publicación"
+
+#~ msgid "Font family"
+#~ msgstr "Familia de fuentes"
+
+#~ msgid "Select font family to use it if font above is not available"
+#~ msgstr ""
+#~ "Selecciona la familia de fuentes para usarla si la fuente de arriba no "
+#~ "está disponible"
+
+#~ msgid "serif"
+#~ msgstr "serif"
+
+#~ msgid "sans-serif"
+#~ msgstr "sans serif"
+
+#~ msgid "monospace"
+#~ msgstr "monoespaciada"
+
+#~ msgid "cursive"
+#~ msgstr "cursiva"
+
+#~ msgid "fantasy"
+#~ msgstr "fantasy"
+
+#, php-format
+#~ msgid "Font settings of the \"%s\" tag."
+#~ msgstr "Configuración de la fuente de la etiqueta \"%s\"."
+
+#~ msgid "400 (Normal)"
+#~ msgstr "400 (Normal)"
+
+#~ msgid "500 (Semibold)"
+#~ msgstr "500 (En seminegrita)"
+
+#~ msgid "800 (Black)"
+#~ msgstr "800 (Negro)"
+
+#~ msgid "Hide sidebar on the single pages"
+#~ msgstr "Ocultar barra lateral en las páginas de publicaciones individuales"
+
+#~ msgid "Share"
+#~ msgstr "Compartir"
+
+#~ msgid "You May Also Like"
+#~ msgstr "Quizá te gusta también"
+
+#~ msgid "<"
+#~ msgstr "<"
+
+#~ msgid ">"
+#~ msgstr ">"
+
+#~ msgid "Load more posts"
+#~ msgstr "Carga más publicaciones"
+
+#~ msgid "Previous posts"
+#~ msgstr "Publicaciones anteriores"
+
+#~ msgid "Next posts"
+#~ msgstr "Publicaciones siguientes"

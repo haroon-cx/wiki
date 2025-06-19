@@ -1,0 +1,77 @@
+@media (max-width: 1679px) {
+  /* Better Messages */
+  /* Bulk message  */
+  .bp-messages .bp-messages-wrap .bulk-message .reports .reports-list {
+    font-size: 13px;
+  }
+}
+@media (max-width: 479px) {
+  /* Better Messages */
+  .bp-messages .bp-messages-wrap .chat-header .thread-actions {
+    float: none;
+    justify-content: initial;
+  }
+  .bp-messages .bp-messages-wrap .chat-header .thread-actions > * {
+    float: none;
+  }
+  .bp-messages .bp-messages-wrap .chat-header .thread-actions > *:first-child {
+    margin-left: 0;
+  }
+  .bp-messages .bp-messages-wrap .chat-header .thread-actions .bpbm-dropdown-menu {
+    left: 0;
+    right: auto;
+  }
+
+  .bp-messages .bp-messages-wrap.mobile-ready .chat-header .bpbm-maximize + .expandingButtons {
+    margin-left: 0;
+  }
+
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread {
+    position: relative !important;
+    display: flex;
+  }
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .pic {
+    height: unset;
+    width: 30px;
+  }
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .pic img {
+    min-height: 30px;
+    min-width: 30px;
+    height: 30px;
+    width: 30px;
+  }
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .bm-info {
+    padding-top: 27px;
+  }
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .bm-info > h4:not(.name), .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .bm-info > p,
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .bm-info .last-message {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .time {
+    position: absolute;
+    top: 10px;
+    left: 47px;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .time .bpbm-counter-row {
+    margin-top: -1px;
+    margin-left: 5px;
+  }
+  .bp-messages .bp-messages-wrap .threads-list-wrapper .threads-list .thread .actions {
+    margin-left: auto;
+    width: 12px;
+  }
+
+  /* Emoji */
+  .bm-emoji-picker-container {
+    width: 300px;
+  }
+  .bm-emoji-picker-container em-emoji-picker {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=bp-better-messages-responsive.css.map */

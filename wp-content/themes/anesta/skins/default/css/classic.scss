@@ -1,0 +1,397 @@
+@import "../../../css/_mixins.scss";
+@import "../../../css/_theme-vars.scss";
+@import "_skin-vars.scss";
+
+
+.page_content_classic { 
+	--theme-var-content_rad: 8px;
+
+	&.custom-background.page .content_wrap > .content {
+		background-color: var(--theme-color-content_bg);
+		@include border-radius(var(--theme-var-content_rad));
+		padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ); // replace 45px 44px
+	}
+	.sc_layouts_title_caption {
+	    margin-top: -0.3em;
+	}
+ 
+	/* Theme styles
+	----------------------------------------------------------------- */	
+	&.menu_side_present.sidebar_show .content_wrap > .content,
+	&.menu_side_present.sidebar_hide .page_content_wrap > .content_wrap:first-child {
+		@include box-sizing(border-box);
+		overflow: hidden;
+		@include border-radius(15px);
+		box-shadow: 0 3px 20px #1d26260d; 
+		padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ); // replace 45px 44px
+		background-color: var(--theme-color-content_bg);
+	}	
+	&.menu_side_hide .content_wrap > .sidebar > .sidebar_inner > .widget {
+		box-shadow: none; 
+	}
+
+
+	/* Single Post
+	----------------------------------------------------------------- */
+	/* Show sidemenu */	
+	&.single.menu_side_present .post_item_single {
+		/* With featured on background */
+		.post_header_wrap .post_featured.post_featured_bg {		
+			margin-top: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) ); // replace -45px
+		} 
+	}
+
+	/* Show sidemenu and Show sidebar */
+	&.single.menu_side_present.sidebar_show .post_item_single {
+		/* With featured on background */
+		.post_header_wrap .post_featured.post_featured_bg {		
+			margin-left: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) ); // replace -44px
+			margin-right: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) ); // replace -44px
+
+			& + .post_header {
+				left: 0;
+		    	right: 0;
+			}
+		} 
+	}
+
+	/* Show sidemenu and Hide sidebar */
+	&.single.menu_side_present.sidebar_hide .post_item_single {
+		/* With featured not on background */
+		.post_header_wrap .post_featured:not(.post_featured_bg):not(.post_attachment)  {
+			margin-top: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) ); // replace -45px
+		}
+
+		/* With featured on background */
+		.post_header_wrap .post_featured.post_featured_bg + .post_header {			
+			padding-bottom: 6px; 
+		}
+	}
+
+	/* Hide sidemenu */	
+	&.single.menu_side_hide .post_item_single {
+		.post_header_wrap .post_featured {			
+			@include border-radius(15px);
+		}
+
+		.author_info,
+		.post_tags_single a:not(:hover),
+		.comments_list_wrap .bypostauthor .comment_bypostauthor {
+			border: none;
+			background-color: var(--theme-color-content_bg);
+		}
+	}
+
+	/* Hide sidebar */
+	&.single.sidebar_hide .post_item_single {
+		.post_header_wrap .post_featured.post_featured_bg + .post_header {
+			@include border-radius(var(--theme-var-content_rad));
+			background-color: var(--theme-color-content_bg);
+		}
+	}
+
+
+	/* Blog - Classic
+	----------------------------------------------------------------- */	
+	&.menu_side_hide .post_layout_classic:not(.sticky) {	
+	    border: none;
+	}
+
+
+	/* The Events Calendar
+	----------------------------------------------------------------- */
+	&.single-tribe_events .type-tribe_events {
+		padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 20px ) ); // replace 50px
+	    margin-top: var(--theme-var-grid_gap); // replace 30px
+		border-top: 1px solid var(--theme-color-bd_color);
+	}
+	&.single-tribe_events .comments_wrap {
+	    margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 20px ) ); // replace 50px
+	    padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ); // replace 15px
+	    border-top: 1px solid var(--theme-color-bd_color);
+	}
+	&.post-type-archive-tribe_events .tribe-events-calendar-day,
+	&.post-type-archive-tribe_events .tribe-events-calendar-list {
+		margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 7px ) ); // replace 37px
+
+		.tribe-events-calendar-day__event .tribe-events-calendar-day__event-featured-image-wrapper,
+		.tribe-events-calendar-list__event-row .tribe-events-calendar-list__event-featured-image-wrapper {
+		    margin-top: 4px;
+		}
+	}
+	&.post-type-archive-tribe_events .tribe-events-calendar-month {
+		margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px ) ); // replace 32px
+	}
+
+	&.menu_side_hide .tribe-common .tribe-common-l-container .tribe-events-calendar-month .tribe-events-calendar-month__day,
+	&.menu_side_hide .tribe-common--breakpoint-medium.tribe-events .tribe-events-header--has-event-search .tribe-events-header__events-bar,
+	&.menu_side_hide .tribe-common .tribe-common-l-container .tribe-events-header__top-bar .tribe-events-c-top-bar__today-button {
+		background-color: var(--theme-color-content_bg);
+	}
+
+ 
+	/* BBPress and BuddyPress 
+	----------------------------------------------------------------- */
+	div#buddypress {
+		/* Tables */
+		table.notifications {
+			box-shadow: none;
+		}
+
+		/* Profile header */
+		#header-cover-image {
+			overflow: hidden;
+		    @include border-radius(var(--theme-var-content_rad));
+		}
+
+		/* Profile navigation */
+		& > .activity-type-tabs {
+	    	@include border-radius(var(--theme-var-content_rad));
+			margin-top: var(--theme-var-grid_gap);
+		}
+		#item-nav {
+	    	@include border-radius(var(--theme-var-content_rad));
+
+			ul li {
+			    margin-right: 15px;
+			}
+		}
+
+		/* New post form */
+		#item-body #whats-new-form + #subnav {
+	    	@include border-sharp;
+		}
+
+		/* Filters */
+		#item-body #subnav, 
+		& > #subnav {
+		  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) !important; // replace 44px
+		}
+
+		/* Activity */
+		.activity-item {
+			margin: 0;
+			padding: 0;
+			border: none;
+			overflow: visible;
+		}
+		.activity-item + .activity-item,
+		li.load-more + .activity-item, 
+		li.load-newest + .activity-item {
+			margin-top: var(--theme-var-grid_gap);
+			padding-top: var(--theme-var-grid_gap);
+			border-top: 1px solid var(--theme-color-bd_color);
+		}
+		div.activity #activity-stream .activity-item.has-comments {
+			padding-bottom: 0;
+		}
+		div.activity #activity-stream .activity-item.has-comments .activity-comments,
+		div.activity #activity-stream .activity-item:not(.has-comments) .activity-comments > form {
+			border-top: none;
+			padding: var(--theme-var-grid_gap);
+			margin: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) ) 0 0 0; // replace 25px 0 0 0
+	    	@include border-radius(var(--theme-var-content_rad));
+		}
+
+		/* Groups & Members filters */
+		#groups-directory-form .item-list-tabs:not(#subnav),
+		#members-directory-form .item-list-tabs:not(#subnav) {
+	    	@include border-radius(var(--theme-var-content_rad));
+			padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ); // replace 21px 45px
+			background-color: var(--theme-color-navigate_bg);
+			margin-bottom: var(--theme-var-grid_gap);
+		}
+	}
+	&.menu_side_hide div#buddypress {
+		/* Profile header */
+		#item-header {
+			background-color: transparent;
+		}
+
+		/* Groups list */
+		#groups-list > li,
+		#group-list > li {
+			border: none;
+			background-color: var(--theme-color-content_bg);
+		}
+
+		/* Members list */
+		#members-group-list #member-list > li,
+		#members-dir-list #members-list > li {
+			border: none;
+			background-color: var(--theme-color-content_bg);
+		}
+	}
+
+	div#bbpress-forums {
+		/* Forums & Topics */
+		.bbp-forums,
+		.bbp-topics {
+			border: 1px solid var(--theme-color-bd_color);
+			@include border-radius(5px);
+			box-shadow: 0 5px 30px rgba(0,0,0,0.04); 
+		}
+	}
+
+
+	/* Better Messages
+	----------------------------------------------------------------- */
+	&.bp-messages .bp-messages-wrap {
+		background-color: var(--theme-color-navigate_bg);
+		
+		div.bulk-message form .box {
+		    background: var(--theme-color-content_bg);
+		}
+	}
+
+
+	/* BuddyPress Docs
+	----------------------------------------------------------------- */
+	&.bp-docs {
+		/* Pagination */
+		.currently-viewing {
+			padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ); // replace 31px
+		}
+
+		/* Create new doc */
+		.doc-content {
+			padding: 0;
+		}
+
+		/* Single doc */
+		#bp-docs-single-doc-header {
+			padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ); // replace 31px
+		}
+		.doc-meta {
+			padding-top: 0;
+		}
+	}
+	&.menu_side_hide div#buddypress {
+		/* Filter sections */		
+		.bp-docs .docs-info-header #docs-filter-sections .docs-filter-section {
+			border: none;
+			background-color: var(--theme-color-content_bg);
+		}
+	}
+
+
+	/* Knowledge Base
+	----------------------------------------------------------------- */
+	&.menu_side_present .eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+		.epkb-top-category-box:before {
+			border: 1px solid var(--theme-color-bd_color);
+		}
+	}
+	&.menu_side_hide .eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+		.epkb-doc-search-container .epkb-search {
+			border: none;
+			background-color: var(--theme-color-content_bg);
+		}
+	}
+
+
+	/* WP Job Manager and Resumes Manager
+	----------------------------------------------------------------- */
+	/* Single post */ 
+	&.single-job_listing,
+	&.single-resume {
+		.post_content_title {
+		    margin-bottom: 17px;
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+	&.menu_side_hide .single_job_listing .company,
+	&.menu_side_hide .single_job_listing .job_application .application_details {
+		background-color: var(--theme-color-content_bg);
+		border: none !important;
+	}
+	&.menu_side_hide .single-resume-content .resume-card,
+	&.menu_side_hide .single-resume-content .resume_contact .resume_contact_details,
+	&.menu_side_hide .single-resume-content .resume-manager-skills li {
+		background-color: var(--theme-color-content_bg);
+		border: none !important;
+	}
+
+
+	/* LearnDash LMS
+	----------------------------------------------------------------- */
+	.learndash_post_sfwd-courses .learndash-wrapper .ld-course-status, 
+	div#buddypress .learndash-wrapper .ld-course-status {
+		background-color: var(--theme-color-content_bg);
+	}
+	&.menu_side_hide .ld-course-list-content .ld-course-list-items .ld_course_grid .course .caption .learndash-wrapper .ld-progress .ld-progress-bar {
+		background-color: var(--theme-color-bd_color);
+	}
+
+
+	/* WooCommerce
+	----------------------------------------------------------------- */
+	&.menu_side_hide.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+	&.menu_side_hide.single-product .related ul.products li.product .post_data, 
+	&.menu_side_hide.single-product .upsells ul.products li.product .post_data {
+		border: none !important;
+	}
+}
+
+
+/* Widgets
+----------------------------------------------------------------- */
+.menu_side_hide.page_content_classic:not(.single-post):not(.single-job_listing) .content { 	
+	/* TRX Addons styles
+	----------------------------------------------------------------- */	
+	/* Blogger */
+	.sc_blogger_item_default_modern .sc_blogger_item_body,
+	/* Price */
+	.sc_price_item {
+		border: none;
+	}
+	/* Event */
+	.sc_events_default .sc_events_item .sc_events_item_thumb .sc_events_item_date .sc_events_item_date_day {
+		background-color: var(--theme-color-content_bg);		
+	}
+
+
+	/* WP Job Manager
+	----------------------------------------------------------------- */
+	div.job_listings .job_filters .search_jobs, 
+	.wp-widget-widget_recent_jobs .job_filters .search_jobs,
+	div.resumes .resume_filters .search_resumes {
+		border: none;
+		background-color: var(--theme-color-content_bg);		
+	}
+
+
+	/* BBPress and BuddyPress
+	----------------------------------------------------------------- */
+	.widget.widget_bp_core_members_widget div.item-options a, 
+	.wp-widget-bp_core_members_widget div.item-options a, 
+	.widget.widget_bp_groups_widget div.item-options a, 
+	.wp-widget-bp_groups_widget div.item-options a {
+		&:not(.selected):not(:hover) {
+			border: none;
+			background-color: var(--theme-color-content_bg);		
+		}
+	}
+
+
+	/* Paid Memberships Pro
+	----------------------------------------------------------------- */
+	.pmpro_content_message {
+		background-color: var(--theme-color-content_bg);		
+	}
+
+
+	/* Elementor
+	----------------------------------------------------------------- */
+	.elementor-tabs .elementor-tabs-wrapper .elementor-tab-title:not(.elementor-active):not(:hover),
+	.elementor-toggle .elementor-tab-title {
+		border: none;
+		background-color: var(--theme-color-content_bg);		
+	}
+	.elementor-alert[class*="elementor-alert-"] {
+		border: none;
+	}
+}

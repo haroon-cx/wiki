@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,0BAAoB;EACnB,iBAAiB;;AAIlB,yBAAoB;EACnB,iBAAiB;;AAIlB,yBAAoB;EACnB,iBAAiB",
+"sources": ["woocommerce-extensions-responsive.scss"],
+"names": [],
+"file": "woocommerce-extensions-responsive.css"
+}

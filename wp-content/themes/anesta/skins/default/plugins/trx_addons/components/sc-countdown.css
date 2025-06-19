@@ -1,0 +1,47 @@
+/* Countdown */
+.sc_countdown_default .sc_countdown_content {
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 10px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 10px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) );
+  color: var(--theme-color-accent_text);
+  background-color: var(--theme-color-accent_link);
+  background-image: url(../../../images/block_bg.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+}
+.sc_countdown_default .sc_countdown_inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.sc_countdown_default .sc_countdown_item {
+  text-align: center;
+}
+.sc_countdown_default .sc_countdown_digits,
+.sc_countdown_default .sc_countdown_separator {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 500;
+  height: 50px;
+}
+.sc_countdown_default .sc_countdown_digits {
+  margin-bottom: 1px;
+}
+.sc_countdown_default .sc_countdown_digits span {
+  width: 33px;
+  background-color: transparent;
+}
+.sc_countdown_default .sc_countdown_digits span + span {
+  margin-left: 0;
+}
+.sc_countdown_default .sc_countdown_label {
+  font-size: 14px;
+}
+.sc_countdown_default .sc_countdown_separator {
+  margin: 0;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=sc-countdown.css.map */

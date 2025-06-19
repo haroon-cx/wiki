@@ -1,0 +1,101 @@
+.single_style_style-1 {
+  /* Post header */
+}
+.single_style_style-1 .post_header_wrap {
+  position: relative;
+  /* Featured */
+}
+.single_style_style-1 .post_header_wrap .post_featured img {
+  max-width: none;
+  width: 100%;
+}
+.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg {
+  height: 370px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.single_style_style-1 .post_header_wrap .post_featured:not(.post_featured_bg) + .entry-caption,
+.single_style_style-1 .post_header_wrap .post_featured:not(.post_featured_bg) + .post_header,
+.single_style_style-1 .post_content_single {
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 13px ) );
+}
+
+/* Sidebar show  
+--------------------------------------------- */
+.sidebar_show.single_style_style-1 {
+  /* Post header */
+}
+.sidebar_show.single_style_style-1 .post_header_wrap {
+  /* Title + meta */
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg:before {
+  content: ' ';
+  display: block !important;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  opacity: 0.55;
+  pointer-events: none;
+  background: linear-gradient(210deg, rgba(0, 0, 0, 0) 0%, black 70%, black 100%);
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header {
+  position: absolute;
+  z-index: 101;
+  bottom: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  left: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  right: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  /* Categories */
+  /* Title */
+  /* Mete */
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta.post_meta_categories a {
+  color: var(--theme-color-accent_text);
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta.post_meta_categories a:hover {
+  color: var(--theme-color-accent_text);
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_title {
+  color: var(--theme-color-accent_text);
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta .post_meta_item {
+  color: var(--theme-color-accent_text);
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta a {
+  color: var(--theme-color-accent_text);
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta a:hover, .sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta a:focus {
+  color: var(--theme-color-accent_link3);
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta a.social_item {
+  color: var(--theme-color-accent_link4);
+}
+.sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta a.social_item:hover, .sidebar_show.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header .post_meta a.social_item:focus {
+  color: var(--theme-color-accent_link3);
+}
+
+/* Sidebar hide 
+--------------------------------------------- */
+.sidebar_hide.single_style_style-1 {
+  /* Post header */
+}
+.sidebar_hide.single_style_style-1.body_style_wide:not(.expand_content) [class*="content_wrap"] > .content {
+  width: calc(var(--theme-var-content) - (var(--theme-var-grid_gap) * 2));
+}
+.sidebar_hide.single_style_style-1 .post_header_wrap .post_featured.post_featured_bg + .post_header {
+  text-align: center;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 19px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) );
+  background-color: var(--theme-color-content_bg);
+  margin-top: -100px;
+  z-index: 101;
+  position: relative;
+}
+
+/*# sourceMappingURL=style-1.css.map */

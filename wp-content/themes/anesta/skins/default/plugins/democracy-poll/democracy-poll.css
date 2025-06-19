@@ -1,0 +1,222 @@
+/* Democracy Poll styles
+----------------------------------------------------------------- */
+/* Buttons 
+--------------------------------------------- */
+div.dem-poll-shortcode input[type="submit"].dem-button,
+div.dem-poll-shortcode a.dem-button,
+div.dem-poll-shortcode .dem-button,
+div.democracy input[type="submit"].dem-button,
+div.democracy a.dem-button,
+div.democracy .dem-button {
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: var(--theme-var-rad);
+  -ms-border-radius: var(--theme-var-rad);
+  border-radius: var(--theme-var-rad);
+  white-space: nowrap;
+  height: auto;
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: var(--theme-color-accent_text);
+  border-color: var(--theme-color-accent_link);
+  background-color: var(--theme-color-accent_link);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_link_02);
+  padding: var(--theme-var-btn_padding) var(--theme-var-btn_padding2);
+  border-width: 0 !important;
+  padding: 10px var(--theme-var-btn_padding3) !important;
+  left: unset !important;
+}
+div.dem-poll-shortcode input[type="submit"].dem-button:hover, div.dem-poll-shortcode input[type="submit"].dem-button:focus,
+div.dem-poll-shortcode a.dem-button:hover,
+div.dem-poll-shortcode a.dem-button:focus,
+div.dem-poll-shortcode .dem-button:hover,
+div.dem-poll-shortcode .dem-button:focus,
+div.democracy input[type="submit"].dem-button:hover,
+div.democracy input[type="submit"].dem-button:focus,
+div.democracy a.dem-button:hover,
+div.democracy a.dem-button:focus,
+div.democracy .dem-button:hover,
+div.democracy .dem-button:focus {
+  color: var(--theme-color-accent_text);
+  border-color: var(--theme-color-accent_hover);
+  background-color: var(--theme-color-accent_hover);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_hover_02);
+}
+
+/* Shortcode  
+--------------------------------------------- */
+.widget_title + div.dem-poll-shortcode,
+.widget_title + div.democracy {
+  margin-top: -11px;
+}
+
+div.dem-poll-shortcode,
+div.democracy {
+  margin: 0;
+  /*  Description */
+  /* Graphs */
+  /* Edit link */
+  /* Results */
+  /* Checkboxes */
+}
+div.dem-poll-shortcode .dem-poll-title,
+div.democracy .dem-poll-title {
+  font-size: 14px;
+  line-height: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+div.dem-poll-shortcode .dem-screen,
+div.democracy .dem-screen {
+  margin-top: 18px;
+  line-height: inherit;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers,
+div.dem-poll-shortcode .dem-screen .dem-vote,
+div.democracy .dem-screen .dem-answers,
+div.democracy .dem-screen .dem-vote {
+  padding: 0;
+  margin: 0;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li + li,
+div.dem-poll-shortcode .dem-screen .dem-vote li + li,
+div.democracy .dem-screen .dem-answers li + li,
+div.democracy .dem-screen .dem-vote li + li {
+  margin-top: 15px;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li,
+div.dem-poll-shortcode .dem-screen .dem-vote li,
+div.democracy .dem-screen .dem-answers li,
+div.democracy .dem-screen .dem-vote li {
+  padding: 0;
+  font-weight: inherit;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li:before,
+div.dem-poll-shortcode .dem-screen .dem-vote li:before,
+div.democracy .dem-screen .dem-answers li:before,
+div.democracy .dem-screen .dem-vote li:before {
+  display: none;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li .dem-label,
+div.dem-poll-shortcode .dem-screen .dem-vote li .dem-label,
+div.democracy .dem-screen .dem-answers li .dem-label,
+div.democracy .dem-screen .dem-vote li .dem-label {
+  font-size: 14px;
+  line-height: inherit;
+  font-weight: 500;
+  color: var(--theme-color-text_dark);
+  margin-bottom: 7px;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li .dem-graph,
+div.dem-poll-shortcode .dem-screen .dem-vote li .dem-graph,
+div.democracy .dem-screen .dem-answers li .dem-graph,
+div.democracy .dem-screen .dem-vote li .dem-graph {
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li .dem-graph .dem-fill,
+div.dem-poll-shortcode .dem-screen .dem-vote li .dem-graph .dem-fill,
+div.democracy .dem-screen .dem-answers li .dem-graph .dem-fill,
+div.democracy .dem-screen .dem-vote li .dem-graph .dem-fill {
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px var(--theme-color-accent_link_02);
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li .dem-graph .dem-votes-txt,
+div.dem-poll-shortcode .dem-screen .dem-vote li .dem-graph .dem-votes-txt,
+div.democracy .dem-screen .dem-answers li .dem-graph .dem-votes-txt,
+div.democracy .dem-screen .dem-vote li .dem-graph .dem-votes-txt {
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  right: 0;
+  font-size: 14px;
+  line-height: inherit;
+  font-weight: inherit;
+  color: var(--theme-color-text);
+  padding: 0;
+  margin-bottom: 15px;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li .dem-graph .dem-votes-txt:before,
+div.dem-poll-shortcode .dem-screen .dem-vote li .dem-graph .dem-votes-txt:before,
+div.democracy .dem-screen .dem-answers li .dem-graph .dem-votes-txt:before,
+div.democracy .dem-screen .dem-vote li .dem-graph .dem-votes-txt:before {
+  content: '(';
+  margin-right: -4px;
+}
+div.dem-poll-shortcode .dem-screen .dem-answers li .dem-graph .dem-votes-txt:after,
+div.dem-poll-shortcode .dem-screen .dem-vote li .dem-graph .dem-votes-txt:after,
+div.democracy .dem-screen .dem-answers li .dem-graph .dem-votes-txt:after,
+div.democracy .dem-screen .dem-vote li .dem-graph .dem-votes-txt:after {
+  content: ')';
+  margin-left: -4px;
+}
+div.dem-poll-shortcode .dem-edit-link,
+div.democracy .dem-edit-link {
+  display: none;
+}
+div.dem-poll-shortcode .dem-bottom,
+div.democracy .dem-bottom {
+  padding: 0;
+  margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) );
+}
+div.dem-poll-shortcode .dem-bottom .dem-poll-info,
+div.democracy .dem-bottom .dem-poll-info {
+  color: var(--theme-color-text_dark);
+  padding-bottom: 0;
+}
+div.dem-poll-shortcode .dem-bottom .dem-poll-info .dem-total-votes,
+div.democracy .dem-bottom .dem-poll-info .dem-total-votes {
+  font-size: 14px;
+  line-height: inherit;
+  font-weight: inherit;
+}
+div.dem-poll-shortcode .dem-bottom .dem-revote-button-wrap,
+div.democracy .dem-bottom .dem-revote-button-wrap {
+  margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px ) );
+  display: block;
+}
+div.dem-poll-shortcode .dem-vote .dem__radio_label:not(.checked) input[type="radio"]:checked + .dem__spot,
+div.democracy .dem-vote .dem__radio_label:not(.checked) input[type="radio"]:checked + .dem__spot {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 2px;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--theme-color-accent_link) 55%, var(--theme-color-content_bg) 62%);
+  box-shadow: inset 0 0 0px 3px var(--theme-color-content_bg);
+}
+div.dem-poll-shortcode .dem-vote li:nth-child(2n) .dem__radio_label:not(.checked) input[type="radio"]:checked + .dem__spot,
+div.democracy .dem-vote li:nth-child(2n) .dem__radio_label:not(.checked) input[type="radio"]:checked + .dem__spot {
+  top: -1px;
+}
+
+div.dem-poll-shortcode {
+  margin: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px )) 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 6px ));
+  /* Results */
+}
+div.dem-poll-shortcode .dem-bottom,
+div.dem-poll-shortcode .dem-poll-info .dem-total-votes {
+  text-align: left;
+}
+
+/*# sourceMappingURL=democracy-poll.css.map */

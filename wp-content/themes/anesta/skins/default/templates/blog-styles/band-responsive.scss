@@ -1,0 +1,62 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+//@mixin theme--xxl() { max-width: 1679px
+@media #{$media_xxl} {
+	/* Blog layout: Band */
+
+	.post_layout_band {	
+		/* Audio */
+		.mejs-controls {
+			padding: 0 12px;
+
+			.mejs-horizontal-volume-slider,
+			.mejs-horizontal-volume-total,
+			 .mejs-time {
+				display: none !important;
+			}
+			.mejs-volume-button {
+				margin-left: 15px;
+				margin-right: 0;
+				width: 20px;
+
+				button {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+
+//@mixin theme--lg() { max-width: 1279px
+@media #{$media_lg} {
+	/* Blog layout: Band */
+
+	.post_layout_band .post_featured {
+		flex-basis: 39.6%;
+	}
+}
+
+
+//@mixin theme--sm_wp() { max-width:  600px
+@media #{$media_sm_wp} {
+	/* Blog layout: Band */
+	
+	.post_layout_band {
+		flex-direction: column;
+	}
+	.post_layout_band,
+	.sc_blogger_band .post_layout_band {
+		.post_featured + .post_content_wrap {
+		  flex-basis: unset;
+		  padding: 0;
+		  margin-top: 10px;
+		}
+		.post_meta + .post_title {
+		  margin-top: 5px;
+		}
+	}
+}

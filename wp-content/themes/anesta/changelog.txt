@@ -1,0 +1,21 @@
+Release: v.1.1.0 
+	- LearnPress plugin compatibility
+	- Improved desktop and device styles
+
+Release: v.1.0.4
+	- CSS\JS\PHP fixes
+	- Improved desktop and device styles
+	- Better Messages v.2.0.76 plugin compatibility
+
+Release: v.1.0.3
+	- CSS\JS\PHP fixes
+	- Improved desktop and device styles
+	- WP 6.1 compatibility
+
+Release: v.1.0.2
+	- Burger menu fix
+
+Release: v.1.0.1
+	- Theme activation fix
+
+Release: v.1.0 (2.10.0)

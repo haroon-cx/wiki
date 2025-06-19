@@ -1,0 +1,215 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+
+//@mixin theme--xxl() { max-width: 1679px
+@media #{$media_xxl} {
+	/* WP Job Manager Resumes */
+
+	/* Single Resume */
+	.sidebar_show .single-resume-content .resume-card {
+		width: auto;
+	}
+}
+
+
+//@mixin theme--xl() { max-width: 1439px
+@media #{$media_xl} {
+	/* WP Job Manager */
+
+	/* Resume submit form */
+	#submit-resume-form fieldset label {
+		margin-top: 6px;
+	}
+}
+
+
+//@mixin theme--lg() { max-width: 1279px
+@media #{$media_lg} {
+	/* WP Job Manager Resumes */
+
+	/* Single Resume */
+	.single-resume.sidebar_hide.menu_side_hide .page_content_wrap > [class*="content_wrap"]:first-child {
+	  padding-right: 0;
+	}
+	.single-resume.sidebar_hide .single-resume-content .resume-card {
+		position: relative;
+		left: auto;
+		top: auto;
+		box-shadow: none;
+		width: auto;
+		float: right;
+		border: 1px solid var(--theme-color-bd_color);
+		margin: 0 0 var(--theme-var-grid_gap) var(--theme-var-grid_gap);
+
+		.resume_contact {
+			display: none;
+		}
+		.resume_contacts {
+			text-align: center;
+
+			ul {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	/* Candidate dashboard */
+	#resume-manager-candidate-dashboard table .resume-title {
+		width: 28%;
+	}
+}
+
+
+//@mixin theme--md() { max-width: 1023px
+@media #{$media_md} {
+    /* WP Job Manager Resumes */
+
+    /* Resume submit form */
+    #submit-resume-form fieldset div.field:not(.full-line-checkbox-field) {
+		width: 70%;
+	}
+}
+
+
+//@mixin theme--sm() { max-width: 767px
+@media #{$media_sm} {
+    /* WP Job Manager Resumes */
+
+    /* Resumes listings */
+    div.resumes ul.resumes li.resume {
+    	a,
+    	a > .content {
+    		flex-wrap: wrap;
+
+    		/* Position */
+    		.candidate-location-column,
+    		.resume-posted-column {
+    			width: 100%;
+				line-height: 1.6em;
+				text-align: left;
+				padding-left: 61px;
+    		}
+    	}
+    }
+
+    /* Candidate dashboard */
+    #resume-manager-candidate-dashboard {
+		width: 100%;
+		box-sizing: border-box;
+		overflow-x: auto;
+
+		table {
+			min-width: max-content;
+			box-sizing: border-box;
+
+			td:not(.resume-title) {
+				@include font(13px, 19px);
+			}
+		}
+	}
+
+
+    /* Resume submit form */
+    form#submit-resume-form.job-manager-form {
+    	fieldset {
+		  	flex-direction: column;
+
+			label {
+				line-height: 1.6em;
+				margin: var(--theme-var-label_margin);
+			}
+			.field {
+				width: 100%;
+			}
+		}
+		& > fieldset:first-of-type {
+			margin-bottom: var(--theme-var-grid_gap);
+		} 		
+		p:last-child {
+			width: 100%;
+		}
+	}
+}
+
+
+//@mixin theme--sm_wp() { max-width:  600px
+@media #{$media_sm_wp} {
+    /* WP Job Manager Resumes */
+
+    /* Resumes listings */	
+    div.resumes {
+    	.resume_filters div.search_resumes {
+			flex-direction: column;
+
+			& > div {
+				padding: 0 !important;
+			}
+			& > div + div {
+				margin-top: 15px !important;
+			}
+		}
+    }
+    
+    /* Single Resume */
+    .single-resume .single-resume-content .resume-card {
+		width: 100% !important;
+		float: none !important;
+		margin: 0 0 var(--theme-var-grid_gap) 0 !important;
+	}
+	.single-resume-content .resume-manager-education dt small, 
+	.single-resume-content .resume-manager-experience dt small {
+		float: none;
+	}
+
+    /* Resume submit form */
+    form#submit-resume-form.job-manager-form {
+		& > fieldset:first-of-type {
+			margin-bottom: var(--theme-var-grid_gap);
+
+			a.button { 
+				margin: 10px 0 0;
+				display: block;
+				width: fit-content;
+			}
+		} 	
+	}
+}
+
+
+//@mixin theme--xs() { max-width:  479px
+@media #{$media_xs} {
+    /* WP Job Manager Resumes */
+
+    /* Resumes listings */
+    div.resumes ul.resumes li.resume {
+    	a,
+    	a > .content {
+    		/* Position */
+			.candidate_photo + .candidate-column,
+			.image + .content .candidate-column {
+				padding: 10px 0 0;
+    			width: 100%;
+    		}
+
+    		.candidate-location-column,
+    		.resume-posted-column {
+				padding-left: 0;
+    		}
+    	}
+    }
+    
+    /* Single Resume */
+	.single-resume .single-resume-content .resume-card {
+		padding: 0;
+		border: 0 !important;  
+	 	background-color: transparent !important;
+	}
+	.single-resume  .single-resume-content .resume_contact .resume_contact_details {
+		padding: 0;
+		@include border-sharp;
+	  	background-color: transparent !important;
+	}
+}

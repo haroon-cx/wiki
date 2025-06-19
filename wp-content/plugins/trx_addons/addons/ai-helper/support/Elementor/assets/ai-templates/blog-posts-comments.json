@@ -1,0 +1,27 @@
+[
+	{
+		"author": "John Doe",
+		"author_url": "https://example.com",
+		"author_email": "john-doe@protonmail.com"
+	},
+	{
+		"author": "Jane Smith",
+		"author_url": "https://example.com",
+		"author_email": "jane-smith@protonmail.com"
+	},
+	{
+		"author": "Alice Johnson",
+		"author_url": "https://example.com",
+		"author_email": "alice-johnson@gmail.com"
+	},
+	{
+		"author": "Bob Brown",
+		"author_url": "https://example.com",
+		"author_email": "bob-brown@notmail.com"
+	},
+	{
+		"author": "Charlie Green",
+		"author_url": "https://example.com",
+		"author_email": "charlie-green@yopmail.net"
+	}
+]

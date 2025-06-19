@@ -1,0 +1,952 @@
+/*  WP Resume Manager Resumes styles
+----------------------------------------------------------------- */
+/* Buttons 
+--------------------------------------------- */
+#submit-resume-form > fieldset:first-of-type .button,
+#submit-resume-form .account-sign-in .button {
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: var(--theme-var-rad);
+  -ms-border-radius: var(--theme-var-rad);
+  border-radius: var(--theme-var-rad);
+  white-space: nowrap;
+  height: auto;
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: var(--theme-color-accent_text);
+  border-color: var(--theme-color-accent_link);
+  background-color: var(--theme-color-accent_link);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_link_02);
+  padding: var(--theme-var-btn_padding) var(--theme-var-btn_padding2);
+  border-width: 0 !important;
+}
+
+/* Link */
+.single-resume-content .resume-card .resume_contact .resume_contact_button,
+.related_wrap .resume-card .resume_contact .resume_contact_button {
+  color: var(--theme-color-accent_text);
+  border-color: var(--theme-color-accent_link);
+  background-color: var(--theme-color-accent_link);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_link_02);
+}
+.single-resume-content .resume-card .resume_contact .resume_contact_button:hover, .single-resume-content .resume-card .resume_contact .resume_contact_button:focus,
+.related_wrap .resume-card .resume_contact .resume_contact_button:hover,
+.related_wrap .resume-card .resume_contact .resume_contact_button:focus {
+  color: var(--theme-color-accent_text);
+  border-color: var(--theme-color-accent_hover);
+  background-color: var(--theme-color-accent_hover);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_hover_02);
+}
+
+/* Link 4 */
+.single-resume-content .resume_contact .resume_contact_button,
+#submit-resume-form > fieldset:first-of-type .button,
+#submit-resume-form .account-sign-in .button {
+  border-color: var(--theme-color-accent_link4);
+  background-color: var(--theme-color-accent_link4);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_link4_02);
+}
+.single-resume-content .resume_contact .resume_contact_button:hover, .single-resume-content .resume_contact .resume_contact_button:focus,
+#submit-resume-form > fieldset:first-of-type .button:hover,
+#submit-resume-form > fieldset:first-of-type .button:focus,
+#submit-resume-form .account-sign-in .button:hover,
+#submit-resume-form .account-sign-in .button:focus {
+  border-color: var(--theme-color-accent_hover4);
+  background-color: var(--theme-color-accent_hover4);
+  box-shadow: var(--theme-var-btn_shadow) var(--theme-color-accent_hover4_02);
+}
+
+/* Resumes listings
+--------------------------------------------- */
+div.resumes {
+  margin-bottom: 0;
+  /* Title */
+  /* Filters */
+  /* List */
+  /* Load more */
+}
+div.resumes[data-title]:before {
+  content: attr(data-title);
+  display: block;
+  margin-top: -0.2em;
+  margin-bottom: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px ) );
+  padding-bottom: 0.85em;
+  border-bottom: 1px solid var(--theme-color-bd_color);
+  color: var(--theme-color-text_dark);
+}
+div.resumes .resume_filters {
+  background-color: transparent;
+  /* Search */
+  /* Results */
+}
+div.resumes .resume_filters .search_resumes {
+  padding: 15px;
+  background-color: var(--theme-color-bg_color);
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+div.resumes .resume_filters .search_resumes:before, div.resumes .resume_filters .search_resumes:after {
+  display: none;
+}
+div.resumes .resume_filters .search_resumes .search_keywords,
+div.resumes .resume_filters .search_resumes .search_location,
+div.resumes .resume_filters .search_resumes .search_skills,
+div.resumes .resume_filters .search_resumes .search_categories {
+  float: none;
+  padding: 0;
+  margin: 0;
+  padding: 0 15px 0 0 !important;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+div.resumes .resume_filters .search_resumes .search_keywords:last-child,
+div.resumes .resume_filters .search_resumes .search_location:last-child,
+div.resumes .resume_filters .search_resumes .search_skills:last-child,
+div.resumes .resume_filters .search_resumes .search_categories:last-child {
+  padding-right: 0 !important;
+}
+div.resumes .resume_filters .search_resumes .search_keywords:before,
+div.resumes .resume_filters .search_resumes .search_location:before,
+div.resumes .resume_filters .search_resumes .search_skills:before,
+div.resumes .resume_filters .search_resumes .search_categories:before {
+  content: '\E9A1';
+  font-family: "fontello";
+  font-size: 16px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 17px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: var(--theme-color-text_light);
+}
+div.resumes .resume_filters .search_resumes .search_keywords label,
+div.resumes .resume_filters .search_resumes .search_location label,
+div.resumes .resume_filters .search_resumes .search_skills label,
+div.resumes .resume_filters .search_resumes .search_categories label {
+  display: none;
+}
+div.resumes .resume_filters .search_resumes .search_keywords input,
+div.resumes .resume_filters .search_resumes .search_keywords .select2-selection,
+div.resumes .resume_filters .search_resumes .search_location input,
+div.resumes .resume_filters .search_resumes .search_location .select2-selection,
+div.resumes .resume_filters .search_resumes .search_skills input,
+div.resumes .resume_filters .search_resumes .search_skills .select2-selection,
+div.resumes .resume_filters .search_resumes .search_categories input,
+div.resumes .resume_filters .search_resumes .search_categories .select2-selection {
+  padding-left: 3.2em;
+}
+div.resumes .resume_filters .search_resumes .search_location:before {
+  content: '\E9E0';
+}
+div.resumes .resume_filters .search_resumes .search_skills:before {
+  content: '\E9BC';
+}
+div.resumes .resume_filters .search_resumes .search_categories {
+  padding-top: 0;
+}
+div.resumes .resume_filters .search_resumes .search_categories:before {
+  content: '\E9D8';
+}
+div.resumes .resume_filters .search_resumes > div:not([class]) {
+  display: none;
+}
+div.resumes .resume_filters .showing_resumes {
+  padding: 5px 15px;
+  font-size: 12px;
+  background: var(--theme-color-bg_color);
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  border-top: none;
+  margin-top: 11px;
+}
+div.resumes ul.resumes {
+  border: none;
+  margin-top: 12px;
+  padding: 0;
+  /* Item */
+  /* Results */
+}
+div.resumes ul.resumes li.resume {
+  padding: 19px 0;
+  border-color: var(--theme-color-bd_color);
+}
+div.resumes ul.resumes li.resume:before {
+  display: none;
+}
+div.resumes ul.resumes li.resume a, div.resumes ul.resumes li.resume a > .content {
+  line-height: inherit;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  width: 100%;
+  /* Logo */
+  /* Position */
+  /* Company */
+  /* Location */
+  /* Meta */
+}
+div.resumes ul.resumes li.resume a .candidate_photo,
+div.resumes ul.resumes li.resume a .candidate-column,
+div.resumes ul.resumes li.resume a .candidate-location-column,
+div.resumes ul.resumes li.resume a .resume-posted-column,
+div.resumes ul.resumes li.resume a .resume-posted-column .candidate-title, div.resumes ul.resumes li.resume a > .content .candidate_photo,
+div.resumes ul.resumes li.resume a > .content .candidate-column,
+div.resumes ul.resumes li.resume a > .content .candidate-location-column,
+div.resumes ul.resumes li.resume a > .content .resume-posted-column,
+div.resumes ul.resumes li.resume a > .content .resume-posted-column .candidate-title {
+  float: none;
+  position: relative;
+  left: auto;
+  margin: 0;
+  width: auto;
+}
+div.resumes ul.resumes li.resume a .candidate_photo:before,
+div.resumes ul.resumes li.resume a .candidate-column:before,
+div.resumes ul.resumes li.resume a .candidate-location-column:before,
+div.resumes ul.resumes li.resume a .resume-posted-column:before,
+div.resumes ul.resumes li.resume a .resume-posted-column .candidate-title:before, div.resumes ul.resumes li.resume a > .content .candidate_photo:before,
+div.resumes ul.resumes li.resume a > .content .candidate-column:before,
+div.resumes ul.resumes li.resume a > .content .candidate-location-column:before,
+div.resumes ul.resumes li.resume a > .content .resume-posted-column:before,
+div.resumes ul.resumes li.resume a > .content .resume-posted-column .candidate-title:before {
+  display: none;
+}
+div.resumes ul.resumes li.resume a .candidate_photo, div.resumes ul.resumes li.resume a > .content .candidate_photo {
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  max-width: unset;
+}
+div.resumes ul.resumes li.resume a .candidate_photo + .candidate-column,
+div.resumes ul.resumes li.resume a .image + .content .candidate-column, div.resumes ul.resumes li.resume a > .content .candidate_photo + .candidate-column,
+div.resumes ul.resumes li.resume a > .content .image + .content .candidate-column {
+  padding-left: 12px;
+}
+div.resumes ul.resumes li.resume a .candidate-column, div.resumes ul.resumes li.resume a > .content .candidate-column {
+  width: 42%;
+  margin-top: 1px;
+}
+div.resumes ul.resumes li.resume a .candidate-column h3, div.resumes ul.resumes li.resume a > .content .candidate-column h3 {
+  font-weight: 500;
+  line-height: 1.333em;
+  color: var(--theme-color-text_dark);
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  -ms-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+div.resumes ul.resumes li.resume a .candidate-title, div.resumes ul.resumes li.resume a > .content .candidate-title {
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--theme-color-text_light) !important;
+}
+div.resumes ul.resumes li.resume a .candidate-title strong, div.resumes ul.resumes li.resume a > .content .candidate-title strong {
+  font-weight: 400;
+}
+div.resumes ul.resumes li.resume a .candidate-location-column, div.resumes ul.resumes li.resume a > .content .candidate-location-column {
+  font-size: 13px;
+  line-height: inherit;
+  font-weight: 500;
+  color: var(--theme-color-text);
+}
+div.resumes ul.resumes li.resume a .candidate-location-column .candidate-location:before, div.resumes ul.resumes li.resume a > .content .candidate-location-column .candidate-location:before {
+  content: '\E9E0';
+  font-family: "fontello";
+  font-size: 16px;
+  margin-right: 9px;
+}
+div.resumes ul.resumes li.resume a .resume-posted-column, div.resumes ul.resumes li.resume a > .content .resume-posted-column {
+  font-size: 13px;
+  line-height: inherit;
+  font-weight: 500;
+  color: var(--theme-color-text);
+  margin-left: auto;
+}
+div.resumes ul.resumes li.resume a:hover, div.resumes ul.resumes li.resume a:hover > .content {
+  /* Position */
+}
+div.resumes ul.resumes li.resume a:hover .candidate-column h3, div.resumes ul.resumes li.resume a:hover > .content .candidate-column h3 {
+  color: var(--theme-color-accent_hover);
+}
+div.resumes ul.resumes li.no_resumes_found {
+  padding: 5px 15px;
+  font-size: 12px;
+  background: var(--theme-color-bg_color);
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  border-bottom: none;
+}
+div.resumes .load_more_resumes {
+  border: none !important;
+  padding: 0;
+  margin-top: var(--theme-var-grid_gap);
+}
+
+/* Candidate dashboard
+--------------------------------------------- */
+#resume-manager-candidate-dashboard > p {
+  display: none;
+}
+#resume-manager-candidate-dashboard table {
+  width: 100%;
+  /* Title */
+  /*  Candidate title, location and date */
+}
+#resume-manager-candidate-dashboard table th {
+  padding: 15px 20px 16px 0;
+  font-size: 12px;
+  line-height: inherit;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+#resume-manager-candidate-dashboard table td {
+  padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px ) ) 20px calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ) 0;
+  vertical-align: top;
+}
+#resume-manager-candidate-dashboard table th:first-child,
+#resume-manager-candidate-dashboard table td:first-child {
+  padding-left: 20px;
+}
+#resume-manager-candidate-dashboard table th + td,
+#resume-manager-candidate-dashboard table td + th,
+#resume-manager-candidate-dashboard table td + td {
+  border-left: none;
+}
+#resume-manager-candidate-dashboard table tfoot td {
+  padding: 14px 20px;
+  font-size: 12px;
+  line-height: inherit;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: left;
+  background-color: var(--theme-color-navigate_bg);
+  border-top: 1px solid var(--theme-color-bd_color);
+}
+#resume-manager-candidate-dashboard table tfoot td a {
+  color: var(--theme-color-text_dark);
+}
+#resume-manager-candidate-dashboard table tfoot td a:hover, #resume-manager-candidate-dashboard table tfoot td a:focus {
+  color: var(--theme-color-accent_link);
+}
+#resume-manager-candidate-dashboard table tfoot td a:before {
+  content: '\E9D8';
+  font-family: "fontello";
+  font-size: 14px;
+  margin-right: 8px;
+}
+#resume-manager-candidate-dashboard table .resume-title {
+  width: 33%;
+}
+#resume-manager-candidate-dashboard table .resume-title a {
+  font-weight: 500;
+  color: var(--theme-color-text_dark);
+}
+#resume-manager-candidate-dashboard table .resume-title a:hover, #resume-manager-candidate-dashboard table .resume-title a:focus {
+  color: var(--theme-color-accent_link);
+}
+#resume-manager-candidate-dashboard table .resume-title .candidate-dashboard-actions {
+  visibility: visible;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  font-weight: 500;
+  margin-top: 1px;
+  margin-bottom: -6px;
+}
+#resume-manager-candidate-dashboard table .resume-title .candidate-dashboard-actions li:after {
+  display: none;
+}
+#resume-manager-candidate-dashboard table .resume-title .candidate-dashboard-actions li + li:before {
+  content: '';
+  width: 3px;
+  height: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 9px 0 4px;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: var(--theme-color-text);
+}
+#resume-manager-candidate-dashboard table .resume-title .candidate-dashboard-actions li a {
+  color: var(--theme-color-text);
+}
+#resume-manager-candidate-dashboard table .resume-title .candidate-dashboard-actions li a:hover, #resume-manager-candidate-dashboard table .resume-title .candidate-dashboard-actions li a:focus {
+  color: var(--theme-color-accent_link2);
+}
+#resume-manager-candidate-dashboard table td.candidate-title, #resume-manager-candidate-dashboard table td.candidate-location, #resume-manager-candidate-dashboard table td.date {
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Single Resume
+--------------------------------------------- */
+.single-resume-content {
+  /* Meta */
+  /* Resume Card */
+  /* Description */
+  /* Skills */
+  /* Education & Experience */
+  /* Submit */
+}
+.single-resume-content > h1 {
+  margin-top: 0;
+}
+.single-resume-content .resume-meta {
+  margin: 0 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px ) );
+  padding: 0 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) );
+  border-bottom: 1px solid var(--theme-color-bd_color);
+  overflow: hidden;
+}
+.single-resume-content .resume-meta li {
+  margin: 0 19px 0 0;
+  list-style-type: none;
+  float: left;
+}
+.single-resume-content .resume-meta .job-title,
+.single-resume-content .resume-meta .location,
+.single-resume-content .resume-meta .date-posted {
+  font-size: 13px;
+  line-height: inherit;
+  font-weight: 500;
+  padding: 0;
+  color: var(--theme-color-text_light);
+}
+.single-resume-content .resume-meta .job-title:before,
+.single-resume-content .resume-meta .location:before,
+.single-resume-content .resume-meta .date-posted:before {
+  font-family: "fontello" !important;
+  color: inherit;
+  margin-right: 7px;
+  width: auto;
+  height: auto;
+}
+.single-resume-content .resume-meta .job-title {
+  color: var(--theme-color-text_dark);
+}
+.single-resume-content .resume-meta .location:before {
+  content: '\E9E0';
+  font-size: 17px;
+  line-height: 0.9em;
+  vertical-align: middle;
+}
+.single-resume-content .resume-meta .location a {
+  color: inherit;
+}
+.single-resume-content .resume-meta .location a:hover, .single-resume-content .resume-meta .location a:focus {
+  color: var(--theme-color-accent_link);
+}
+.single-resume-content .resume-meta .date-posted:before {
+  content: '\E9E1';
+  font-size: 16px;
+  line-height: 0.9em;
+  vertical-align: middle;
+}
+.single-resume-content .meta {
+  display: none;
+}
+.single-resume-content .resume-aside {
+  display: none;
+}
+.single-resume-content .resume-card {
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  margin: 0 0 var(--theme-var-grid_gap) var(--theme-var-grid_gap);
+  float: right;
+  text-align: center;
+  min-height: auto;
+  width: var(--theme-var-sidebar);
+  box-sizing: border-box;
+  box-shadow: none;
+  border: 1px solid var(--theme-color-bd_color);
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+.single-resume-content .resume-card img {
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  left: auto;
+  float: none;
+  width: 130px;
+  height: 130px;
+}
+.single-resume-content .resume-card .resume_contact {
+  margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 9px ) );
+  margin-bottom: 0;
+  padding: 0;
+  overflow: visible;
+}
+.single-resume-content .resume-card .resume_contact .resume_contact_button {
+  width: 100%;
+  margin: 0;
+  float: none;
+}
+.single-resume-content .resume-card .resume_contact .resume_contact_details {
+  padding: 15px;
+  text-align: left;
+}
+.single-resume-content .resume-card .resume_contacts {
+  text-align: left;
+  margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 6px ) );
+}
+.single-resume-content .resume-card .resume_contacts h5 {
+  margin-top: 0;
+  margin-bottom: 0.75em;
+}
+.single-resume-content .resume-card .resume_contacts ul {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  width: max-content;
+  text-align: left;
+}
+.single-resume-content .resume-card .resume_contacts ul li {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  line-height: inherit;
+  font-style: normal;
+  list-style-type: none;
+}
+.single-resume-content .resume-card .resume_contacts ul li:before, .single-resume-content .resume-card .resume_contacts ul li:empty {
+  display: none;
+}
+.single-resume-content .resume-card .resume_contacts ul li + li {
+  margin-top: 0.35em;
+}
+.single-resume-content .resume-card .resume_contacts ul li a {
+  color: var(--theme-color-text);
+}
+.single-resume-content .resume-card .resume_contacts ul li a:hover, .single-resume-content .resume-card .resume_contacts ul li a:focus {
+  color: var(--theme-color-accent_link);
+}
+.single-resume-content .resume-card .resume_contacts ul li a[href*="facebook"]:before,
+.single-resume-content .resume-card .resume_contacts ul li a[href*="twitter"]:before,
+.single-resume-content .resume-card .resume_contacts ul li a[href*="instagram"]:before {
+  font-family: "fontello";
+  color: var(--theme-color-text_dark);
+  font-size: 15px;
+  width: 13px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+}
+.single-resume-content .resume-card .resume_contacts ul li a[href*="facebook"]:before {
+  content: '\e873';
+}
+.single-resume-content .resume-card .resume_contacts ul li a[href*="twitter"]:before {
+  content: '\e89a';
+}
+.single-resume-content .resume-card .resume_contacts ul li a[href*="instagram"]:before {
+  content: '\e87e';
+}
+.single-resume-content .resume_description {
+  margin-bottom: 0;
+}
+.single-resume-content .resume_description > h1:first-child, .single-resume-content .resume_description > h2:first-child, .single-resume-content .resume_description > h3:first-child, .single-resume-content .resume_description > h4:first-child, .single-resume-content .resume_description > h5:first-child, .single-resume-content .resume_description > h6:first-child {
+  margin-top: 0;
+}
+.single-resume-content .resume_description > ul:last-child, .single-resume-content .resume_description > p:last-child {
+  margin-bottom: 0;
+}
+.single-resume-content .resume-manager-skills {
+  margin: 19px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.single-resume-content .resume-manager-skills li {
+  width: auto;
+  display: block;
+  padding: 2px 10px;
+  margin: 0 4px 4px 0;
+  font-size: 10px !important;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  -webkit-border-radius: var(--theme-var-rad);
+  -ms-border-radius: var(--theme-var-rad);
+  border-radius: var(--theme-var-rad);
+  color: var(--theme-color-text_dark);
+  background-color: var(--theme-color-bg_color);
+}
+.single-resume-content .resume-manager-education,
+.single-resume-content .resume-manager-experience {
+  border: none;
+  padding: 3px 0 0 16px;
+  margin-bottom: 0;
+}
+.single-resume-content .resume-manager-education p,
+.single-resume-content .resume-manager-experience p {
+  margin-top: 10px;
+}
+.single-resume-content .resume-manager-education dl,
+.single-resume-content .resume-manager-experience dl {
+  border: none;
+}
+.single-resume-content .resume-manager-education dd + dt,
+.single-resume-content .resume-manager-experience dd + dt {
+  margin-top: 20px;
+}
+.single-resume-content .resume-manager-education dt,
+.single-resume-content .resume-manager-experience dt {
+  border: none;
+  padding: 0;
+}
+.single-resume-content .resume-manager-education dt h3,
+.single-resume-content .resume-manager-experience dt h3 {
+  font-size: 16px;
+}
+.single-resume-content .resume-manager-education dt h3:before,
+.single-resume-content .resume-manager-experience dt h3:before {
+  width: 6px;
+  height: 6px;
+  margin: 0;
+  border: none;
+  left: -16px;
+  top: 7px;
+  background-color: var(--theme-color-text_dark);
+}
+.single-resume-content .resume-manager-education dt h3 strong,
+.single-resume-content .resume-manager-experience dt h3 strong {
+  font-weight: 500;
+}
+.single-resume-content .resume-manager-education dt h3 .location,
+.single-resume-content .resume-manager-experience dt h3 .location {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--theme-color-text);
+  display: block;
+  margin-top: 9px;
+}
+.single-resume-content .resume-manager-education dt small,
+.single-resume-content .resume-manager-experience dt small {
+  float: right;
+  font-size: 14px;
+  text-transform: none;
+  color: var(--theme-color-text);
+}
+.single-resume-content .resume-manager-education dd,
+.single-resume-content .resume-manager-experience dd {
+  border: none;
+  padding: 0;
+}
+.single-resume-content .resume_contact {
+  margin: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ) 0 0;
+  padding: 0;
+  overflow: visible;
+}
+.single-resume-content .resume_contact .resume_contact_button {
+  width: auto;
+  float: none;
+  margin: 0;
+}
+.single-resume-content .resume_contact .resume_contact_details {
+  text-align: left;
+  float: none;
+  width: auto;
+  padding: var(--theme-var-grid_gap);
+  margin: var(--theme-var-grid_gap) 0 0;
+  box-shadow: none;
+  line-height: inherit;
+  border: none;
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  background-color: var(--theme-color-bg_color);
+}
+.single-resume-content .resume_contact .resume_contact_details:before, .single-resume-content .resume_contact .resume_contact_details:after {
+  display: none;
+}
+.single-resume-content .resume_contact .resume_contact_details p {
+  margin-bottom: 0;
+}
+
+.single-resume.sidebar_hide {
+  /* Resume */
+}
+.single-resume.sidebar_hide .page_content_wrap > [class*="content_wrap"]:first-child {
+  width: var(--theme-var-content);
+  overflow: visible !important;
+  margin: 0;
+}
+.single-resume.sidebar_hide .single-resume-content .resume-card {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(100% + var(--theme-var-grid_gap));
+  float: none;
+  margin: 0;
+  border: none;
+  box-shadow: 0 3px 20px #1d26260d;
+  background-color: var(--theme-color-content_bg);
+}
+.single-resume.sidebar_hide.menu_side_hide {
+  /* Resume */
+}
+.single-resume.sidebar_hide.menu_side_hide .page_content_wrap > [class*="content_wrap"]:first-child {
+  padding-right: calc( var(--theme-var-sidebar) + var(--theme-var-grid_gap) );
+  margin: 0 auto;
+}
+.single-resume.sidebar_hide.menu_side_hide .single-resume-content .resume-card {
+  left: auto;
+  right: 0;
+}
+
+.single-resume.sidebar_show .single-resume-content .resume-card .resume_contact {
+  display: none;
+}
+.single-resume.sidebar_show .single-resume-content .resume-card .resume_contacts {
+  text-align: center;
+}
+.single-resume.sidebar_show .single-resume-content .resume-card .resume_contacts ul {
+  margin: 0 auto;
+}
+
+/* Related resumes
+--------------------------------------------- */
+.related_wrap .resume-card {
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) );
+  text-align: center;
+  min-height: auto;
+  width: auto;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: 1px solid var(--theme-color-bd_color);
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+}
+.related_wrap .resume-card img {
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  left: auto;
+  float: none;
+  width: 130px;
+  height: 130px;
+}
+.related_wrap .resume-card .job-title {
+  margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px ) );
+  margin-bottom: 5px;
+}
+.related_wrap .resume-card .location {
+  font-size: 13px;
+}
+.related_wrap .resume-card .location a {
+  color: var(--theme-color-text);
+}
+.related_wrap .resume-card .location a:hover, .related_wrap .resume-card .location a:focus {
+  color: var(--theme-color-accent_link);
+}
+.related_wrap .resume-card .location a:before {
+  content: '\E9E0';
+  font-family: "fontello";
+  font-size: 17px;
+  margin-right: 6px;
+}
+
+/* Resume submit form
+--------------------------------------------- */
+#submit-resume-form {
+  /* Login & Logout */
+  /* File */
+  /* Links */
+  /* Buttons */
+  /* Remove */
+}
+#submit-resume-form h2 {
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 27px ) );
+  margin-bottom: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) );
+}
+#submit-resume-form fieldset {
+  margin: 0 0 var(--theme-var-grid_gap) 0;
+  padding: 0;
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* Label */
+  /* Field */
+  /* Description */
+  /* Remove */
+}
+#submit-resume-form fieldset:before, #submit-resume-form fieldset:after {
+  display: none;
+}
+#submit-resume-form fieldset label:not(.full-line-checkbox-field label) {
+  float: none;
+  width: auto;
+  font-weight: 500;
+  margin-top: 9px;
+  color: var(--theme-color-text_dark);
+}
+#submit-resume-form fieldset div.field:not(.full-line-checkbox-field) {
+  width: 74.5%;
+  float: none;
+}
+#submit-resume-form fieldset small.description {
+  opacity: 1;
+  font-size: 12px;
+  margin: 1.2em 0 0 0;
+  display: block;
+  line-height: 1.2em;
+  color: var(--theme-color-text_light);
+}
+#submit-resume-form fieldset .job-manager-uploaded-files .job-manager-uploaded-file .job-manager-uploaded-file-preview a {
+  font-style: normal;
+  color: inherit;
+}
+#submit-resume-form fieldset .job-manager-uploaded-files .job-manager-uploaded-file .job-manager-uploaded-file-preview a:hover {
+  color: var(--theme-color-text_dark);
+}
+#submit-resume-form > fieldset:first-of-type {
+  margin-bottom: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) );
+}
+#submit-resume-form > fieldset:first-of-type label:not(.full-line-checkbox-field label) {
+  margin-top: 3px;
+}
+#submit-resume-form > fieldset:first-of-type strong {
+  font-weight: inherit;
+}
+#submit-resume-form > fieldset:first-of-type a.button {
+  font-size: 11px;
+  padding: 8px 2.7em;
+  line-height: 20px;
+  vertical-align: middle;
+  margin: 0 0 3px 19px;
+}
+#submit-resume-form > fieldset:first-of-type a.button:before {
+  display: none;
+}
+#submit-resume-form .fieldset-type-file label:not(.full-line-checkbox-field label) {
+  margin-top: 2px;
+}
+#submit-resume-form .fieldset-links .resume-manager-add-row,
+#submit-resume-form .fieldset-candidate_education .resume-manager-add-row,
+#submit-resume-form .fieldset-candidate_experience .resume-manager-add-row {
+  margin-top: 9px;
+  display: block;
+  font-weight: 500;
+}
+#submit-resume-form p:last-child {
+  width: 74.5%;
+  margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 8px ) );
+  margin-bottom: 0;
+  margin-left: auto;
+}
+#submit-resume-form p:last-child .button + .button {
+  margin-left: 11px;
+}
+#submit-resume-form .resume-manager-data-row {
+  padding-bottom: var(--theme-var-grid_gap);
+}
+#submit-resume-form .resume-manager-data-row .resume-manager-remove-row {
+  top: auto;
+  bottom: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) );
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  color: var(--theme-color-accent_link2);
+}
+#submit-resume-form .resume-manager-data-row .resume-manager-remove-row:hover, #submit-resume-form .resume-manager-data-row .resume-manager-remove-row:focus {
+  color: var(--theme-color-accent_hover2);
+}
+#submit-resume-form .resume-manager-data-row .resume-manager-remove-row:before {
+  display: none;
+}
+
+/* Resume preview
+--------------------------------------------- */
+#resume_preview {
+  /* Title */
+  /* Preview */
+}
+#resume_preview .job_listing_preview_title {
+  padding: 15px var(--theme-var-grid_gap) 10px;
+  -webkit-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+  background-color: var(--theme-color-bg_color);
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  order: 1;
+}
+#resume_preview .job_listing_preview_title h2 {
+  margin-right: auto;
+}
+#resume_preview .job_listing_preview_title .button {
+  float: none;
+  margin: 0;
+  order: 2;
+}
+#resume_preview .job_listing_preview_title .button + .button {
+  margin-left: 15px;
+}
+#resume_preview .resume_preview {
+  -webkit-border-radius: 0 0 8px 8px;
+  -ms-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+  padding: var(--theme-var-grid_gap);
+  border-color: var(--theme-color-bg_color);
+}
+#resume_preview .resume_preview > h1 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+#resume_preview .resume_preview .single-resume-content {
+  overflow: hidden;
+}
+
+/* Recent resumes
+--------------------------------------------- */
+.wp-widget-widget_recent_resumes ul.resumes {
+  padding-top: 0;
+  border: none;
+}
+.wp-widget-widget_recent_resumes ul.resumes li.resume {
+  border: none;
+  background-color: transparent;
+}
+.wp-widget-widget_recent_resumes ul.resumes li.resume + li.resume {
+  margin-top: 20px;
+}
+.wp-widget-widget_recent_resumes ul.resumes li.resume a {
+  padding: 0;
+}
+.wp-widget-widget_recent_resumes ul.resumes li.resume a .candidate h3 {
+  font-size: var(--theme-font-h5_font-size);
+  font-weight: var(--theme-font-h5_font-weight);
+}
+.wp-widget-widget_recent_resumes ul.resumes li.resume a .meta li:before {
+  top: 7px;
+}
+
+/*# sourceMappingURL=wp-job-manager-resumes.css.map */

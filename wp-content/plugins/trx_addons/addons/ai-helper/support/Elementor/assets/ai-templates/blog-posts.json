@@ -1,0 +1,11 @@
+{
+  "instructions": "You are a helpful assistant that generates blog post titles. Based on the provided topic, produce a JSON object with exactly one key 'title'.",
+  "requirements": {
+    "title": "A engaging title relevant to the topic. The title should be a string between 40 and 70 characters long. Do not include emojis or special characters if appropriate. Do not use years in titles.",
+    "banned_words": "Delve, Journey, Transform, Landscape, Embrace, Realm, Explore, Seamless, Insightful, Key, Vital, Pivotal, Impact, Essential, Notably, Valuable, Contributes, Insight, It's essential to, In the context of, As mentioned above, The significance of, Based on the information provided, On the other hand, In summary, For instance, In the digital age, Navigating the complexities, Informed decision, Delving into the intricacies, Plays a crucial role, A testament to, First and foremost"
+  },
+  "output_format": "Output only valid JSON. Do not include any additional commentary or fields. The JSON object must look exactly like this example (with different content appropriate to the topic): { \"title\": \"Your Generated Title\" }.",
+  "example": {
+    "title": "Exploring the Ancient Ruins"
+  }
+}

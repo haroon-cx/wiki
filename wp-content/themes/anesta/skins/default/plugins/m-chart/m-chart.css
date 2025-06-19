@@ -1,0 +1,73 @@
+/* M Chart styles
+----------------------------------------------------------------- */
+/* Column Chart 
+--------------------------------------------- */
+.m-chart,
+.highcharts-container,
+.highcharts-root {
+  overflow: visible !important;
+}
+
+.highcharts-plot-border,
+.highcharts-grid-line,
+.highcharts-axis-line,
+.highcharts-tick {
+  stroke: var(--theme-color-bd_color) !important;
+}
+
+.highcharts-axis-labels text {
+  fill: var(--theme-color-text_light) !important;
+}
+
+.highcharts-legend-item .highcharts-point {
+  stroke-width: 8 !important;
+  fill: var(--theme-color-content_bg) !important;
+}
+
+.highcharts-series .highcharts-point {
+  stroke: var(--theme-color-content_bg) !important;
+}
+
+.highcharts-legend-item text,
+.highcharts-tooltip text,
+.highcharts-tooltip tspan {
+  fill: var(--theme-color-text_dark) !important;
+}
+
+.highcharts-tooltip .highcharts-tooltip-box {
+  fill: var(--theme-color-bg_color) !important;
+}
+.highcharts-tooltip tspan {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  fill: var(--theme-color-text_light) !important;
+}
+.highcharts-tooltip tspan:last-child {
+  font-weight: 500 !important;
+  fill: var(--theme-color-text_dark) !important;
+}
+
+.m-chart-spline .highcharts-plot-border,
+.m-chart-spline .highcharts-yaxis .highcharts-axis-line,
+.m-chart-spline .highcharts-xaxis-grid .highcharts-grid-line,
+.m-chart-pie .highcharts-plot-border,
+.m-chart-pie .highcharts-yaxis .highcharts-axis-line,
+.m-chart-pie .highcharts-xaxis-grid .highcharts-grid-line {
+  stroke-width: 0 !important;
+}
+
+.m-chart-radar .highcharts-plot-border,
+.m-chart-radar .highcharts-axis-line,
+.m-chart-polar .highcharts-plot-border,
+.m-chart-polar .highcharts-axis-line {
+  stroke-width: 0 !important;
+}
+
+.m-chart-polar .highcharts-grid-line {
+  stroke-width: 0 !important;
+}
+.m-chart-polar .highcharts-xaxis-labels text:first-child:nth-last-child(2) {
+  display: none;
+}
+
+/*# sourceMappingURL=m-chart.css.map */

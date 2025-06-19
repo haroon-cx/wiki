@@ -1,0 +1,11 @@
+@media (max-width: 1279px) {
+  /* Democracy Poll */
+  div.dem-poll-shortcode .dem-screen .dem-answers li .dem-graph .dem-votes-txt,
+  div.dem-poll-shortcode .dem-screen .dem-vote li .dem-graph .dem-votes-txt,
+  div.democracy .dem-screen .dem-answers li .dem-graph .dem-votes-txt,
+  div.democracy .dem-screen .dem-vote li .dem-graph .dem-votes-txt {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=democracy-poll-responsive.css.map */

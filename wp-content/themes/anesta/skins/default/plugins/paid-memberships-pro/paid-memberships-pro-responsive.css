@@ -1,0 +1,58 @@
+@media (max-width: 1023px) {
+  /* Paid Memberships Pro */
+  form.pmpro_form .pmpro_btn,
+  .pmpro_login_wrap #loginform input[type="submit"] {
+    display: inline-block;
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  /* Paid Memberships Pro */
+  .pmpro_table,
+  .pmpro_table th {
+    font-size: 14px;
+    line-height: 1.6em;
+  }
+}
+@media (max-width: 600px) {
+  /* Paid Memberships Pro */
+  .pmpro_table .pmpro_actionlinks a {
+    display: block;
+    margin-right: 0;
+  }
+
+  form.pmpro_form .pmpro_member_profile_edit-fields div {
+    width: 100%;
+  }
+  form.pmpro_form .pmpro_member_profile_edit-fields div input[type="text"],
+  form.pmpro_form .pmpro_member_profile_edit-fields div input[type="password"] {
+    width: 100%;
+  }
+
+  .pmpro_invoice_wrap .pmpro_actions_nav {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 479px) {
+  /* Paid Memberships Pro */
+  .pmpro_table_wrap {
+    overflow-x: auto;
+    padding-bottom: 15px;
+  }
+  .pmpro_table_wrap .pmpro_table {
+    min-width: 360px;
+  }
+
+  form.pmpro_form .pmpro_btn,
+  .pmpro_login_wrap #loginform input[type="submit"] {
+    display: block;
+    margin: 0;
+  }
+  form.pmpro_form .pmpro_btn + .pmpro_btn, form.pmpro_form .pmpro_btn + input[type="submit"],
+  .pmpro_login_wrap #loginform input[type="submit"] + .pmpro_btn,
+  .pmpro_login_wrap #loginform input[type="submit"] + input[type="submit"] {
+    margin-top: 15px;
+  }
+}
+
+/*# sourceMappingURL=paid-memberships-pro-responsive.css.map */

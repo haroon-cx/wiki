@@ -1,0 +1,968 @@
+/*  WP Resume Manager Resumes styles
+----------------------------------------------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+/* Buttons 
+--------------------------------------------- */
+#submit-resume-form > fieldset:first-of-type .button,
+#submit-resume-form .account-sign-in .button {	
+	@include theme_button_filled;
+}
+
+/* Link */
+.single-resume-content .resume-card .resume_contact .resume_contact_button,
+.related_wrap .resume-card .resume_contact .resume_contact_button {	
+	@include theme_button_colors;
+
+	&:hover,
+	&:focus {
+		@include theme_button_colors_hover;
+	}
+}
+
+/* Link 4 */
+.single-resume-content .resume_contact .resume_contact_button,
+#submit-resume-form > fieldset:first-of-type .button,
+#submit-resume-form .account-sign-in .button {
+	@include theme_button_colors_style_link4;
+
+	&:hover,
+	&:focus {
+		@include theme_button_colors_hover_style_link4;
+	}
+} 
+
+
+/* Resumes listings
+--------------------------------------------- */
+div.resumes  {
+	margin-bottom: 0;
+
+	/* Title */
+	&[data-title]:before {
+		content: attr(data-title);
+		display: block;
+		margin-top: -0.2em;
+		margin-bottom: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px ) ); // replace 33px
+		padding-bottom: 0.85em;
+		border-bottom: 1px solid var(--theme-color-bd_color);
+		color: var(--theme-color-text_dark);
+	}
+
+	/* Filters */
+	.resume_filters {
+		background-color: transparent;
+
+		/* Search */
+		.search_resumes {
+			padding: 15px;
+			background-color: var(--theme-color-bg_color);
+			@include border-radius(6px);
+			display: flex;
+			justify-content: space-between;
+
+			&:before,
+			&:after {
+				display: none;
+			}
+			.search_keywords,
+			.search_location,
+			.search_skills,
+			.search_categories {
+				float: none;
+				padding: 0;
+				margin: 0;
+				padding: 0 15px 0 0 !important;
+				position: relative;
+				width: 100%;
+				box-sizing: border-box;
+
+				&:last-child {
+					padding-right: 0 !important;
+				}
+				&:before {
+					content: '\E9A1';
+					font-family: $theme_icons; 
+					font-size: 16px;
+					@include abs-lc(17px);
+					color: var(--theme-color-text_light); 
+				}
+				label {
+					display: none;
+				}
+				input,
+				.select2-selection {
+					padding-left: 3.2em;
+				}
+			}
+			.search_location {
+				&:before {
+					content: '\E9E0';
+				}
+			}
+			.search_skills {
+				&:before {
+					content: '\E9BC';
+				}
+			}
+			.search_categories {
+				padding-top: 0;
+
+				&:before {
+					content: '\E9D8';
+				}
+			}
+			& > div:not([class]) {
+				display: none;
+			}
+		}
+
+		/* Results */
+		.showing_resumes {
+		    padding: 5px 15px;
+		    font-size: 12px;
+		    background: var(--theme-color-bg_color);
+		    @include border-radius(6px);
+		    border-top: none;
+		    margin-top: 11px;
+		}
+	}
+
+	/* List */
+	ul.resumes {
+		border: none;
+		margin-top: 12px;
+		padding: 0;
+
+		/* Item */
+		li.resume {
+			padding: 19px 0;
+			border-color: var(--theme-color-bd_color);
+
+			&:before {
+				display: none;
+			}
+			a, a > .content {			
+				line-height: inherit;
+				padding: 0;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				background-color: transparent;
+				width: 100%;
+
+				.candidate_photo,
+				.candidate-column, 
+				.candidate-location-column,
+				.resume-posted-column,
+				.resume-posted-column .candidate-title {
+					float: none;
+					position: relative;
+					left: auto;
+					margin: 0;
+					width: auto;
+
+					&:before {
+						display: none;
+					}
+				}
+
+				/* Logo */
+				.candidate_photo {
+					@include border-round;
+					@include box(49px, 49px);
+					max-width: unset;
+				}
+
+				/* Position */
+				.candidate_photo + .candidate-column,
+				.image + .content .candidate-column {
+					padding-left: 12px;
+				}
+				.candidate-column {
+					width: 42%;
+					margin-top: 1px;
+
+					h3 {
+						font-weight: 500;
+						line-height: 1.333em;
+						color: var(--theme-color-text_dark);
+						@include transition-colors;
+					}
+				}
+				
+				/* Company */
+				.candidate-title {
+					font-size: 13px;
+					line-height: 15px;
+					color: var(--theme-color-text_light) !important;
+
+					strong {
+						font-weight: 400;
+					}
+				}
+
+				/* Location */
+				.candidate-location-column {
+					@include font(13px, inherit, 500);
+					color: var(--theme-color-text);
+
+					.candidate-location:before {
+					    content: '\E9E0';
+						font-family: $theme_icons; 
+						font-size: 16px;
+						margin-right: 9px;
+					}
+				}
+
+				/* Meta */
+				.resume-posted-column {
+					@include font(13px, inherit, 500);
+					color: var(--theme-color-text);
+					margin-left: auto;
+				}
+			}
+			a:hover, a:hover > .content {
+				/* Position */
+				.candidate-column {
+					h3 {
+						color: var(--theme-color-accent_hover);
+					}
+				}
+			}
+		}
+
+		/* Results */
+		li.no_resumes_found {
+		    padding: 5px 15px;
+		    font-size: 12px;
+		    background: var(--theme-color-bg_color);
+		    @include border-radius(6px);
+		    border-bottom: none;
+		}
+	}
+
+	/* Load more */
+	.load_more_resumes {
+	    border: none !important;
+	    padding: 0;
+	    margin-top: var(--theme-var-grid_gap);
+	}
+}
+
+
+/* Candidate dashboard
+--------------------------------------------- */
+#resume-manager-candidate-dashboard {
+	& > p {
+		display: none;
+	}
+
+	table {
+		width: 100%;
+
+		th {
+			padding: 15px 20px 16px 0;
+			@include font(12px, inherit, 500);
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+			text-align: left;
+		}
+		td {
+			padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px ) ) 20px calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ) 0; // replace 23px 20px 24px 0
+			vertical-align: top;
+		}
+		th:first-child,
+		td:first-child {
+			padding-left: 20px;
+		}
+		th + td, 
+		td + th, 
+		td + td {
+			border-left: none;
+		}
+
+		tfoot td {			
+			padding: 14px 20px;
+			@include font(12px, inherit, 500);
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+			text-align: left;
+			background-color: var(--theme-color-navigate_bg);
+			border-top: 1px solid var(--theme-color-bd_color);
+
+			a {
+				color: var(--theme-color-text_dark);
+
+				&:hover,
+				&:focus {
+					color: var(--theme-color-accent_link);
+				}
+				&:before {
+					content: '\E9D8';
+					font-family: $theme_icons; 
+					font-size: 14px;
+					margin-right: 8px;
+				}
+			}
+		}
+
+		/* Title */
+		.resume-title {
+			width: 33%;
+
+			a {
+				font-weight: 500;
+				color: var(--theme-color-text_dark);
+
+				&:hover,
+				&:focus {
+					color: var(--theme-color-accent_link);
+				}
+			}
+			.candidate-dashboard-actions {
+				visibility: visible;
+				display: block;
+				@include font(12px, inherit, 500);
+				margin-top: 1px;
+				margin-bottom: -6px;
+
+				li {
+					&:after {
+						display: none;
+					}
+					& + li:before {
+						content: '';
+						@include box(3px, 3px);
+						display: inline-block;
+						vertical-align: middle;
+						margin: 0 9px 0 4px;
+						@include border-round;
+						background-color:  var(--theme-color-text);
+					}
+
+					a {
+						color: var(--theme-color-text);
+
+						&:hover,
+						&:focus {
+							color: var(--theme-color-accent_link2);
+						}
+					}
+				}
+			}
+		}
+
+		/*  Candidate title, location and date */
+		td.candidate-title, td.candidate-location, td.date {
+			font-size: 14px;
+			text-align: left;
+		}
+	}
+}
+
+
+/* Single Resume
+--------------------------------------------- */
+.single-resume-content { 
+	& > h1 {
+		margin-top: 0;
+	}
+
+	/* Meta */
+	.resume-meta {   
+		margin: 0 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 3px ) ); // replace 0 0 33px
+		padding: 0 0 calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ); // replace 0 0 31px
+		border-bottom: 1px solid var(--theme-color-bd_color);
+		overflow: hidden;
+
+		li {
+			margin: 0 19px 0 0;
+			list-style-type: none;
+			float: left;
+		}
+		.job-title,
+		.location,
+		.date-posted {
+			@include font(13px, inherit, 500);
+			padding: 0;
+			color: var(--theme-color-text_light);
+
+			&:before {
+				font-family:  $theme_icons !important;
+				color: inherit;
+				margin-right: 7px;
+				@include box(auto, auto);
+			}
+		}
+
+		.job-title {
+			color: var(--theme-color-text_dark);
+		}
+
+		.location {
+			&:before {
+				content: '\E9E0';
+				font-size: 17px;
+				line-height: 0.9em;
+				vertical-align: middle;
+			}
+			a {
+				color: inherit;
+
+				&:hover,
+				&:focus {
+					color: var(--theme-color-accent_link);
+				}
+			}
+		} 
+
+		.date-posted {
+			&:before {
+				content: '\E9E1';
+				font-size: 16px;
+				line-height: 0.9em;
+				vertical-align: middle;
+			}
+		}
+	}
+	.meta {
+		display: none;
+	}
+
+	/* Resume Card */
+	.resume-aside {
+		display: none;
+	}
+	.resume-card {
+		padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ); // replace 45px 44px
+		margin: 0 0 var(--theme-var-grid_gap) var(--theme-var-grid_gap);
+		float: right;
+
+		text-align: center;
+		min-height: auto;
+		width: var(--theme-var-sidebar);
+		box-sizing: border-box;
+
+		box-shadow: none;
+		border: 1px solid var(--theme-color-bd_color);
+		@include border-radius(15px);
+
+		img {
+			@include border-round;
+			position: relative;
+			left: auto;
+			float: none;
+			@include box(130px, 130px);
+		}
+
+		.resume_contact {
+		    margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 9px ) ); // replace 29px
+		    margin-bottom: 0;
+			padding: 0;
+			overflow: visible; 
+
+		    .resume_contact_button {
+	    		width: 100%;
+	    		margin: 0;
+	    		float: none;
+		    }
+		    .resume_contact_details {
+		    	padding: 15px;
+		    	text-align: left;
+		    }
+		}
+
+		.resume_contacts {
+			text-align: left;
+			margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 6px ) ); // replace 26px
+
+			h5 {
+				margin-top: 0;
+				margin-bottom: 0.75em;
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+				font-size: 14px;
+				width: max-content;
+				text-align: left;
+
+				li {
+					margin: 0;
+					padding: 0;
+					color: inherit;
+					line-height: inherit;
+					font-style: normal;
+					list-style-type: none;
+
+					&:before,
+					&:empty {
+						display: none;
+					}
+					& + li {
+						margin-top: 0.35em;
+					}
+					a {
+						color: var(--theme-color-text);
+
+						&:hover,
+						&:focus {
+							color: var(--theme-color-accent_link);
+						}
+					}
+					a[href*="facebook"]:before,
+					a[href*="twitter"]:before,
+					a[href*="instagram"]:before {
+						font-family: $theme_icons; 
+						color: var(--theme-color-text_dark);
+						font-size: 15px;
+						width: 13px;
+						margin-right: 10px;
+						text-align: center;
+						display: inline-block;
+
+					}
+					a[href*="facebook"]:before {
+						content: '\e873';
+					}
+					a[href*="twitter"]:before {
+						content: '\e89a'; 
+					}
+					a[href*="instagram"]:before {
+						content: '\e87e';
+					}
+				}
+			}
+		}
+	}
+
+	/* Description */
+	.resume_description {
+		margin-bottom: 0;
+
+		& > h1, & > h2, & > h3, & > h4, & > h5, & > h6 {
+			&:first-child { 
+				margin-top: 0;
+			}
+		}
+		& > ul:last-child,
+		& > p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	/* Skills */
+	.resume-manager-skills {
+		margin: 19px 0 0;
+		display: flex;
+		flex-wrap: wrap;
+
+		li {			
+			width: auto;
+			display:block;
+			padding: 2px 10px;
+			margin: 0 4px 4px 0;
+			@include font(10px !important, 17px, 500);
+			letter-spacing: 0.1em;
+			text-transform:uppercase;
+			@include border-radius(var(--theme-var-rad));
+			color: var(--theme-color-text_dark);
+			background-color: var(--theme-color-bg_color);
+		}
+	}
+
+	/* Education & Experience */
+	.resume-manager-education,
+	.resume-manager-experience {
+		border: none;
+		padding: 3px 0 0 16px;
+		margin-bottom: 0;
+
+		p {
+			margin-top: 10px;
+		}
+		dl {
+			border: none;
+		}
+		dd + dt {
+			margin-top: 20px;
+		}
+		dt {
+			border: none;
+			padding: 0;
+
+			h3 {
+				font-size: 16px;
+
+				&:before {
+					@include box(6px, 6px);
+					margin: 0;
+					border: none;
+					left: -16px;
+					top: 7px;
+					background-color:  var(--theme-color-text_dark);
+				}
+				strong {
+					font-weight: 500;
+				}
+				.location {
+				    font-size: 14px;
+				    font-weight: 400;
+				    color: var(--theme-color-text);
+				    display: block;
+				    margin-top: 9px;
+				}
+			}
+			small {
+				float: right;				
+				font-size: 14px;
+				text-transform: none;
+				color: var(--theme-color-text);
+			}
+		}
+		dd {
+			border: none;
+			padding: 0;
+		}
+	}
+
+	/* Submit */
+	.resume_contact {
+		margin: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ) 0 0; // replace 34px 0 0
+		padding: 0;		
+		overflow: visible;
+
+		.resume_contact_button {
+			width: auto;
+			float: none;
+			margin: 0;
+		}
+		.resume_contact_details {
+			text-align: left;
+			float: none;
+			width: auto;
+			padding: var(--theme-var-grid_gap);
+			margin: var(--theme-var-grid_gap) 0 0;
+			box-shadow: none;
+			line-height: inherit;
+			border: none;
+			@include border-radius(6px);
+			background-color: var(--theme-color-bg_color);
+
+			&:before, &:after {
+				display: none;
+			}
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.single-resume.sidebar_hide {
+	.page_content_wrap > [class*="content_wrap"]:first-child {
+		width: var(--theme-var-content);
+		overflow: visible !important;
+		margin: 0;
+	}
+
+	/* Resume */
+	.single-resume-content .resume-card {
+		@include abs-lt( calc(100% + var(--theme-var-grid_gap)) );
+		float: none;
+		margin: 0;
+		border: none;
+		box-shadow: 0 3px 20px #1d26260d; 
+		background-color: var(--theme-color-content_bg);
+	}
+
+	&.menu_side_hide {
+		.page_content_wrap > [class*="content_wrap"]:first-child {
+			padding-right: calc( var(--theme-var-sidebar) + var(--theme-var-grid_gap) );
+			margin: 0 auto;
+		}
+
+		/* Resume */
+		.single-resume-content .resume-card {
+			left: auto;
+			right: 0;
+		}
+	}
+}
+.single-resume.sidebar_show { 
+	.single-resume-content .resume-card {
+
+		.resume_contact {
+			display: none;
+		} 
+		.resume_contacts {
+			text-align: center;
+
+			ul {
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+
+/* Related resumes
+--------------------------------------------- */
+.related_wrap .resume-card {
+	padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ); // replace 45px 44px
+	text-align: center;
+	min-height: auto;
+	width: auto;
+	box-sizing: border-box;
+
+	box-shadow: none;
+	border: 1px solid var(--theme-color-bd_color);
+	@include border-radius(8px);
+
+	img {
+		@include border-round;
+		position: relative;
+		left: auto;
+		float: none;
+		@include box(130px, 130px);
+	}
+
+	.job-title {
+	    margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 2px ) ); // replace 22px
+	    margin-bottom: 5px;
+	}
+
+	.location {
+		font-size: 13px;
+
+		a {
+			color: var(--theme-color-text);
+
+			&:hover,
+			&:focus {
+				color: var(--theme-color-accent_link);
+			}
+		}
+		a:before {
+			content: '\E9E0';
+			font-family: $theme_icons; 
+			font-size: 17px;
+			margin-right: 6px;
+		}
+	}
+}
+
+ 
+/* Resume submit form
+--------------------------------------------- */
+#submit-resume-form {
+	h2 {
+		margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 27px ) ); // replace 57px
+		margin-bottom: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) ); // replace 34px
+	}
+
+	fieldset {
+		margin: 0 0 var(--theme-var-grid_gap) 0;
+		padding: 0;
+		border-bottom: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		&:before,
+		&:after {
+			display: none;
+		}
+
+		/* Label */
+		label:not(.full-line-checkbox-field label) {
+			float: none;
+			width: auto;
+			font-weight: 500;
+			margin-top: 9px;
+			color: var(--theme-color-text_dark);
+		}
+
+		/* Field */
+		div.field:not(.full-line-checkbox-field) {
+			width: 74.5%;
+			float: none;
+		}
+
+		/* Description */
+		small.description {
+		    opacity: 1;
+		    font-size: 12px;
+		    margin: 1.2em 0 0 0;
+		    display: block;
+		    line-height: 1.2em;
+			color: var(--theme-color-text_light);
+		}
+
+		/* Remove */
+		.job-manager-uploaded-files .job-manager-uploaded-file .job-manager-uploaded-file-preview a {
+			font-style: normal;
+			color: inherit;
+
+			&:hover {
+				color: var(--theme-color-text_dark);
+			}
+		}
+	}
+
+	/* Login & Logout */
+	& > fieldset:first-of-type {
+		margin-bottom: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) ); // replace 25px
+
+		label:not(.full-line-checkbox-field label) {
+			margin-top: 3px;
+		}
+		strong {
+			font-weight: inherit;
+		}
+		a.button {
+			font-size: 11px;
+		    padding: 8px 2.7em;
+		    line-height: 20px;
+		    vertical-align: middle;
+		    margin: 0 0 3px 19px;
+
+			&:before {
+				display: none;
+			}
+		}		
+	}
+
+	/* File */
+	.fieldset-type-file {
+		label:not(.full-line-checkbox-field label) {
+			margin-top: 2px;
+		}
+	}
+
+	/* Links */
+	.fieldset-links,
+	.fieldset-candidate_education,
+	.fieldset-candidate_experience {
+		.resume-manager-add-row {
+		    margin-top: 9px;
+		    display: block;
+		    font-weight: 500;
+		}
+	}
+
+	/* Buttons */	
+	p:last-child {
+		width: 74.5%;
+		margin-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 8px ) ); // replace 38px
+		margin-bottom: 0;
+    	margin-left: auto;
+
+    	.button + .button {
+    		margin-left: 11px;
+    	}
+	}
+
+	/* Remove */
+	.resume-manager-data-row {
+		padding-bottom: var(--theme-var-grid_gap);
+
+		.resume-manager-remove-row {
+			top: auto;
+			bottom: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ); // replace 21px
+		    margin: 0;
+		    padding: 0;
+		    width: auto;
+		    height: auto;
+		    color: var(--theme-color-accent_link2);
+
+			&:hover,
+			&:focus {
+				color: var(--theme-color-accent_hover2);
+			}
+			&:before {
+				display: none;
+			}
+		} 
+	}
+}
+
+
+/* Resume preview
+--------------------------------------------- */
+#resume_preview {
+
+	/* Title */
+	.job_listing_preview_title {
+		padding: 15px var(--theme-var-grid_gap) 10px;
+		@include border-radius(8px 8px 0 0);
+		background-color: var(--theme-color-bg_color);
+		overflow: hidden;
+		display: flex;
+		justify-content: end;
+		align-items: center;
+		order: 1;
+
+		h2 {
+			margin-right: auto;
+		}
+		.button {
+			float: none;
+			margin: 0;
+			order: 2;
+		}
+		.button + .button {
+			margin-left: 15px;
+		}
+	}
+
+	/* Preview */
+	.resume_preview {
+		& > h1 {
+			margin-top: 0;
+			margin-bottom: 16px;
+		}
+
+		@include border-radius( 0 0 8px 8px);
+	    padding: var(--theme-var-grid_gap);
+	    border-color: var(--theme-color-bg_color);
+
+	    .single-resume-content {
+		    overflow: hidden;
+		}
+	}
+}
+
+
+/* Recent resumes
+--------------------------------------------- */
+.wp-widget-widget_recent_resumes {
+	ul.resumes {
+		padding-top: 0;
+		border: none;
+
+		li.resume {
+			border: none;
+			background-color: transparent;
+
+			& + li.resume {				
+				margin-top: 20px;
+			}
+			a {
+				padding: 0;
+
+				.candidate h3 {
+					font-size: var(--theme-font-h5_font-size);
+					font-weight: var(--theme-font-h5_font-weight);
+				}
+				.meta li:before {
+					top: 7px;
+				}
+			}
+		}
+	}
+}

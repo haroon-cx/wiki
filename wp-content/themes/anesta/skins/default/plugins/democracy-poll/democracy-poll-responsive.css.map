@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,0BAAoB;EACnB,oBAAoB;EACpB;;;kEAGiE;IAChE,SAAS,EAAE,IAAI",
+"sources": ["democracy-poll-responsive.scss"],
+"names": [],
+"file": "democracy-poll-responsive.css"
+}

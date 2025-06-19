@@ -1,0 +1,178 @@
+/* Blog layout: Classic 
+------------------------- */
+.posts_container.columns_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.posts_container.columns_wrap .post_layout_classic {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.post_layout_classic + .post_layout_classic {
+  border-top: none;
+  margin-top: var(--theme-var-grid_gap);
+}
+
+.post_layout_classic {
+  position: relative;
+  border: 1px solid var(--theme-color-bd_color);
+  -webkit-border-radius: var(--theme-var-content_rad);
+  -ms-border-radius: var(--theme-var-content_rad);
+  border-radius: var(--theme-var-content_rad);
+  background-color: var(--theme-color-content_bg);
+  box-shadow: none;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  /* Sticky */
+  /* Content */
+  /* Categories */
+  /* Title */
+  /* Content */
+  /* Meta */
+  /* Read More */
+  /* Audio */
+  /* Quote */
+  /* Image */
+  /* Gallery */
+}
+.post_layout_classic.sticky {
+  border: none;
+  padding-top: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 4px ) );
+  /* Featured */
+}
+.post_layout_classic.sticky .post_featured + .post_content_wrap {
+  margin-top: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ));
+}
+.post_layout_classic:not(.sticky) .post_content_wrap {
+  padding: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 10px ) );
+}
+.post_layout_classic .post_header + .post_content {
+  margin-top: 10px;
+}
+.post_layout_classic .post_content p:last-child,
+.post_layout_classic .post_content_wrap > p:last-child {
+  margin-bottom: 0;
+}
+.post_layout_classic .post_category:empty {
+  display: none;
+}
+.post_layout_classic .post_title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.post_layout_classic .post_meta + .post_title {
+  margin-top: 11px;
+}
+.post_layout_classic .post_content {
+  font-size: 14px;
+  line-height: 23px;
+}
+.post_layout_classic .post_meta .post_meta_label {
+  display: none;
+}
+.post_layout_classic .post_content + .post_meta,
+.post_layout_classic .post_content + .post_price {
+  margin-top: 13px;
+}
+.post_layout_classic .post_header + .post_meta,
+.post_layout_classic .post_title + .post_meta,
+.post_layout_classic .post_header + .post_price,
+.post_layout_classic .post_title + .post_price {
+  margin-top: 12px;
+}
+.post_layout_classic .post_meta + p .more-link {
+  margin-top: 20px;
+}
+.post_layout_classic.format-audio .post_featured.with_thumb .post_audio {
+  right: 20px;
+  left: 20px;
+  bottom: 20px;
+}
+.post_layout_classic.format-audio .post_featured.with_thumb .post_audio .mejs-button > button {
+  margin-left: 0;
+}
+.post_layout_classic.format-audio .post_featured.with_thumb .post_audio .mejs-controls .mejs-horizontal-volume-slider,
+.post_layout_classic.format-audio .post_featured.with_thumb .post_audio .mejs-controls .mejs-horizontal-volume-total {
+  width: 30px;
+}
+.post_layout_classic.format-audio .post_featured.with_thumb .post_audio .mejs-controls .mejs-currenttime-container {
+  padding-left: 0px !important;
+  padding-right: 9px !important;
+}
+.post_layout_classic.format-audio .post_featured.with_thumb .post_audio .mejs-controls .mejs-duration-container {
+  padding-left: 10px !important;
+  padding-right: 9px !important;
+}
+.post_layout_classic.format-audio .post_featured[class*="hover"] .post_info_audio {
+  display: none;
+}
+.post_layout_classic.format-quote .post_content_wrap {
+  display: flex;
+  flex-direction: column;
+}
+.post_layout_classic.format-quote .post_content_wrap .post_content {
+  order: 1;
+}
+.post_layout_classic.format-quote .post_content_wrap .post_header {
+  order: 2;
+}
+.post_layout_classic.format-quote .post_content_wrap .post_meta {
+  order: 3;
+}
+.post_layout_classic.format-quote .post_content_wrap > p:last-child {
+  order: 4;
+}
+.post_layout_classic.format-quote .post_content_wrap .post_content {
+  margin-top: calc( -1 * ( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) ) );
+  margin-left: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) );
+  margin-right: calc( -1 * ( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 15px ) ) );
+}
+.post_layout_classic.format-quote .post_content_wrap .post_header + .post_content {
+  margin-bottom: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 1px ) );
+}
+.post_layout_classic.format-quote blockquote, .post_layout_classic.format-quote .wp-block-quote:not(.is-large):not(.is-style-large) {
+  margin: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 41px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 20px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 10px ) );
+}
+.post_layout_classic.format-quote blockquote p, .post_layout_classic.format-quote .wp-block-quote:not(.is-large):not(.is-style-large) p {
+  font-size: var(--theme-font-h4_font-size);
+  line-height: 1.45em;
+}
+.post_layout_classic.format-image .post_featured:after {
+  content: '\E9AA';
+  font-family: "fontello";
+  font-size: 17px;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: var(--theme-color-text_dark);
+  background-color: var(--theme-color-content_bg);
+}
+.post_layout_classic .slider_container.slider_controls_side:hover .slider_controls_wrap > a,
+.post_layout_classic .slider_outer_controls_side:hover .slider_controls_wrap > a {
+  margin-left: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) );
+  margin-right: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 5px ) );
+}
+
+/*# sourceMappingURL=classic.css.map */

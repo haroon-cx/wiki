@@ -1,0 +1,829 @@
+<wpml-config>
+
+  <built-with-page-builder>/\[vc_row\]/</built-with-page-builder>
+
+  <elementor-widgets>
+    <widget name="trx_elm_accordion">
+      <fields>
+        <field type="Accordion: Item Number Prefix" editor_type="LINE">item_number_prefix</field>
+		<field type="Accordion: Item Number Suffix" editor_type="LINE">item_number_sufix</field>
+	  </fields>
+      <fields-in-item items_of="tabs">
+        <field type="Accordion: Title" editor_type="LINE">tab_title</field>
+		<field type="Accordion: Content" editor_type="VISUAL">accordion_content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_advanced_title">
+      <fields>
+        <field type="Advanced Title: Link URL" editor_type="LINK" key_of="link">url</field>
+	  </fields>
+      <fields-in-item items_of="content">
+        <field type="Advanced Title: Item Text" editor_type="AREA">text</field>
+        <field type="Advanced Title: Item Link" editor_type="LINK" key_of="item_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_counter">
+      <fields>
+        <field type="Counter: Number Prefix" editor_type="LINE">number_prefix</field>
+        <field type="Counter: Number Suffix" editor_type="LINE">number_suffix</field>
+        <field type="Counter: Title" editor_type="LINE">counter_title</field>
+        <field type="Counter: Subtitle" editor_type="LINE">counter_subtitle</field>
+	  </fields>
+    </widget>
+    <widget name="trx_elm_flip_box">
+      <fields>
+        <field type="Flip Box: Icon Text Front" editor_type="LINE">icon_text</field>
+        <field type="Flip Box: Title Front" editor_type="LINE">title_front</field>
+        <field type="Flip Box: Description Front" editor_type="LINE">description_front</field>
+        <field type="Flip Box: Icon Text Back" editor_type="LINE">icon_text_back</field>
+        <field type="Flip Box: Title Back" editor_type="LINE">title_back</field>
+        <field type="Flip Box: Description Back" editor_type="LINE">description_back</field>
+        <field type="Flip Box: Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Flip Box: Button Text" editor_type="LINE">flipbox_button_text</field>
+	  </fields>
+    </widget>
+    <widget name="trx_elm_icon_list">
+      <fields-in-item items_of="list_items">
+        <field type="Icon List: Text" editor_type="LINE">text</field>
+        <field type="Icon List: Icon Text" editor_type="LINE">icon_text</field>
+        <field type="Icon List: Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_image_accordion">
+      <fields-in-item items_of="accordion_items">
+        <field type="Image Accordion: Title" editor_type="LINE">title</field>
+        <field type="Image Accordion: Description" editor_type="VISUAL">description</field>
+        <field type="Image Accordion: Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Image Accordion: Button Text" editor_type="LINE">button_text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_info_box">
+      <fields>
+        <field type="Info Box: Icon Text" editor_type="LINE">icon_text</field>
+        <field type="Info Box: Title" editor_type="LINE">heading</field>
+        <field type="Info Box: Subtitle" editor_type="LINE">sub_heading</field>
+        <field type="Info Box: Description" editor_type="VISUAL">description</field>
+        <field type="Info Box: Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Info Box: Button Text" editor_type="LINE">button_text</field>
+	  </fields>
+    </widget>
+    <widget name="trx_elm_info_list">
+      <fields-in-item items_of="list_items">
+        <field type="Info List: Text" editor_type="LINE">text</field>
+        <field type="Info List: Description" editor_type="AREA">description</field>
+        <field type="Info List: Icon Text" editor_type="LINE">icon_text</field>
+        <field type="Info List: Button Text" editor_type="LINE">button_text</field>
+        <field type="Info List: Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_nav_menu">
+      <fields-in-item items_of="menu_items">
+        <field type="Nav Menu: Text" editor_type="LINE">text</field>
+        <field type="Nav Menu: Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Nav Menu: Badge Text" editor_type="LINE">badge_text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_post_meta">
+      <fields>
+        <field type="Post Meta: Custom Field" editor_type="LINE">type_custom</field>
+        <field type="Post Meta: Custom HTML" editor_type="AREA">html_custom</field>
+        <field type="Post Meta: Date Format" editor_type="LINE">date_format</field>
+        <field type="Post Meta: Custom Format" editor_type="LINE">custom_format</field>
+        <field type="Post Meta: Text Before" editor_type="LINE">before</field>
+        <field type="Post Meta: Text After" editor_type="LINE">after</field>
+	  </fields>
+    </widget>
+    <widget name="trx_elm_posts">
+      <fields>
+        <field type="Posts: Nothing Found Message" editor_type="AREA">nothing_found_message</field>
+	  </fields>
+    </widget>
+    <widget name="trx_elm_pricing_menu">
+      <fields>
+        <field type="Pricing Menu: Title" editor_type="LINE">menu_title</field>
+        <field type="Pricing Menu: Description" editor_type="AREA">menu_description</field>
+        <field type="Pricing Menu: Price" editor_type="LINE">menu_price</field>
+        <field type="Pricing Menu: Original Price" editor_type="LINE">original_price</field>
+        <field type="Pricing Menu: Link" editor_type="LINK" key_of="link">url</field>
+	  </fields>
+    </widget>
+    <widget name="trx_elm_pricing_table">
+      <fields>
+        <field type="Pricing Table: Title" editor_type="LINE">table_title</field>
+        <field type="Pricing Table: Subtitle" editor_type="LINE">table_subtitle</field>
+        <field type="Pricing Table: Ribbon Title" editor_type="LINE">ribbon_title</field>
+        <field type="Pricing Table: Currency Symbol" editor_type="LINE">currency_symbol</field>
+        <field type="Pricing Table: Custom Symbol" editor_type="LINE">currency_symbol_custom</field>
+        <field type="Pricing Table: Price" editor_type="LINE">table_price</field>
+        <field type="Pricing Table: Original Price" editor_type="LINE">table_original_price</field>
+        <field type="Pricing Table: Duration" editor_type="LINE">table_duration</field>
+        <field type="Pricing Table: Button URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Pricing Table: Button Text" editor_type="LINE">table_button_textlink_text</field>
+        <field type="Pricing Table: Additional Info" editor_type="VISUAL">table_additional_info</field>
+	  </fields>
+      <fields-in-item items_of="table_features">
+        <field type="Pricing Table: Feature Text" editor_type="AREA">feature_text</field>
+        <field type="Pricing Table: Tooltip Content" editor_type="AREA">tooltip_content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_tabs">
+      <fields-in-item items_of="tabs">
+        <field type="Advanced Tabs: Title" editor_type="LINE">tabs_title</field>
+        <field type="Advanced Tabs: Description" editor_type="AREA">tabs_subtitle</field>
+        <field type="Advanced Tabs: Content" editor_type="VISUAL">tabs_content</field>
+        <field type="Advanced Tabs: Shortcode" editor_type="LINE">tabs_content_shortcode</field>
+        <field type="Advanced Tabs: Section ID" editor_type="LINE">tabs_section_id</field>
+        <field type="Advanced Tabs: Button Text" editor_type="LINE">tabs_details_btn_text</field>
+        <field type="Advanced Tabs: Button URL" editor_type="LINK" key_of="tabs_details_btn_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_team_member">
+      <fields>
+        <field type="Team Member: Name" editor_type="LINE">team_member_name</field>
+        <field type="Team Member: Position" editor_type="LINE">team_member_position</field>
+        <field type="Team Member: Description" editor_type="VISUAL">team_member_description</field>
+        <field type="Team Member: Link URL" editor_type="LINK" key_of="link">url</field>
+	  </fields>
+      <fields-in-item items_of="team_member_social">
+        <field type="Team Member: Social URL" editor_type="LINK" key_of="social_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_testimonials">
+      <fields-in-item items_of="testimonials">
+        <field type="Testimonials: Heading" editor_type="LINE">heading</field>
+        <field type="Testimonials: Name" editor_type="LINE">person_name</field>
+        <field type="Testimonials: Job/Company" editor_type="LINE">company_name</field>
+        <field type="Testimonials: Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Testimonials: Content" editor_type="VISUAL">content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_elm_woo_products">
+      <fields>
+        <field type="Woo Products: Button Text" editor_type="LINE">load_more_text</field>
+        <field type="Woo Products: Product IDs" editor_type="LINE">ids</field>
+        <field type="Woo Products: Empty Query Message" editor_type="LINE">empty_products_msg</field>
+        <field type="Woo Products: Previous Page String" editor_type="LINE">prev_string</field>
+        <field type="Woo Products: Next Page String" editor_type="LINE">next_string</field>
+        <field type="Woo Products: Quick View Label" editor_type="LINE">qv_text</field>
+        <field type="Woo Products: Sale Label" editor_type="LINE">sale_string</field>
+        <field type="Woo Products: Featured Label" editor_type="LINE">featured_string</field>
+        <field type="Woo Products: Sold Out Label" editor_type="LINE">sold_out_string</field>
+        <field type="Woo Products: Buy Now Label (Skin 1)" editor_type="LINE">grid_1_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 1)" editor_type="LINE">grid_1_cta_read_more_label</field>
+        <field type="Woo Products: Buy Now Label (Skin 2)" editor_type="LINE">grid_2_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 2)" editor_type="LINE">grid_2_cta_read_more_label</field>
+        <field type="Woo Products: Buy Now Label (Skin 3)" editor_type="LINE">grid_3_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 3)" editor_type="LINE">grid_3_cta_read_more_label</field>
+        <field type="Woo Products: Buy Now Label (Skin 4)" editor_type="LINE">grid_4_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 4)" editor_type="LINE">grid_4_cta_read_more_label</field>
+        <field type="Woo Products: Buy Now Label (Skin 6)" editor_type="LINE">grid_6_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 6)" editor_type="LINE">grid_6_cta_read_more_label</field>
+        <field type="Woo Products: Buy Now Label (Skin 7)" editor_type="LINE">grid_7_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 7)" editor_type="LINE">grid_7_cta_read_more_label</field>
+        <field type="Woo Products: Buy Now Label (Skin 9)" editor_type="LINE">grid_9_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 9)" editor_type="LINE">grid_9_cta_read_more_label</field>
+        <field type="Woo Products: Buy Now Label (Skin 10)" editor_type="LINE">grid_10_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 10)" editor_type="LINE">grid_10_cta_read_more_label</field>
+        <field type="Woo Products: View Products Label (Skin 10)" editor_type="LINE">grid_10_cta_view_products_label</field>
+        <field type="Woo Products: Purchase Label (Skin 10)" editor_type="LINE">grid_10_cta_purchase_label</field>
+        <field type="Woo Products: Select Options Label (Skin 10)" editor_type="LINE">grid_10_cta_select_options_label</field>
+        <field type="Woo Products: Buy Now Label (Skin 11)" editor_type="LINE">grid_11_cta_buy_now_label</field>
+        <field type="Woo Products: Read More Label (Skin 11)" editor_type="LINE">grid_11_cta_read_more_label</field>
+	  </fields>
+    </widget>
+
+
+    <widget name="trx_sc_action">
+      <fields>
+
+        <field type="Action: Title" editor_type="LINE">title</field>
+        <field type="Action: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Action: Description" editor_type="AREA">description</field>
+        <field type="Action: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Action: Link text" editor_type="LINE">link_text</field>
+      </fields>
+      <fields-in-item items_of="actions">
+        <field type="Action: Item Title" editor_type="LINE">title</field>
+        <field type="Action: Item SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Action: Item Date" editor_type="LINE">date</field>
+        <field type="Action: Item Info" editor_type="LINE">info</field>
+        <field type="Action: Item Description" editor_type="AREA">description</field>
+        <field type="Action: Link URL" editor_type="LINK">url</field>
+        <field type="Action: Link text" editor_type="LINE">link_text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_anchor">
+      <fields>
+        <field type="Anchor: Title" editor_type="LINE">title</field>
+        <field type="Anchor: Link URL" editor_type="LINK" key_of="url">url</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_blogger">
+      <fields>
+        <field type="Blogger: Filters Title" editor_type="LINE">filters_title</field>
+        <field type="Blogger: Filters Subtitle" editor_type="LINE">filters_subtitle</field>
+        <field type="Blogger: Filters 'All' tab" editor_type="LINE">filters_all_text</field>
+        <field type="Blogger: Filters 'More posts'" editor_type="LINE">filters_more_text</field>
+        <field type="Blogger: Button 'Read more'" editor_type="LINE">more_text</field>
+        <field type="Blogger: Date format" editor_type="LINE">date_format</field>
+
+        <field type="Blogger: Title" editor_type="LINE">title</field>
+        <field type="Blogger: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Blogger: Description" editor_type="AREA">description</field>
+        <field type="Blogger: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Blogger: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_button">
+      <fields-in-item items_of="buttons">
+        <field type="Buttons: Title" editor_type="LINE">title</field>
+        <field type="Buttons: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Buttons: Link URL" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_cover">
+      <fields>
+        <field type="Cover: Link URL" editor_type="LINK" key_of="url">url</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_form">
+      <fields>
+        <field type="Form: E-mail" editor_type="LINE">email</field>
+        <field type="Form: Phone" editor_type="LINE">phone</field>
+        <field type="Form: Address" editor_type="LINE">address</field>
+        <field type="Form: Button caption" editor_type="LINE">button_caption</field>
+
+        <field type="Form: Title" editor_type="LINE">title</field>
+        <field type="Form: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Form: Description" editor_type="AREA">description</field>
+        <field type="Form: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Form: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_googlemap">
+      <fields>
+        <field type="Google Maps: Address or Lat,Lng" editor_type="LINE">address</field>
+        <field type="Google Maps: Center" editor_type="LINE">center</field>
+        <field type="Google Maps: Content" editor_type="VISUAL">content</field>
+
+        <field type="Google Maps: Title" editor_type="LINE">title</field>
+        <field type="Google Maps: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Google Maps: Description" editor_type="AREA">description</field>
+        <field type="Google Maps: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Google Maps: Link text" editor_type="LINE">link_text</field>
+      </fields>
+      <fields-in-item items_of="markers">
+        <field type="Google Maps: Address or Lat,Lng" editor_type="LINE">address</field>
+        <field type="Google Maps: Custom HTML" editor_type="VISUAL">html</field>
+        <field type="Google Maps: Title" editor_type="LINE">title</field>
+        <field type="Google Maps: Description" editor_type="VISUAL">description</field>
+        <field type="Google Maps: Link URL" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_icons">
+      <fields>
+
+        <field type="Icons: Title" editor_type="LINE">title</field>
+        <field type="Icons: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Icons: Description" editor_type="AREA">description</field>
+        <field type="Icons: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Icons: Link text" editor_type="LINE">link_text</field>
+      </fields>
+      <fields-in-item items_of="icons">
+        <field type="Icons: Char" editor_type="LINE">char</field>
+        <field type="Icons: Title" editor_type="LINE">title</field>
+        <field type="Icons: Description" editor_type="AREA">description</field>
+        <field type="Icons: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Icons: Image URL" editor_type="LINK" key_of="image">url</field>
+        <field type="Icons: or character" editor_type="LINE">char</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_osmap">
+      <fields>
+        <field type="OpenStreet Maps: Address or Lat,Lng" editor_type="LINE">address</field>
+        <field type="OpenStreet Maps: Center" editor_type="LINE">center</field>
+        <field type="OpenStreet Maps: Content" editor_type="VISUAL">content</field>
+
+        <field type="OpenStreet Maps: Title" editor_type="LINE">title</field>
+        <field type="OpenStreet Maps: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="OpenStreet Maps: Description" editor_type="AREA">description</field>
+        <field type="OpenStreet Maps: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="OpenStreet Maps: Link text" editor_type="LINE">link_text</field>
+      </fields>
+      <fields-in-item items_of="markers">
+        <field type="OpenStreet Maps: Address or Lat,Lng" editor_type="LINE">address</field>
+        <field type="OpenStreet Maps: Title" editor_type="LINE">title</field>
+        <field type="OpenStreet Maps: Description" editor_type="VISUAL">description</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_price">
+      <fields>
+
+        <field type="Price: Title" editor_type="LINE">title</field>
+        <field type="Price: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Price: Description" editor_type="AREA">description</field>
+        <field type="Price: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Price: Link text" editor_type="LINE">link_text</field>
+      </fields>
+      <fields-in-item items_of="prices">
+        <field type="Price: Item Title" editor_type="LINE">title</field>
+        <field type="Price: Item SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Price: Item Label" editor_type="LINE">label</field>
+        <field type="Price: Item Description" editor_type="LINE">description</field>
+        <field type="Price: Item Before price" editor_type="LINE">before_price</field>
+        <field type="Price: Item Price" editor_type="LINE">price</field>
+        <field type="Price: Item After price" editor_type="LINE">after_price</field>
+        <field type="Price: Item Details" editor_type="VISUAL">details</field>
+        <field type="Price: Item Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Price: Item Link text" editor_type="LINE">link_text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_promo">
+      <fields>
+        <field type="Promo: Link 2 URL" editor_type="LINK" key_of="link2">url</field>
+        <field type="Promo: Link 2 text" editor_type="LINE">link_text</field>
+        <field type="Promo: Image URL" editor_type="LINE">images</field>
+        <field type="Promo: Video URL" editor_type="LINE">video_url</field>
+        <field type="Promo: Video Embed" editor_type="AREA">video_embed</field>
+        <field type="Promo: Content" editor_type="VISUAL">content</field>
+
+        <field type="Promo: Title" editor_type="LINE">title</field>
+        <field type="Promo: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Promo: Description" editor_type="AREA">description</field>
+        <field type="Promo: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Promo: Link text" editor_type="LINE">link_text</field>
+      </fields>
+	</widget>
+    <widget name="trx_sc_skills">
+      <fields>
+
+        <field type="Skills: Title" editor_type="LINE">title</field>
+        <field type="Skills: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Skills: Description" editor_type="AREA">description</field>
+        <field type="Skills: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Skills: Link text" editor_type="LINE">link_text</field>
+      </fields>
+      <fields-in-item items_of="values">
+        <field type="Skills: Title" editor_type="LINE">title</field>
+        <field type="Skills: Value" editor_type="LINE">value</field>
+        <field type="Skills: or character" editor_type="LINE">char</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_socials">
+      <fields>
+
+        <field type="Socials: Title" editor_type="LINE">title</field>
+        <field type="Socials: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Socials: Description" editor_type="AREA">description</field>
+        <field type="Socials: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Socials: Link text" editor_type="LINE">link_text</field>
+      </fields>
+      <fields-in-item items_of="icons">
+        <field type="Socials: Title" editor_type="LINE">title</field>
+        <field type="Socials: Link URL" editor_type="LINE">link</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_supertitle">
+      <fields-in-item items_of="items">
+        <field type="SuperTitle: Text" editor_type="LINE">text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_sc_switcher">
+      <fields>
+        <field type="Switcher: Slide 1 Title" editor_type="LINE">slide1_title</field>
+        <field type="Switcher: Slide 2 Title" editor_type="LINE">slide2_title</field>
+
+        <field type="Switcher: Title" editor_type="LINE">title</field>
+        <field type="Switcher: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Switcher: Description" editor_type="AREA">description</field>
+        <field type="Switcher: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Switcher: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_table">
+      <fields>
+        <field type="Table: Content" editor_type="AREA">content</field>
+
+        <field type="Table: Title" editor_type="LINE">title</field>
+        <field type="Table: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Table: Description" editor_type="AREA">description</field>
+        <field type="Table: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Table: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_title">
+      <fields>
+
+        <field type="Title: Title" editor_type="LINE">title</field>
+        <field type="Title: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Title: Description" editor_type="AREA">description</field>
+        <field type="Title: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Title: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_users">
+      <fields>
+
+        <field type="Users: Title" editor_type="LINE">title</field>
+        <field type="Users: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Users: Description" editor_type="AREA">description</field>
+        <field type="Users: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Users: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_extended_products">
+      <fields>
+
+        <field type="Extended Products: Title" editor_type="LINE">title</field>
+        <field type="Extended Products: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Extended Products: Description" editor_type="AREA">description</field>
+        <field type="Extended Products: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Extended Products: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+
+
+    <widget name="trx_widget_aboutme">
+      <fields>
+        <field type="About Me: Title" editor_type="LINE">title</field>
+        <field type="About Me: Avatar URL" editor_type="LINK" key_of="avatar">url</field>
+        <field type="About Me: User name" editor_type="LINE">username</field>
+        <field type="About Me: Description" editor_type="VISUAL">description</field>
+      </fields>
+    </widget>
+    <widget name="trx_widget_audio">
+      <fields>
+        <field type="Audio: Title" editor_type="LINE">title</field>
+        <field type="Audio: Subtitle" editor_type="LINE">subtitle</field>
+        <field type="Audio: Button 'Next'" editor_type="LINE">next_text</field>
+        <field type="Audio: Button 'Prev'" editor_type="LINE">prev_text</field>
+        <field type="Audio: Play Now" editor_type="LINE">now_text</field>
+	  </fields>
+      <fields-in-item items_of="media">
+        <field type="Audio: Media URL" editor_type="LINE">url</field>
+        <field type="Audio: Embed code" editor_type="AREA">embed</field>
+        <field type="Audio: Caption" editor_type="LINE">caption</field>
+        <field type="Audio: Author" editor_type="LINE">author</field>
+        <field type="Audio: Description" editor_type="AREA">description</field>
+        <field type="Audio: Cover URL" editor_type="LINK" key_of="cover">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_widget_banner">
+      <fields>
+        <field type="Banner: Title" editor_type="LINE">title</field>
+        <field type="Banner: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Banner: HTML Code" editor_type="AREA">code</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_calendar">
+      <fields>
+        <field type="Calendar: Title" editor_type="LINE">title</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_contacts">
+      <fields>
+        <field type="Contacts: Title" editor_type="LINE">title</field>
+        <field type="Contacts: Description" editor_type="VISUAL">description</field>
+        <field type="Contacts: Address" editor_type="LINE">address</field>
+        <field type="Contacts: Phone" editor_type="LINE">phone</field>
+        <field type="Contacts: E-mail" editor_type="LINE">email</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_custom_links">
+      <fields>
+        <field type="Custom Links: Title" editor_type="LINE">title</field>
+	  </fields>
+      <fields-in-item items_of="links">
+        <field type="Custom Links: Title" editor_type="LINE">title</field>
+        <field type="Custom Links: Link URL" editor_type="LINK" key_of="url">url</field>
+        <field type="Custom Links: Caption" editor_type="LINE">caption</field>
+        <field type="Custom Links: Description" editor_type="AREA">description</field>
+        <field type="Custom Links: Label" editor_type="LINE">label</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_widget_flickr">
+      <fields>
+        <field type="Flickr: Title" editor_type="LINE">title</field>
+        <field type="Flickr: API key" editor_type="LINE">flickr_api_key</field>
+        <field type="Flickr: User name" editor_type="LINE">flickr_user_name</field>
+        <field type="Flickr: Number of photos" editor_type="LINE">flickr_count</field>
+        <field type="Flickr: Columns" editor_type="LINE">flickr_columns</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_instagram">
+      <fields>
+        <field type="Instagram: Title" editor_type="LINE">title</field>
+        <field type="Instagram: Hashtag or Username" editor_type="LINE">hashtag</field>
+        <field type="Instagram: Number of photos" editor_type="LINE">count</field>
+        <field type="Instagram: Columns" editor_type="LINE">columns</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_popular_posts">
+      <fields>
+        <field type="Popular Posts: Title" editor_type="LINE">title</field>
+        <field type="Popular Posts: Title 1" editor_type="LINE">title_1</field>
+        <field type="Popular Posts: Title 2" editor_type="LINE">title_2</field>
+        <field type="Popular Posts: Title 3" editor_type="LINE">title_3</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_recent_news">
+      <fields>
+        <field type="Recent News: Title" editor_type="LINE">title</field>
+        <field type="Recent News: Subtitle" editor_type="LINE">subtitle</field>
+        <field type="Recent News: IDs" editor_type="LINE">ids</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_recent_posts">
+      <fields>
+        <field type="Recent Posts: Title" editor_type="LINE">title</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_slider">
+      <fields>
+        <field type="Slider: Title" editor_type="LINE">title</field>
+        <field type="Slider: RevSlider alias" editor_type="LINE">alias</field>
+        <field type="Slider: Label Prev" editor_type="LINE">label_prev</field>
+        <field type="Slider: Label Next" editor_type="LINE">label_next</field>
+	  </fields>
+      <fields-in-item items_of="slides">
+        <field type="Slider: Title" editor_type="LINE">title</field>
+        <field type="Slider: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Slider: Meta" editor_type="LINE">meta</field>
+        <field type="Slider: Content" editor_type="VISUAL">content</field>
+        <field type="Slider: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Slider: Video URL" editor_type="LINE">video_url</field>
+        <field type="Slider: Video Embed" editor_type="AREA">video_embed</field>
+      </fields-in-item>
+    </widget>
+    <widget name="trx_widget_socials">
+      <fields>
+        <field type="Socials: Title" editor_type="LINE">title</field>
+        <field type="Socials: Description" editor_type="VISUAL">description</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_twitter">
+      <fields>
+        <field type="Twitter: Title" editor_type="LINE">title</field>
+        <field type="Twitter: User name" editor_type="LINE">username</field>
+        <field type="Twitter: Consumer key" editor_type="LINE">consumer_key</field>
+        <field type="Twitter: Consumer secret" editor_type="LINE">consumer_secret</field>
+        <field type="Twitter: Token key" editor_type="LINE">token_key</field>
+        <field type="Twitter: Token secret" editor_type="LINE">token_secret</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_video">
+      <fields>
+        <field type="Video: Title" editor_type="LINE">title</field>
+        <field type="Video: Video URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Video: Video Embed" editor_type="AREA">embed</field>
+	  </fields>
+	</widget>
+    <widget name="trx_widget_video_list">
+      <fields>
+        <field type="Video List: Title" editor_type="LINE">title</field>
+	  </fields>
+      <fields-in-item items_of="videos">
+        <field type="Video List: Item Title" editor_type="LINE">title</field>
+        <field type="Video List: Item SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Video List: Item Meta" editor_type="LINE">meta</field>
+        <field type="Video List: Item Content" editor_type="VISUAL">content</field>
+        <field type="Video List: Item Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Video List: Item Video URL" editor_type="LINE">video_url</field>
+        <field type="Video List: Item Video Embed" editor_type="AREA">video_embed</field>
+      </fields-in-item>
+    </widget>
+
+
+    <widget name="trx_sc_cars">
+      <fields>
+        <field type="Cars: Text 'More'" editor_type="LINE">more_text</field>
+
+        <field type="Cars: Title" editor_type="LINE">title</field>
+        <field type="Cars: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Cars: Description" editor_type="AREA">description</field>
+        <field type="Cars: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Cars: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_courses">
+      <fields>
+        <field type="Courses: Text 'More'" editor_type="LINE">more_text</field>
+
+        <field type="Courses: Title" editor_type="LINE">title</field>
+        <field type="Courses: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Courses: Description" editor_type="AREA">description</field>
+        <field type="Courses: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Courses: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_dishes">
+      <fields>
+        <field type="Dishes: Text 'More'" editor_type="LINE">more_text</field>
+
+        <field type="Dishes: Title" editor_type="LINE">title</field>
+        <field type="Dishes: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Dishes: Description" editor_type="AREA">description</field>
+        <field type="Dishes: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Dishes: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_layouts_blog_item">
+      <fields>
+        <field type="Blog Item: Button text" editor_type="LINE">button_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_layouts_cart">
+      <fields>
+        <field type="Cart: Text" editor_type="LINE">text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_layouts_iconed_text">
+      <fields>
+        <field type="Iconed Text: Line 1" editor_type="LINE">text1</field>
+        <field type="Iconed Text: Line 2" editor_type="LINE">text2</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_layouts">
+      <fields>
+        <field type="Layouts: Popup/Panel ID" editor_type="LINE">popup_id</field>
+        <field type="Layouts: Content" editor_type="VISUAL">content</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_layouts_login">
+      <fields>
+        <field type="Login: Text 'Login'" editor_type="LINE">text_login</field>
+        <field type="Login: Text 'Logout'" editor_type="LINE">text_logout</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_layouts_logo">
+      <fields>
+        <field type="Logo: Title" editor_type="LINE">logo_text</field>
+        <field type="Logo: Slogan" editor_type="LINE">logo_text</field>
+        <field type="Logo: Image" editor_type="LINK" key_of="logo">url</field>
+        <field type="Logo: Retina image" editor_type="LINK" key_of="logo_retina">url</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_layouts_title">
+      <fields>
+        <field type="Title: Image" editor_type="LINK" key_of="image">url</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_portfolio">
+      <fields>
+        <field type="Portfolio: Text 'More'" editor_type="LINE">more_text</field>
+
+        <field type="Portfolio: Title" editor_type="LINE">title</field>
+        <field type="Portfolio: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Portfolio: Description" editor_type="AREA">description</field>
+        <field type="Portfolio: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Portfolio: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_properties">
+      <fields>
+        <field type="Properties: Text 'More'" editor_type="LINE">more_text</field>
+
+        <field type="Properties: Title" editor_type="LINE">title</field>
+        <field type="Properties: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Properties: Description" editor_type="AREA">description</field>
+        <field type="Properties: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Properties: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_services">
+      <fields>
+        <field type="Services: Text 'More'" editor_type="LINE">more_text</field>
+
+        <field type="Services: Title" editor_type="LINE">title</field>
+        <field type="Services: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Services: Description" editor_type="AREA">description</field>
+        <field type="Services: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Services: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_matches">
+      <fields>
+        <field type="Matches: Text 'More'" editor_type="LINE">more_text</field>
+
+        <field type="Matches: Title" editor_type="LINE">title</field>
+        <field type="Matches: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Matches: Description" editor_type="AREA">description</field>
+        <field type="Matches: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Matches: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_team">
+      <fields>
+        <field type="Team: Text 'More'" editor_type="LINE">more_text</field>
+
+        <field type="Team: Title" editor_type="LINE">title</field>
+        <field type="Team: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Team: Description" editor_type="AREA">description</field>
+        <field type="Team: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Team: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_sc_testimonials">
+      <fields>
+
+        <field type="Testimonials: Title" editor_type="LINE">title</field>
+        <field type="Testimonials: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Testimonials: Description" editor_type="AREA">description</field>
+        <field type="Testimonials: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Testimonials: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+
+
+    <widget name="trx_widget_edd_search">
+      <fields>
+        <field type="EDD Search: Title" editor_type="LINE">title</field>
+	  </fields>
+    </widget>
+    <widget name="trx_sc_widget_lp_cource_info">
+      <fields>
+        <field type="LearnPress Course Info: Title" editor_type="LINE">title</field>
+	  </fields>
+    </widget>
+    <widget name="trx_widget_mptt">
+      <fields>
+        <field type="MPTT: Filter Label" editor_type="LINE">label</field>
+        <field type="MPTT: Table ID" editor_type="LINE">mptt_id</field>
+	  </fields>
+    </widget>
+    <widget name="trx_sc_events">
+      <fields>
+
+        <field type="Events: Title" editor_type="LINE">title</field>
+        <field type="Events: SubTitle" editor_type="LINE">subtitle</field>
+        <field type="Events: Description" editor_type="AREA">description</field>
+        <field type="Events: Link URL" editor_type="LINK" key_of="link">url</field>
+        <field type="Events: Link text" editor_type="LINE">link_text</field>
+      </fields>
+    </widget>
+    <widget name="trx_widget_woocommerce_search">
+      <fields>
+        <field type="WooCommerce Search: Title" editor_type="LINE">title</field>
+        <field type="WooCommerce Search: Last text" editor_type="LINE">last_text</field>
+        <field type="WooCommerce Search: Button text" editor_type="LINE">button_text</field>
+	  </fields>
+      <fields-in-item items_of="fields">
+        <field type="WooCommerce Search: Text" editor_type="LINE">text</field>
+      </fields-in-item>
+    </widget>
+  </elementor-widgets>
+
+  <custom-types>
+    <custom-type translate="1">cpt_cars</custom-type>
+    <custom-type translate="1">cpt_cars_agents</custom-type>
+    <custom-type translate="1">cpt_certificates</custom-type>
+    <custom-type translate="1">cpt_courses</custom-type>
+    <custom-type translate="1">cpt_dishes</custom-type>
+    <custom-type translate="1">cpt_layouts</custom-type>
+    <custom-type translate="1">cpt_portfolio</custom-type>
+    <custom-type translate="1">cpt_properties</custom-type>
+    <custom-type translate="1">cpt_agents</custom-type>
+    <custom-type translate="1">cpt_resume</custom-type>
+    <custom-type translate="1">cpt_services</custom-type>
+    <custom-type translate="1">cpt_competitions</custom-type>
+    <custom-type translate="1">cpt_rounds</custom-type>
+    <custom-type translate="1">cpt_matches</custom-type>
+    <custom-type translate="1">cpt_players</custom-type>
+    <custom-type translate="1">cpt_team</custom-type>
+    <custom-type translate="1">cpt_testimonials</custom-type>
+  </custom-types>
+
+  <taxonomies>
+    <taxonomy translate="1">cpt_cars_type</taxonomy>
+    <taxonomy translate="1">cpt_cars_status</taxonomy>
+    <taxonomy translate="1">cpt_cars_maker</taxonomy>
+    <taxonomy translate="1">cpt_cars_model</taxonomy>
+    <taxonomy translate="1">cpt_cars_features</taxonomy>
+    <taxonomy translate="1">cpt_cars_labels</taxonomy>
+    <taxonomy translate="1">cpt_cars_city</taxonomy>
+    <taxonomy translate="1">cpt_cars_agency</taxonomy>
+    <taxonomy translate="1">cpt_courses_group</taxonomy>
+    <taxonomy translate="1">cpt_dishes_group</taxonomy>
+    <taxonomy translate="1">cpt_layouts_group</taxonomy>
+    <taxonomy translate="1">cpt_portfolio_group</taxonomy>
+    <taxonomy translate="1">cpt_properties_type</taxonomy>
+    <taxonomy translate="1">cpt_properties_status</taxonomy>
+    <taxonomy translate="1">cpt_properties_features</taxonomy>
+    <taxonomy translate="1">cpt_properties_labels</taxonomy>
+    <taxonomy translate="1">cpt_properties_country</taxonomy>
+    <taxonomy translate="1">cpt_properties_state</taxonomy>
+    <taxonomy translate="1">cpt_properties_city</taxonomy>
+    <taxonomy translate="1">cpt_properties_neighborhood</taxonomy>
+    <taxonomy translate="1">cpt_agency</taxonomy>
+    <taxonomy translate="1">cpt_services_group</taxonomy>
+    <taxonomy translate="1">cpt_competitions_sports</taxonomy>
+    <taxonomy translate="1">cpt_team_group</taxonomy>
+    <taxonomy translate="1">cpt_testimonials_group</taxonomy>
+  </taxonomies>
+
+  <custom-fields>
+    <custom-field action="ignore">_wpb_shortcodes_custom_css</custom-field>
+    <custom-field action="copy">trx_addons_options</custom-field>
+  </custom-fields>
+
+</wpml-config>

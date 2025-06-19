@@ -1,0 +1,32 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+//@mixin theme--xl() { max-width: 1439px
+@media #{$media_xl} {
+	/* Blog layout: Classic */
+
+	.post_layout_classic {	
+		/* Audio */
+		.mejs-controls {
+			padding: 0 12px;
+
+			.mejs-horizontal-volume-slider,
+			.mejs-horizontal-volume-total,
+			 .mejs-time {
+				display: none !important;
+			}
+			.mejs-volume-button {
+				margin-left: 15px;
+				margin-right: 0;
+				width: 20px;
+
+				button {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+

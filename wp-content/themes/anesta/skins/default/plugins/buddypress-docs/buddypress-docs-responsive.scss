@@ -1,0 +1,286 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+
+//@mixin theme--xxl() { max-width: 1679px
+@media #{$media_xxl} {
+	/* BuddyPress Docs */
+
+	/* Table */
+	.sidebar_hide div#buddypress .bp-docs .doctable_wrap .doctable .title-cell {
+		width: 21%;
+	}
+	.sidebar_show div#buddypress .bp-docs .doctable_wrap .doctable {
+		.title-cell {
+			width: 26%;
+		}
+		.created-date-cell {
+			width: 20%;
+		}
+		.edited-date-cell {
+			width: 20%;
+		}
+		th:nth-last-of-type(2),
+		td:nth-last-of-type(2) {
+			padding-right: 20px;
+		}
+		.tags-cell {
+			display: none; 
+		}
+	}
+}
+
+
+//@mixin theme--lg_xl() { min-width: 1280px and max-width: 1439px
+@media #{$media_lg_xl} {
+	/* BuddyPress Docs */
+
+	/* Table */
+	.sidebar_hide div#buddypress .bp-docs .doctable_wrap .doctable .edited-date-cell {
+		width: 12%;
+	}
+}
+
+
+//@mixin theme--lg() { max-width: 1279px
+@media #{$media_lg} {
+	/* BuddyPress Docs */
+
+	/* Table */	
+	.sidebar_hide div#buddypress .bp-docs .doctable_wrap .doctable {
+		.title-cell {
+			width: 26%;
+		}
+		.created-date-cell {
+			width: 20%;
+		}
+		.edited-date-cell {
+			width: 20%;
+		}
+		th:nth-last-of-type(2),
+		td:nth-last-of-type(2) {
+			padding-right: 20px;
+		}
+		.tags-cell {
+			display: none;
+		}
+	}
+}
+
+
+//@mixin theme--md() { max-width: 1023px
+@media #{$media_md} {
+	/* BuddyPress Docs */
+
+	/* Table */
+	div#buddypress .bp-docs .doctable_wrap .doctable_wrap_inner {
+		overflow-x: scroll;
+		box-sizing: border-box;
+		width: 100%;
+
+		table {
+			min-width: max-content;	
+		}
+		.title-cell {
+			width: 21%;
+		}
+		.created-date-cell {  
+			width: 17%;
+			display: table-cell; 
+		}
+		.edited-date-cell {
+			width: 22% !important;
+			display: table-cell; 
+		}
+		.groups-cell {
+			display: table-cell; 
+		}
+	}
+}
+
+
+//@mixin theme--sm() { max-width:  767px
+@media #{$media_sm} {
+	/* BuddyPress Docs */
+
+	/* Filters */
+	div#buddypress #item-body #subnav,
+	div#buddypress > #subnav {
+		& > ul > #bp-create-doc-button {
+			float: none;
+			clear: both;
+			margin-top: var(--theme-var-grid_gap);
+			margin-left: 0;
+			margin-right: 100%;
+		}
+	}
+	div#buddypress .bp-docs #subnav #bp-create-doc-button {
+		margin: 15px 0 0 0;
+		float: none;
+	}
+
+	/* Table */
+	div#buddypress .bp-docs .doctable_wrap .doctable {
+		td:not(.title-cell) {
+			@include font(13px, 19px);
+		}
+	}
+
+	/* Comments */
+	.post_item_single.bp_doc + .comments-area {	
+		ol ul,	
+		ul ul {
+			padding-left: 0;
+		}
+		.comment-body {
+			padding-left: 3.6em;
+			overflow: hidden;
+		}
+		.comment-meta .comment-author img {
+			@include square(41px !important);
+		}
+	}
+
+	/* Create new doc */
+	div#buddypress .bp-docs .doc-content #doc-meta .doc-meta-box .toggle-content .toggle-table td {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+
+		& + td {
+			padding-top: 0;
+			border: none;
+		}
+
+		&.desc-column label:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	/* Doc settings */
+	div#buddypress .bp-docs #doc-form #doc-submit-options .delete-doc-button {
+	  float: none;
+	  margin-left: 0;
+	  margin-bottom: 15px;
+	  margin-right: 15px;
+	}
+
+	/* Doc history */
+	div#buddypress .bp-docs .doc-content .form-table {
+		overflow-x: scroll;
+		display: block;
+	}
+}
+
+
+//@mixin theme--sm_wp() { max-width:  600px
+@media #{$media_sm_wp} {
+	/* BuddyPress Docs */
+
+	/* Filters */
+	div#buddypress .bp-docs #subnav ul > li {
+		float: none;
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+	div#buddypress .bp-docs #subnav #bp-create-doc-button {
+		margin: 10px 0 0 0;
+		display: block;
+	}
+
+	/* Table */
+	div#buddypress .bp-docs .doctable_wrap .doctable {
+		.folder-row .date-cell {
+			display: none;
+		}
+	}
+
+	/* Comments */
+	.post_item_single.bp_doc + .comments-area .comment-respond .comment-form-author, 
+	.post_item_single.bp_doc + .comments-area .comment-respond .comment-form-email  {
+		width: 100%;
+	} 
+
+	/* Header */
+	#docs-filter-section-attachments form .select_container {
+		width: calc(100% - 98px);
+
+		select {
+			width: 100%;
+		}
+	}
+	#docs-filter-section-search form #docs-search {
+		width: calc(100% - 109px);
+	}
+
+	/* Doc settings */
+	div#buddypress .bp-docs .doc-content #doc-submit-options {
+		margin-bottom: -15px;
+
+		input[type="submit"], 
+		.action {
+			margin-bottom: 15px;
+		}
+	}
+
+	/* Revisions */
+	div#buddypress .bp-docs .doc-content .post-revisions td, 
+	div#buddypress .bp-docs .doc-content .post-revisions th {
+		padding: 10px;
+	}
+}
+
+
+//@mixin theme--xs() { max-width:  479px
+@media #{$media_xs} {
+	/* BuddyPress Docs */
+
+	/* Comments */
+	.post_item_single.bp_doc + .comments-area .comment-body,
+	.post_item_single.bp_doc + .comments-area li ul .comment-body {
+		padding-left: 0;
+	}
+	.post_item_single.bp_doc + .comments-area .comment-meta .comment-author img {
+		position: relative;
+		margin-bottom: 10px;
+		display: block;
+	}
+
+	/* Header */
+	div#buddypress .bp-docs .docs-info-header #docs-filter-sections .docs-filter-section {
+		padding: 20px;
+	}
+	#docs-filter-section-attachments form {
+		.select_container {
+			width: 100%;
+		}
+		input[type="submit"] {
+			margin-top: 15px;
+		}
+	}
+	#docs-filter-section-search form {
+		#docs-search {
+			width: 100%;
+		}
+		input[type="submit"] {
+			margin-top: 15px;
+			margin-left: 0 !important;
+		}
+	}
+
+	/* Revisions */
+	div#buddypress .bp-docs .doc-content .post-revisions td, 
+	div#buddypress .bp-docs .doc-content .post-revisions th {
+		padding: 5px;
+	}
+
+	/* Manage folder */
+	div#buddypress .bp-docs .docs-folder-manage li .folder-info input[type="submit"] {
+		  display: block;
+		  width: fit-content;
+		  margin-bottom: 15px;
+	}
+}
+

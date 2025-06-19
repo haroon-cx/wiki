@@ -1,0 +1,111 @@
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+@import "../../css/_skin-vars.scss";
+
+
+
+//@mixin theme--lg_over and theme--xl() { min-width: 1280px and max-width: 1439px
+@media #{$media_lg_over} and #{$media_xl} {
+	/* Knowledge Base */
+
+	.sidebar_show .eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+		/* Content */
+		#epkb-content-container .epkb-panel-container .epkb-tab-panel {
+		  	padding: 0;
+
+		  	.epkb-top-category-box {
+				width: 50%;
+			}
+		}
+	}
+}
+
+
+//@mixin theme--md() { max-width: 1023px
+@media #{$media_md} {
+	/* Knowledge Base */
+
+	.eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+		/* Search & Filter */
+		.epkb-doc-search-container .epkb-search .epkb-search-box .epkb-search-box_button-wrap {
+		  	width: auto;
+
+			button {
+				width: auto;
+			  	margin-top: 0;
+			  	padding-left: var(--theme-var-btn_padding2) !important;
+	  			padding-right: var(--theme-var-btn_padding2) !important;
+			}
+		}
+		.epkb-nav-tabs li {
+		  	width: auto !important;
+		}
+		.epkb-doc-search-container #epkb_search_results {
+			width: 100% !important;
+			margin: 0;
+		}
+
+		/* Content */
+		#epkb-content-container .epkb-panel-container .epkb-tab-panel {
+		  	padding: 0;
+
+		  	.epkb-top-category-box {
+				width: 50%;
+			}
+		}
+	}
+}
+
+
+//@mixin theme--sm() { max-width:  767px
+@media #{$media_sm} {
+	/* Knowledge Base */
+
+	.eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+		#epkb-content-container .epkb-main-nav ul {
+		  	margin: -15px 0 0;
+
+			li div {
+			  	padding: 15px 0;
+			}
+		}
+	}
+}
+
+
+//@mixin theme--sm_wp() { max-width:  600px
+@media #{$media_sm_wp} {
+	/* Knowledge Base */
+
+	.eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+		#epkb-content-container .epkb-panel-container .epkb_top_panel .epkb-top-category-box {
+			width: 100%;
+		}
+	}
+}
+
+
+//@mixin theme--xs() { max-width:  479px
+@media #{$media_xs} {
+	/* Knowledge Base */
+
+	.eckb-kb-template #epkb-main-page-container.epkb-tabs-template {
+		/* Search & Filter */
+		.epkb-doc-search-container .epkb-search .epkb-search-box {
+			flex-direction: column; 
+
+		 	&:before {
+				top: var(--theme-var-input_padding);
+				transform: translateY(3px);
+			}
+			input[type="text"] {
+				width: 100% !important;
+			}
+	
+			.epkb-search-box_button-wrap {
+				margin-top: 15px;
+				margin-left: 0;
+			}
+		}
+	}
+}

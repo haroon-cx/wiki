@@ -1,0 +1,101 @@
+@import "../../../../../css/_mixins.scss";
+@import "../../../../../css/_theme-vars.scss";
+@import "../../../css/_skin-vars.scss";
+
+/* Price */
+.sc_price_item {	
+	@include border-radius(var(--theme-var-content_rad));
+	border: 1px solid var(--theme-color-bd_color);
+	background-color: var(--theme-color-content_bg);
+	padding: calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 17px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 14px ) ) calc( var(--theme-var-grid_gap) + ( var(--theme-var-grid_gap_koef) * 20px ) ); // replace 47px 44px 50px
+	transition: box-shadow 0.3s ease;
+
+	&:hover {
+		box-shadow: 0 3px 20px #1d26260d; 
+	}
+
+	.sc_price_item_label {
+		background-color: var(--theme-color-accent_link2);
+	}
+	.sc_price_item_icon {
+	    color: var(--theme-color-accent_link);
+	}
+	.sc_price_item_info {
+	    padding: 0;
+	}
+	.sc_price_item_subtitle {
+		color: var(--theme-color-text_dark);
+	}
+	.sc_price_item_icon,
+	.sc_price_item_title,
+	.sc_price_item_subtitle {
+		margin-top: 0 !important;
+		margin-bottom: 16px !important;	
+
+		&:last-child {
+		margin-bottom: 0 !important;	
+		}
+	}
+	.sc_price_item_description, 
+	.sc_price_item_price {
+		margin-top: 0 !important;
+		margin-bottom: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 8px ) ) !important; // replace 28px
+
+		&:last-child {
+		margin-bottom: 0 !important;	
+		}
+	}
+	.sc_price_item_price {
+		color: var(--theme-color-accent_link);
+	}
+	.sc_price_item_price_decimals {
+	    font-size: inherit;
+	    line-height: inherit;
+	    margin-left: 0;
+
+	    &:before {
+	    	content: '.';
+	    }
+	}
+	.sc_price_item_price_after {
+	    margin-left: 7px;
+	}
+	.sc_price_item_description, 
+	.sc_price_item_details {
+		@include font(15px, 1.6em, 400, normal );
+		color: var(--theme-color-text);
+
+		ul,
+		ul {
+			list-style-type:none;
+		}
+		ul li:before,
+		ul li:before {
+			display: block;
+		}
+	}
+	.sc_price_item_details {
+		margin: 0;
+
+		ul, ol {
+			display: inline-block;
+			text-align: left;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.sc_price_item_link {
+	    font-size: 13px !important;
+	    padding: 16px 3.85em !important;
+	}
+	.sc_price_item_subtitle + .sc_price_item_link, 
+	.sc_price_item_title + .sc_price_item_link, 
+	.sc_price_item_description + .sc_price_item_link {
+	    margin-top: 15px;
+	}
+	.sc_price_item_details + .sc_price_item_link {
+		margin-top: 42px;
+	}
+}
