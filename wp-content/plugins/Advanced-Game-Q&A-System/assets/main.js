@@ -320,26 +320,7 @@ jQuery(document).ready(function ($) {
     );
   });
 
-  // $('#submit-report-question').click(function () {
-  //     const question_id = $('#agqa-complaint-question-list').val(); // Question ID
-  //     const reason = $("input[name='complaint_reason']:chec
-  // ked").val(); // Get the selected reason
-  //     const note = $('textarea[name="note"]').val(); // Get the note
-
-  //     $.post(agqa_ajax.ajax_url, {
-  //         action: 'agqa_submit_question_complaint',
-  //         question_id,
-  //         reason,
-  //         note,
-  //         nonce
-  //     }, function (res) {
-  //         if (res.success) {
-  //             alert('Complaint submitted');
-  //         } else {
-  //             alert('Error in submission');
-  //         }
-  //     });
-  // });
+  
 
   $(document).on("click", ".report-question-button", function () {
     const question_id = $(this).data("question-id"); // Get question ID dynamically from the button's data attribute
