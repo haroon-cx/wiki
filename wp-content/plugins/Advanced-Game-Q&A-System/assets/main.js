@@ -6,6 +6,13 @@ jQuery(document).ready(function ($) {
     var questionId = $(this).data("question-id");
     $("#report-question-popup-" + questionId).fadeIn();
   });
+$(document).ready(function() {
+    // Check if the current page URL matches the desired URLs
+    if (window.location.href === "http://wiki.local/complatint/") {
+        // Add the class 'current_page_item' to the menu item
+        $('li.menu-item-54').addClass('current_page_item');
+    }
+});
 
   // Close the report popup when clicking the Cancel button
   $(".cancel-button").click(function () {
@@ -35,7 +42,7 @@ jQuery(document).ready(function ($) {
       "json"
     );
   });
-
+  
   // 👎 Dislike Button (Only updates dislike_count in the database)
   $(".dislike-btn").on("click", function () {
     const answerId = $(this).data("answer-id");

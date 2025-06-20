@@ -1,4 +1,8 @@
 <?php
+
+/** WP 2FA plugin data encryption key. For more information please visit melapress.com */
+define( 'WP2FA_ENCRYPT_KEY', 'lODL0OFCM5de3kaFDzCLew==' );
+
 /**
  * The base configuration for WordPress
  *

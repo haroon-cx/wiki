@@ -636,107 +636,109 @@ foreach ($answer_complaints as $c) {
             <td>' . esc_html($c->note) . '</td>
             <td>' . esc_html(strtolower($c->status) === '' ? 'Marked' : ucfirst($c->status)) . '</td>
             <td style="text-align: center;">
-                <!-- 3-Dot Button -->
-                <div class="three-dot-menu" onclick="openModal(' . intval($c->id) . ')">...</div>
-
-                <!-- Modal Popup -->
-                <div id="modal-' . intval($c->id) . '" class="modal">
-                    <div class="modal-content">
-                        <h4>Change Status</h4>
-                        <div style="display: flex; gap: 10px; justify-content: center;">
-                            <form method="post">
-                                <input type="hidden" name="complaint_id" value="' . intval($c->id) . '">
-                                <input type="hidden" name="decision" value="approve">
-                                <button type="submit" class="approve-btn" style="padding: 10px;">Approve</button>
-                            </form>
-
-                            <form method="post">
-                                <input type="hidden" name="complaint_id" value="' . intval($c->id) . '">
-                                <input type="hidden" name="decision" value="rejected">
-                                <button type="submit" class="reject-button" style="padding: 10px;">Reject</button>
-                            </form>
-                        </div>
+                <!-- Dropdown Menu with Font Awesome Chevron Icon -->
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="fas fa-chevron-down"></i> <!-- Font Awesome Icon -->
+                    </button>
+                    <div class="dropdown-content">
+                        <form method="post">
+                            <input type="hidden" name="complaint_id" value="' . intval($c->id) . '">
+                            <input type="hidden" name="decision" value="approve">
+                            <button type="submit" class="approve-btn">Approve</button>
+                        </form>
+                        <form method="post">
+                            <input type="hidden" name="complaint_id" value="' . intval($c->id) . '"> 
+                            <input type="hidden" name="decision" value="rejected">
+                            <button type="submit" class="reject-button">Reject</button>
+                        </form>
                     </div>
-
                 </div>
             </td>
           </tr>';
 }
 echo '</tbody></table>';
 
-// Adding the JS for modal popup behavior
 echo '
 <script>
-    function openModal(id) {
-        document.getElementById("modal-" + id).style.display = "block";
-    }
-
-    // Close modal if user clicks outside of it
-    window.onclick = function(event) {
-        var modals = document.querySelectorAll(".modal");
-        modals.forEach(function(modal) {
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
-        });
-    }
-</script>
-';
-
-// Add some CSS for styling the modal
-echo '
-<style>
-    /* 3-Dot Button */
-    .three-dot-menu {
-        background: transparent;
-        border: none;
-        font-size: 20px;
-        cursor: pointer;
-    }
-    button.reject-button,
-    button.approve-btn {
-        padding: 10px 30px 10px 30px !important;
-        background-color: #7644CE !important;
-        border-radius: 30px !important;
-        color: white !important;
+    // Toggle Dropdown on Button Click
+    document.addEventListener("DOMContentLoaded", function() {
+        var dropdownBtns = document.querySelectorAll(".dropbtn");
         
-    }
-    /* Modal Style */
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.4);
+        dropdownBtns.forEach(function(btn) {
+            btn.addEventListener("click", function() {
+                var dropdownContent = this.nextElementSibling;
+                dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+            });
+        });
+    });
+</script>
+
+<style>
+    /* Dropdown Menu */
+    .dropdown {
+        position: relative;
+        display: inline-block;
     }
 
-    .modal-content {
-        background-color: #fefefe;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 20%;
+    .dropbtn {
+        background-color: #3f3f4d;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        cursor: pointer;
         border-radius: 8px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
     }
 
-    button[type="submit"] {
-        margin-top: 10px;
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #3f3f4d;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 8px;
+        // margin-top: 5px;
+        right: 18px;
+    }
+
+    .dropdown-content form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown-content button {
         padding: 10px;
-        background-color: #4CAF50;
+        background-color: #4b4b5d;
+        border-radius: 8px;
         color: white;
         border: none;
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
         cursor: pointer;
+        font-weight: 400;
     }
 
-    button[type="submit"]:hover {
-        background-color: #45a049;
+    .dropdown-content button:hover {
+        background-color: #6f6f7f;
+    }
+
+    .dropdown-content button:focus {
+        outline: none;
+    }
+
+    /* Font Awesome Icon */
+    .dropbtn i {
+        margin-left: 8px;
     }
 </style>
 ';
+
 
 
 
@@ -754,7 +756,7 @@ echo '
                 </tr>
             </thead>
             <tbody>';
-    foreach ($question_complaints as $complaint) {
+foreach ($question_complaints as $complaint) {
     $approveLabel = in_array($complaint->reason, ['Inappropriate Content', 'Technical Error']) ? '✅' : '✅';
     $approveLabel_status = in_array($complaint->reason, ['Inappropriate Content', 'Technical Error']) ? 'marked' : 'approve';
 
@@ -766,27 +768,24 @@ echo '
             <td>' . esc_html($complaint->user_name) . '</td>
             <td>' . esc_html($complaint->reason) . '</td>
             <td>' . esc_html($complaint->note) . '</td>
-            <td>' . esc_html($final_status) . '</td>
+            <td>' . esc_html(strtolower($complaint->status) === '' ? 'Marked' : ucfirst($complaint->status)) . '</td>
             <td style="text-align: center;">
-                <!-- 3-Dot Button -->
-                <div class="three-dot-menu" onclick="openModal(' . intval($complaint->id) . ')">...</div>
-
-                <!-- Modal Popup -->
-                <div id="modal-' . intval($complaint->id) . '" class="modal">
-                    <div class="modal-content">
-                        <h4>Change Status</h4>
-                         <div style="display: flex; gap: 10px; justify-content: center;">
+                <!-- Dropdown Menu with Font Awesome Chevron Icon for Question Complaints -->
+                <div class="dropdown">
+                    <button class="question-dropbtn" data-id="' . intval($complaint->id) . '">
+                        <i class="fas fa-chevron-down"></i> <!-- Font Awesome Icon -->
+                    </button>
+                    <div class="dropdown-content" id="dropdown-content-' . intval($complaint->id) . '">
                         <form method="post">
                             <input type="hidden" name="q_complaint_id" value="' . intval($complaint->id) . '">
                             <input type="hidden" name="decision" value="approve">
-                            <button type="submit" class="approve-btn" style="padding: 10px;">Approve</button>
+                            <button type="submit" class="approve-btn">Approve</button>
                         </form>
                         <form method="post">
                             <input type="hidden" name="q_complaint_id" value="' . intval($complaint->id) . '">
                             <input type="hidden" name="decision" value="rejected">
-                            <button type="submit" class="reject-button" style="padding: 10px;">Reject</button>
+                            <button type="submit" class="reject-button">Reject</button>
                         </form>
-                    </div>
                     </div>
                 </div>
             </td>
@@ -794,73 +793,91 @@ echo '
 }
 echo '</tbody></table>';
 
-// Adding the JS for modal popup behavior
 echo '
+
 <script>
-    function openModal(id) {
-        document.getElementById("modal-" + id).style.display = "block";
-    }
-
-    // Close modal if user clicks outside of it
-    window.onclick = function(event) {
-        var modals = document.querySelectorAll(".modal");
-        modals.forEach(function(modal) {
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
+    // Toggle Dropdown on Button Click for Question Complaints Only
+    document.addEventListener("DOMContentLoaded", function() {
+        // Select all dropdown buttons for question complaints
+        var dropdownBtns = document.querySelectorAll(".question-dropbtn");
+        
+        dropdownBtns.forEach(function(btn) {
+            btn.addEventListener("click", function() {
+                // Use data-id attribute to target the correct dropdown content
+                var id = btn.getAttribute("data-id");
+                var dropdownContent = document.getElementById("dropdown-content-" + id);
+                
+                // Toggle the display of the corresponding dropdown content
+                dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+            });
         });
-    }
+    });
 </script>
-';
 
-// Add some CSS for styling the modal
-echo '
 <style>
-    /* 3-Dot Button */
-    .three-dot-menu {
-        background: transparent !important;
+    /* Dropdown Menu */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .question-dropbtn {
+        background-color: #3f3f4d;
+        color: white;
+        padding: 8px 20px;
         border: none;
-        font-size: 20px;
         cursor: pointer;
-        color: #fff !important;
-    }
-
-    /* Modal Style */
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.4);
-    }
-
-    .modal-content {
-        background-color: #252031c7;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 20%;
         border-radius: 8px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
     }
 
-    button[type="submit"] {
-        margin-top: 10px;
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #3f3f4d;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 8px;
+        right: 18px; /* Right-aligned */
+    }
+
+    .dropdown-content form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown-content button {
         padding: 10px;
-        background-color: #4CAF50;
+        background-color: #4b4b5d;
+        border-radius: 8px;
         color: white;
         border: none;
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
         cursor: pointer;
+        font-weight: 400;
     }
 
-    button[type="submit"]:hover {
-        background-color: #45a049;
+    .dropdown-content button:hover {
+        background-color: #6f6f7f;
+    }
+
+    .dropdown-content button:focus {
+        outline: none;
+    }
+
+    /* Font Awesome Icon */
+    .question-dropbtn i {
+        margin-left: 8px;
     }
 </style>
 ';
+
 
     // Handle form action for answer complaints
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['complaint_id'], $_POST['decision'])) {
